@@ -1,0 +1,12 @@
+---
+description: Go backend should stay lightweight and standard-library first
+globs: backend/**/*.go
+alwaysApply: false
+---
+
+# Backend Go Principles
+
+- Use Go standard library first.
+- Add third-party libraries only when the same result cannot be achieved clearly with stdlib.
+- Keep implementation simple, light, and easy to maintain.
+- Prefer explicit handlers and small packages over unnecessary abstraction.

@@ -1,0 +1,11 @@
+---
+description: Python scripts are allowed for practical automation tasks
+globs: scripts/**/*.py
+alwaysApply: false
+---
+
+# Scripts Policy
+
+- Python can be used for scripts whenever it is practical.
+- Choose clarity and delivery speed for script code.
+- Keep scripts focused, with straightforward inputs/outputs.

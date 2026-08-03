@@ -1,0 +1,18 @@
+:root {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+.screen {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}

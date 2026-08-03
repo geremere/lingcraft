@@ -1,0 +1,916 @@
+---
+name: FSRS Quiz Architecture
+overview: "Target architecture for Lingraft quiz generation: FSRS-backed confidence, fixed 7:3 quiz mix (MVP), priority-queue selection within slots, Exercise+exemplar content model, research-backed curriculum milestones."
+todos:
+  - id: confirm-thresholds
+    content: "Confirmed: research-backed LevelCurriculum (A0=100 MVP incremental bands) and FSRS constants; validate against seed data"
+    status: completed
+  - id: priority-queue-spec
+    content: Write formal QuizPlanner priority score + slot budget pseudocode including backlog caps
+    status: pending
+  - id: exemplar-rotation
+    content: Implement pick_exemplar rotation + user_exemplar_completions; reserve quality_tier for future
+    status: pending
+  - id: quiz-planner-spec
+    content: Write formal QuizPlanner pseudocode (slot allocation, level mix, sentence sampling)
+    status: pending
+  - id: gap-analysis
+    content: "Next iteration: map target entities to current migrations + handler changes"
+    status: pending
+isProject: false
+---
+
+# Lingraft Learning Engine — Target Design (v1)
+
+Design document for future implementation. Compare against current code in a later iteration.
+
+---
+
+## Does your model make sense?
+
+**Yes, with one important clarification:** vocabulary and grammar should use **different promotion rules** — your instinct is pedagogically sound.
+
+| Dimension | Vocabulary | Grammar |
+|-----------|------------|---------|
+| Unit of mastery | Lemma/sense (`vocabulary_word`) | Topic (`grammar_block`) |
+| Level promotion | `level_progress` ≥ 70% words at R≥0.90 | **Lower bar:** all topics exposed + avg R ≥ ~0.35 (see grammar section) |
+| Quiz selection | Priority queue within S=7 | **All K=3 slots from full topic pool** — P(topic) ∝ low R + due + complexity |
+| Frequency role | **Order** within a level (show common words first) | Order within curriculum (`sort_order`) |
+| FSRS applies to | Word/sense | Grammar topic (not individual sentences) |
+
+**Cross-language vocabulary (confirmed):** Each row in `vocabulary_words` is an independent learnable unit with its **own** `level_id` and `frequency_rank`. `word_links` connect translation equivalents across languages but **do not sync or inherit** CEFR level.
+
+```mermaid
+erDiagram
+    VocabularyWord {
+        bigint id PK
+        smallint language_id FK
+        smallint level_id FK "CEFR - per language"
+        int frequency_rank "order within language+level"
+        text lemma
+    }
+    WordLink {
+        bigint word_id FK
+        bigint linked_word_id FK
+        smallint sort_order
+    }
+    VocabularyWord ||--o{ WordLink : word_id
+    VocabularyWord ||--o{ WordLink : linked_word_id
+```
+
+Example — same concept, different levels:
+
+| Word row | Language | Lemma | level_id | Why different |
+|----------|----------|-------|----------|---------------|
+| 101 | EN | bank | B1 | financial sense, less frequent |
+| 205 | RU | банк | A1 | cognate, high frequency in RU curriculum |
+| 102 | EN | run | A0 | core verb |
+| 310 | ES | correr | A1 | not a cognate for most learners |
+
+**Rules:**
+- FSRS `review_items` track each word row independently (user learning EN has separate cards from user learning ES).
+- `word_links` used only for UI (popover translation, hints) — never for level promotion or coverage math.
+- Frequency rank orders **which word to introduce next** within `(language, level)` — not which level the word belongs to.
+- When importing translations, set `level_id` per language from that language's curriculum/frequency data; do not copy from the linked word.
+
+This matches the current schema: [`vocabulary_words.level_id`](back/migrations/0001_init.up.sql) + [`word_links`](back/migrations/0003_word_graph.up.sql) with no shared concept table.
+
+---
+
+## Design decision: confidence comes from FSRS only
+
+**All "confidence" values are computed from the FSRS algorithm — no custom mastery scores, no separate accuracy counters.**
+
+Each `review_items` row stores the FSRS card state (`stability`, `difficulty`, `elapsed_days`, `state`, `due`, …). At any point in time, **retrievability** is derived:
+
+```
+R(item, now) = FSRS.ForgettingCurve(elapsed_days, stability)
+             = (1 + factor * elapsed_days / stability) ^ decay   // FSRS-4 style
+             = exp(ln(0.9) * elapsed_days / stability)           // common approximation
+```
+
+Use the same function from `go-fsrs/v3` that drives scheduling (already wrapped in [`fsrsx`](back/internal/fsrsx/fsrsx.go)).
+
+| Use case | FSRS-derived metric |
+|----------|---------------------|
+| Item confidence (word or grammar topic) | `R(item, now)` |
+| Task modality (MCQ vs free recall) | `R(item, now) >= 0.50` |
+| Vocab level progress | `mastered_count(L) / CURRICULUM_SIZE(L)` where mastered = R ≥ 0.90 |
+| Grammar level readiness | avg R ≥ 0.35 + all topics seen once | Lower promotion bar than vocab |
+| Grammar slot selection | P(topic) ∝ (1 − R) among **all** curriculum topics | Always in rotation, not gated out |
+| P(new item) | `headroom × confidence_gate(avg_R)` — dynamic, FSRS-driven |
+| Quiz item priority (due first) | `due <= now` from same FSRS card |
+
+**What FSRS confidence is NOT:** answer speed, raw correctness rate, or a user-visible "I know this" flag. Those may feed FSRS **ratings** on submit (as today), but confidence displayed and used for planning is always `R`.
+
+---
+
+## Core concepts (three layers, all FSRS-backed)
+
+```mermaid
+flowchart TB
+    subgraph itemLayer [Item confidence - FSRS]
+        RI["ReviewItem (stability, difficulty, due, ...)"]
+        R["R = ForgettingCurve(now)"]
+        RI --> R
+    end
+
+    subgraph levelLayer [Level progress - fixed curriculum + FSRS]
+        LC["LevelCurriculum: A0=100 words, ..."]
+        VLC["mastered_count / curriculum_size"]
+        GLC["grammar_gate + weak topic set"]
+        R --> VLC
+        R --> GLC
+        LC --> VLC
+    end
+
+    subgraph probLayer [New-item probability - dynamic]
+        PNEW["P(new) = headroom × confidence_gate"]
+        VLC --> PNEW
+        R --> PNEW
+    end
+
+    subgraph sessionLayer [Session assembly]
+        QP[QuizPlanner]
+        PNEW --> QP
+        GLC --> QP
+        R --> QP
+    end
+```
+
+1. **Item confidence** — `R(item)` from FSRS card. Drives scheduling, **task modality**, and sentence complexity sampling.
+2. **Level metrics** — Fixed curriculum sizes per CEFR level (e.g. 100 A0 words = A1-ready). Progress = count of words/topics above FSRS confidence threshold. Drives level promotion.
+3. **New-item probability** — Dynamic per session, derived from avg FSRS confidence + curriculum headroom. Low confidence → strengthen before introducing new items (vocab and grammar).
+4. **Sentence complexity** — Probabilistic pick of example sentence level, weighted by level progress.
+
+---
+
+## Entity UML (target state)
+
+```mermaid
+erDiagram
+    User ||--o{ UserLanguageProgress : tracks
+    User ||--o{ ReviewItem : fsrs_cards
+    User ||--o{ UserLearningQueueItem : "future"
+    User ||--o{ UserSession : quiz_runs
+    User ||--o{ TaskAttempt : answers
+
+    Language ||--o{ VocabularyWord : words
+    Language ||--o{ GrammarBlock : topics
+    Language ||--o{ Sentence : examples
+
+    VocabularyWord ||--o{ WordSentenceExemplar : exemplars
+    GrammarBlock ||--o{ GrammarBlockExample : exemplars
+    Sentence ||--o{ WordSentenceExemplar : ""
+    Sentence ||--o{ GrammarBlockExample : ""
+
+    VocabularyWord ||--o{ ReviewItem : vocabulary_word
+    GrammarBlock ||--o{ ReviewItem : grammar_block
+
+    Sentence ||--o{ Exercise : "pre-authored drill"
+    Exercise ||--o{ ExerciseDistractor : "pre-made MCQ wrong answers"
+    Exercise }o--|| VocabularyWord : "primary target optional"
+    Exercise }o--|| GrammarBlock : "primary target optional"
+
+    UserLanguageProgress ||--o{ UserLevelSnapshot : cached
+```
+
+### Content model: exemplars + exercises (replaces `tasks` as quiz driver)
+
+**`tasks` is obsolete as the quiz unit.** Runtime quiz assembly picks a **review item** (word or grammar topic), then an **exemplar sentence**, then a matching **pre-authored exercise**. The quiz DTO is assembled at request time.
+
+| Entity | Role | FSRS? |
+|--------|------|-------|
+| `ReviewItem` | FSRS card on word or grammar_block | Yes — sole scheduling unit |
+| `WordSentenceExemplar` / `GrammarBlockExample` | Item ↔ sentence with `sort_order`; future `quality_tier` | Yes |
+| `UserExemplarCompletion` | Tracks seen sentences per user+topic for rotation | Yes |
+| `Exercise` | Pre-authored drill on a sentence (blank index, correct answer) | No — content artifact |
+| `ExerciseDistractor` | Pre-made wrong answers for MCQ — **never generated on the fly** | No |
+| `QuizSessionItem` | Runtime DTO: `{review_item, exercise, presentation_mode}` | N/A |
+
+```mermaid
+flowchart LR
+    RI[ReviewItem word or grammar]
+    EX[Exemplar sentence pool]
+    E[Exercise pre-authored]
+    D[ExerciseDistractor pre-made]
+    RI --> Pick[QuizPlanner picks item]
+    Pick --> EX
+    EX --> E
+    E --> D
+    Pick --> PM[TaskPresentationMode from R]
+    PM --> Out[QuizSessionItem DTO]
+    E --> Out
+    D --> Out
+```
+
+**Migration from current schema:** rename/evolve [`tasks`](back/migrations/0001_init.up.sql) → `exercises`, [`task_distractors`](back/migrations/0001_init.up.sql) → `exercise_distractors`, [`task_vocabulary_words`](back/migrations/0001_init.up.sql) / [`task_grammar_blocks`](back/migrations/0001_init.up.sql) → `exercises.primary_word_id` / `exercises.primary_grammar_block_id`. [`task_attempts`](back/migrations/0001_init.up.sql) references `exercise_id`.
+
+#### Grammar tagging on exercises
+
+**MVP:** one `primary_grammar_block_id` per exercise — drives FSRS update on submit and quiz selection.
+
+**Future / raw concept — multi-grammar tags (if we manage it):**
+
+Some sentences genuinely test multiple rules at once. We may want to tag an exercise with several grammar blocks without committing to full multi-card FSRS yet.
+
+```
+exercises.primary_grammar_block_id   -- MVP: sole FSRS target on submit
+exercise_grammar_tags                -- future junction: (exercise_id, grammar_block_id, role)
+  role: 'primary' | 'secondary' | 'illustrative'
+```
+
+| Phase | Behavior |
+|-------|----------|
+| MVP | Single primary only; ignore junction table |
+| Future v1 | Secondary tags for curriculum browse, "related topics", stats — **no FSRS** |
+| Future v2 (raw) | On submit, update FSRS for primary; optionally small rating boost to secondary tags — **needs design** |
+
+Open questions if we pursue multi-tag FSRS: split rating across cards? update only primary? require user to disambiguate which rule they applied?
+
+Not planned for MVP — schema hook only (`exercise_grammar_tags` table reserved), so we don't paint ourselves into a corner.
+
+#### Distractors: pre-authored only
+
+MCQ wrong answers must be **offline-generated and reviewed** (current `taskgen`, `vocabtaskgen.py`, seeds). Runtime assembly picks an existing `Exercise` + its distractors; it does **not** call LLM or random lemma pick at request time. Quality gate at import time.
+
+For `free_recall` mode, distractors are unused; grading uses `correct_answer` + normalization rules.
+
+Same for vocab: one `primary_word_id` per exercise (multi-word tagging — same raw future pattern if needed).
+
+---
+
+## Vocabulary level progression
+
+### Research summary (what the literature says)
+
+**CEFR does not define official vocabulary counts.** The framework describes communicative ability, not a fixed word list. All numbers below are research estimates, not CEFR mandates.
+
+#### Empirical vocabulary size by CEFR level (Milton & Alexiou 2009)
+
+Receptive vocabulary of learners who pass level-aligned exams ([source](https://ikindalikelanguages.com/blog/common-european-languages-framework-cefrand-vocabulary-size/)):
+
+| CEFR | English (receptive lemmas, cumulative) |
+|------|----------------------------------------|
+| A1 | < 1,500 |
+| A2 | 1,500 – 2,500 |
+| B1 | 2,750 – 3,250 |
+| B2 | 3,250 – 3,750 |
+| C1 | 3,750 – 4,500 |
+| C2 | 4,500 – 5,000 |
+
+Important: these are **cumulative totals** measured in learners who already passed exams — not incremental curriculum sizes. Individual variation is large; no sharp threshold exists (Schmitt et al. 2011).
+
+#### Council of Europe curriculum lists (Van Ek & Trim)
+
+Historical specifications that influenced CEFR-aligned teaching:
+
+| Spec | Maps to | Approx. word list size |
+|------|---------|------------------------|
+| Waystage 1990 | ~A2 | ~1,000 words |
+| Threshold Level 1990 | ~B1 | ~2,000 words |
+
+#### Frequency lists and text coverage (Nation 2006, NGSL)
+
+Vocabulary size vs. text coverage (English word **families**):
+
+| Words known | Text coverage | Implication |
+|-------------|---------------|-------------|
+| 1,000 | ~78–81% | Hard to read; many unknowns |
+| 2,000 | ~87% | Still challenging |
+| 3,000 | ~90% | Minimum for learning from context |
+| 5,000 | ~95% | Adequate comprehension (Laufer 1989) |
+| 8,000–9,000 | ~98% | Comfortable independent reading (Hu & Nation 2000) |
+
+[NGSL](https://www.newgeneralservicelist.org/) (~2,809 lemmas) gives ~92% coverage of general English. Often split into **5 bands of ~560 words** for staged teaching. First 1,000 NGSL words alone cover ~98% on some constrained exams.
+
+#### Comprehensible input thresholds (i+1)
+
+For input to be learnable without overwhelming the learner:
+
+| Known-word % in text | Effect |
+|---------------------|--------|
+| < 90% | Comprehension drops sharply; acquisition stalls |
+| 95% | Adequate comprehension (Laufer 1989) — ~1 unknown per 20 words |
+| 98% | Comfortable unassisted reading (Hu & Nation 2000, Schmitt 2011) |
+
+**Design implication:** introduce new words only when the learner's active vocabulary at that level is strong enough to keep quiz sentences at ~90–95% known. This supports `confidence_gate` and `R_FLOOR` in P(new).
+
+#### Sustainable new-word rate (SRS practice)
+
+| Source | Recommendation |
+|--------|----------------|
+| Anki / FSRS community | 10–20 new cards/day; desired retention 0.90 |
+| StudyThai / general SLA | 5–10/day beginners; 10–15 month 1–3; review load compounds fast |
+| Rule of thumb | Each new word → ~5+ future reviews over 30 days |
+
+With Lingraft's N=10 quiz (**S=7, K=3**), **1–2 new words per session** is sustainable if the user completes one quiz daily — aligns with research.
+
+#### A0 is non-standard
+
+Official CEFR starts at A1. **A0** is a pre-A1 band used by apps for absolute beginners (survival phrases, top-frequency words). No research consensus on A0 size; **100–300 words** is a reasonable app-level milestone before formal A1 content.
+
+---
+
+### Design decisions derived from research
+
+| Decision | Research basis | Lingraft choice |
+|----------|----------------|-----------------|
+| Fixed curriculum per level | Waystage/Threshold use defined lists; NGSL uses 560-word bands | `LevelCurriculum` config table |
+| Count lemmas/senses not DB rows | Milton, Nation use lemma/word-family counts | `vocabulary_words` sense rows, ordered by `frequency_rank` |
+| Mastered = R ≥ 0.90 | FSRS default desired retention; Nation's 98% needs high stability | `MASTERED_THRESHOLD = 0.90` |
+| Unlock L+1 at ~70% level progress | i+1 input: ~70–80% known vocabulary in material | `LEVEL_UNLOCK_THRESHOLD = 0.70` |
+| P(new) drops as curriculum fills | SRS review load compounding; comprehensible input | `headroom` formula |
+| P(new) = 0 when avg_R low | Below 90% known → comprehension collapse | `R_FLOOR = 0.40` |
+| Max ~2 new words/quiz cold start | 10–20 new/day sustainable | `MAX_NEW_PER_QUIZ = 2` |
+| Per-language curriculum | Milton: vocabulary requirements differ by language | `LevelCurriculum(language_id, level_id)` |
+
+---
+
+### Recommended `LevelCurriculum` constants (confirmed)
+
+**Status: agreed.** Incremental words to master per level — words tagged `level_id = L`, ordered by `frequency_rank`. Expand A0 toward NGSL 560-word band post-MVP if needed.
+
+| Level | Words (incremental) | Grammar topics (incremental) | Notes |
+|-------|---------------------|------------------------------|-------|
+| **A0** | **100** | **10** | Fewer topics; each chosen by FSRS priority within K=3 |
+| **A1** | **400** | **~15** | |
+| **A2** | **500** | **~20** | |
+| **B1** | **1,000** | **~25** | |
+| **B2** | **1,500** | **~30** | |
+| **C1** | **1,000** | **~20** | |
+| **C2** | **500+** | **~15** | |
+
+```
+VOCAB_CURRICULUM(L)    = top N words by frequency_rank at level L
+GRAMMAR_CURRICULUM(L)  = grammar_blocks at level L with exemplar+exercise, by sort_order
+```
+
+### Word states (FSRS-derived)
+
+```
+R(w) = 0                         if no review_item
+R(w) = FSRS.ForgettingCurve(now) otherwise
+
+mastered(w) = R(w) >= MASTERED_THRESHOLD   // 0.90 — aligns with FSRS desired retention
+touched(w)  = review_item exists
+new(w)      = not touched(w)
+```
+
+### Level progress (what user sees)
+
+```
+mastered_count(L) = count(w in CURRICULUM(L) where mastered(w))
+level_progress(L) = mastered_count(L) / LevelCurriculum.target_word_count(L)
+```
+
+Example: 73 of 100 A0 words with R ≥ 0.90 → **A0 progress = 73%**.
+
+### Level promotion rules (research-informed)
+
+```
+# Soft unlock — start seeing L+1 words in quiz
+level_progress(L) >= 0.70          // ~70% of curriculum stable; i+1 input range
+
+# Hard unlock — update current_level_id
+level_progress(vocab, L) >= 0.70
+AND grammar_exposure(L)           # all grammar topics seen once
+AND grammar_avg_R(L) >= 0.35      # lower than vocab — ongoing revision expected
+
+# Full level complete (display badge)
+level_progress(L) >= 1.0           // all curriculum words at R >= 0.90
+```
+
+Sprinkling L+1 before 100% completion is supported by i+1 research (Nation, Krashen) — waiting for 100% causes boredom; 70% is a reasonable blend start.
+
+### Mapping research to constants (confirmed)
+
+| Constant | Vocab | Grammar | Status |
+|----------|-------|---------|--------|
+| `MASTERED_THRESHOLD` | 0.90 | **0.55** | Grammar "known" is lower bar |
+| `LEVEL_UNLOCK_THRESHOLD` | 0.70 (word count) | **avg R ≥ 0.35** + all topics seen | Confirmed |
+| `R_FLOOR` | 0.40 | **0.30** | Confirmed |
+| `R_TARGET` | 0.70 | 0.60 | Confirmed |
+| `R_STRENGTHEN` | 0.50 | **0.35** | Confirmed |
+| `MAX_NEW_PER_QUIZ` | 2 | **1** | Confirmed |
+| `MAX_DUE_PER_QUIZ` | 5 | **2** | Confirmed |
+| `MIN_WEAK_SLOTS` | 2 | **1** | Confirmed |
+| `MIN_NEW_SLOTS` | 1 | 0–1 | Confirmed |
+| `BACKLOG_WARN` | 50 | **15** | Confirmed |
+| `BACKLOG_CRITICAL` | 200 | **30** | Confirmed |
+| `MIN_DATA_TOUCHED` | 10 | 3 topics | Confirmed |
+
+**Quiz mix (MVP — fixed, not ratio-derived):**
+
+| Constant | Value | Rationale |
+|----------|-------|-----------|
+| `N` | 10 | Session size |
+| `S` (vocab slots) | **7** | Language learning is mostly vocabulary; takes longer |
+| `K` (grammar slots) | **3** | Grammar is smaller curriculum; 3 slots enough for FSRS to express priority |
+
+Future option: derive S/K from curriculum size ratio — **deferred**, not MVP.
+
+### References
+
+- Milton, J. & Alexiou, T. (2009). Vocabulary size and the CEFR. In *Vocabulary studies in first and second language acquisition*. Palgrave Macmillan.
+- Nation, P. (2006). How large a vocabulary is needed for reading and listening? *Canadian Modern Language Review*.
+- Schmitt, N., Jiang, X., & Grabe, W. (2011). Percentage of words known and reading comprehension. *Modern Language Journal*.
+- Laufer, B. (1989). What percentage of text lexis is essential for comprehension? In *Special language: From humans thinking to thinking machines*.
+- Hu, M., & Nation, P. (2000). Unknown vocabulary density and reading comprehension. *Reading in a Foreign Language*.
+- Van Ek, J.A. & Trim, J.L.M. (1991). *Threshold Level 1990* / *Waystage 1990*. Cambridge University Press.
+- Browne, C., Culligan, B., & Phillips, J. (2013). *New General Service List*. newgeneralservicelist.org.
+
+---
+
+## Priority queue and backlog control
+
+### Problem
+
+Pure FSRS scheduling has two failure modes:
+
+1. **Review avalanche** — user skips days or too many new items were introduced → 1,000 items `due <= now` → impossible to complete, user quits.
+2. **Review hell** — "fill all due first" starves new words forever when backlog is large.
+
+FSRS alone sets **when** items become due; it does not cap **how many** appear per session. Lingraft needs a **session-level priority queue** on top of FSRS.
+
+### Design: priority queue with slot budgets
+
+Each quiz assembles exactly **N = 10 items** from a scored candidate pool — never more, regardless of due count.
+
+```mermaid
+flowchart LR
+    subgraph pool [Candidate pool]
+        Due[Due items due <= now]
+        Weak["Weak items R < R_STRENGTHEN"]
+        New[Unseen curriculum items]
+        Stale[Optional: touched but not due, low R]
+    end
+
+    subgraph budget [Slot budgets per quiz]
+        B1["MIN_WEAK_SLOTS = 2"]
+        B2["MIN_NEW_SLOTS = 1 if healthy"]
+        B3["MAX_DUE_SLOTS = 5"]
+        B4["Remaining = priority fill"]
+    end
+
+    pool --> Score[priority_score]
+    Score --> budget
+    budget --> Quiz[10 tasks returned]
+```
+
+#### Priority score (higher = more likely selected)
+
+```
+overdue_days = max(0, days since due)
+
+priority(item) =
+  if R < R_STRENGTHEN:
+      1000 + (R_STRENGTHEN - R) * 200        // weak items dominate
+  elif due <= now:
+      500 + overdue_days * 10                 // due, older overdue ranks higher
+  elif is_new and confidence_gate > 0:
+      100 + (1 - level_headroom) * 50         // new words can rank above stale reviews
+  else:
+      R * 50                                  // filler: low-R non-due reviews
+```
+
+**Weak items (R < R_STRENGTHEN) always beat due items** when both exist — matches "strengthen before expand" and your requirement for much higher probability on low-confidence items.
+
+#### Slot split — fixed 7:3 (MVP)
+
+**Assumption:** language learning is **mostly vocabulary** and vocab takes **much longer** than grammar. Grammar topics are fewer and abstract; exposure per topic is controlled by **which topics win the 3 grammar slots**, not by shrinking K to match curriculum ratio.
+
+```
+N = 10
+S = 7   # vocabulary slots — fixed for MVP
+K = 3   # grammar slots — fixed for MVP
+```
+
+Within S and K, **the same priority queue algorithm** applies independently to each kind. FSRS confidence (`R`, due date, weak thresholds) determines **which words/topics appear** — not how many slots each kind gets.
+
+**Which grammar topics appear in the 3 slots:** weighted sample from **all** topics in `GRAMMAR_CURRICULUM` — `P(t) ∝ (1 - R(t))` + due boost. Low confidence → high probability; high confidence → still appears, just less often. Same topic may repeat if weight dominates.
+
+**Future (deferred):** dynamic `S/K` from `grammar_topics / (vocab_words + grammar_topics)` — may make sense later; not for MVP.
+
+#### Kind-specific constants (within fixed S=7 / K=3)
+
+| Parameter | Vocab (S=7) | Grammar (K=3) | Why different |
+|-----------|-------------|---------------|---------------|
+| `R_STRENGTHEN` | 0.50 | **0.35** | Boost weight in `(1-R)`; not a hard exclude |
+| `GRAMMAR_PROMOTION_R` | — | **0.35** | avg R to unlock L+1 grammar |
+| `MASTERED_THRESHOLD` | 0.90 | **0.55** | Display "known topic" only |
+| `R_FLOOR` (block new) | 0.40 | **0.30** | Stricter gate before new topics |
+| `MIN_WEAK_SLOTS` | 2 | **1** | Reserve weak slots within kind budget |
+| `MIN_NEW_SLOTS` | 1 | **0–1** | At most 1 new grammar topic per quiz |
+| `MAX_NEW_PER_QUIZ` | 2 | **1** | Smaller grammar curriculum |
+| `MAX_DUE_PER_QUIZ` | 5 | **3** | Can fill all K slots if all due |
+| `BACKLOG_WARN` | 50 | **15** | |
+| `BACKLOG_CRITICAL` | 200 | **30** | |
+
+#### Grammar confidence grows slower (within K=3)
+
+Grammar is **not vocabulary**. Fewer topics, harder exemplars (sentence complexity progression), and concepts that need **lifelong rotation** — not one-time mastery.
+
+**Core idea:** user should see **all grammar topics in the pool all the time**, selected with **probability proportional to need** (low R → high probability), not blocked until "strong enough."
+
+```
+# Selection weight for grammar topic t (all topics in GRAMMAR_CURRICULUM always eligible)
+need(t)     = 1 - R(t)                          // low confidence → high need
+due_boost(t)= overdue_days * 0.1 if due <= now else 0
+complexity  = exposure_factor from sentence level sampling  // harder examples → keep revisiting
+
+weight(t)   = need(t) + due_boost(t) + complexity
+P(select t) = weight(t) / sum(weight(all topics at level L))
+```
+
+Pick K=3 topics by **weighted sample without replacement** (or priority queue using same weights). A topic at R=0.80 still appears sometimes; at R=0.15 it dominates.
+
+**Why lower promotion thresholds:**
+
+| | Vocabulary | Grammar |
+|--|------------|---------|
+| `MASTERED_THRESHOLD` | 0.90 | **0.55** — "good enough" to move on |
+| Level unlock | 70% words mastered | **avg R ≥ 0.35** across all L topics + each seen ≥ once |
+| Philosophy | Must accumulate hundreds of stable lemmas | Must have **touched every rule**; mastery is ongoing via harder sentences |
+
+Grammar promotion does **not** require R≥0.90 on every topic. User unlocks L+1 grammar when every A0 topic has been seen and average confidence is modest — because harder exemplars and K=3 rotation will keep revisiting L0 topics anyway.
+
+**Harder examples = constant revision:** even "strong" grammar topics (R=0.70) get A1/A2 sentences via complexity progression → failures reset FSRS → topic stays in rotation. Grammar is never "done."
+
+**vs vocab block on weak:** grammar does **not** use `P(new_grammar)=0` while weak topics exist. New L+1 grammar topics can appear as **sprinkle** when vocab unlock allows, weighted low if current-level avg R is poor. Current-level topics always compete in the same pool.
+
+**Fixed K=3** — which 3 of 10 topics: weighted by `(1-R)`, not "3 different weak ones only."
+
+```
+select_slots(kind, slot_count):   # slot_count = S=7 or K=3
+  1. Build candidate pool for kind (vocab or grammar)
+  2. Apply backlog-adjusted budgets (kind-specific constants)
+  3. Reserve MIN_WEAK_SLOTS from highest-priority weak items
+     → same item can be picked twice if still highest priority after dedupe? 
+     → YES: allow repeat if R << others (dedupe only within same slot pass if R gap > threshold)
+  4. Reserve MIN_NEW_SLOTS (if backlog healthy)
+  5. Fill up to MAX_DUE_PER_QUIZ from due pool
+  6. Fill remaining by priority_score descending
+  7. For each picked review_item:
+       pick exemplar sentence (level sampling)
+       pick matching Exercise (pre-authored) for sentence + item
+       set TaskPresentationMode from R_item
+```
+
+**Repeat same topic in one quiz:** allowed when `priority(item) > 2 × second_best` — e.g. present-simple at R=0.10, others all R>0.60. Cap repeats at `ceil(slot_count / 2)` to avoid 10-question present-simple marathon.
+
+#### Backlog never grows unbounded (prevention + recovery)
+
+| Mechanism | When | Effect |
+|-----------|------|--------|
+| `MAX_NEW_PER_QUIZ = 2` | always | limits new cards entering FSRS pipeline |
+| `P(new) = headroom × confidence_gate` | always | reduces new intake as curriculum fills or avg_R drops |
+| `MIN_NEW = 0` when `due_backlog > 50` | recovery | stop adding until drained |
+| `MAX_DUE_PER_QUIZ = 5` | normal | cap due items per session; rest wait (stay due) |
+| `MAX_DUE = 7, MIN_NEW = 0` | `due_backlog > 200` | emergency drain |
+| Deferred items keep `due <= now` | always | compete next session by priority; no silent drops |
+
+**Not selected ≠ forgotten.** Items stay due and climb priority via `overdue_days`. The queue is a **priority queue**, not a FIFO drain of all due items.
+
+#### Track backlog in snapshot
+
+Extend `UserLevelSnapshot`:
+
+```
+due_backlog_vocab    = count vocab review_items where due <= now
+due_backlog_grammar  = count grammar review_items where due <= now
+weak_count_vocab     = count where R < R_STRENGTHEN
+avg_R_vocab          = avg R over touched curriculum words
+```
+
+Surface in UI when `due_backlog > BACKLOG_WARN`: "You have 73 reviews waiting — new words paused until you catch up."
+
+---
+
+## New-item probability (vocab + grammar)
+
+Core principle: **strengthen before expand**. P(new) gates whether new items enter the candidate pool; the **priority queue** decides if they win slots against due/weak items.
+
+### P(new) — gates new items entering the pool (both kinds)
+
+Same formula, kind-specific constants and backlog thresholds (see table above).
+
+```
+P(new) = 0                         if due_backlog_kind > BACKLOG_WARN_kind
+       = headroom × confidence_gate otherwise
+```
+
+Grammar: pool always includes **all** curriculum topics at level L. New L+1 topics sprinkled only when vocab `level_progress` allows; weighted into pool at low priority. **No hard block** on weak topics — low R already increases selection weight via `(1-R)`.
+
+| Situation | Behavior |
+|-----------|----------|
+| New user, < MIN_DATA touched | Static: 2 weak-priority A0 words + max 2 new |
+| avg_R < R_FLOOR | No new in pool; MIN_WEAK_SLOTS filled |
+| Healthy A0, 1 grammar topic very weak | That topic may fill 2+ of K=3 slots via priority |
+| Good at all A0 grammar (high avg R) | All 10 topics still in pool; higher-R topics selected less often but never zero |
+| Grammar avg_R low | Low-R topics dominate K=3 via `(1-R)` weights; all topics remain eligible |
+
+---
+
+## Grammar level progression
+
+Grammar uses a **fixed topic set per level** with **continuous rotation** — all topics always in the quiz pool, selection weighted by `(1 - R)`.
+
+```
+GRAMMAR_CURRICULUM(L) = all grammar_blocks at level L with exemplar + exercise
+mastered_topic(t)     = R(t) >= MASTERED_THRESHOLD_GRAMMAR   // 0.55, not 0.90
+grammar_avg_R(L)      = avg(R(t)) over all t in GRAMMAR_CURRICULUM(L)
+grammar_exposure(L)   = all t have reps >= 1
+```
+
+**Promotion to L+1 grammar content** (lower bar than vocab):
+
+```
+level_progress(vocab, L) >= 0.70              // vocab still gates overall level
+AND grammar_exposure(L) == true                 // every topic seen at least once
+AND grammar_avg_R(L) >= GRAMMAR_PROMOTION_R   // e.g. 0.35 — modest average, not mastery
+```
+
+**Not required for promotion:** every topic at R≥0.90, or empty weak set. Harder sentence exemplars ensure continued revision after promotion.
+
+**Quiz selection (within K=3):** weighted sample from full `GRAMMAR_CURRICULUM(L)` — probability ∝ `(1 - R(t))` + due boost. Same topic may appear twice in one quiz if weight dominates.
+
+**Display progress:** `grammar_progress(L) = count(R >= 0.55) / count(topics)` for UI — informational only; promotion uses `grammar_avg_R` + exposure gate.
+
+---
+
+## Quiz assembly pipeline
+
+```mermaid
+flowchart TD
+    Start[GET /api/quiz] --> Load[Snapshot + FSRS cards + backlogs]
+    Load --> Fixed["S=7 vocab, K=3 grammar fixed"]
+    Fixed --> VocabPQ["select_slots vocabulary, 7"]
+    Fixed --> GramPQ["select 3 grammar: weighted by 1-R from full pool"]
+    VocabPQ --> AssembleV[exemplar + Exercise + mode]
+    GramPQ --> AssembleG[exemplar + Exercise + mode]
+    AssembleV --> Merge[Merge + shuffle N items]
+    AssembleG --> Merge
+    Merge --> Return[QuizSessionItem DTOs]
+```
+
+**Per selected review item (vocab or grammar):**
+
+```
+1. priority queue / weighted pick selects review_item
+2. sample CEFR level L (complexity progression)
+3. pick_exemplar(item, user, L) — rotation rules; no repeat until uniques exhausted
+4. lookup Exercise WHERE sentence_id AND primary item match
+5. TaskPresentationMode = f(R_item)
+6. if mcq_4: attach pre-authored ExerciseDistractors
+7. on submit: record user_exemplar_completions
+8. emit QuizSessionItem
+```
+
+### Sentence level sampling (your formula, formalized)
+
+For item `i` (word or grammar topic) with item mastery `m = R(i)`:
+
+```
+P(level = L) ∝ user_level_weight(L) × exposure_factor(L, m)
+```
+
+Where:
+
+- `user_level_weight(L)` = `level_progress(L)` from fixed curriculum (mastered_count / CURRICULUM_SIZE)
+- ` exposure_factor(L, m)` = boost levels **above** item's tagged level when `m` is low (your complexity progression idea)
+
+Example from your scenario:
+
+- User: A0 coverage 80%, A1 coverage 30%
+- Item G at A0, mastery 40%
+- Normalized weights: A0=0.73, A1=0.27
+- With low mastery, shift 30% probability mass toward A1 → ~51% A0 sentence, ~49% A1 sentence for that item
+
+**Fallback:** if no exemplar at sampled level, pick nearest level with available sentence.
+
+---
+
+## Sentence exemplar rotation (separate concern)
+
+### Problem
+
+Exemplars link a **word or grammar topic** to a **sentence**. If the same sentence appears repeatedly, the user memorizes the answer **in that fixed context** ("I always blank the third word in *Hello, my name is…*") instead of learning the word/rule generally.
+
+**Rule:** for a given topic (word or grammar block), **do not repeat a sentence** until the user has seen all prior exemplars in the rotation order for that topic at the sampled CEFR level(s).
+
+### Two-step pick (level first, then sentence)
+
+Sentence selection is **two steps** — do not conflate with level sampling above:
+
+```
+1. Sample CEFR level L via P(level) ∝ user_level_weight × exposure_factor   (see above)
+2. Pick concrete sentence via exemplar rotation rules below (this section)
+```
+
+### MVP: per-user exemplar completion tracking
+
+```
+user_exemplar_completions (
+  user_id,
+  item_type,          -- vocabulary_word | grammar_block
+  item_id,
+  sentence_id,
+  completed_at
+)
+UNIQUE (user_id, item_type, item_id, sentence_id)
+```
+
+Each time a quiz item is submitted for `(item, sentence)`, record completion.
+
+**Exemplar ordering (MVP):** fixed `sort_order` on `WordSentenceExemplar` / `GrammarBlockExample` (import order or manual). No quality tiers yet.
+
+#### MVP algorithm: `pick_exemplar(item, user, sampled_level L)`
+
+```
+candidates(L) = exemplars for item WHERE sentence.level_id = L
+                ORDER BY sort_order ASC
+
+unseen(L)     = candidates(L) WHERE sentence_id NOT IN user_exemplar_completions
+
+if unseen(L) not empty:
+    return first unseen(L) by sort_order          // exhaust unique sentences at L
+else:
+    // all unique sentences at L already seen — do NOT reset and pick random repeat
+    next(L)     = candidates(L) WHERE sort_order > max seen sort_order at L
+    if next(L) not empty:
+        return first next(L)                      // "new" exemplar added since user finished uniques
+    else:
+        return pick by level sampling at L-1 or L+1 // fall through to other levels
+        // only if ALL levels exhausted: allow repeat of oldest-seen sentence (last resort)
+```
+
+**A0 user:** only A0 sentences for the topic until every unique A0 exemplar is completed once, in `sort_order`.
+
+**A1 user:** first sample level — P(A0) vs P(A1) from level progression rules — then apply rotation **within the sampled level** as above. May see A0 or A1 sentence for the same topic in different quizzes, but not the **same** sentence twice before uniques at that level are exhausted.
+
+**When uniques run out at a level:** prefer **new exemplars** (higher `sort_order` not yet in DB when user started, or newly imported rows) — **never** immediately reset to random already-seen sentences at that level.
+
+```mermaid
+flowchart TD
+    PickItem[Review item selected] --> SampleLevel[Sample CEFR level L]
+    SampleLevel --> Unseen{Unseen exemplars at L?}
+    Unseen -->|yes| NextUnseen[Lowest sort_order unseen]
+    Unseen -->|no| NewRows{New exemplars since user finished?}
+    NewRows -->|yes| NextNew[Next sort_order not yet seen]
+    NewRows -->|no| OtherLevel[Try adjacent level pool]
+    OtherLevel --> LastResort[Repeat oldest-seen — last resort only]
+    NextUnseen --> Exercise[Match Exercise for sentence + item]
+    NextNew --> Exercise
+    LastResort --> Exercise
+```
+
+### Future: exemplar quality tiers (not MVP)
+
+Exemplars will carry a **verification tier** controlling global preference order (before per-user rotation):
+
+| Tier | Meaning | Priority |
+|------|---------|----------|
+| `human_verified` | Checked by human | 1 (show first) |
+| `ai_verified` | Checked by AI | 2 |
+| `fast_review` | Light review pass | 3 |
+| `human_authored_new` | Written by human, not yet fully reviewed | 4 |
+| `ai_generated_new` | Generated by AI, not yet fully reviewed | 5 |
+
+```
+ORDER BY quality_tier ASC, sort_order ASC
+```
+
+MVP uses `sort_order` only. Schema may reserve `quality_tier` column nullable for future.
+
+**Future behavior:** within same tier, same rotation rules apply; higher-tier uniques exhaust before lower-tier; newly promoted tier (e.g. AI → human_verified) enters pool as "new exemplar" without resetting seen set.
+
+### Link to complexity progression
+
+Harder sentence levels (A1 exemplar for A0 topic) interact with rotation:
+
+- Level sampling decides **which CEFR band** to draw from.
+- Rotation decides **which unique sentence** within that band.
+- Both must pass: user gets i+1 complexity **and** fresh context.
+
+Record `user_exemplar_completions` on every submit regardless of correctness (exposure tracking) — optional: only on correct answer if we want "completed" to mean mastered in context (TBD; MVP = any attempt).
+
+---
+
+**Presentation mode is decided per task at quiz assembly time**, based on FSRS retrievability of the underlying review item — not level progress, not avg_R, not sentence complexity.
+
+Each **review item** (not exercise row) drives presentation mode:
+
+```
+item  = vocabulary_word  OR grammar_block  (from ReviewItem)
+
+R_item = FSRS.ForgettingCurve(review_items row)
+       = 0 if no review_item yet
+```
+
+**Mode selection (same rule for vocab and grammar):**
+
+| Condition | TaskPresentationMode | User experience |
+|-----------|---------------------|-----------------|
+| `R_item < 0.50` | `mcq_4` | Pick 1 of 4 options |
+| `R_item >= 0.50` | `free_recall` | Type the correct answer |
+| `R_item >= 0.85` (future) | `pronunciation` | Speak the answer |
+
+```
+presentation_mode(task) = mode_from_R(R_item)
+```
+
+**Hysteresis** (avoid flip-flopping between quizzes):
+
+```
+switch to free_recall  when R_item >= 0.55
+switch back to mcq_4   when R_item <  0.45
+```
+
+**Key separations:**
+
+| Dimension | Driven by |
+|-----------|-----------|
+| TaskPresentationMode | **This item's** `R_item` |
+| P(new word/topic) | avg_R + headroom across curriculum |
+| Sentence CEFR level | item R + level_progress (complexity progression) |
+| FSRS rating on submit | correctness + speed → updates card → future R_item |
+
+A grammar task on "present simple" and a vocab task on "hello" each get their own mode independently — low R on the word → MCQ even if grammar confidence is high, and vice versa.
+
+Current code picks pre-authored [`tasks`](back/internal/handlers/quiz.go) as the quiz unit. Target: `QuizPlanner` picks `ReviewItem` → exemplar → `Exercise`; mode computed at runtime.
+
+---
+
+## Future: user-initiated learning queue
+
+Architect now, implement later.
+
+```mermaid
+erDiagram
+    UserLearningQueueItem {
+        bigint id PK
+        bigint user_id FK
+        smallint language_id FK
+        enum item_type "vocabulary_word | grammar_block"
+        bigint item_id
+        enum source "manual | placement | recommendation"
+        timestamptz added_at
+        timestamptz expires_at "optional"
+        smallint priority "higher = more likely in quiz"
+        boolean active
+    }
+```
+
+**Quiz integration rule (future):**
+
+- Reserve `queue_quota` slots per session (e.g. 2 of 10)
+- Queue items **override level mix** but still respect FSRS updates
+- User flow: browse grammar topic → "Add to my plan" → row in queue → next quizzes include it until mastery threshold or user removes
+
+Same pattern for word lists / tagged vocabulary sets.
+
+---
+
+## Black holes and risks
+
+| Risk | Why it hurts | Mitigation |
+|------|--------------|------------|
+| **Static tasks vs runtime assembly** | Old model ties quiz to `tasks` row | `ReviewItem` → exemplar → pre-authored `Exercise`; migrate `tasks` table |
+| Same sentence repeated for same word/topic | Context memorization not general learning | `user_exemplar_completions` + rotation before repeat |
+| Exhausted uniques → random repeat | User stuck in loop | Prefer new exemplar rows; adjacent level; repeat last resort only |
+| **Multi grammar tag per exercise** | Raw future concept | MVP: `primary_grammar_block_id` only; reserve `exercise_grammar_tags` junction for later |
+| **Confusing FSRS rating with confidence** | Rating (again/hard/good/easy) is input *to* FSRS on submit; confidence is output `R` | Ratings update the card; all planning reads `R` only |
+| **Grammar "every topic" with sparse content** | If A0 has 40 blocks but only 20 have tasks, gate blocks forever | Gate on topics **with at least one exemplar/task** only |
+| **Bulk import words without `level_id`** | Current Kaikki imports pass level filter as NULL ([exploration finding]) | Backfill levels or exclude from coverage denominator |
+| **FSRS rating vs mastery** | Current code derives rating from speed+correctness, not user judgment ([`quiz.go`](back/internal/handlers/quiz.go)) | Keep auto-rating for MVP; modality uses R not rating |
+| **Review avalanche (1000+ due)** | Too many new items or skipped days → user quits | Priority queue + `MAX_DUE_PER_QUIZ`; pause new at `BACKLOG_WARN`; emergency drain at 200 |
+| **Review hell (no new words ever)** | Pure "due first" starves curriculum | `MIN_NEW_SLOTS = 1` when backlog healthy |
+| **Promotion vs quiz mix** | User at A1 ceiling but still needs A0 reviews | Weak + due items from all levels compete by priority_score |
+| **Queue bypass starvation** | Future manual queue could crowd out due reviews | Cap queue at fixed quota; due items fill first |
+| **Free recall grading** | Grammar/vocab production needs fuzzy match, not exact string | Plan normalization + acceptable variants table |
+| **Coverage denominator drift** | Adding new A0 words later drops everyone's coverage | Version curriculum sets; snapshot denominator at level unlock |
+
+---
+
+## Gap vs current implementation (for next iteration)
+
+| Target design | Current state |
+|---------------|---------------|
+| Fixed S=7, K=3 + FSRS priority within slots | S=10, K=0 |
+| Exercise + exemplar model | `tasks` as quiz unit |
+| Grammar repeat + slower R thresholds | N/A |
+| Pre-authored distractors only | Partially (offline taskgen) |
+| Grammar all-topic gate | Not implemented; `grammar_block_prerequisites` unused |
+| `UserLevelSnapshot` | Only `current_level_id` on [`user_language_progress`](back/migrations/0001_init.up.sql) |
+| User learning queue | Not in schema |
+| `WordSentenceExemplar` | Single `example_sentence_id` on word |
+
+---
+
+## Recommended next design iteration
+
+1. Confirm `LevelCurriculum` sizes per level (A0=100 words — verify against your seed data).
+2. Tune `R_FLOOR` / `R_TARGET` / `MASTERED_THRESHOLD` with simulated user profiles.
+3. Write formal pseudocode for `QuizPlanner.selectItems()` and `QuizPlanner.pickSentence()`.
+4. Compare entity UML against migrations and produce a migration delta list.

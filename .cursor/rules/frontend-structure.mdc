@@ -1,0 +1,12 @@
+---
+description: Frontend folder and screen structure conventions
+globs: frontend/**/*
+alwaysApply: false
+---
+
+# Frontend Structure
+
+- Keep frontend pages in clear `HTML`, `CSS`, and `JSON` files.
+- Put each screen in its own folder under `frontend/screens/<screen-name>/`.
+- For shared/repeated UI elements, create reusable files under `frontend/components/`.
+- Prefer simple, readable structure over framework-specific complexity.
