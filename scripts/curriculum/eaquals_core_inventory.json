@@ -1,0 +1,1589 @@
+{
+  "meta": {
+    "source": "EAQUALS_British_Council_Core_Curriculum_April2011",
+    "appendix": "D",
+    "url": "https://www.eaquals.org/wp-content/uploads/EAQUALS_British_Council_Core_Curriculum_April2011.pdf",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "note": "Grammar includes Appendix E examples; functions/lexis/topics are level shells only."
+  },
+  "domains": {
+    "functions": [
+      {
+        "id": "fn-002",
+        "title": "Understanding and Using Numbers",
+        "levels": [
+          "A1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-003",
+        "title": "Understanding and Using Prices",
+        "levels": [
+          "A1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-004",
+        "title": "Telling the time",
+        "levels": [
+          "A1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-005",
+        "title": "Directions",
+        "levels": [
+          "A1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-006",
+        "title": "Greetings",
+        "levels": [
+          "A1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-007",
+        "title": "Giving personal information",
+        "levels": [
+          "A1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-008",
+        "title": "Describing habits and routines",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-009",
+        "title": "Describing habits and routines",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-010",
+        "title": "Describing people",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-011",
+        "title": "Describing things",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-012",
+        "title": "Requests",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-013",
+        "title": "Suggestions",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-014",
+        "title": "Advice",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-015",
+        "title": "Invitations",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-016",
+        "title": "Offers",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-017",
+        "title": "Arrangements / -ing to meet people",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-018",
+        "title": "Obligation and necessity",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-019",
+        "title": "Describing places",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-020",
+        "title": "Describing past experiences and storytelling",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-021",
+        "title": "Checking understanding",
+        "levels": [
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-022",
+        "title": "Describing experiences and events",
+        "levels": [
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-023",
+        "title": "Describing feelings and emotion",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-024",
+        "title": "Expressing opinions; agreeing and disagreeing",
+        "levels": [
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-025",
+        "title": "Initiating and closing conversation",
+        "levels": [
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-026",
+        "title": "Managing interaction",
+        "levels": [
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-027",
+        "title": "Critiquing and reviewing",
+        "levels": [
+          "B2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-028",
+        "title": "Describing hopes and plans",
+        "levels": [
+          "B2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-029",
+        "title": "Developing an argument",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-030",
+        "title": "Expressing abstract ideas",
+        "levels": [
+          "B2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-031",
+        "title": "Expressing agreement and disagreement",
+        "levels": [
+          "B2"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-032",
+        "title": "Expressing reaction, e.g. indifference",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-033",
+        "title": "Speculating and hypothesising",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-034",
+        "title": "Synthesizing, evaluating, glossing info",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-035",
+        "title": "Conceding a point",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-036",
+        "title": "Defending a point of view persuasively",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-037",
+        "title": "Expressing attitudes and feelings precisely",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-038",
+        "title": "Expressing certainty, probability, doubt",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "fn-039",
+        "title": "Expressing opinions tentatively, hedging",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      }
+    ],
+    "discourse": [
+      {
+        "id": "dc-046",
+        "title": "Connecting words (and, but, because)",
+        "levels": [
+          "A1"
+        ],
+        "section": "markers",
+        "content": null
+      },
+      {
+        "id": "dc-047",
+        "title": "Linkers: sequential – past time",
+        "levels": [
+          "A2"
+        ],
+        "section": "markers",
+        "content": null
+      },
+      {
+        "id": "dc-048",
+        "title": "Connecting words expressing cause and effect, contrast",
+        "levels": [
+          "B1"
+        ],
+        "section": "markers",
+        "content": null
+      },
+      {
+        "id": "dc-049",
+        "title": "Linkers: although, in spite of, despite",
+        "levels": [
+          "B2"
+        ],
+        "section": "markers",
+        "content": null
+      },
+      {
+        "id": "dc-050",
+        "title": "Linking devices: logical markers",
+        "levels": [
+          "C1"
+        ],
+        "section": "markers",
+        "content": null
+      },
+      {
+        "id": "dc-051",
+        "title": "Markers to structure informal spoken discourse",
+        "levels": [
+          "B2"
+        ],
+        "section": "markers",
+        "content": null
+      },
+      {
+        "id": "dc-052",
+        "title": "Markers to structure formal speech and writing",
+        "levels": [
+          "C1"
+        ],
+        "section": "markers",
+        "content": null
+      },
+      {
+        "id": "dc-060",
+        "title": "Initiating and closing conversation",
+        "levels": [
+          "B1"
+        ],
+        "section": "functions",
+        "content": null
+      },
+      {
+        "id": "dc-061",
+        "title": "Checking understanding",
+        "levels": [
+          "B1"
+        ],
+        "section": "functions",
+        "content": null
+      },
+      {
+        "id": "dc-062",
+        "title": "Managing interaction",
+        "levels": [
+          "B1"
+        ],
+        "section": "functions",
+        "content": null
+      },
+      {
+        "id": "dc-063",
+        "title": "Taking the initiative in interaction",
+        "levels": [
+          "B2"
+        ],
+        "section": "functions",
+        "content": null
+      },
+      {
+        "id": "dc-064",
+        "title": "Encouraging another speaker to continue",
+        "levels": [
+          "B2"
+        ],
+        "section": "functions",
+        "content": null
+      },
+      {
+        "id": "dc-065",
+        "title": "Interacting informally, reacting",
+        "levels": [
+          "B2"
+        ],
+        "section": "functions",
+        "content": null
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gr-056",
+        "title": "To be (including questions and negatives)",
+        "levels": [
+          "A1"
+        ],
+        "section": "verb_forms",
+        "examples": [
+          "We are from South America.",
+          "Are you French? No I'm not."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-057",
+        "title": "Have got (British)",
+        "levels": [
+          "A1"
+        ],
+        "section": "verb_forms",
+        "examples": [
+          "Have you got any money?",
+          "I've got all of his CDs."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-058",
+        "title": "Imperatives (+/-)",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "verb_forms",
+        "examples": [
+          "Sit down, please.",
+          "Don't talk to the driver."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-059",
+        "title": "Questions",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "questions",
+        "examples": [
+          "Do you like dancing?",
+          "What is your name?"
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-061",
+        "title": "Wh-questions in the past",
+        "levels": [
+          "A2"
+        ],
+        "section": "questions",
+        "examples": [
+          "Where did she go to university?",
+          "When did it happen?"
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-064",
+        "title": "Present simple",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "present",
+        "examples": [
+          "She eats fruit every day.",
+          "The plane lands at six."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-065",
+        "title": "Present continuous",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "present",
+        "examples": [
+          "It's raining again.",
+          "I am staying with Hilary at the moment."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-067",
+        "title": "Past simple",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "past",
+        "examples": [
+          "She fell and broke her leg.",
+          "He gave me a nice present."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-068",
+        "title": "Past simple (to be) / Past continuous",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "past",
+        "examples": [
+          "We were happy there.",
+          "I was living in Spain when I met her."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-069",
+        "title": "Used to",
+        "levels": [
+          "A2"
+        ],
+        "section": "past",
+        "examples": [
+          "She used to be a ballet dancer."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-074",
+        "title": "Going to",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "future",
+        "examples": [
+          "We are going to make a pizza this evening."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-075",
+        "title": "Present continuous for the future (arrangements)",
+        "levels": [
+          "A2"
+        ],
+        "section": "future",
+        "examples": [
+          "I'm seeing him at 11.00 this morning."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-076",
+        "title": "Future time (will & going to)",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "future",
+        "examples": [
+          "I'll tell him about the party."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-077",
+        "title": "Future continuous",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "future",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-078",
+        "title": "Future perfect / Future perfect continuous",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "section": "future",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-081",
+        "title": "Present perfect",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "present_perfect",
+        "examples": [
+          "Have you ever been to Greece?",
+          "I've known him for 5 years."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-082",
+        "title": "Present perfect / Past simple",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "present_perfect",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-083",
+        "title": "Present perfect continuous",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "present_perfect",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-085",
+        "title": "I'd like",
+        "levels": [
+          "A1"
+        ],
+        "section": "gerund_infinitive",
+        "examples": [
+          "I'd like a cup of coffee.",
+          "I'd like to go home."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-086",
+        "title": "Verb + -ing (like/hate/love)",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "gerund_infinitive",
+        "examples": [
+          "I love swimming.",
+          "I hate being late."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-087",
+        "title": "To + infinitive (express purpose)",
+        "levels": [
+          "A2"
+        ],
+        "section": "gerund_infinitive",
+        "examples": [
+          "I go jogging to get fit."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-088",
+        "title": "Verb + to + infinitive",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "gerund_infinitive",
+        "examples": [
+          "She wants to go home now."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-090",
+        "title": "Zero and first conditional",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "conditionals",
+        "examples": [
+          "If I eat eggs I feel sick.",
+          "If it rains, I will stay in."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-091",
+        "title": "Second and third conditional",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "conditionals",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-092",
+        "title": "Mixed conditionals",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "section": "conditionals",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-093",
+        "title": "Wish / if only & regrets",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "section": "conditionals",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-095",
+        "title": "Phrasal verbs, common",
+        "levels": [
+          "A2"
+        ],
+        "section": "phrasal_verbs",
+        "examples": [
+          "He got up at 6 o'clock.",
+          "Put your coat on."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-096",
+        "title": "Phrasal verbs, extended / splitting",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "phrasal_verbs",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-097",
+        "title": "Simple passive",
+        "levels": [
+          "B1"
+        ],
+        "section": "passives",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-098",
+        "title": "All passive forms",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "section": "passives",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-099",
+        "title": "Reported speech (range of tenses)",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "other_verbs",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-100",
+        "title": "Relative clauses",
+        "levels": [
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "section": "other_verbs",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-104",
+        "title": "Can/can't (ability)",
+        "levels": [
+          "A1"
+        ],
+        "section": "modals_can",
+        "examples": [
+          "I can't swim.",
+          "He can speak Spanish."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-105",
+        "title": "Can/could (functional)",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "modals_can",
+        "examples": [
+          "Can I help?",
+          "Could I use your phone?"
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-107",
+        "title": "Might, may",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "modals_possibility",
+        "examples": [
+          "She might come.",
+          "John may know the answer."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-108",
+        "title": "Possibly, probably, perhaps",
+        "levels": [
+          "B1"
+        ],
+        "section": "modals_possibility",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-109",
+        "title": "Must/can't (deduction)",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "modals_possibility",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-112",
+        "title": "Must/mustn't",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "modals_obligation",
+        "examples": [
+          "You must get to work on time.",
+          "You mustn't smoke here."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-113",
+        "title": "Have to",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "modals_obligation",
+        "examples": [
+          "Students have to fill in a form."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-115",
+        "title": "Should",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "modals_obligation",
+        "examples": [
+          "You should stay in and study tonight."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-116",
+        "title": "Ought to",
+        "levels": [
+          "B2"
+        ],
+        "section": "modals_obligation",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-117",
+        "title": "Need to / needn't",
+        "levels": [
+          "B2"
+        ],
+        "section": "modals_obligation",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-118",
+        "title": "Should have / might have / etc.",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "modals_past",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-119",
+        "title": "Can't have / needn't have",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "section": "modals_past",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-121",
+        "title": "Countable and uncountable nouns",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "nouns",
+        "examples": [
+          "How much money do you have?",
+          "Do you like cheese?"
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-123",
+        "title": "There is / there are",
+        "levels": [
+          "A1"
+        ],
+        "section": "nouns",
+        "examples": [
+          "There's a bank near the station.",
+          "Are there many seats?"
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-125",
+        "title": "Simple personal pronouns",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "pronouns",
+        "examples": [
+          "I bought a dictionary.",
+          "They live in Newcastle."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-127",
+        "title": "Possessive adjectives",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "pronouns",
+        "examples": [
+          "This is my seat.",
+          "Is this your pen?"
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-128",
+        "title": "Possessive 's",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "pronouns",
+        "examples": [
+          "It's Mary's turn to buy coffee."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-129",
+        "title": "Possessive pronouns",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "pronouns",
+        "examples": [
+          "No. It's mine.",
+          "Is that their car?"
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-131",
+        "title": "Prepositions, common",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "prepositions",
+        "examples": [
+          "He is sitting at the table.",
+          "We went to Sardinia last year."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-132",
+        "title": "Prepositional phrases (time and movement)",
+        "levels": [
+          "A2"
+        ],
+        "section": "prepositions",
+        "examples": [
+          "On Tuesdays she goes to college."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-133",
+        "title": "Prepositions of place and time (in/on/at)",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "prepositions",
+        "examples": [
+          "I'll see you in December.",
+          "It starts at 6 o'clock."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-135",
+        "title": "Articles: definite, indefinite",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "articles",
+        "examples": [
+          "She has a dog.",
+          "Your jacket is on the chair."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-136",
+        "title": "Articles with countable/uncountable",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "articles",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-137",
+        "title": "Zero article / superlatives with the",
+        "levels": [
+          "B2"
+        ],
+        "section": "articles",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-141",
+        "title": "Determiners: basic (any, some, a lot of)",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "determiners",
+        "examples": [
+          "Do you have any cheese?",
+          "I'd like some vegetables."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-142",
+        "title": "Determiners: wider range",
+        "levels": [
+          "B1",
+          "B2"
+        ],
+        "section": "determiners",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-145",
+        "title": "Adjectives: common",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "adjectives",
+        "examples": [
+          "She is wearing a red skirt."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-146",
+        "title": "Adjectives: demonstrative",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "adjectives",
+        "examples": [
+          "This pizza is really good.",
+          "Those oranges look nice."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-147",
+        "title": "Comparative and superlative adjectives",
+        "levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "section": "adjectives",
+        "examples": [
+          "She's taller than Michelle.",
+          "Tom is the oldest in the class."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-148",
+        "title": "Comparisons with fewer and less",
+        "levels": [
+          "B2"
+        ],
+        "section": "adjectives",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-152",
+        "title": "Adverbs of frequency",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "adverbs",
+        "examples": [
+          "We always go shopping on Saturdays.",
+          "I never go to the gym."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-153",
+        "title": "Adverbs of place, manner and time",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "adverbs",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-154",
+        "title": "Adverbial phrases; word order",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "section": "adverbs",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-155",
+        "title": "Comparative and superlative adverbs",
+        "levels": [
+          "B2"
+        ],
+        "section": "adverbs",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-156",
+        "title": "Inversion with negative adverbials",
+        "levels": [
+          "C1"
+        ],
+        "section": "adverbs",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-161",
+        "title": "Intensifiers: very basic (very, really)",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "section": "intensifiers",
+        "examples": [
+          "She's a very tall girl.",
+          "John is a really good friend."
+        ],
+        "egp_refs": []
+      },
+      {
+        "id": "gr-162",
+        "title": "Intensifiers: too, enough",
+        "levels": [
+          "B1"
+        ],
+        "section": "intensifiers",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-163",
+        "title": "Wide range (extremely, much too)",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "section": "intensifiers",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-164",
+        "title": "Complex question tags",
+        "levels": [
+          "B2"
+        ],
+        "section": "questions",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-165",
+        "title": "Narrative tenses",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "section": "past",
+        "egp_refs": []
+      },
+      {
+        "id": "gr-166",
+        "title": "Inversion / cleft sentences (advanced)",
+        "levels": [
+          "C1"
+        ],
+        "section": "other_verbs",
+        "egp_refs": []
+      }
+    ],
+    "lexis": [
+      {
+        "id": "lx-167",
+        "title": "Nationalities and countries",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-168",
+        "title": "Personal information",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-169",
+        "title": "Food and drink",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-170",
+        "title": "Things in the town, shops and shopping",
+        "levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-171",
+        "title": "Travel and services vocabulary",
+        "levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-172",
+        "title": "Verbs, basic",
+        "levels": [
+          "A1",
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-173",
+        "title": "Clothes",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-174",
+        "title": "Colours",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-175",
+        "title": "Dimensions",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-176",
+        "title": "Ways of travelling",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-177",
+        "title": "Collocation",
+        "levels": [
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-178",
+        "title": "Colloquial language",
+        "levels": [
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-179",
+        "title": "Approximating (vague language)",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-180",
+        "title": "Formal and informal registers",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-181",
+        "title": "Idiomatic expressions",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "lx-182",
+        "title": "Eliminating false friends",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      }
+    ],
+    "topics": [
+      {
+        "id": "tp-190",
+        "title": "Family life",
+        "levels": [
+          "A2"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-191",
+        "title": "Hobbies and pastimes",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-192",
+        "title": "Holidays",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-193",
+        "title": "Work and jobs",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-194",
+        "title": "Shopping",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-195",
+        "title": "Leisure activities",
+        "levels": [
+          "A2",
+          "B1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-196",
+        "title": "Education",
+        "levels": [
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-197",
+        "title": "Film",
+        "levels": [
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-198",
+        "title": "Books and literature",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-199",
+        "title": "News, lifestyles and current affairs",
+        "levels": [
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-200",
+        "title": "Media",
+        "levels": [
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-201",
+        "title": "Arts",
+        "levels": [
+          "B2",
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-202",
+        "title": "Scientific development",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      },
+      {
+        "id": "tp-203",
+        "title": "Technical and legal language",
+        "levels": [
+          "C1"
+        ],
+        "content": null
+      }
+    ]
+  }
+}

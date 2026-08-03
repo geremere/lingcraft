@@ -1,32 +1,62 @@
-# Grammar blocks (FSRS curriculum)
+# Grammar tagging (POLKE + EGP registry)
 
-Grammar is **not** stored as EGP constructs in the database. The DB holds teachable **grammar blocks** only; external EGP references live in block files on disk.
+Offline pipeline: read sentences from PostgreSQL, annotate with POLKE, write tags to JSON/CSV.
 
-## Layout
+EGP constructs live in `registry/egp_en.json` only — not in the database.
 
-```
-blocks/{lang}/{level}/{slug}/
-  block.yaml       — FSRS block (title, category, sort_order)
-  egp_links.yaml   — external Cambridge EGP refs (not in DB)
-  examples.json    — curated sentences for the example bank
-```
-
-Example: `blocks/en/a1/a1-modality-can/`
-
-## Load into DB
+## Setup
 
 ```bash
 pip install -r scripts/requirements.txt
-bash backend/scripts/setup_dev_env.sh
 
-PYTHONPATH=scripts python3 scripts/grammar/load_blocks.py --dry-run
-PYTHONPATH=scripts python3 scripts/grammar/load_blocks.py
+# POLKE (Docker)
+bash scripts/grammar/polke/setup.sh
+bash scripts/grammar/polke/start.sh   # http://localhost/extractor
+
+# EGP registry (if missing)
+PYTHONPATH=scripts python3 scripts/grammar/import_egp.py --download
 ```
 
-## Categories
+## Tag sentences
 
-Folder names (`verbs-tenses`, `modals`, …) are defined in `blocks/_meta/category_map.yaml`.
+```bash
+# Single sentence
+PYTHONPATH=scripts python3 scripts/grammar/tag_sentence.py "I can swim."
 
-## FSRS model
+# Batch from DB → JSON (all EGP tags)
+PYTHONPATH=scripts python3 scripts/grammar/tag_sentences.py \
+  --limit 100 \
+  --skip-unknown \
+  --output tags.json
 
-One `grammar_blocks` row = one FSRS card. User progress will link via `review_items` (planned).
+# Only tags POLKE can actually detect (~658)
+PYTHONPATH=scripts python3 scripts/grammar/tag_sentences.py \
+  --limit 100 \
+  --skip-unknown \
+  --polke-supported-only \
+  --output tags.json
+
+# CSV
+PYTHONPATH=scripts python3 scripts/grammar/tag_sentences.py -o tags.csv --limit 50
+```
+
+## Registry files
+
+| Path | Purpose |
+|------|---------|
+| `registry/egp_en.json` | Full EGP construct registry (~1239) |
+| `registry/polke_mapping.json` | Same constructs indexed by ID — **not** POLKE coverage |
+| `registry/polke_supported.json` | EGP IDs with actual POLKE Ruta rules (~658) |
+
+Each construct in `egp_en.json` has a `detection` field (`polke` or `llm`) set from guideword detectability at import time. That is a *planned* detection method, not proof POLKE can tag it. Ground-truth coverage is `polke_supported.json` (regenerate with `audit_polke_coverage.py`).
+
+## Files
+
+| Path | Purpose |
+|------|---------|
+| `polke/` | Docker provider + `PolkeClient` |
+| `audit_polke_coverage.py` | Regenerate `polke_supported.json` from vendor POLKE |
+| `import_egp.py` | Excel → JSON |
+| `tag_sentences.py` | DB → POLKE → output file |
+
+Curriculum (EAQUALS) and EGP mapping: see [`../curriculum/README.md`](../curriculum/README.md).

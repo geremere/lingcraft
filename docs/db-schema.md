@@ -10,7 +10,6 @@ Single migration while pre-production — edit `000001` instead of adding new mi
 erDiagram
     languages ||--o{ lemmas : has
     languages ||--o{ sentences : has
-    languages ||--o{ grammar_blocks : has
     languages ||--o{ sense_descriptions : has
 
     lemmas ||--o{ senses : has
@@ -34,7 +33,9 @@ erDiagram
     audio_files ||--o{ sentence_audio : has
 ```
 
-**15 tables** + trigger `trg_senses_updated_at` on `senses`.
+**14 tables** + trigger `trg_senses_updated_at` on `senses`.
+
+EGP grammar tags and EAQUALS curriculum live **outside** the database (see `scripts/grammar/registry/` and `scripts/curriculum/`).
 
 ## Core
 
@@ -73,26 +74,6 @@ Main learnable unit for vocabulary (FSRS target per sense).
 | cefr_level | TEXT | A1–C2 or NULL |
 | image_id | FK → image_files | SET NULL |
 | created_at, updated_at | TIMESTAMPTZ | auto-update on UPDATE |
-
-### `grammar_blocks`
-
-Teachable grammar topics for FSRS (one block = one curriculum card). Loaded from on-disk packages via `scripts/grammar/load_blocks.py`.
-
-| Column | Type | Notes |
-|--------|------|-------|
-| id | BIGSERIAL PK | |
-| language_id | FK → languages | CASCADE |
-| slug | TEXT | UNIQUE per language, e.g. `a1-modality-can` |
-| level | TEXT | A0–C2 |
-| title | TEXT | display title |
-| category | TEXT | curriculum folder: `verbs-tenses`, `modals`, … |
-| super_category | TEXT | e.g. `MODALITY`, `PRESENT` |
-| sub_category | TEXT | e.g. `can`, `present simple` |
-| sort_order | INTEGER | order within level |
-| metadata_json | JSONB | merged subs, detectability counts, source path |
-| created_at | TIMESTAMPTZ | |
-
-External EGP construct references live only in block files (`egp_links.yaml`), not in the database.
 
 ## Descriptions and tags
 
@@ -194,24 +175,18 @@ languages → lemmas → senses → sense_descriptions
               sense_sentence_links ← sentences
 ```
 
-### Grammar
+### Grammar (file-based, not in DB)
 
 ```
-blocks/{lang}/{level}/{slug}/   (source of truth on disk)
-  block.yaml, egp_links.yaml, examples.json
-              ↓ load_blocks.py
-         grammar_blocks          (FSRS curriculum in DB)
-              ↓
-         review_items            (planned)
+sentences (DB) → POLKE → tags.json / tags.csv
+EAQUALS curriculum (JSON) → egp mapping (YAML) → Anki export
+EGP registry: scripts/grammar/registry/egp_en.json
 ```
-
-Example sentences from `examples.json` are imported into `sentences` separately for the example bank.
 
 ## Not in schema yet
 
 From [`docs/design`](design) — planned for quiz/FSRS layer:
 
-- `review_items` (FSRS cards for senses and grammar_blocks)
-- `grammar_block_sentences` (link blocks to imported example sentences)
+- `grammar_blocks` / `review_items` (FSRS cards)
 - `exercises`, `exercise_distractors`
 - users, progress tables

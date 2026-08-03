@@ -1,7 +1,0 @@
-note: External EGP references only — not stored in application DB
-links:
-- ref: egp-2
-  id: 2
-  guideword: 'FORM: COMBINING TWO ADJECTIVES WITH ''BUT'''
-  can_do: Can use 'but' to join a limited range of common adjectives, after 'be'.
-  detectability: form

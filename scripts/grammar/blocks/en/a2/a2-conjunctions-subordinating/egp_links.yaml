@@ -1,8 +1,0 @@
-note: External EGP references only — not stored in application DB
-links:
-- ref: egp-277
-  id: 277
-  guideword: 'FORM: SIMPLE'
-  can_do: Can use a limited range of simple subordinating conjunctions '(if, when, so, while)' to introduce
-    a subordinate clause.
-  detectability: form

@@ -1,0 +1,5321 @@
+meta:
+  source_inventory: eaquals_core_inventory.json
+  egp_construct_count: 1239
+  grammar_topic_count: 73
+  mapped_count: 72
+  empty_count: 1
+  wide_count: 49
+  polke_validated: false
+mappings:
+- eaquals_id: gr-056
+  title: To be (including questions and negatives)
+  section: verb_forms
+  levels:
+  - A1
+  egp_refs:
+  - ref: egp-1032
+    egp_id: 1032
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-057
+  title: Have got (British)
+  section: verb_forms
+  levels:
+  - A1
+  egp_refs:
+  - ref: egp-1048
+    egp_id: 1048
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1066
+    egp_id: 1066
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1067
+    egp_id: 1067
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1068
+    egp_id: 1068
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1069
+    egp_id: 1069
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1076
+    egp_id: 1076
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1077
+    egp_id: 1077
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1078
+    egp_id: 1078
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1095
+    egp_id: 1095
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1096
+    egp_id: 1096
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1102
+    egp_id: 1102
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-058
+  title: Imperatives (+/-)
+  section: verb_forms
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-186
+    egp_id: 186
+    match: guideword
+    confidence: 0.85
+  - ref: egp-187
+    egp_id: 187
+    match: guideword
+    confidence: 0.85
+  - ref: egp-188
+    egp_id: 188
+    match: guideword
+    confidence: 0.85
+  - ref: egp-189
+    egp_id: 189
+    match: guideword
+    confidence: 0.85
+  - ref: egp-190
+    egp_id: 190
+    match: guideword
+    confidence: 0.85
+  - ref: egp-191
+    egp_id: 191
+    match: guideword
+    confidence: 0.85
+  - ref: egp-149
+    egp_id: 149
+    match: super_category
+    confidence: 0.6
+  - ref: egp-169
+    egp_id: 169
+    match: super_category
+    confidence: 0.6
+  - ref: egp-170
+    egp_id: 170
+    match: super_category
+    confidence: 0.6
+  - ref: egp-171
+    egp_id: 171
+    match: super_category
+    confidence: 0.6
+  - ref: egp-179
+    egp_id: 179
+    match: super_category
+    confidence: 0.6
+  - ref: egp-180
+    egp_id: 180
+    match: super_category
+    confidence: 0.6
+  - ref: egp-181
+    egp_id: 181
+    match: super_category
+    confidence: 0.6
+  - ref: egp-182
+    egp_id: 182
+    match: super_category
+    confidence: 0.6
+  - ref: egp-183
+    egp_id: 183
+    match: super_category
+    confidence: 0.6
+  - ref: egp-184
+    egp_id: 184
+    match: super_category
+    confidence: 0.6
+  - ref: egp-203
+    egp_id: 203
+    match: super_category
+    confidence: 0.6
+  - ref: egp-204
+    egp_id: 204
+    match: super_category
+    confidence: 0.6
+  - ref: egp-205
+    egp_id: 205
+    match: super_category
+    confidence: 0.6
+  - ref: egp-206
+    egp_id: 206
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-059
+  title: Questions
+  section: questions
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-1008
+    egp_id: 1008
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1016
+    egp_id: 1016
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1023
+    egp_id: 1023
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1024
+    egp_id: 1024
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1025
+    egp_id: 1025
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1026
+    egp_id: 1026
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1027
+    egp_id: 1027
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1028
+    egp_id: 1028
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1032
+    egp_id: 1032
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1033
+    egp_id: 1033
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1034
+    egp_id: 1034
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1035
+    egp_id: 1035
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1036
+    egp_id: 1036
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1037
+    egp_id: 1037
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-061
+  title: Wh-questions in the past
+  section: questions
+  levels:
+  - A2
+  egp_refs:
+  - ref: egp-1024
+    egp_id: 1024
+    match: guideword
+    confidence: 0.8
+  - ref: egp-1025
+    egp_id: 1025
+    match: guideword
+    confidence: 0.8
+  - ref: egp-1026
+    egp_id: 1026
+    match: guideword
+    confidence: 0.8
+  - ref: egp-1023
+    egp_id: 1023
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1027
+    egp_id: 1027
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1008
+    egp_id: 1008
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1016
+    egp_id: 1016
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1028
+    egp_id: 1028
+    match: guideword
+    confidence: 0.6
+  - ref: egp-1033
+    egp_id: 1033
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1034
+    egp_id: 1034
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1035
+    egp_id: 1035
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1036
+    egp_id: 1036
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1037
+    egp_id: 1037
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-064
+  title: Present simple
+  section: present
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-865
+    egp_id: 865
+    match: guideword
+    confidence: 0.85
+  - ref: egp-866
+    egp_id: 866
+    match: guideword
+    confidence: 0.85
+  - ref: egp-867
+    egp_id: 867
+    match: guideword
+    confidence: 0.85
+  - ref: egp-868
+    egp_id: 868
+    match: guideword
+    confidence: 0.85
+  - ref: egp-869
+    egp_id: 869
+    match: guideword
+    confidence: 0.85
+  - ref: egp-870
+    egp_id: 870
+    match: guideword
+    confidence: 0.85
+  - ref: egp-871
+    egp_id: 871
+    match: guideword
+    confidence: 0.85
+  - ref: egp-872
+    egp_id: 872
+    match: guideword
+    confidence: 0.85
+  - ref: egp-873
+    egp_id: 873
+    match: guideword
+    confidence: 0.85
+  - ref: egp-874
+    egp_id: 874
+    match: guideword
+    confidence: 0.85
+  - ref: egp-875
+    egp_id: 875
+    match: guideword
+    confidence: 0.85
+  - ref: egp-876
+    egp_id: 876
+    match: guideword
+    confidence: 0.85
+  - ref: egp-877
+    egp_id: 877
+    match: guideword
+    confidence: 0.85
+  - ref: egp-851
+    egp_id: 851
+    match: super_category
+    confidence: 0.6
+  - ref: egp-852
+    egp_id: 852
+    match: super_category
+    confidence: 0.6
+  - ref: egp-853
+    egp_id: 853
+    match: super_category
+    confidence: 0.6
+  - ref: egp-854
+    egp_id: 854
+    match: super_category
+    confidence: 0.6
+  - ref: egp-855
+    egp_id: 855
+    match: super_category
+    confidence: 0.6
+  - ref: egp-856
+    egp_id: 856
+    match: super_category
+    confidence: 0.6
+  - ref: egp-857
+    egp_id: 857
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-065
+  title: Present continuous
+  section: present
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-851
+    egp_id: 851
+    match: guideword
+    confidence: 0.85
+  - ref: egp-852
+    egp_id: 852
+    match: guideword
+    confidence: 0.85
+  - ref: egp-853
+    egp_id: 853
+    match: guideword
+    confidence: 0.85
+  - ref: egp-854
+    egp_id: 854
+    match: guideword
+    confidence: 0.85
+  - ref: egp-855
+    egp_id: 855
+    match: guideword
+    confidence: 0.85
+  - ref: egp-856
+    egp_id: 856
+    match: guideword
+    confidence: 0.85
+  - ref: egp-857
+    egp_id: 857
+    match: guideword
+    confidence: 0.85
+  - ref: egp-865
+    egp_id: 865
+    match: super_category
+    confidence: 0.6
+  - ref: egp-866
+    egp_id: 866
+    match: super_category
+    confidence: 0.6
+  - ref: egp-867
+    egp_id: 867
+    match: super_category
+    confidence: 0.6
+  - ref: egp-868
+    egp_id: 868
+    match: super_category
+    confidence: 0.6
+  - ref: egp-869
+    egp_id: 869
+    match: super_category
+    confidence: 0.6
+  - ref: egp-870
+    egp_id: 870
+    match: super_category
+    confidence: 0.6
+  - ref: egp-871
+    egp_id: 871
+    match: super_category
+    confidence: 0.6
+  - ref: egp-872
+    egp_id: 872
+    match: super_category
+    confidence: 0.6
+  - ref: egp-873
+    egp_id: 873
+    match: super_category
+    confidence: 0.6
+  - ref: egp-874
+    egp_id: 874
+    match: super_category
+    confidence: 0.6
+  - ref: egp-875
+    egp_id: 875
+    match: super_category
+    confidence: 0.6
+  - ref: egp-876
+    egp_id: 876
+    match: super_category
+    confidence: 0.6
+  - ref: egp-877
+    egp_id: 877
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-067
+  title: Past simple
+  section: past
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-784
+    egp_id: 784
+    match: guideword
+    confidence: 0.85
+  - ref: egp-785
+    egp_id: 785
+    match: guideword
+    confidence: 0.85
+  - ref: egp-786
+    egp_id: 786
+    match: guideword
+    confidence: 0.85
+  - ref: egp-787
+    egp_id: 787
+    match: guideword
+    confidence: 0.85
+  - ref: egp-788
+    egp_id: 788
+    match: guideword
+    confidence: 0.85
+  - ref: egp-789
+    egp_id: 789
+    match: guideword
+    confidence: 0.85
+  - ref: egp-743
+    egp_id: 743
+    match: super_category
+    confidence: 0.6
+  - ref: egp-744
+    egp_id: 744
+    match: super_category
+    confidence: 0.6
+  - ref: egp-745
+    egp_id: 745
+    match: super_category
+    confidence: 0.6
+  - ref: egp-746
+    egp_id: 746
+    match: super_category
+    confidence: 0.6
+  - ref: egp-816
+    egp_id: 816
+    match: super_category
+    confidence: 0.6
+  - ref: egp-817
+    egp_id: 817
+    match: super_category
+    confidence: 0.6
+  - ref: egp-818
+    egp_id: 818
+    match: super_category
+    confidence: 0.6
+  - ref: egp-819
+    egp_id: 819
+    match: super_category
+    confidence: 0.6
+  - ref: egp-820
+    egp_id: 820
+    match: super_category
+    confidence: 0.6
+  - ref: egp-821
+    egp_id: 821
+    match: super_category
+    confidence: 0.6
+  - ref: egp-822
+    egp_id: 822
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-068
+  title: Past simple (to be) / Past continuous
+  section: past
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-743
+    egp_id: 743
+    match: guideword
+    confidence: 0.95
+  - ref: egp-744
+    egp_id: 744
+    match: guideword
+    confidence: 0.95
+  - ref: egp-745
+    egp_id: 745
+    match: guideword
+    confidence: 0.95
+  - ref: egp-746
+    egp_id: 746
+    match: guideword
+    confidence: 0.95
+  - ref: egp-784
+    egp_id: 784
+    match: guideword
+    confidence: 0.95
+  - ref: egp-785
+    egp_id: 785
+    match: guideword
+    confidence: 0.95
+  - ref: egp-786
+    egp_id: 786
+    match: guideword
+    confidence: 0.95
+  - ref: egp-787
+    egp_id: 787
+    match: guideword
+    confidence: 0.95
+  - ref: egp-788
+    egp_id: 788
+    match: guideword
+    confidence: 0.95
+  - ref: egp-789
+    egp_id: 789
+    match: guideword
+    confidence: 0.95
+  - ref: egp-816
+    egp_id: 816
+    match: guideword
+    confidence: 0.6
+  - ref: egp-817
+    egp_id: 817
+    match: super_category
+    confidence: 0.6
+  - ref: egp-818
+    egp_id: 818
+    match: super_category
+    confidence: 0.6
+  - ref: egp-819
+    egp_id: 819
+    match: super_category
+    confidence: 0.6
+  - ref: egp-820
+    egp_id: 820
+    match: super_category
+    confidence: 0.6
+  - ref: egp-821
+    egp_id: 821
+    match: super_category
+    confidence: 0.6
+  - ref: egp-822
+    egp_id: 822
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-069
+  title: Used to
+  section: past
+  levels:
+  - A2
+  egp_refs:
+  - ref: egp-425
+    egp_id: 425
+    match: super_category
+    confidence: 0.6
+  - ref: egp-443
+    egp_id: 443
+    match: super_category
+    confidence: 0.6
+  - ref: egp-464
+    egp_id: 464
+    match: super_category
+    confidence: 0.6
+  - ref: egp-487
+    egp_id: 487
+    match: super_category
+    confidence: 0.6
+  - ref: egp-488
+    egp_id: 488
+    match: super_category
+    confidence: 0.6
+  - ref: egp-489
+    egp_id: 489
+    match: super_category
+    confidence: 0.6
+  - ref: egp-490
+    egp_id: 490
+    match: super_category
+    confidence: 0.6
+  - ref: egp-497
+    egp_id: 497
+    match: super_category
+    confidence: 0.6
+  - ref: egp-498
+    egp_id: 498
+    match: super_category
+    confidence: 0.6
+  - ref: egp-514
+    egp_id: 514
+    match: super_category
+    confidence: 0.6
+  - ref: egp-515
+    egp_id: 515
+    match: super_category
+    confidence: 0.6
+  - ref: egp-529
+    egp_id: 529
+    match: super_category
+    confidence: 0.6
+  - ref: egp-530
+    egp_id: 530
+    match: super_category
+    confidence: 0.6
+  - ref: egp-531
+    egp_id: 531
+    match: super_category
+    confidence: 0.6
+  - ref: egp-567
+    egp_id: 567
+    match: super_category
+    confidence: 0.6
+  - ref: egp-568
+    egp_id: 568
+    match: super_category
+    confidence: 0.6
+  - ref: egp-569
+    egp_id: 569
+    match: super_category
+    confidence: 0.6
+  - ref: egp-570
+    egp_id: 570
+    match: super_category
+    confidence: 0.6
+  - ref: egp-577
+    egp_id: 577
+    match: super_category
+    confidence: 0.6
+  - ref: egp-578
+    egp_id: 578
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-074
+  title: Going to
+  section: future
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-353
+    egp_id: 353
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-354
+    egp_id: 354
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-382
+    egp_id: 382
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-383
+    egp_id: 383
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-384
+    egp_id: 384
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-385
+    egp_id: 385
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-386
+    egp_id: 386
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-387
+    egp_id: 387
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-388
+    egp_id: 388
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-389
+    egp_id: 389
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-390
+    egp_id: 390
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-391
+    egp_id: 391
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-398
+    egp_id: 398
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-399
+    egp_id: 399
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-400
+    egp_id: 400
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-401
+    egp_id: 401
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-412
+    egp_id: 412
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-413
+    egp_id: 413
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-418
+    egp_id: 418
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-419
+    egp_id: 419
+    match: sub_category
+    confidence: 0.85
+  status: suggested
+- eaquals_id: gr-075
+  title: Present continuous for the future (arrangements)
+  section: future
+  levels:
+  - A2
+  egp_refs:
+  - ref: egp-853
+    egp_id: 853
+    match: guideword
+    confidence: 0.85
+  - ref: egp-854
+    egp_id: 854
+    match: guideword
+    confidence: 0.85
+  - ref: egp-855
+    egp_id: 855
+    match: guideword
+    confidence: 0.85
+  - ref: egp-856
+    egp_id: 856
+    match: guideword
+    confidence: 0.85
+  - ref: egp-857
+    egp_id: 857
+    match: guideword
+    confidence: 0.85
+  - ref: egp-869
+    egp_id: 869
+    match: super_category
+    confidence: 0.6
+  - ref: egp-870
+    egp_id: 870
+    match: super_category
+    confidence: 0.6
+  - ref: egp-871
+    egp_id: 871
+    match: super_category
+    confidence: 0.6
+  - ref: egp-872
+    egp_id: 872
+    match: super_category
+    confidence: 0.6
+  - ref: egp-873
+    egp_id: 873
+    match: super_category
+    confidence: 0.6
+  - ref: egp-874
+    egp_id: 874
+    match: super_category
+    confidence: 0.6
+  - ref: egp-875
+    egp_id: 875
+    match: super_category
+    confidence: 0.6
+  - ref: egp-876
+    egp_id: 876
+    match: super_category
+    confidence: 0.6
+  - ref: egp-877
+    egp_id: 877
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-076
+  title: Future time (will & going to)
+  section: future
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-353
+    egp_id: 353
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-354
+    egp_id: 354
+    match: guideword
+    confidence: 0.85
+  - ref: egp-355
+    egp_id: 355
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-356
+    egp_id: 356
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-366
+    egp_id: 366
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-367
+    egp_id: 367
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-384
+    egp_id: 384
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-385
+    egp_id: 385
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-386
+    egp_id: 386
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-387
+    egp_id: 387
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-388
+    egp_id: 388
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-389
+    egp_id: 389
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-390
+    egp_id: 390
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-391
+    egp_id: 391
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-392
+    egp_id: 392
+    match: guideword
+    confidence: 0.85
+  - ref: egp-393
+    egp_id: 393
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-394
+    egp_id: 394
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-398
+    egp_id: 398
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-399
+    egp_id: 399
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-400
+    egp_id: 400
+    match: sub_category
+    confidence: 0.85
+  status: suggested
+- eaquals_id: gr-077
+  title: Future continuous
+  section: future
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-355
+    egp_id: 355
+    match: guideword
+    confidence: 0.85
+  - ref: egp-356
+    egp_id: 356
+    match: guideword
+    confidence: 0.85
+  - ref: egp-357
+    egp_id: 357
+    match: guideword
+    confidence: 0.85
+  - ref: egp-358
+    egp_id: 358
+    match: guideword
+    confidence: 0.85
+  - ref: egp-360
+    egp_id: 360
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-361
+    egp_id: 361
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-362
+    egp_id: 362
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-363
+    egp_id: 363
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-364
+    egp_id: 364
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-365
+    egp_id: 365
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-366
+    egp_id: 366
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-367
+    egp_id: 367
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-368
+    egp_id: 368
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-369
+    egp_id: 369
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-371
+    egp_id: 371
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-372
+    egp_id: 372
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-373
+    egp_id: 373
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-375
+    egp_id: 375
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-376
+    egp_id: 376
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-377
+    egp_id: 377
+    match: sub_category
+    confidence: 0.85
+  status: suggested
+- eaquals_id: gr-078
+  title: Future perfect / Future perfect continuous
+  section: future
+  levels:
+  - B2
+  - C1
+  egp_refs:
+  - ref: egp-371
+    egp_id: 371
+    match: guideword
+    confidence: 1.0
+  - ref: egp-372
+    egp_id: 372
+    match: guideword
+    confidence: 1.0
+  - ref: egp-373
+    egp_id: 373
+    match: guideword
+    confidence: 1.0
+  - ref: egp-357
+    egp_id: 357
+    match: guideword
+    confidence: 0.85
+  - ref: egp-358
+    egp_id: 358
+    match: guideword
+    confidence: 0.85
+  - ref: egp-359
+    egp_id: 359
+    match: guideword
+    confidence: 0.85
+  - ref: egp-360
+    egp_id: 360
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-361
+    egp_id: 361
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-362
+    egp_id: 362
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-363
+    egp_id: 363
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-364
+    egp_id: 364
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-365
+    egp_id: 365
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-368
+    egp_id: 368
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-369
+    egp_id: 369
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-375
+    egp_id: 375
+    match: guideword
+    confidence: 0.85
+  - ref: egp-376
+    egp_id: 376
+    match: guideword
+    confidence: 0.85
+  - ref: egp-377
+    egp_id: 377
+    match: guideword
+    confidence: 0.85
+  - ref: egp-378
+    egp_id: 378
+    match: guideword
+    confidence: 0.85
+  - ref: egp-379
+    egp_id: 379
+    match: guideword
+    confidence: 0.85
+  - ref: egp-380
+    egp_id: 380
+    match: guideword
+    confidence: 0.85
+  status: suggested
+- eaquals_id: gr-081
+  title: Present perfect
+  section: present_perfect
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-853
+    egp_id: 853
+    match: super_category
+    confidence: 0.6
+  - ref: egp-854
+    egp_id: 854
+    match: super_category
+    confidence: 0.6
+  - ref: egp-855
+    egp_id: 855
+    match: super_category
+    confidence: 0.6
+  - ref: egp-856
+    egp_id: 856
+    match: super_category
+    confidence: 0.6
+  - ref: egp-857
+    egp_id: 857
+    match: super_category
+    confidence: 0.6
+  - ref: egp-858
+    egp_id: 858
+    match: super_category
+    confidence: 0.6
+  - ref: egp-859
+    egp_id: 859
+    match: super_category
+    confidence: 0.6
+  - ref: egp-860
+    egp_id: 860
+    match: super_category
+    confidence: 0.6
+  - ref: egp-869
+    egp_id: 869
+    match: super_category
+    confidence: 0.6
+  - ref: egp-870
+    egp_id: 870
+    match: super_category
+    confidence: 0.6
+  - ref: egp-871
+    egp_id: 871
+    match: super_category
+    confidence: 0.6
+  - ref: egp-872
+    egp_id: 872
+    match: super_category
+    confidence: 0.6
+  - ref: egp-873
+    egp_id: 873
+    match: super_category
+    confidence: 0.6
+  - ref: egp-874
+    egp_id: 874
+    match: super_category
+    confidence: 0.6
+  - ref: egp-875
+    egp_id: 875
+    match: super_category
+    confidence: 0.6
+  - ref: egp-876
+    egp_id: 876
+    match: super_category
+    confidence: 0.6
+  - ref: egp-877
+    egp_id: 877
+    match: super_category
+    confidence: 0.6
+  - ref: egp-878
+    egp_id: 878
+    match: super_category
+    confidence: 0.6
+  - ref: egp-879
+    egp_id: 879
+    match: super_category
+    confidence: 0.6
+  - ref: egp-880
+    egp_id: 880
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-082
+  title: Present perfect / Past simple
+  section: present_perfect
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-794
+    egp_id: 794
+    match: guideword
+    confidence: 0.95
+  - ref: egp-790
+    egp_id: 790
+    match: guideword
+    confidence: 0.85
+  - ref: egp-791
+    egp_id: 791
+    match: guideword
+    confidence: 0.85
+  - ref: egp-792
+    egp_id: 792
+    match: guideword
+    confidence: 0.85
+  - ref: egp-793
+    egp_id: 793
+    match: guideword
+    confidence: 0.85
+  - ref: egp-795
+    egp_id: 795
+    match: guideword
+    confidence: 0.85
+  - ref: egp-796
+    egp_id: 796
+    match: guideword
+    confidence: 0.85
+  - ref: egp-797
+    egp_id: 797
+    match: guideword
+    confidence: 0.85
+  - ref: egp-798
+    egp_id: 798
+    match: guideword
+    confidence: 0.85
+  - ref: egp-799
+    egp_id: 799
+    match: guideword
+    confidence: 0.85
+  - ref: egp-800
+    egp_id: 800
+    match: guideword
+    confidence: 0.85
+  - ref: egp-801
+    egp_id: 801
+    match: guideword
+    confidence: 0.85
+  - ref: egp-802
+    egp_id: 802
+    match: guideword
+    confidence: 0.85
+  - ref: egp-747
+    egp_id: 747
+    match: super_category
+    confidence: 0.6
+  - ref: egp-748
+    egp_id: 748
+    match: super_category
+    confidence: 0.6
+  - ref: egp-749
+    egp_id: 749
+    match: super_category
+    confidence: 0.6
+  - ref: egp-750
+    egp_id: 750
+    match: super_category
+    confidence: 0.6
+  - ref: egp-751
+    egp_id: 751
+    match: super_category
+    confidence: 0.6
+  - ref: egp-752
+    egp_id: 752
+    match: super_category
+    confidence: 0.6
+  - ref: egp-753
+    egp_id: 753
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-083
+  title: Present perfect continuous
+  section: present_perfect
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-858
+    egp_id: 858
+    match: super_category
+    confidence: 0.6
+  - ref: egp-859
+    egp_id: 859
+    match: super_category
+    confidence: 0.6
+  - ref: egp-860
+    egp_id: 860
+    match: super_category
+    confidence: 0.6
+  - ref: egp-861
+    egp_id: 861
+    match: super_category
+    confidence: 0.6
+  - ref: egp-878
+    egp_id: 878
+    match: super_category
+    confidence: 0.6
+  - ref: egp-879
+    egp_id: 879
+    match: super_category
+    confidence: 0.6
+  - ref: egp-880
+    egp_id: 880
+    match: super_category
+    confidence: 0.6
+  - ref: egp-881
+    egp_id: 881
+    match: super_category
+    confidence: 0.6
+  - ref: egp-882
+    egp_id: 882
+    match: super_category
+    confidence: 0.6
+  - ref: egp-883
+    egp_id: 883
+    match: super_category
+    confidence: 0.6
+  - ref: egp-884
+    egp_id: 884
+    match: super_category
+    confidence: 0.6
+  - ref: egp-885
+    egp_id: 885
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-085
+  title: I'd like
+  section: gerund_infinitive
+  levels:
+  - A1
+  egp_refs:
+  - ref: egp-1076
+    egp_id: 1076
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1077
+    egp_id: 1077
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1078
+    egp_id: 1078
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1048
+    egp_id: 1048
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1066
+    egp_id: 1066
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1067
+    egp_id: 1067
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1068
+    egp_id: 1068
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1069
+    egp_id: 1069
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1095
+    egp_id: 1095
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1096
+    egp_id: 1096
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1102
+    egp_id: 1102
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-086
+  title: Verb + -ing (like/hate/love)
+  section: gerund_infinitive
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-1052
+    egp_id: 1052
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1053
+    egp_id: 1053
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1054
+    egp_id: 1054
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1076
+    egp_id: 1076
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1077
+    egp_id: 1077
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1078
+    egp_id: 1078
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1079
+    egp_id: 1079
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1080
+    egp_id: 1080
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1081
+    egp_id: 1081
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1082
+    egp_id: 1082
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1043
+    egp_id: 1043
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1048
+    egp_id: 1048
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1057
+    egp_id: 1057
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1058
+    egp_id: 1058
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1066
+    egp_id: 1066
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1067
+    egp_id: 1067
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1068
+    egp_id: 1068
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1069
+    egp_id: 1069
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1070
+    egp_id: 1070
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1071
+    egp_id: 1071
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-087
+  title: To + infinitive (express purpose)
+  section: gerund_infinitive
+  levels:
+  - A2
+  egp_refs:
+  - ref: egp-1052
+    egp_id: 1052
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1053
+    egp_id: 1053
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1054
+    egp_id: 1054
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1079
+    egp_id: 1079
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1080
+    egp_id: 1080
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1081
+    egp_id: 1081
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1082
+    egp_id: 1082
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1043
+    egp_id: 1043
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1057
+    egp_id: 1057
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1058
+    egp_id: 1058
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1070
+    egp_id: 1070
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1071
+    egp_id: 1071
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1072
+    egp_id: 1072
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1073
+    egp_id: 1073
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1097
+    egp_id: 1097
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1098
+    egp_id: 1098
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1103
+    egp_id: 1103
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-088
+  title: Verb + to + infinitive
+  section: gerund_infinitive
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-1052
+    egp_id: 1052
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1053
+    egp_id: 1053
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1054
+    egp_id: 1054
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1055
+    egp_id: 1055
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1056
+    egp_id: 1056
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1079
+    egp_id: 1079
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1080
+    egp_id: 1080
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1081
+    egp_id: 1081
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1082
+    egp_id: 1082
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1083
+    egp_id: 1083
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1084
+    egp_id: 1084
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1085
+    egp_id: 1085
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1086
+    egp_id: 1086
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1087
+    egp_id: 1087
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1088
+    egp_id: 1088
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1043
+    egp_id: 1043
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1044
+    egp_id: 1044
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1049
+    egp_id: 1049
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1057
+    egp_id: 1057
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1058
+    egp_id: 1058
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-090
+  title: Zero and first conditional
+  section: conditionals
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-1105
+    egp_id: 1105
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1106
+    egp_id: 1106
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1107
+    egp_id: 1107
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1108
+    egp_id: 1108
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1109
+    egp_id: 1109
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1110
+    egp_id: 1110
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1111
+    egp_id: 1111
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1112
+    egp_id: 1112
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1113
+    egp_id: 1113
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1114
+    egp_id: 1114
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1115
+    egp_id: 1115
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1116
+    egp_id: 1116
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1117
+    egp_id: 1117
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1118
+    egp_id: 1118
+    match: guideword
+    confidence: 0.85
+  - ref: egp-149
+    egp_id: 149
+    match: super_category
+    confidence: 0.6
+  - ref: egp-150
+    egp_id: 150
+    match: super_category
+    confidence: 0.6
+  - ref: egp-151
+    egp_id: 151
+    match: super_category
+    confidence: 0.6
+  - ref: egp-152
+    egp_id: 152
+    match: super_category
+    confidence: 0.6
+  - ref: egp-153
+    egp_id: 153
+    match: super_category
+    confidence: 0.6
+  - ref: egp-154
+    egp_id: 154
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-091
+  title: Second and third conditional
+  section: conditionals
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-1109
+    egp_id: 1109
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1110
+    egp_id: 1110
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1111
+    egp_id: 1111
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1112
+    egp_id: 1112
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1113
+    egp_id: 1113
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1114
+    egp_id: 1114
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1115
+    egp_id: 1115
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1116
+    egp_id: 1116
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1117
+    egp_id: 1117
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1118
+    egp_id: 1118
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1119
+    egp_id: 1119
+    match: guideword
+    confidence: 0.85
+  - ref: egp-150
+    egp_id: 150
+    match: super_category
+    confidence: 0.6
+  - ref: egp-151
+    egp_id: 151
+    match: super_category
+    confidence: 0.6
+  - ref: egp-152
+    egp_id: 152
+    match: super_category
+    confidence: 0.6
+  - ref: egp-153
+    egp_id: 153
+    match: super_category
+    confidence: 0.6
+  - ref: egp-154
+    egp_id: 154
+    match: super_category
+    confidence: 0.6
+  - ref: egp-155
+    egp_id: 155
+    match: super_category
+    confidence: 0.6
+  - ref: egp-156
+    egp_id: 156
+    match: super_category
+    confidence: 0.6
+  - ref: egp-157
+    egp_id: 157
+    match: super_category
+    confidence: 0.6
+  - ref: egp-158
+    egp_id: 158
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-092
+  title: Mixed conditionals
+  section: conditionals
+  levels:
+  - B2
+  - C1
+  egp_refs:
+  - ref: egp-1119
+    egp_id: 1119
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1120
+    egp_id: 1120
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1121
+    egp_id: 1121
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1122
+    egp_id: 1122
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1123
+    egp_id: 1123
+    match: guideword
+    confidence: 0.85
+  - ref: egp-160
+    egp_id: 160
+    match: super_category
+    confidence: 0.6
+  - ref: egp-161
+    egp_id: 161
+    match: super_category
+    confidence: 0.6
+  - ref: egp-162
+    egp_id: 162
+    match: super_category
+    confidence: 0.6
+  - ref: egp-163
+    egp_id: 163
+    match: super_category
+    confidence: 0.6
+  - ref: egp-164
+    egp_id: 164
+    match: super_category
+    confidence: 0.6
+  - ref: egp-165
+    egp_id: 165
+    match: super_category
+    confidence: 0.6
+  - ref: egp-166
+    egp_id: 166
+    match: super_category
+    confidence: 0.6
+  - ref: egp-175
+    egp_id: 175
+    match: super_category
+    confidence: 0.6
+  - ref: egp-176
+    egp_id: 176
+    match: super_category
+    confidence: 0.6
+  - ref: egp-177
+    egp_id: 177
+    match: super_category
+    confidence: 0.6
+  - ref: egp-195
+    egp_id: 195
+    match: super_category
+    confidence: 0.6
+  - ref: egp-196
+    egp_id: 196
+    match: super_category
+    confidence: 0.6
+  - ref: egp-197
+    egp_id: 197
+    match: super_category
+    confidence: 0.6
+  - ref: egp-198
+    egp_id: 198
+    match: super_category
+    confidence: 0.6
+  - ref: egp-199
+    egp_id: 199
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-093
+  title: Wish / if only & regrets
+  section: conditionals
+  levels:
+  - B2
+  - C1
+  egp_refs:
+  - ref: egp-1119
+    egp_id: 1119
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1120
+    egp_id: 1120
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1121
+    egp_id: 1121
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1122
+    egp_id: 1122
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1123
+    egp_id: 1123
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-160
+    egp_id: 160
+    match: super_category
+    confidence: 0.6
+  - ref: egp-161
+    egp_id: 161
+    match: super_category
+    confidence: 0.6
+  - ref: egp-162
+    egp_id: 162
+    match: super_category
+    confidence: 0.6
+  - ref: egp-163
+    egp_id: 163
+    match: super_category
+    confidence: 0.6
+  - ref: egp-164
+    egp_id: 164
+    match: super_category
+    confidence: 0.6
+  - ref: egp-165
+    egp_id: 165
+    match: super_category
+    confidence: 0.6
+  - ref: egp-166
+    egp_id: 166
+    match: super_category
+    confidence: 0.6
+  - ref: egp-175
+    egp_id: 175
+    match: super_category
+    confidence: 0.6
+  - ref: egp-176
+    egp_id: 176
+    match: super_category
+    confidence: 0.6
+  - ref: egp-177
+    egp_id: 177
+    match: super_category
+    confidence: 0.6
+  - ref: egp-195
+    egp_id: 195
+    match: super_category
+    confidence: 0.6
+  - ref: egp-196
+    egp_id: 196
+    match: super_category
+    confidence: 0.6
+  - ref: egp-197
+    egp_id: 197
+    match: super_category
+    confidence: 0.6
+  - ref: egp-198
+    egp_id: 198
+    match: super_category
+    confidence: 0.6
+  - ref: egp-199
+    egp_id: 199
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-095
+  title: Phrasal verbs, common
+  section: phrasal_verbs
+  levels:
+  - A2
+  egp_refs:
+  - ref: egp-1043
+    egp_id: 1043
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1057
+    egp_id: 1057
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1058
+    egp_id: 1058
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1052
+    egp_id: 1052
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1053
+    egp_id: 1053
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1054
+    egp_id: 1054
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1070
+    egp_id: 1070
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1071
+    egp_id: 1071
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1072
+    egp_id: 1072
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1073
+    egp_id: 1073
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1079
+    egp_id: 1079
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1080
+    egp_id: 1080
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1081
+    egp_id: 1081
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1082
+    egp_id: 1082
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1097
+    egp_id: 1097
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1098
+    egp_id: 1098
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1103
+    egp_id: 1103
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-096
+  title: Phrasal verbs, extended / splitting
+  section: phrasal_verbs
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-1044
+    egp_id: 1044
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1045
+    egp_id: 1045
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1059
+    egp_id: 1059
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1060
+    egp_id: 1060
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1061
+    egp_id: 1061
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1062
+    egp_id: 1062
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1063
+    egp_id: 1063
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1064
+    egp_id: 1064
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1049
+    egp_id: 1049
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1050
+    egp_id: 1050
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1051
+    egp_id: 1051
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1055
+    egp_id: 1055
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1056
+    egp_id: 1056
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1074
+    egp_id: 1074
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1075
+    egp_id: 1075
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1083
+    egp_id: 1083
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1084
+    egp_id: 1084
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1085
+    egp_id: 1085
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1086
+    egp_id: 1086
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1087
+    egp_id: 1087
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-097
+  title: Simple passive
+  section: passives
+  levels:
+  - B1
+  egp_refs:
+  - ref: egp-706
+    egp_id: 706
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-707
+    egp_id: 707
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-708
+    egp_id: 708
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-709
+    egp_id: 709
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-710
+    egp_id: 710
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-711
+    egp_id: 711
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-712
+    egp_id: 712
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-713
+    egp_id: 713
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-714
+    egp_id: 714
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-736
+    egp_id: 736
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-098
+  title: All passive forms
+  section: passives
+  levels:
+  - B2
+  - C1
+  egp_refs:
+  - ref: egp-715
+    egp_id: 715
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-716
+    egp_id: 716
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-717
+    egp_id: 717
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-718
+    egp_id: 718
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-719
+    egp_id: 719
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-720
+    egp_id: 720
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-721
+    egp_id: 721
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-722
+    egp_id: 722
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-723
+    egp_id: 723
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-724
+    egp_id: 724
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-725
+    egp_id: 725
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-726
+    egp_id: 726
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-727
+    egp_id: 727
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-728
+    egp_id: 728
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-729
+    egp_id: 729
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-730
+    egp_id: 730
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-731
+    egp_id: 731
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-732
+    egp_id: 732
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-737
+    egp_id: 737
+    match: super_category
+    confidence: 0.6
+  - ref: egp-738
+    egp_id: 738
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-099
+  title: Reported speech (range of tenses)
+  section: other_verbs
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-1159
+    egp_id: 1159
+    match: guideword
+    confidence: 0.95
+  - ref: egp-1145
+    egp_id: 1145
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1146
+    egp_id: 1146
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1147
+    egp_id: 1147
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1148
+    egp_id: 1148
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1149
+    egp_id: 1149
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1150
+    egp_id: 1150
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1151
+    egp_id: 1151
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1152
+    egp_id: 1152
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1153
+    egp_id: 1153
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1154
+    egp_id: 1154
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1155
+    egp_id: 1155
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1156
+    egp_id: 1156
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1157
+    egp_id: 1157
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1158
+    egp_id: 1158
+    match: guideword
+    confidence: 0.85
+  status: suggested
+- eaquals_id: gr-100
+  title: Relative clauses
+  section: other_verbs
+  levels:
+  - B1
+  - B2
+  - C1
+  egp_refs:
+  - ref: egp-229
+    egp_id: 229
+    match: guideword
+    confidence: 0.85
+  - ref: egp-230
+    egp_id: 230
+    match: guideword
+    confidence: 0.85
+  - ref: egp-231
+    egp_id: 231
+    match: guideword
+    confidence: 0.85
+  - ref: egp-232
+    egp_id: 232
+    match: guideword
+    confidence: 0.85
+  - ref: egp-233
+    egp_id: 233
+    match: guideword
+    confidence: 0.85
+  - ref: egp-234
+    egp_id: 234
+    match: guideword
+    confidence: 0.85
+  - ref: egp-235
+    egp_id: 235
+    match: guideword
+    confidence: 0.85
+  - ref: egp-236
+    egp_id: 236
+    match: guideword
+    confidence: 0.85
+  - ref: egp-237
+    egp_id: 237
+    match: guideword
+    confidence: 0.85
+  - ref: egp-238
+    egp_id: 238
+    match: guideword
+    confidence: 0.85
+  - ref: egp-239
+    egp_id: 239
+    match: guideword
+    confidence: 0.85
+  - ref: egp-150
+    egp_id: 150
+    match: super_category
+    confidence: 0.6
+  - ref: egp-151
+    egp_id: 151
+    match: super_category
+    confidence: 0.6
+  - ref: egp-152
+    egp_id: 152
+    match: super_category
+    confidence: 0.6
+  - ref: egp-153
+    egp_id: 153
+    match: super_category
+    confidence: 0.6
+  - ref: egp-154
+    egp_id: 154
+    match: super_category
+    confidence: 0.6
+  - ref: egp-155
+    egp_id: 155
+    match: super_category
+    confidence: 0.6
+  - ref: egp-156
+    egp_id: 156
+    match: super_category
+    confidence: 0.6
+  - ref: egp-157
+    egp_id: 157
+    match: super_category
+    confidence: 0.6
+  - ref: egp-158
+    egp_id: 158
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-104
+  title: Can/can't (ability)
+  section: modals_can
+  levels:
+  - A1
+  egp_refs:
+  - ref: egp-436
+    egp_id: 436
+    match: guideword
+    confidence: 0.85
+  - ref: egp-437
+    egp_id: 437
+    match: guideword
+    confidence: 0.85
+  - ref: egp-438
+    egp_id: 438
+    match: guideword
+    confidence: 0.85
+  - ref: egp-439
+    egp_id: 439
+    match: guideword
+    confidence: 0.85
+  - ref: egp-440
+    egp_id: 440
+    match: guideword
+    confidence: 0.85
+  - ref: egp-441
+    egp_id: 441
+    match: guideword
+    confidence: 0.85
+  - ref: egp-442
+    egp_id: 442
+    match: guideword
+    confidence: 0.85
+  - ref: egp-603
+    egp_id: 603
+    match: super_category
+    confidence: 0.6
+  - ref: egp-604
+    egp_id: 604
+    match: super_category
+    confidence: 0.6
+  - ref: egp-616
+    egp_id: 616
+    match: super_category
+    confidence: 0.6
+  - ref: egp-617
+    egp_id: 617
+    match: super_category
+    confidence: 0.6
+  - ref: egp-618
+    egp_id: 618
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-105
+  title: Can/could (functional)
+  section: modals_can
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-436
+    egp_id: 436
+    match: guideword
+    confidence: 0.85
+  - ref: egp-437
+    egp_id: 437
+    match: guideword
+    confidence: 0.85
+  - ref: egp-438
+    egp_id: 438
+    match: guideword
+    confidence: 0.85
+  - ref: egp-439
+    egp_id: 439
+    match: guideword
+    confidence: 0.85
+  - ref: egp-440
+    egp_id: 440
+    match: guideword
+    confidence: 0.85
+  - ref: egp-441
+    egp_id: 441
+    match: guideword
+    confidence: 0.85
+  - ref: egp-442
+    egp_id: 442
+    match: guideword
+    confidence: 0.85
+  - ref: egp-443
+    egp_id: 443
+    match: guideword
+    confidence: 0.85
+  - ref: egp-1206
+    egp_id: 1206
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1207
+    egp_id: 1207
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1208
+    egp_id: 1208
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1209
+    egp_id: 1209
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1210
+    egp_id: 1210
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1211
+    egp_id: 1211
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1212
+    egp_id: 1212
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1213
+    egp_id: 1213
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1214
+    egp_id: 1214
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1215
+    egp_id: 1215
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1216
+    egp_id: 1216
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1217
+    egp_id: 1217
+    match: guideword
+    confidence: 0.65
+  status: suggested
+- eaquals_id: gr-107
+  title: Might, may
+  section: modals_possibility
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-497
+    egp_id: 497
+    match: guideword
+    confidence: 0.85
+  - ref: egp-498
+    egp_id: 498
+    match: guideword
+    confidence: 0.85
+  - ref: egp-499
+    egp_id: 499
+    match: guideword
+    confidence: 0.85
+  - ref: egp-500
+    egp_id: 500
+    match: guideword
+    confidence: 0.85
+  - ref: egp-501
+    egp_id: 501
+    match: guideword
+    confidence: 0.85
+  - ref: egp-502
+    egp_id: 502
+    match: guideword
+    confidence: 0.85
+  - ref: egp-514
+    egp_id: 514
+    match: guideword
+    confidence: 0.65
+  - ref: egp-515
+    egp_id: 515
+    match: guideword
+    confidence: 0.65
+  - ref: egp-516
+    egp_id: 516
+    match: guideword
+    confidence: 0.65
+  - ref: egp-517
+    egp_id: 517
+    match: guideword
+    confidence: 0.65
+  - ref: egp-518
+    egp_id: 518
+    match: guideword
+    confidence: 0.65
+  - ref: egp-519
+    egp_id: 519
+    match: guideword
+    confidence: 0.65
+  - ref: egp-520
+    egp_id: 520
+    match: guideword
+    confidence: 0.65
+  - ref: egp-521
+    egp_id: 521
+    match: guideword
+    confidence: 0.65
+  - ref: egp-425
+    egp_id: 425
+    match: super_category
+    confidence: 0.6
+  - ref: egp-426
+    egp_id: 426
+    match: super_category
+    confidence: 0.6
+  - ref: egp-427
+    egp_id: 427
+    match: super_category
+    confidence: 0.6
+  - ref: egp-428
+    egp_id: 428
+    match: super_category
+    confidence: 0.6
+  - ref: egp-429
+    egp_id: 429
+    match: super_category
+    confidence: 0.6
+  - ref: egp-443
+    egp_id: 443
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-108
+  title: Possibly, probably, perhaps
+  section: modals_possibility
+  levels:
+  - B1
+  egp_refs: []
+  status: empty
+- eaquals_id: gr-109
+  title: Must/can't (deduction)
+  section: modals_possibility
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-444
+    egp_id: 444
+    match: guideword
+    confidence: 0.85
+  - ref: egp-445
+    egp_id: 445
+    match: guideword
+    confidence: 0.85
+  - ref: egp-446
+    egp_id: 446
+    match: guideword
+    confidence: 0.85
+  - ref: egp-447
+    egp_id: 447
+    match: guideword
+    confidence: 0.85
+  - ref: egp-448
+    egp_id: 448
+    match: guideword
+    confidence: 0.85
+  - ref: egp-449
+    egp_id: 449
+    match: guideword
+    confidence: 0.85
+  - ref: egp-450
+    egp_id: 450
+    match: guideword
+    confidence: 0.85
+  - ref: egp-451
+    egp_id: 451
+    match: guideword
+    confidence: 0.85
+  - ref: egp-535
+    egp_id: 535
+    match: guideword
+    confidence: 0.8
+  - ref: egp-543
+    egp_id: 543
+    match: guideword
+    confidence: 0.8
+  - ref: egp-532
+    egp_id: 532
+    match: guideword
+    confidence: 0.65
+  - ref: egp-533
+    egp_id: 533
+    match: guideword
+    confidence: 0.65
+  - ref: egp-534
+    egp_id: 534
+    match: guideword
+    confidence: 0.65
+  - ref: egp-536
+    egp_id: 536
+    match: guideword
+    confidence: 0.65
+  - ref: egp-537
+    egp_id: 537
+    match: guideword
+    confidence: 0.65
+  - ref: egp-538
+    egp_id: 538
+    match: guideword
+    confidence: 0.65
+  - ref: egp-539
+    egp_id: 539
+    match: guideword
+    confidence: 0.65
+  - ref: egp-540
+    egp_id: 540
+    match: guideword
+    confidence: 0.65
+  - ref: egp-541
+    egp_id: 541
+    match: guideword
+    confidence: 0.65
+  - ref: egp-542
+    egp_id: 542
+    match: guideword
+    confidence: 0.65
+  status: suggested
+- eaquals_id: gr-112
+  title: Must/mustn't
+  section: modals_obligation
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-529
+    egp_id: 529
+    match: guideword
+    confidence: 0.65
+  - ref: egp-530
+    egp_id: 530
+    match: guideword
+    confidence: 0.65
+  - ref: egp-531
+    egp_id: 531
+    match: guideword
+    confidence: 0.65
+  - ref: egp-532
+    egp_id: 532
+    match: guideword
+    confidence: 0.65
+  - ref: egp-533
+    egp_id: 533
+    match: guideword
+    confidence: 0.65
+  - ref: egp-534
+    egp_id: 534
+    match: guideword
+    confidence: 0.65
+  - ref: egp-535
+    egp_id: 535
+    match: guideword
+    confidence: 0.65
+  - ref: egp-536
+    egp_id: 536
+    match: guideword
+    confidence: 0.65
+  - ref: egp-537
+    egp_id: 537
+    match: guideword
+    confidence: 0.65
+  - ref: egp-538
+    egp_id: 538
+    match: guideword
+    confidence: 0.65
+  - ref: egp-425
+    egp_id: 425
+    match: super_category
+    confidence: 0.6
+  - ref: egp-426
+    egp_id: 426
+    match: super_category
+    confidence: 0.6
+  - ref: egp-427
+    egp_id: 427
+    match: super_category
+    confidence: 0.6
+  - ref: egp-428
+    egp_id: 428
+    match: super_category
+    confidence: 0.6
+  - ref: egp-429
+    egp_id: 429
+    match: super_category
+    confidence: 0.6
+  - ref: egp-443
+    egp_id: 443
+    match: super_category
+    confidence: 0.6
+  - ref: egp-444
+    egp_id: 444
+    match: super_category
+    confidence: 0.6
+  - ref: egp-445
+    egp_id: 445
+    match: super_category
+    confidence: 0.6
+  - ref: egp-446
+    egp_id: 446
+    match: super_category
+    confidence: 0.6
+  - ref: egp-447
+    egp_id: 447
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-113
+  title: Have to
+  section: modals_obligation
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-425
+    egp_id: 425
+    match: super_category
+    confidence: 0.6
+  - ref: egp-426
+    egp_id: 426
+    match: super_category
+    confidence: 0.6
+  - ref: egp-427
+    egp_id: 427
+    match: super_category
+    confidence: 0.6
+  - ref: egp-428
+    egp_id: 428
+    match: super_category
+    confidence: 0.6
+  - ref: egp-429
+    egp_id: 429
+    match: super_category
+    confidence: 0.6
+  - ref: egp-443
+    egp_id: 443
+    match: super_category
+    confidence: 0.6
+  - ref: egp-444
+    egp_id: 444
+    match: super_category
+    confidence: 0.6
+  - ref: egp-445
+    egp_id: 445
+    match: super_category
+    confidence: 0.6
+  - ref: egp-446
+    egp_id: 446
+    match: super_category
+    confidence: 0.6
+  - ref: egp-447
+    egp_id: 447
+    match: super_category
+    confidence: 0.6
+  - ref: egp-464
+    egp_id: 464
+    match: super_category
+    confidence: 0.6
+  - ref: egp-465
+    egp_id: 465
+    match: super_category
+    confidence: 0.6
+  - ref: egp-466
+    egp_id: 466
+    match: super_category
+    confidence: 0.6
+  - ref: egp-467
+    egp_id: 467
+    match: super_category
+    confidence: 0.6
+  - ref: egp-468
+    egp_id: 468
+    match: super_category
+    confidence: 0.6
+  - ref: egp-469
+    egp_id: 469
+    match: super_category
+    confidence: 0.6
+  - ref: egp-487
+    egp_id: 487
+    match: super_category
+    confidence: 0.6
+  - ref: egp-488
+    egp_id: 488
+    match: super_category
+    confidence: 0.6
+  - ref: egp-489
+    egp_id: 489
+    match: super_category
+    confidence: 0.6
+  - ref: egp-490
+    egp_id: 490
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-115
+  title: Should
+  section: modals_obligation
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-577
+    egp_id: 577
+    match: guideword
+    confidence: 0.65
+  - ref: egp-578
+    egp_id: 578
+    match: guideword
+    confidence: 0.65
+  - ref: egp-579
+    egp_id: 579
+    match: guideword
+    confidence: 0.65
+  - ref: egp-580
+    egp_id: 580
+    match: guideword
+    confidence: 0.65
+  - ref: egp-581
+    egp_id: 581
+    match: guideword
+    confidence: 0.65
+  - ref: egp-582
+    egp_id: 582
+    match: guideword
+    confidence: 0.65
+  - ref: egp-583
+    egp_id: 583
+    match: guideword
+    confidence: 0.65
+  - ref: egp-584
+    egp_id: 584
+    match: guideword
+    confidence: 0.65
+  - ref: egp-585
+    egp_id: 585
+    match: guideword
+    confidence: 0.65
+  - ref: egp-586
+    egp_id: 586
+    match: guideword
+    confidence: 0.65
+  - ref: egp-587
+    egp_id: 587
+    match: guideword
+    confidence: 0.65
+  - ref: egp-588
+    egp_id: 588
+    match: guideword
+    confidence: 0.65
+  - ref: egp-589
+    egp_id: 589
+    match: guideword
+    confidence: 0.65
+  - ref: egp-425
+    egp_id: 425
+    match: super_category
+    confidence: 0.6
+  - ref: egp-426
+    egp_id: 426
+    match: super_category
+    confidence: 0.6
+  - ref: egp-427
+    egp_id: 427
+    match: super_category
+    confidence: 0.6
+  - ref: egp-428
+    egp_id: 428
+    match: super_category
+    confidence: 0.6
+  - ref: egp-429
+    egp_id: 429
+    match: super_category
+    confidence: 0.6
+  - ref: egp-443
+    egp_id: 443
+    match: super_category
+    confidence: 0.6
+  - ref: egp-444
+    egp_id: 444
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-116
+  title: Ought to
+  section: modals_obligation
+  levels:
+  - B2
+  egp_refs:
+  - ref: egp-558
+    egp_id: 558
+    match: guideword
+    confidence: 0.65
+  - ref: egp-559
+    egp_id: 559
+    match: guideword
+    confidence: 0.65
+  - ref: egp-430
+    egp_id: 430
+    match: super_category
+    confidence: 0.6
+  - ref: egp-431
+    egp_id: 431
+    match: super_category
+    confidence: 0.6
+  - ref: egp-432
+    egp_id: 432
+    match: super_category
+    confidence: 0.6
+  - ref: egp-433
+    egp_id: 433
+    match: super_category
+    confidence: 0.6
+  - ref: egp-448
+    egp_id: 448
+    match: super_category
+    confidence: 0.6
+  - ref: egp-449
+    egp_id: 449
+    match: super_category
+    confidence: 0.6
+  - ref: egp-450
+    egp_id: 450
+    match: super_category
+    confidence: 0.6
+  - ref: egp-451
+    egp_id: 451
+    match: super_category
+    confidence: 0.6
+  - ref: egp-457
+    egp_id: 457
+    match: super_category
+    confidence: 0.6
+  - ref: egp-458
+    egp_id: 458
+    match: super_category
+    confidence: 0.6
+  - ref: egp-459
+    egp_id: 459
+    match: super_category
+    confidence: 0.6
+  - ref: egp-470
+    egp_id: 470
+    match: super_category
+    confidence: 0.6
+  - ref: egp-471
+    egp_id: 471
+    match: super_category
+    confidence: 0.6
+  - ref: egp-472
+    egp_id: 472
+    match: super_category
+    confidence: 0.6
+  - ref: egp-473
+    egp_id: 473
+    match: super_category
+    confidence: 0.6
+  - ref: egp-474
+    egp_id: 474
+    match: super_category
+    confidence: 0.6
+  - ref: egp-475
+    egp_id: 475
+    match: super_category
+    confidence: 0.6
+  - ref: egp-476
+    egp_id: 476
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-117
+  title: Need to / needn't
+  section: modals_obligation
+  levels:
+  - B2
+  egp_refs:
+  - ref: egp-552
+    egp_id: 552
+    match: guideword
+    confidence: 0.8
+  - ref: egp-551
+    egp_id: 551
+    match: guideword
+    confidence: 0.65
+  status: suggested
+- eaquals_id: gr-118
+  title: Should have / might have / etc.
+  section: modals_past
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-519
+    egp_id: 519
+    match: guideword
+    confidence: 0.95
+  - ref: egp-520
+    egp_id: 520
+    match: guideword
+    confidence: 0.95
+  - ref: egp-521
+    egp_id: 521
+    match: guideword
+    confidence: 0.95
+  - ref: egp-583
+    egp_id: 583
+    match: guideword
+    confidence: 0.95
+  - ref: egp-584
+    egp_id: 584
+    match: guideword
+    confidence: 0.95
+  - ref: egp-587
+    egp_id: 587
+    match: guideword
+    confidence: 0.95
+  - ref: egp-588
+    egp_id: 588
+    match: guideword
+    confidence: 0.95
+  - ref: egp-589
+    egp_id: 589
+    match: guideword
+    confidence: 0.95
+  - ref: egp-499
+    egp_id: 499
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-500
+    egp_id: 500
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-501
+    egp_id: 501
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-502
+    egp_id: 502
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-503
+    egp_id: 503
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-504
+    egp_id: 504
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-505
+    egp_id: 505
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-506
+    egp_id: 506
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-507
+    egp_id: 507
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-508
+    egp_id: 508
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-516
+    egp_id: 516
+    match: guideword
+    confidence: 0.65
+  - ref: egp-517
+    egp_id: 517
+    match: guideword
+    confidence: 0.65
+  status: suggested
+- eaquals_id: gr-119
+  title: Can't have / needn't have
+  section: modals_past
+  levels:
+  - B2
+  - C1
+  egp_refs:
+  - ref: egp-452
+    egp_id: 452
+    match: guideword
+    confidence: 0.95
+  - ref: egp-553
+    egp_id: 553
+    match: guideword
+    confidence: 0.95
+  - ref: egp-448
+    egp_id: 448
+    match: guideword
+    confidence: 0.85
+  - ref: egp-449
+    egp_id: 449
+    match: guideword
+    confidence: 0.85
+  - ref: egp-450
+    egp_id: 450
+    match: guideword
+    confidence: 0.85
+  - ref: egp-451
+    egp_id: 451
+    match: guideword
+    confidence: 0.85
+  - ref: egp-453
+    egp_id: 453
+    match: guideword
+    confidence: 0.85
+  - ref: egp-454
+    egp_id: 454
+    match: guideword
+    confidence: 0.85
+  - ref: egp-455
+    egp_id: 455
+    match: guideword
+    confidence: 0.85
+  - ref: egp-552
+    egp_id: 552
+    match: guideword
+    confidence: 0.65
+  - ref: egp-430
+    egp_id: 430
+    match: super_category
+    confidence: 0.6
+  - ref: egp-431
+    egp_id: 431
+    match: super_category
+    confidence: 0.6
+  - ref: egp-432
+    egp_id: 432
+    match: super_category
+    confidence: 0.6
+  - ref: egp-433
+    egp_id: 433
+    match: super_category
+    confidence: 0.6
+  - ref: egp-434
+    egp_id: 434
+    match: super_category
+    confidence: 0.6
+  - ref: egp-435
+    egp_id: 435
+    match: super_category
+    confidence: 0.6
+  - ref: egp-457
+    egp_id: 457
+    match: super_category
+    confidence: 0.6
+  - ref: egp-458
+    egp_id: 458
+    match: super_category
+    confidence: 0.6
+  - ref: egp-459
+    egp_id: 459
+    match: super_category
+    confidence: 0.6
+  - ref: egp-460
+    egp_id: 460
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-121
+  title: Countable and uncountable nouns
+  section: nouns
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-690
+    egp_id: 690
+    match: guideword
+    confidence: 0.95
+  - ref: egp-691
+    egp_id: 691
+    match: guideword
+    confidence: 0.95
+  - ref: egp-692
+    egp_id: 692
+    match: guideword
+    confidence: 0.95
+  - ref: egp-693
+    egp_id: 693
+    match: guideword
+    confidence: 0.8
+  - ref: egp-647
+    egp_id: 647
+    match: super_category
+    confidence: 0.6
+  - ref: egp-648
+    egp_id: 648
+    match: super_category
+    confidence: 0.6
+  - ref: egp-649
+    egp_id: 649
+    match: super_category
+    confidence: 0.6
+  - ref: egp-650
+    egp_id: 650
+    match: super_category
+    confidence: 0.6
+  - ref: egp-651
+    egp_id: 651
+    match: guideword
+    confidence: 0.6
+  - ref: egp-652
+    egp_id: 652
+    match: super_category
+    confidence: 0.6
+  - ref: egp-653
+    egp_id: 653
+    match: super_category
+    confidence: 0.6
+  - ref: egp-654
+    egp_id: 654
+    match: super_category
+    confidence: 0.6
+  - ref: egp-655
+    egp_id: 655
+    match: super_category
+    confidence: 0.6
+  - ref: egp-656
+    egp_id: 656
+    match: super_category
+    confidence: 0.6
+  - ref: egp-677
+    egp_id: 677
+    match: super_category
+    confidence: 0.6
+  - ref: egp-678
+    egp_id: 678
+    match: super_category
+    confidence: 0.6
+  - ref: egp-679
+    egp_id: 679
+    match: super_category
+    confidence: 0.6
+  - ref: egp-680
+    egp_id: 680
+    match: super_category
+    confidence: 0.6
+  - ref: egp-684
+    egp_id: 684
+    match: super_category
+    confidence: 0.6
+  - ref: egp-685
+    egp_id: 685
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-123
+  title: There is / there are
+  section: nouns
+  levels:
+  - A1
+  egp_refs:
+  - ref: egp-1095
+    egp_id: 1095
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1096
+    egp_id: 1096
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1048
+    egp_id: 1048
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1066
+    egp_id: 1066
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1067
+    egp_id: 1067
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1068
+    egp_id: 1068
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1069
+    egp_id: 1069
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1076
+    egp_id: 1076
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1077
+    egp_id: 1077
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1078
+    egp_id: 1078
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1102
+    egp_id: 1102
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-125
+  title: Simple personal pronouns
+  section: pronouns
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-889
+    egp_id: 889
+    match: super_category
+    confidence: 0.6
+  - ref: egp-890
+    egp_id: 890
+    match: super_category
+    confidence: 0.6
+  - ref: egp-891
+    egp_id: 891
+    match: super_category
+    confidence: 0.6
+  - ref: egp-908
+    egp_id: 908
+    match: super_category
+    confidence: 0.6
+  - ref: egp-922
+    egp_id: 922
+    match: super_category
+    confidence: 0.6
+  - ref: egp-923
+    egp_id: 923
+    match: super_category
+    confidence: 0.6
+  - ref: egp-924
+    egp_id: 924
+    match: super_category
+    confidence: 0.6
+  - ref: egp-925
+    egp_id: 925
+    match: super_category
+    confidence: 0.6
+  - ref: egp-926
+    egp_id: 926
+    match: super_category
+    confidence: 0.6
+  - ref: egp-927
+    egp_id: 927
+    match: super_category
+    confidence: 0.6
+  - ref: egp-928
+    egp_id: 928
+    match: super_category
+    confidence: 0.6
+  - ref: egp-929
+    egp_id: 929
+    match: super_category
+    confidence: 0.6
+  - ref: egp-930
+    egp_id: 930
+    match: super_category
+    confidence: 0.6
+  - ref: egp-938
+    egp_id: 938
+    match: super_category
+    confidence: 0.6
+  - ref: egp-939
+    egp_id: 939
+    match: super_category
+    confidence: 0.6
+  - ref: egp-940
+    egp_id: 940
+    match: super_category
+    confidence: 0.6
+  - ref: egp-941
+    egp_id: 941
+    match: super_category
+    confidence: 0.6
+  - ref: egp-942
+    egp_id: 942
+    match: super_category
+    confidence: 0.6
+  - ref: egp-943
+    egp_id: 943
+    match: super_category
+    confidence: 0.6
+  - ref: egp-944
+    egp_id: 944
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-127
+  title: Possessive adjectives
+  section: pronouns
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-318
+    egp_id: 318
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-319
+    egp_id: 319
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-320
+    egp_id: 320
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-283
+    egp_id: 283
+    match: super_category
+    confidence: 0.6
+  - ref: egp-284
+    egp_id: 284
+    match: super_category
+    confidence: 0.6
+  - ref: egp-285
+    egp_id: 285
+    match: super_category
+    confidence: 0.6
+  - ref: egp-286
+    egp_id: 286
+    match: super_category
+    confidence: 0.6
+  - ref: egp-287
+    egp_id: 287
+    match: super_category
+    confidence: 0.6
+  - ref: egp-288
+    egp_id: 288
+    match: super_category
+    confidence: 0.6
+  - ref: egp-289
+    egp_id: 289
+    match: super_category
+    confidence: 0.6
+  - ref: egp-290
+    egp_id: 290
+    match: super_category
+    confidence: 0.6
+  - ref: egp-298
+    egp_id: 298
+    match: super_category
+    confidence: 0.6
+  - ref: egp-299
+    egp_id: 299
+    match: super_category
+    confidence: 0.6
+  - ref: egp-300
+    egp_id: 300
+    match: super_category
+    confidence: 0.6
+  - ref: egp-301
+    egp_id: 301
+    match: super_category
+    confidence: 0.6
+  - ref: egp-302
+    egp_id: 302
+    match: super_category
+    confidence: 0.6
+  - ref: egp-303
+    egp_id: 303
+    match: super_category
+    confidence: 0.6
+  - ref: egp-304
+    egp_id: 304
+    match: super_category
+    confidence: 0.6
+  - ref: egp-305
+    egp_id: 305
+    match: super_category
+    confidence: 0.6
+  - ref: egp-306
+    egp_id: 306
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-128
+  title: Possessive 's
+  section: pronouns
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-318
+    egp_id: 318
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-319
+    egp_id: 319
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-320
+    egp_id: 320
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-283
+    egp_id: 283
+    match: super_category
+    confidence: 0.6
+  - ref: egp-284
+    egp_id: 284
+    match: super_category
+    confidence: 0.6
+  - ref: egp-285
+    egp_id: 285
+    match: super_category
+    confidence: 0.6
+  - ref: egp-286
+    egp_id: 286
+    match: super_category
+    confidence: 0.6
+  - ref: egp-287
+    egp_id: 287
+    match: super_category
+    confidence: 0.6
+  - ref: egp-288
+    egp_id: 288
+    match: super_category
+    confidence: 0.6
+  - ref: egp-289
+    egp_id: 289
+    match: super_category
+    confidence: 0.6
+  - ref: egp-290
+    egp_id: 290
+    match: super_category
+    confidence: 0.6
+  - ref: egp-298
+    egp_id: 298
+    match: super_category
+    confidence: 0.6
+  - ref: egp-299
+    egp_id: 299
+    match: super_category
+    confidence: 0.6
+  - ref: egp-300
+    egp_id: 300
+    match: super_category
+    confidence: 0.6
+  - ref: egp-301
+    egp_id: 301
+    match: super_category
+    confidence: 0.6
+  - ref: egp-302
+    egp_id: 302
+    match: super_category
+    confidence: 0.6
+  - ref: egp-303
+    egp_id: 303
+    match: super_category
+    confidence: 0.6
+  - ref: egp-304
+    egp_id: 304
+    match: super_category
+    confidence: 0.6
+  - ref: egp-305
+    egp_id: 305
+    match: super_category
+    confidence: 0.6
+  - ref: egp-306
+    egp_id: 306
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-129
+  title: Possessive pronouns
+  section: pronouns
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-318
+    egp_id: 318
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-319
+    egp_id: 319
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-320
+    egp_id: 320
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-283
+    egp_id: 283
+    match: super_category
+    confidence: 0.6
+  - ref: egp-284
+    egp_id: 284
+    match: super_category
+    confidence: 0.6
+  - ref: egp-285
+    egp_id: 285
+    match: super_category
+    confidence: 0.6
+  - ref: egp-286
+    egp_id: 286
+    match: super_category
+    confidence: 0.6
+  - ref: egp-287
+    egp_id: 287
+    match: super_category
+    confidence: 0.6
+  - ref: egp-288
+    egp_id: 288
+    match: super_category
+    confidence: 0.6
+  - ref: egp-289
+    egp_id: 289
+    match: super_category
+    confidence: 0.6
+  - ref: egp-290
+    egp_id: 290
+    match: super_category
+    confidence: 0.6
+  - ref: egp-298
+    egp_id: 298
+    match: super_category
+    confidence: 0.6
+  - ref: egp-299
+    egp_id: 299
+    match: super_category
+    confidence: 0.6
+  - ref: egp-300
+    egp_id: 300
+    match: super_category
+    confidence: 0.6
+  - ref: egp-301
+    egp_id: 301
+    match: super_category
+    confidence: 0.6
+  - ref: egp-302
+    egp_id: 302
+    match: super_category
+    confidence: 0.6
+  - ref: egp-303
+    egp_id: 303
+    match: super_category
+    confidence: 0.6
+  - ref: egp-304
+    egp_id: 304
+    match: super_category
+    confidence: 0.6
+  - ref: egp-305
+    egp_id: 305
+    match: super_category
+    confidence: 0.6
+  - ref: egp-306
+    egp_id: 306
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-131
+  title: Prepositions, common
+  section: prepositions
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-836
+    egp_id: 836
+    match: guideword
+    confidence: 0.85
+  - ref: egp-837
+    egp_id: 837
+    match: guideword
+    confidence: 0.85
+  - ref: egp-838
+    egp_id: 838
+    match: guideword
+    confidence: 0.85
+  - ref: egp-839
+    egp_id: 839
+    match: guideword
+    confidence: 0.85
+  - ref: egp-840
+    egp_id: 840
+    match: guideword
+    confidence: 0.85
+  - ref: egp-841
+    egp_id: 841
+    match: guideword
+    confidence: 0.85
+  - ref: egp-842
+    egp_id: 842
+    match: guideword
+    confidence: 0.85
+  status: suggested
+- eaquals_id: gr-132
+  title: Prepositional phrases (time and movement)
+  section: prepositions
+  levels:
+  - A2
+  egp_refs:
+  - ref: egp-838
+    egp_id: 838
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-839
+    egp_id: 839
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-840
+    egp_id: 840
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-841
+    egp_id: 841
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-842
+    egp_id: 842
+    match: sub_category
+    confidence: 0.85
+  status: suggested
+- eaquals_id: gr-133
+  title: Prepositions of place and time (in/on/at)
+  section: prepositions
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-836
+    egp_id: 836
+    match: guideword
+    confidence: 0.85
+  - ref: egp-837
+    egp_id: 837
+    match: guideword
+    confidence: 0.85
+  - ref: egp-838
+    egp_id: 838
+    match: guideword
+    confidence: 0.85
+  - ref: egp-839
+    egp_id: 839
+    match: guideword
+    confidence: 0.85
+  - ref: egp-840
+    egp_id: 840
+    match: guideword
+    confidence: 0.85
+  - ref: egp-841
+    egp_id: 841
+    match: guideword
+    confidence: 0.85
+  - ref: egp-842
+    egp_id: 842
+    match: guideword
+    confidence: 0.85
+  status: suggested
+- eaquals_id: gr-135
+  title: 'Articles: definite, indefinite'
+  section: articles
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-283
+    egp_id: 283
+    match: guideword
+    confidence: 0.85
+  - ref: egp-284
+    egp_id: 284
+    match: guideword
+    confidence: 0.85
+  - ref: egp-285
+    egp_id: 285
+    match: guideword
+    confidence: 0.85
+  - ref: egp-286
+    egp_id: 286
+    match: guideword
+    confidence: 0.85
+  - ref: egp-287
+    egp_id: 287
+    match: guideword
+    confidence: 0.85
+  - ref: egp-288
+    egp_id: 288
+    match: guideword
+    confidence: 0.85
+  - ref: egp-289
+    egp_id: 289
+    match: guideword
+    confidence: 0.85
+  - ref: egp-290
+    egp_id: 290
+    match: guideword
+    confidence: 0.85
+  - ref: egp-298
+    egp_id: 298
+    match: super_category
+    confidence: 0.6
+  - ref: egp-299
+    egp_id: 299
+    match: super_category
+    confidence: 0.6
+  - ref: egp-300
+    egp_id: 300
+    match: super_category
+    confidence: 0.6
+  - ref: egp-301
+    egp_id: 301
+    match: super_category
+    confidence: 0.6
+  - ref: egp-302
+    egp_id: 302
+    match: super_category
+    confidence: 0.6
+  - ref: egp-303
+    egp_id: 303
+    match: super_category
+    confidence: 0.6
+  - ref: egp-304
+    egp_id: 304
+    match: super_category
+    confidence: 0.6
+  - ref: egp-305
+    egp_id: 305
+    match: super_category
+    confidence: 0.6
+  - ref: egp-306
+    egp_id: 306
+    match: super_category
+    confidence: 0.6
+  - ref: egp-307
+    egp_id: 307
+    match: super_category
+    confidence: 0.6
+  - ref: egp-308
+    egp_id: 308
+    match: super_category
+    confidence: 0.6
+  - ref: egp-309
+    egp_id: 309
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-136
+  title: Articles with countable/uncountable
+  section: articles
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-289
+    egp_id: 289
+    match: guideword
+    confidence: 0.85
+  - ref: egp-290
+    egp_id: 290
+    match: guideword
+    confidence: 0.85
+  - ref: egp-291
+    egp_id: 291
+    match: guideword
+    confidence: 0.85
+  - ref: egp-292
+    egp_id: 292
+    match: guideword
+    confidence: 0.85
+  - ref: egp-293
+    egp_id: 293
+    match: guideword
+    confidence: 0.85
+  - ref: egp-294
+    egp_id: 294
+    match: guideword
+    confidence: 0.85
+  - ref: egp-295
+    egp_id: 295
+    match: guideword
+    confidence: 0.85
+  - ref: egp-296
+    egp_id: 296
+    match: guideword
+    confidence: 0.85
+  - ref: egp-301
+    egp_id: 301
+    match: guideword
+    confidence: 0.6
+  - ref: egp-302
+    egp_id: 302
+    match: super_category
+    confidence: 0.6
+  - ref: egp-303
+    egp_id: 303
+    match: super_category
+    confidence: 0.6
+  - ref: egp-304
+    egp_id: 304
+    match: super_category
+    confidence: 0.6
+  - ref: egp-305
+    egp_id: 305
+    match: super_category
+    confidence: 0.6
+  - ref: egp-306
+    egp_id: 306
+    match: super_category
+    confidence: 0.6
+  - ref: egp-307
+    egp_id: 307
+    match: super_category
+    confidence: 0.6
+  - ref: egp-308
+    egp_id: 308
+    match: super_category
+    confidence: 0.6
+  - ref: egp-309
+    egp_id: 309
+    match: super_category
+    confidence: 0.6
+  - ref: egp-310
+    egp_id: 310
+    match: super_category
+    confidence: 0.6
+  - ref: egp-311
+    egp_id: 311
+    match: super_category
+    confidence: 0.6
+  - ref: egp-312
+    egp_id: 312
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-137
+  title: Zero article / superlatives with the
+  section: articles
+  levels:
+  - B2
+  egp_refs:
+  - ref: egp-297
+    egp_id: 297
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-323
+    egp_id: 323
+    match: super_category
+    confidence: 0.6
+  - ref: egp-324
+    egp_id: 324
+    match: super_category
+    confidence: 0.6
+  - ref: egp-325
+    egp_id: 325
+    match: super_category
+    confidence: 0.6
+  - ref: egp-326
+    egp_id: 326
+    match: super_category
+    confidence: 0.6
+  - ref: egp-348
+    egp_id: 348
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-141
+  title: 'Determiners: basic (any, some, a lot of)'
+  section: determiners
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-283
+    egp_id: 283
+    match: super_category
+    confidence: 0.6
+  - ref: egp-284
+    egp_id: 284
+    match: super_category
+    confidence: 0.6
+  - ref: egp-285
+    egp_id: 285
+    match: super_category
+    confidence: 0.6
+  - ref: egp-286
+    egp_id: 286
+    match: super_category
+    confidence: 0.6
+  - ref: egp-287
+    egp_id: 287
+    match: super_category
+    confidence: 0.6
+  - ref: egp-288
+    egp_id: 288
+    match: super_category
+    confidence: 0.6
+  - ref: egp-289
+    egp_id: 289
+    match: super_category
+    confidence: 0.6
+  - ref: egp-290
+    egp_id: 290
+    match: super_category
+    confidence: 0.6
+  - ref: egp-298
+    egp_id: 298
+    match: super_category
+    confidence: 0.6
+  - ref: egp-299
+    egp_id: 299
+    match: super_category
+    confidence: 0.6
+  - ref: egp-300
+    egp_id: 300
+    match: super_category
+    confidence: 0.6
+  - ref: egp-301
+    egp_id: 301
+    match: super_category
+    confidence: 0.6
+  - ref: egp-302
+    egp_id: 302
+    match: super_category
+    confidence: 0.6
+  - ref: egp-303
+    egp_id: 303
+    match: super_category
+    confidence: 0.6
+  - ref: egp-304
+    egp_id: 304
+    match: super_category
+    confidence: 0.6
+  - ref: egp-305
+    egp_id: 305
+    match: super_category
+    confidence: 0.6
+  - ref: egp-306
+    egp_id: 306
+    match: super_category
+    confidence: 0.6
+  - ref: egp-307
+    egp_id: 307
+    match: super_category
+    confidence: 0.6
+  - ref: egp-308
+    egp_id: 308
+    match: super_category
+    confidence: 0.6
+  - ref: egp-309
+    egp_id: 309
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-142
+  title: 'Determiners: wider range'
+  section: determiners
+  levels:
+  - B1
+  - B2
+  egp_refs:
+  - ref: egp-291
+    egp_id: 291
+    match: super_category
+    confidence: 0.6
+  - ref: egp-292
+    egp_id: 292
+    match: super_category
+    confidence: 0.6
+  - ref: egp-293
+    egp_id: 293
+    match: super_category
+    confidence: 0.6
+  - ref: egp-294
+    egp_id: 294
+    match: super_category
+    confidence: 0.6
+  - ref: egp-295
+    egp_id: 295
+    match: super_category
+    confidence: 0.6
+  - ref: egp-296
+    egp_id: 296
+    match: super_category
+    confidence: 0.6
+  - ref: egp-297
+    egp_id: 297
+    match: super_category
+    confidence: 0.6
+  - ref: egp-314
+    egp_id: 314
+    match: super_category
+    confidence: 0.6
+  - ref: egp-321
+    egp_id: 321
+    match: super_category
+    confidence: 0.6
+  - ref: egp-322
+    egp_id: 322
+    match: super_category
+    confidence: 0.6
+  - ref: egp-323
+    egp_id: 323
+    match: super_category
+    confidence: 0.6
+  - ref: egp-324
+    egp_id: 324
+    match: super_category
+    confidence: 0.6
+  - ref: egp-325
+    egp_id: 325
+    match: super_category
+    confidence: 0.6
+  - ref: egp-326
+    egp_id: 326
+    match: super_category
+    confidence: 0.6
+  - ref: egp-340
+    egp_id: 340
+    match: super_category
+    confidence: 0.6
+  - ref: egp-341
+    egp_id: 341
+    match: super_category
+    confidence: 0.6
+  - ref: egp-342
+    egp_id: 342
+    match: super_category
+    confidence: 0.6
+  - ref: egp-343
+    egp_id: 343
+    match: super_category
+    confidence: 0.6
+  - ref: egp-344
+    egp_id: 344
+    match: super_category
+    confidence: 0.6
+  - ref: egp-345
+    egp_id: 345
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-145
+  title: 'Adjectives: common'
+  section: adjectives
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-1
+    egp_id: 1
+    match: super_category
+    confidence: 0.6
+  - ref: egp-2
+    egp_id: 2
+    match: super_category
+    confidence: 0.6
+  - ref: egp-13
+    egp_id: 13
+    match: super_category
+    confidence: 0.6
+  - ref: egp-14
+    egp_id: 14
+    match: super_category
+    confidence: 0.6
+  - ref: egp-15
+    egp_id: 15
+    match: super_category
+    confidence: 0.6
+  - ref: egp-16
+    egp_id: 16
+    match: super_category
+    confidence: 0.6
+  - ref: egp-17
+    egp_id: 17
+    match: super_category
+    confidence: 0.6
+  - ref: egp-18
+    egp_id: 18
+    match: super_category
+    confidence: 0.6
+  - ref: egp-19
+    egp_id: 19
+    match: super_category
+    confidence: 0.6
+  - ref: egp-20
+    egp_id: 20
+    match: super_category
+    confidence: 0.6
+  - ref: egp-21
+    egp_id: 21
+    match: super_category
+    confidence: 0.6
+  - ref: egp-31
+    egp_id: 31
+    match: super_category
+    confidence: 0.6
+  - ref: egp-32
+    egp_id: 32
+    match: super_category
+    confidence: 0.6
+  - ref: egp-33
+    egp_id: 33
+    match: super_category
+    confidence: 0.6
+  - ref: egp-34
+    egp_id: 34
+    match: super_category
+    confidence: 0.6
+  - ref: egp-35
+    egp_id: 35
+    match: super_category
+    confidence: 0.6
+  - ref: egp-44
+    egp_id: 44
+    match: super_category
+    confidence: 0.6
+  - ref: egp-45
+    egp_id: 45
+    match: super_category
+    confidence: 0.6
+  - ref: egp-46
+    egp_id: 46
+    match: super_category
+    confidence: 0.6
+  - ref: egp-47
+    egp_id: 47
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-146
+  title: 'Adjectives: demonstrative'
+  section: adjectives
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-1
+    egp_id: 1
+    match: super_category
+    confidence: 0.6
+  - ref: egp-2
+    egp_id: 2
+    match: super_category
+    confidence: 0.6
+  - ref: egp-13
+    egp_id: 13
+    match: super_category
+    confidence: 0.6
+  - ref: egp-14
+    egp_id: 14
+    match: super_category
+    confidence: 0.6
+  - ref: egp-15
+    egp_id: 15
+    match: super_category
+    confidence: 0.6
+  - ref: egp-16
+    egp_id: 16
+    match: super_category
+    confidence: 0.6
+  - ref: egp-17
+    egp_id: 17
+    match: super_category
+    confidence: 0.6
+  - ref: egp-18
+    egp_id: 18
+    match: super_category
+    confidence: 0.6
+  - ref: egp-19
+    egp_id: 19
+    match: super_category
+    confidence: 0.6
+  - ref: egp-20
+    egp_id: 20
+    match: super_category
+    confidence: 0.6
+  - ref: egp-21
+    egp_id: 21
+    match: super_category
+    confidence: 0.6
+  - ref: egp-31
+    egp_id: 31
+    match: super_category
+    confidence: 0.6
+  - ref: egp-32
+    egp_id: 32
+    match: super_category
+    confidence: 0.6
+  - ref: egp-33
+    egp_id: 33
+    match: super_category
+    confidence: 0.6
+  - ref: egp-34
+    egp_id: 34
+    match: super_category
+    confidence: 0.6
+  - ref: egp-35
+    egp_id: 35
+    match: super_category
+    confidence: 0.6
+  - ref: egp-44
+    egp_id: 44
+    match: super_category
+    confidence: 0.6
+  - ref: egp-45
+    egp_id: 45
+    match: super_category
+    confidence: 0.6
+  - ref: egp-46
+    egp_id: 46
+    match: super_category
+    confidence: 0.6
+  - ref: egp-47
+    egp_id: 47
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-147
+  title: Comparative and superlative adjectives
+  section: adjectives
+  levels:
+  - A1
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-13
+    egp_id: 13
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-14
+    egp_id: 14
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-15
+    egp_id: 15
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-16
+    egp_id: 16
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-17
+    egp_id: 17
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-18
+    egp_id: 18
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-19
+    egp_id: 19
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-20
+    egp_id: 20
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-21
+    egp_id: 21
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-22
+    egp_id: 22
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-23
+    egp_id: 23
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-24
+    egp_id: 24
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-25
+    egp_id: 25
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-1
+    egp_id: 1
+    match: super_category
+    confidence: 0.6
+  - ref: egp-2
+    egp_id: 2
+    match: super_category
+    confidence: 0.6
+  - ref: egp-3
+    egp_id: 3
+    match: super_category
+    confidence: 0.6
+  - ref: egp-4
+    egp_id: 4
+    match: super_category
+    confidence: 0.6
+  - ref: egp-5
+    egp_id: 5
+    match: super_category
+    confidence: 0.6
+  - ref: egp-6
+    egp_id: 6
+    match: super_category
+    confidence: 0.6
+  - ref: egp-7
+    egp_id: 7
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-148
+  title: Comparisons with fewer and less
+  section: adjectives
+  levels:
+  - B2
+  egp_refs:
+  - ref: egp-8
+    egp_id: 8
+    match: super_category
+    confidence: 0.6
+  - ref: egp-9
+    egp_id: 9
+    match: super_category
+    confidence: 0.6
+  - ref: egp-26
+    egp_id: 26
+    match: super_category
+    confidence: 0.6
+  - ref: egp-27
+    egp_id: 27
+    match: super_category
+    confidence: 0.6
+  - ref: egp-28
+    egp_id: 28
+    match: super_category
+    confidence: 0.6
+  - ref: egp-40
+    egp_id: 40
+    match: super_category
+    confidence: 0.6
+  - ref: egp-41
+    egp_id: 41
+    match: super_category
+    confidence: 0.6
+  - ref: egp-53
+    egp_id: 53
+    match: super_category
+    confidence: 0.6
+  - ref: egp-54
+    egp_id: 54
+    match: super_category
+    confidence: 0.6
+  - ref: egp-74
+    egp_id: 74
+    match: super_category
+    confidence: 0.6
+  - ref: egp-75
+    egp_id: 75
+    match: super_category
+    confidence: 0.6
+  - ref: egp-76
+    egp_id: 76
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-152
+  title: Adverbs of frequency
+  section: adverbs
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-80
+    egp_id: 80
+    match: super_category
+    confidence: 0.6
+  - ref: egp-81
+    egp_id: 81
+    match: super_category
+    confidence: 0.6
+  - ref: egp-82
+    egp_id: 82
+    match: super_category
+    confidence: 0.6
+  - ref: egp-83
+    egp_id: 83
+    match: super_category
+    confidence: 0.6
+  - ref: egp-84
+    egp_id: 84
+    match: super_category
+    confidence: 0.6
+  - ref: egp-85
+    egp_id: 85
+    match: super_category
+    confidence: 0.6
+  - ref: egp-86
+    egp_id: 86
+    match: super_category
+    confidence: 0.6
+  - ref: egp-87
+    egp_id: 87
+    match: super_category
+    confidence: 0.6
+  - ref: egp-88
+    egp_id: 88
+    match: super_category
+    confidence: 0.6
+  - ref: egp-89
+    egp_id: 89
+    match: super_category
+    confidence: 0.6
+  - ref: egp-90
+    egp_id: 90
+    match: super_category
+    confidence: 0.6
+  - ref: egp-91
+    egp_id: 91
+    match: super_category
+    confidence: 0.6
+  - ref: egp-92
+    egp_id: 92
+    match: super_category
+    confidence: 0.6
+  - ref: egp-93
+    egp_id: 93
+    match: super_category
+    confidence: 0.6
+  - ref: egp-94
+    egp_id: 94
+    match: super_category
+    confidence: 0.6
+  - ref: egp-111
+    egp_id: 111
+    match: super_category
+    confidence: 0.6
+  - ref: egp-112
+    egp_id: 112
+    match: super_category
+    confidence: 0.6
+  - ref: egp-113
+    egp_id: 113
+    match: super_category
+    confidence: 0.6
+  - ref: egp-114
+    egp_id: 114
+    match: super_category
+    confidence: 0.6
+  - ref: egp-115
+    egp_id: 115
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-153
+  title: Adverbs of place, manner and time
+  section: adverbs
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-85
+    egp_id: 85
+    match: super_category
+    confidence: 0.6
+  - ref: egp-86
+    egp_id: 86
+    match: super_category
+    confidence: 0.6
+  - ref: egp-87
+    egp_id: 87
+    match: super_category
+    confidence: 0.6
+  - ref: egp-88
+    egp_id: 88
+    match: super_category
+    confidence: 0.6
+  - ref: egp-89
+    egp_id: 89
+    match: super_category
+    confidence: 0.6
+  - ref: egp-90
+    egp_id: 90
+    match: super_category
+    confidence: 0.6
+  - ref: egp-91
+    egp_id: 91
+    match: super_category
+    confidence: 0.6
+  - ref: egp-92
+    egp_id: 92
+    match: super_category
+    confidence: 0.6
+  - ref: egp-93
+    egp_id: 93
+    match: super_category
+    confidence: 0.6
+  - ref: egp-94
+    egp_id: 94
+    match: super_category
+    confidence: 0.6
+  - ref: egp-95
+    egp_id: 95
+    match: super_category
+    confidence: 0.6
+  - ref: egp-96
+    egp_id: 96
+    match: super_category
+    confidence: 0.6
+  - ref: egp-97
+    egp_id: 97
+    match: super_category
+    confidence: 0.6
+  - ref: egp-98
+    egp_id: 98
+    match: super_category
+    confidence: 0.6
+  - ref: egp-99
+    egp_id: 99
+    match: super_category
+    confidence: 0.6
+  - ref: egp-100
+    egp_id: 100
+    match: super_category
+    confidence: 0.6
+  - ref: egp-101
+    egp_id: 101
+    match: super_category
+    confidence: 0.6
+  - ref: egp-102
+    egp_id: 102
+    match: super_category
+    confidence: 0.6
+  - ref: egp-103
+    egp_id: 103
+    match: super_category
+    confidence: 0.6
+  - ref: egp-104
+    egp_id: 104
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-154
+  title: Adverbial phrases; word order
+  section: adverbs
+  levels:
+  - A2
+  - B1
+  egp_refs:
+  - ref: egp-85
+    egp_id: 85
+    match: super_category
+    confidence: 0.6
+  - ref: egp-86
+    egp_id: 86
+    match: super_category
+    confidence: 0.6
+  - ref: egp-87
+    egp_id: 87
+    match: super_category
+    confidence: 0.6
+  - ref: egp-88
+    egp_id: 88
+    match: super_category
+    confidence: 0.6
+  - ref: egp-89
+    egp_id: 89
+    match: super_category
+    confidence: 0.6
+  - ref: egp-90
+    egp_id: 90
+    match: super_category
+    confidence: 0.6
+  - ref: egp-91
+    egp_id: 91
+    match: super_category
+    confidence: 0.6
+  - ref: egp-92
+    egp_id: 92
+    match: super_category
+    confidence: 0.6
+  - ref: egp-93
+    egp_id: 93
+    match: super_category
+    confidence: 0.6
+  - ref: egp-94
+    egp_id: 94
+    match: super_category
+    confidence: 0.6
+  - ref: egp-95
+    egp_id: 95
+    match: super_category
+    confidence: 0.6
+  - ref: egp-96
+    egp_id: 96
+    match: super_category
+    confidence: 0.6
+  - ref: egp-97
+    egp_id: 97
+    match: super_category
+    confidence: 0.6
+  - ref: egp-98
+    egp_id: 98
+    match: super_category
+    confidence: 0.6
+  - ref: egp-99
+    egp_id: 99
+    match: super_category
+    confidence: 0.6
+  - ref: egp-100
+    egp_id: 100
+    match: super_category
+    confidence: 0.6
+  - ref: egp-101
+    egp_id: 101
+    match: super_category
+    confidence: 0.6
+  - ref: egp-102
+    egp_id: 102
+    match: super_category
+    confidence: 0.6
+  - ref: egp-103
+    egp_id: 103
+    match: super_category
+    confidence: 0.6
+  - ref: egp-104
+    egp_id: 104
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-155
+  title: Comparative and superlative adverbs
+  section: adverbs
+  levels:
+  - B2
+  egp_refs:
+  - ref: egp-26
+    egp_id: 26
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-27
+    egp_id: 27
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-28
+    egp_id: 28
+    match: sub_category
+    confidence: 0.85
+  - ref: egp-8
+    egp_id: 8
+    match: super_category
+    confidence: 0.6
+  - ref: egp-9
+    egp_id: 9
+    match: super_category
+    confidence: 0.6
+  - ref: egp-40
+    egp_id: 40
+    match: super_category
+    confidence: 0.6
+  - ref: egp-41
+    egp_id: 41
+    match: super_category
+    confidence: 0.6
+  - ref: egp-53
+    egp_id: 53
+    match: super_category
+    confidence: 0.6
+  - ref: egp-54
+    egp_id: 54
+    match: super_category
+    confidence: 0.6
+  - ref: egp-74
+    egp_id: 74
+    match: super_category
+    confidence: 0.6
+  - ref: egp-75
+    egp_id: 75
+    match: super_category
+    confidence: 0.6
+  - ref: egp-76
+    egp_id: 76
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-156
+  title: Inversion with negative adverbials
+  section: adverbs
+  levels:
+  - C1
+  egp_refs:
+  - ref: egp-107
+    egp_id: 107
+    match: super_category
+    confidence: 0.6
+  - ref: egp-108
+    egp_id: 108
+    match: super_category
+    confidence: 0.6
+  - ref: egp-109
+    egp_id: 109
+    match: super_category
+    confidence: 0.6
+  - ref: egp-124
+    egp_id: 124
+    match: super_category
+    confidence: 0.6
+  - ref: egp-125
+    egp_id: 125
+    match: super_category
+    confidence: 0.6
+  - ref: egp-145
+    egp_id: 145
+    match: super_category
+    confidence: 0.6
+  - ref: egp-146
+    egp_id: 146
+    match: super_category
+    confidence: 0.6
+  - ref: egp-147
+    egp_id: 147
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-161
+  title: 'Intensifiers: very basic (very, really)'
+  section: intensifiers
+  levels:
+  - A1
+  - A2
+  egp_refs:
+  - ref: egp-80
+    egp_id: 80
+    match: super_category
+    confidence: 0.6
+  - ref: egp-81
+    egp_id: 81
+    match: super_category
+    confidence: 0.6
+  - ref: egp-82
+    egp_id: 82
+    match: super_category
+    confidence: 0.6
+  - ref: egp-83
+    egp_id: 83
+    match: super_category
+    confidence: 0.6
+  - ref: egp-84
+    egp_id: 84
+    match: guideword
+    confidence: 0.6
+  - ref: egp-85
+    egp_id: 85
+    match: super_category
+    confidence: 0.6
+  - ref: egp-86
+    egp_id: 86
+    match: super_category
+    confidence: 0.6
+  - ref: egp-87
+    egp_id: 87
+    match: super_category
+    confidence: 0.6
+  - ref: egp-88
+    egp_id: 88
+    match: super_category
+    confidence: 0.6
+  - ref: egp-89
+    egp_id: 89
+    match: super_category
+    confidence: 0.6
+  - ref: egp-90
+    egp_id: 90
+    match: super_category
+    confidence: 0.6
+  - ref: egp-91
+    egp_id: 91
+    match: super_category
+    confidence: 0.6
+  - ref: egp-92
+    egp_id: 92
+    match: super_category
+    confidence: 0.6
+  - ref: egp-93
+    egp_id: 93
+    match: super_category
+    confidence: 0.6
+  - ref: egp-94
+    egp_id: 94
+    match: super_category
+    confidence: 0.6
+  - ref: egp-111
+    egp_id: 111
+    match: super_category
+    confidence: 0.6
+  - ref: egp-112
+    egp_id: 112
+    match: super_category
+    confidence: 0.6
+  - ref: egp-113
+    egp_id: 113
+    match: super_category
+    confidence: 0.6
+  - ref: egp-114
+    egp_id: 114
+    match: super_category
+    confidence: 0.6
+  - ref: egp-115
+    egp_id: 115
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-162
+  title: 'Intensifiers: too, enough'
+  section: intensifiers
+  levels:
+  - B1
+  egp_refs:
+  - ref: egp-95
+    egp_id: 95
+    match: super_category
+    confidence: 0.6
+  - ref: egp-96
+    egp_id: 96
+    match: super_category
+    confidence: 0.6
+  - ref: egp-97
+    egp_id: 97
+    match: super_category
+    confidence: 0.6
+  - ref: egp-98
+    egp_id: 98
+    match: super_category
+    confidence: 0.6
+  - ref: egp-99
+    egp_id: 99
+    match: super_category
+    confidence: 0.6
+  - ref: egp-100
+    egp_id: 100
+    match: super_category
+    confidence: 0.6
+  - ref: egp-101
+    egp_id: 101
+    match: super_category
+    confidence: 0.6
+  - ref: egp-102
+    egp_id: 102
+    match: super_category
+    confidence: 0.6
+  - ref: egp-103
+    egp_id: 103
+    match: super_category
+    confidence: 0.6
+  - ref: egp-104
+    egp_id: 104
+    match: super_category
+    confidence: 0.6
+  - ref: egp-118
+    egp_id: 118
+    match: super_category
+    confidence: 0.6
+  - ref: egp-119
+    egp_id: 119
+    match: super_category
+    confidence: 0.6
+  - ref: egp-120
+    egp_id: 120
+    match: super_category
+    confidence: 0.6
+  - ref: egp-143
+    egp_id: 143
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-163
+  title: Wide range (extremely, much too)
+  section: intensifiers
+  levels:
+  - B2
+  - C1
+  egp_refs:
+  - ref: egp-105
+    egp_id: 105
+    match: super_category
+    confidence: 0.6
+  - ref: egp-106
+    egp_id: 106
+    match: super_category
+    confidence: 0.6
+  - ref: egp-107
+    egp_id: 107
+    match: super_category
+    confidence: 0.6
+  - ref: egp-108
+    egp_id: 108
+    match: super_category
+    confidence: 0.6
+  - ref: egp-109
+    egp_id: 109
+    match: super_category
+    confidence: 0.6
+  - ref: egp-121
+    egp_id: 121
+    match: super_category
+    confidence: 0.6
+  - ref: egp-122
+    egp_id: 122
+    match: super_category
+    confidence: 0.6
+  - ref: egp-123
+    egp_id: 123
+    match: super_category
+    confidence: 0.6
+  - ref: egp-124
+    egp_id: 124
+    match: super_category
+    confidence: 0.6
+  - ref: egp-125
+    egp_id: 125
+    match: super_category
+    confidence: 0.6
+  - ref: egp-138
+    egp_id: 138
+    match: super_category
+    confidence: 0.6
+  - ref: egp-144
+    egp_id: 144
+    match: super_category
+    confidence: 0.6
+  - ref: egp-145
+    egp_id: 145
+    match: super_category
+    confidence: 0.6
+  - ref: egp-146
+    egp_id: 146
+    match: super_category
+    confidence: 0.6
+  - ref: egp-147
+    egp_id: 147
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-164
+  title: Complex question tags
+  section: questions
+  levels:
+  - B2
+  egp_refs:
+  - ref: egp-1021
+    egp_id: 1021
+    match: guideword
+    confidence: 0.65
+  - ref: egp-1030
+    egp_id: 1030
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-165
+  title: Narrative tenses
+  section: past
+  levels:
+  - B2
+  - C1
+  egp_refs:
+  - ref: egp-752
+    egp_id: 752
+    match: super_category
+    confidence: 0.6
+  - ref: egp-753
+    egp_id: 753
+    match: super_category
+    confidence: 0.6
+  - ref: egp-758
+    egp_id: 758
+    match: super_category
+    confidence: 0.6
+  - ref: egp-759
+    egp_id: 759
+    match: super_category
+    confidence: 0.6
+  - ref: egp-760
+    egp_id: 760
+    match: super_category
+    confidence: 0.6
+  - ref: egp-761
+    egp_id: 761
+    match: super_category
+    confidence: 0.6
+  - ref: egp-762
+    egp_id: 762
+    match: super_category
+    confidence: 0.6
+  - ref: egp-769
+    egp_id: 769
+    match: super_category
+    confidence: 0.6
+  - ref: egp-770
+    egp_id: 770
+    match: super_category
+    confidence: 0.6
+  - ref: egp-771
+    egp_id: 771
+    match: super_category
+    confidence: 0.6
+  - ref: egp-772
+    egp_id: 772
+    match: super_category
+    confidence: 0.6
+  - ref: egp-773
+    egp_id: 773
+    match: super_category
+    confidence: 0.6
+  - ref: egp-774
+    egp_id: 774
+    match: super_category
+    confidence: 0.6
+  - ref: egp-775
+    egp_id: 775
+    match: super_category
+    confidence: 0.6
+  - ref: egp-776
+    egp_id: 776
+    match: super_category
+    confidence: 0.6
+  - ref: egp-777
+    egp_id: 777
+    match: super_category
+    confidence: 0.6
+  - ref: egp-778
+    egp_id: 778
+    match: super_category
+    confidence: 0.6
+  - ref: egp-779
+    egp_id: 779
+    match: super_category
+    confidence: 0.6
+  - ref: egp-780
+    egp_id: 780
+    match: super_category
+    confidence: 0.6
+  - ref: egp-797
+    egp_id: 797
+    match: super_category
+    confidence: 0.6
+  status: suggested
+- eaquals_id: gr-166
+  title: Inversion / cleft sentences (advanced)
+  section: other_verbs
+  levels:
+  - C1
+  egp_refs:
+  - ref: egp-1165
+    egp_id: 1165
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1166
+    egp_id: 1166
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1167
+    egp_id: 1167
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1168
+    egp_id: 1168
+    match: super_category
+    confidence: 0.6
+  - ref: egp-1169
+    egp_id: 1169
+    match: super_category
+    confidence: 0.6
+  status: suggested

@@ -55,26 +55,6 @@ CREATE TABLE sentences (
 
 CREATE INDEX idx_sentences_language_id ON sentences(language_id);
 
-CREATE TABLE grammar_blocks (
-    id BIGSERIAL PRIMARY KEY,
-    language_id BIGINT NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
-    slug TEXT NOT NULL,
-    level TEXT NOT NULL,
-    title TEXT NOT NULL,
-    category TEXT NOT NULL,
-    super_category TEXT NOT NULL,
-    sub_category TEXT NOT NULL,
-    sort_order INTEGER NOT NULL DEFAULT 0,
-    metadata_json JSONB NOT NULL DEFAULT '{}'::jsonb,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    UNIQUE (language_id, slug),
-    CHECK (level IN ('A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'))
-);
-
-CREATE INDEX idx_grammar_blocks_language_id ON grammar_blocks(language_id);
-CREATE INDEX idx_grammar_blocks_level ON grammar_blocks(language_id, level);
-CREATE INDEX idx_grammar_blocks_category ON grammar_blocks(category);
-
 CREATE TABLE senses (
     id BIGSERIAL PRIMARY KEY,
     lemma_id BIGINT NOT NULL REFERENCES lemmas(id) ON DELETE CASCADE,

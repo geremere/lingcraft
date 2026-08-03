@@ -1,7 +1,0 @@
-note: External EGP references only — not stored in application DB
-links:
-- ref: egp-684
-  id: 684
-  guideword: 'FORM: PLURAL ''-S'''
-  can_do: Can form plurals by adding '-s' to common countable nouns.
-  detectability: form

@@ -1,7 +1,0 @@
-note: External EGP references only — not stored in application DB
-links:
-- ref: egp-141
-  id: 141
-  guideword: 'FORM: ''VERY'' + ADVERB'
-  can_do: Can modify adverbs of time and degree with 'very'.
-  detectability: form

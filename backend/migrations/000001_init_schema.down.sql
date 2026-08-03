@@ -13,7 +13,6 @@ DROP TABLE IF EXISTS sense_tags;
 DROP TABLE IF EXISTS sense_descriptions;
 DROP TABLE IF EXISTS senses;
 DROP TABLE IF EXISTS sentences;
-DROP TABLE IF EXISTS grammar_blocks;
 DROP TABLE IF EXISTS audio_files;
 DROP TABLE IF EXISTS lemmas;
 DROP TABLE IF EXISTS image_files;
