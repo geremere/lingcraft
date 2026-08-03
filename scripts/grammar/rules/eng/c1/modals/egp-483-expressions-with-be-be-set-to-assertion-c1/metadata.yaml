@@ -1,0 +1,9 @@
+egp_id: 483
+tag: egp-483
+slug: egp-483-expressions-with-be-be-set-to-assertion-c1
+level: C1
+super_category: MODALITY
+sub_category: expressions with be
+detection: llm
+detectability: use
+polke_construct_id: 483

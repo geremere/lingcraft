@@ -1,0 +1,9 @@
+egp_id: 1214
+tag: egp-1214
+slug: egp-1214-could-requests-a2
+level: A2
+super_category: MODALITY
+sub_category: could
+detection: llm
+detectability: use
+polke_construct_id: 1214

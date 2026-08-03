@@ -1,0 +1,9 @@
+egp_id: 1000
+tag: egp-1000
+slug: egp-1000-generic-use-one-general-formal-b1
+level: B1
+super_category: PRONOUNS
+sub_category: generic use
+detection: llm
+detectability: use
+polke_construct_id: 1000

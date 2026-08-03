@@ -1,0 +1,9 @@
+egp_id: 1200
+tag: egp-1200
+slug: egp-1200-negation-formal-c1
+level: C1
+super_category: NEGATION
+sub_category: negation
+detection: llm
+detectability: use
+polke_construct_id: 1200

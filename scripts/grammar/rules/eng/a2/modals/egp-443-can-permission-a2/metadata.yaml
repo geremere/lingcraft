@@ -1,0 +1,9 @@
+egp_id: 443
+tag: egp-443
+slug: egp-443-can-permission-a2
+level: A2
+super_category: MODALITY
+sub_category: can
+detection: llm
+detectability: use
+polke_construct_id: 443

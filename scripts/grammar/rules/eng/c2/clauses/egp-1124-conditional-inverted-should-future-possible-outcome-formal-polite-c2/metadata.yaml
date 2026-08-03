@@ -1,0 +1,9 @@
+egp_id: 1124
+tag: egp-1124
+slug: egp-1124-conditional-inverted-should-future-possible-outcome-formal-polite-c2
+level: C2
+super_category: CLAUSES
+sub_category: conditional
+detection: llm
+detectability: use
+polke_construct_id: 1124

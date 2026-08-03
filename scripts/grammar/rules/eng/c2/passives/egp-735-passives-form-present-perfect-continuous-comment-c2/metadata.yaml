@@ -1,0 +1,9 @@
+egp_id: 735
+tag: egp-735
+slug: egp-735-passives-form-present-perfect-continuous-comment-c2
+level: C2
+super_category: PASSIVES
+sub_category: 'passives: form'
+detection: llm
+detectability: hybrid
+polke_construct_id: 735

@@ -1,0 +1,9 @@
+egp_id: 528
+tag: egp-528
+slug: egp-528-might-might-as-well-c2
+level: C2
+super_category: MODALITY
+sub_category: might
+detection: polke
+detectability: form
+polke_construct_id: 528

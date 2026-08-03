@@ -1,0 +1,9 @@
+egp_id: 250
+tag: egp-250
+slug: egp-250-subordinated-non-finite-after-if-c1
+level: C1
+super_category: CLAUSES
+sub_category: subordinated
+detection: polke
+detectability: form
+polke_construct_id: 250

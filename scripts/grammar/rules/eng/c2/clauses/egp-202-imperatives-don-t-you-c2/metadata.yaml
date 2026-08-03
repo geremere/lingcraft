@@ -1,0 +1,9 @@
+egp_id: 202
+tag: egp-202
+slug: egp-202-imperatives-don-t-you-c2
+level: C2
+super_category: CLAUSES
+sub_category: imperatives
+detection: polke
+detectability: form
+polke_construct_id: 202

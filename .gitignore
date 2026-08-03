@@ -1,3 +1,6 @@
 .env
 **/.env
 .DS_Store
+
+# POLKE upstream clone (scripts/grammar/polke/vendor/)
+scripts/grammar/polke/vendor/

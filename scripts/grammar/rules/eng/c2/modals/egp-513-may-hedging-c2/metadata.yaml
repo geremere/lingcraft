@@ -1,0 +1,9 @@
+egp_id: 513
+tag: egp-513
+slug: egp-513-may-hedging-c2
+level: C2
+super_category: MODALITY
+sub_category: may
+detection: llm
+detectability: use
+polke_construct_id: 513

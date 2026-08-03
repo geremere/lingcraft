@@ -1,0 +1,9 @@
+egp_id: 733
+tag: egp-733
+slug: egp-733-passives-form-non-finite-perfect-clauses-c2
+level: C2
+super_category: PASSIVES
+sub_category: 'passives: form'
+detection: polke
+detectability: form
+polke_construct_id: 733

@@ -1,0 +1,9 @@
+egp_id: 547
+tag: egp-547
+slug: egp-547-must-ellipsis-c2
+level: C2
+super_category: MODALITY
+sub_category: must
+detection: polke
+detectability: form
+polke_construct_id: 547

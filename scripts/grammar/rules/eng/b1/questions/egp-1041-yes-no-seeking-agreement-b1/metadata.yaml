@@ -1,0 +1,9 @@
+egp_id: 1041
+tag: egp-1041
+slug: egp-1041-yes-no-seeking-agreement-b1
+level: B1
+super_category: QUESTIONS
+sub_category: yes/no
+detection: llm
+detectability: use
+polke_construct_id: 1041

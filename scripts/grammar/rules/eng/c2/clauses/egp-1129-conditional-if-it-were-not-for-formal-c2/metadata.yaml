@@ -1,0 +1,9 @@
+egp_id: 1129
+tag: egp-1129
+slug: egp-1129-conditional-if-it-were-not-for-formal-c2
+level: C2
+super_category: CLAUSES
+sub_category: conditional
+detection: polke
+detectability: form
+polke_construct_id: 1129

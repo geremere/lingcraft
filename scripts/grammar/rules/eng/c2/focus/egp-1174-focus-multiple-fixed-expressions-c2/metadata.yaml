@@ -1,0 +1,9 @@
+egp_id: 1174
+tag: egp-1174
+slug: egp-1174-focus-multiple-fixed-expressions-c2
+level: C2
+super_category: FOCUS
+sub_category: focus
+detection: polke
+detectability: form
+polke_construct_id: 1174

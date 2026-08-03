@@ -1,0 +1,9 @@
+egp_id: 307
+tag: egp-307
+slug: egp-307-demonstratives-that-already-mentioned-a2
+level: A2
+super_category: DETERMINERS
+sub_category: demonstratives
+detection: llm
+detectability: use
+polke_construct_id: 307

@@ -55,6 +55,33 @@ CREATE TABLE sentences (
 
 CREATE INDEX idx_sentences_language_id ON sentences(language_id);
 
+CREATE TABLE grammar_constructs (
+    id BIGSERIAL PRIMARY KEY,
+    language_id BIGINT NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    egp_id INTEGER NOT NULL,
+    tag TEXT NOT NULL,
+    slug TEXT NOT NULL,
+    level TEXT NOT NULL,
+    super_category TEXT NOT NULL,
+    sub_category TEXT NOT NULL,
+    guideword TEXT NOT NULL,
+    can_do TEXT NOT NULL,
+    detectability TEXT NOT NULL,
+    detection TEXT NOT NULL,
+    examples_json JSONB NOT NULL DEFAULT '[]'::jsonb,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    UNIQUE (language_id, egp_id),
+    UNIQUE (language_id, tag),
+    UNIQUE (language_id, slug),
+    CHECK (level IN ('A1', 'A2', 'B1', 'B2', 'C1', 'C2')),
+    CHECK (detectability IN ('form', 'use', 'hybrid')),
+    CHECK (detection IN ('polke', 'llm', 'custom'))
+);
+
+CREATE INDEX idx_grammar_constructs_language_id ON grammar_constructs(language_id);
+CREATE INDEX idx_grammar_constructs_tag ON grammar_constructs(tag);
+CREATE INDEX idx_grammar_constructs_level ON grammar_constructs(level);
+
 CREATE TABLE senses (
     id BIGSERIAL PRIMARY KEY,
     lemma_id BIGINT NOT NULL REFERENCES lemmas(id) ON DELETE CASCADE,

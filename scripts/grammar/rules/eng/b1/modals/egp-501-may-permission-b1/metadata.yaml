@@ -1,0 +1,9 @@
+egp_id: 501
+tag: egp-501
+slug: egp-501-may-permission-b1
+level: B1
+super_category: MODALITY
+sub_category: may
+detection: llm
+detectability: use
+polke_construct_id: 501

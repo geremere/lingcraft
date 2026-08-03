@@ -1,0 +1,9 @@
+egp_id: 613
+tag: egp-613
+slug: egp-613-will-requests-b2
+level: B2
+super_category: MODALITY
+sub_category: will
+detection: llm
+detectability: use
+polke_construct_id: 613

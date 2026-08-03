@@ -1,0 +1,9 @@
+egp_id: 576
+tag: egp-576
+slug: egp-576-shall-predictions-c2
+level: C2
+super_category: MODALITY
+sub_category: shall
+detection: llm
+detectability: use
+polke_construct_id: 576

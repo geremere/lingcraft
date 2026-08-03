@@ -1,0 +1,9 @@
+egp_id: 538
+tag: egp-538
+slug: egp-538-must-suggestions-b1
+level: B1
+super_category: MODALITY
+sub_category: must
+detection: llm
+detectability: use
+polke_construct_id: 538

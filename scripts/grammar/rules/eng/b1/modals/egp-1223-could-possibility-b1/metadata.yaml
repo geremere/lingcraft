@@ -1,0 +1,9 @@
+egp_id: 1223
+tag: egp-1223
+slug: egp-1223-could-possibility-b1
+level: B1
+super_category: MODALITY
+sub_category: could
+detection: llm
+detectability: use
+polke_construct_id: 1223

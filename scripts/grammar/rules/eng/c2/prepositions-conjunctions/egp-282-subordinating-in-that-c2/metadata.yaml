@@ -1,0 +1,9 @@
+egp_id: 282
+tag: egp-282
+slug: egp-282-subordinating-in-that-c2
+level: C2
+super_category: CONJUNCTIONS
+sub_category: subordinating
+detection: polke
+detectability: form
+polke_construct_id: 282

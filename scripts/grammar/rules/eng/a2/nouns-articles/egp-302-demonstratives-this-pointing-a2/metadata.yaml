@@ -1,0 +1,9 @@
+egp_id: 302
+tag: egp-302
+slug: egp-302-demonstratives-this-pointing-a2
+level: A2
+super_category: DETERMINERS
+sub_category: demonstratives
+detection: llm
+detectability: use
+polke_construct_id: 302

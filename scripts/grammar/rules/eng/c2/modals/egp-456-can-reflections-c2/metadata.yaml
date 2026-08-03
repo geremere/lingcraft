@@ -1,0 +1,9 @@
+egp_id: 456
+tag: egp-456
+slug: egp-456-can-reflections-c2
+level: C2
+super_category: MODALITY
+sub_category: can
+detection: llm
+detectability: use
+polke_construct_id: 456

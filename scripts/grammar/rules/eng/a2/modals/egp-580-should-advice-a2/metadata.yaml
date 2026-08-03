@@ -1,0 +1,9 @@
+egp_id: 580
+tag: egp-580
+slug: egp-580-should-advice-a2
+level: A2
+super_category: MODALITY
+sub_category: should
+detection: llm
+detectability: use
+polke_construct_id: 580

@@ -1,0 +1,9 @@
+egp_id: 895
+tag: egp-895
+slug: egp-895-possessive-general-comment-b1
+level: B1
+super_category: PRONOUNS
+sub_category: possessive
+detection: llm
+detectability: hybrid
+polke_construct_id: 895

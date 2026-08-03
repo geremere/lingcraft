@@ -1,0 +1,9 @@
+egp_id: 255
+tag: egp-255
+slug: egp-255-subordinated-non-finite-after-although-though-c2
+level: C2
+super_category: CLAUSES
+sub_category: subordinated
+detection: polke
+detectability: form
+polke_construct_id: 255
