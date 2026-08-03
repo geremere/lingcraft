@@ -1,0 +1,14 @@
+{
+  "examples": [
+    {
+      "text": "Can you come to dinner in my house? (A1 BREAKTHROUGH; 2008; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1032"
+    },
+    {
+      "text": "I can't find my CD, can you bring some music please? (A1 BREAKTHROUGH; 2008; Romanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1032"
+    }
+  ]
+}

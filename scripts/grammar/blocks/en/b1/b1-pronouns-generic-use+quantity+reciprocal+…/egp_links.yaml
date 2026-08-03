@@ -1,0 +1,30 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-931
+  id: 931
+  guideword: 'FORM: (SUBJECT) USING ''IT'' TO INTRODUCE'
+  can_do: Can use dummy 'it' as a subject to introduce something the speaker or writer is going to refer
+    to.
+  detectability: form
+- ref: egp-960
+  id: 960
+  guideword: 'FORM: SUBJECT AND OBJECT PRONOUNS, ''BOTH'', ''A FEW'', ''ANOTHER'''
+  can_do: Can use 'both', 'a few', 'another' as subject and object pronouns.
+  detectability: form
+- ref: egp-961
+  id: 961
+  guideword: 'FORM: WITH ''OF'' + OBJECT PRONOUN'
+  can_do: Can use an increasing range of pronouns ('some', 'a few', 'any', 'each') with 'of' followed
+    by an object pronoun.
+  detectability: form
+- ref: egp-1000
+  id: 1000
+  guideword: 'USE: ''ONE'', GENERAL, FORMAL'
+  can_do: Can use 'one' to refer to people in general, in formal contexts.
+  detectability: use
+- ref: egp-1004
+  id: 1004
+  guideword: 'FORM: ''EACH OTHER'''
+  can_do: Can use 'each other' as the object of a verb or complement of a preposition to talk about the
+    mutual behaviour of two or more people.
+  detectability: form

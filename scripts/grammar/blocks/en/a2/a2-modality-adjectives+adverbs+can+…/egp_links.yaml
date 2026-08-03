@@ -1,0 +1,49 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-425
+  id: 425
+  guideword: 'FORM: ''BE'' + ''SURE'' + CLAUSE'
+  can_do: Can use 'I' + 'be' + 'sure' + clause.
+  detectability: form
+- ref: egp-443
+  id: 443
+  guideword: 'USE: PERMISSION'
+  can_do: Can use 'can' to give and refuse permission or talk about what is forbidden.
+  detectability: use
+- ref: egp-464
+  id: 464
+  guideword: 'FORM/USE: ''WILL BE ABLE TO'''
+  can_do: Can use 'will' + 'be able to' + infinitive to talk about possibility and ability.
+  detectability: form
+- ref: egp-497
+  id: 497
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-498
+  id: 498
+  guideword: 'USE: POSSIBILITY'
+  can_do: Can use 'may' to talk about weak possibility referring to the present and the future.
+  detectability: use
+- ref: egp-514
+  id: 514
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-515
+  id: 515
+  guideword: 'USE: POSSIBILITY'
+  can_do: Can use 'might' to talk about weak possibility.
+  detectability: use
+- ref: egp-639
+  id: 639
+  guideword: 'FORM/USE: MID POSITION, HEDGING OR EMPHASIS'
+  can_do: 'Can use adverbs in mid position or after main verb ''be'', to modify an assertion, either through
+    hedging or emphasis. ► adverbs: position'
+  detectability: form
+- ref: egp-640
+  id: 640
+  guideword: 'FORM: CLAUSE POSITION'
+  can_do: 'Can use adverbs of certainty and possibility (''maybe'', ''perhaps''), before a clause or ellipted
+    clause. ► adverbs: position'
+  detectability: form

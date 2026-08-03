@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-616
+  id: 616
+  guideword: 'FORM: AFFIRMATIVE WITH ''LIKE'''
+  can_do: Can use the affirmative form with 'like'.
+  detectability: form
+- ref: egp-617
+  id: 617
+  guideword: 'USE: INVITATIONS WITH ''LIKE'''
+  can_do: Can use 'would like to invite' to make invitations.
+  detectability: use
+- ref: egp-618
+  id: 618
+  guideword: 'USE: WISHES AND PREFERENCES WITH ''LIKE'''
+  can_do: Can use 'would like' to talk about wishes and preferences.
+  detectability: use

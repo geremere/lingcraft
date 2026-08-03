@@ -1,0 +1,39 @@
+{
+  "examples": [
+    {
+      "text": "Don't you just hate taking the bus to school every morning? well I have a perfect solution for you, a great bike with good brakes, a bell and lights. it is a great bike but since I never use it I would be happy to sell it to you. (Netherlands; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2003; Dutch; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-886"
+    },
+    {
+      "text": "Don't you find that when you are having a shower or bath, you occasionally run out of water? (Korea, South; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2000; Korean; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-886"
+    },
+    {
+      "text": "Doesn?t it sound fascinating? (Certificate in Advanced English, C1, Korean)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-887"
+    },
+    {
+      "text": "Don't we all like presents? (Certificate in Advanced English, C1, Dutch)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-887"
+    },
+    {
+      "text": "Don't you think that fashion always looks funny if it is not the fashion of today? (Certificate in Advanced English, C1, Russian)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-887"
+    },
+    {
+      "text": "The popularity of this TV game in Russia clearly demonstrates the nature of human fears and dreams. (Certificate in Advanced English, C1, Russian)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-888"
+    },
+    {
+      "text": "The 2 charts illustrate the number of employees, and the trends in profit for three factories, namely the factories located in London, Leeds, and Bristol, which belong to the same company, during the year 2003. (C1, Chinese)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-888"
+    }
+  ]
+}

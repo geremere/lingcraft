@@ -1,0 +1,34 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-149
+  id: 149
+  guideword: 'FORM: ''BE LIKE'' + NOUN OR PRONOUN'
+  can_do: Can use 'be' + 'like' + noun or pronoun.
+  detectability: form
+- ref: egp-171
+  id: 171
+  guideword: 'FORM/USE: MULTIPLE MAIN CLAUSES, INSTRUCTIONS'
+  can_do: Can combine multiple main clauses, with commas and conjunctions expressing order, often to give
+    instructions or directions.
+  detectability: form
+- ref: egp-183
+  id: 183
+  guideword: 'FORM: NEGATIVE DECLARATIVE WITH ''HAVE'''
+  can_do: Can form a simple negative declarative clause with auxiliary 'have' + 'not' or 'n't' and 'have'
+    + 'not' or 'n't (got)'
+  detectability: form
+- ref: egp-184
+  id: 184
+  guideword: 'FORM: NEGATIVE DECLARATIVE, MODAL AUXILIARY VERBS'
+  can_do: Can form a simple negative declarative clause with modal verb + 'not' or 'n't'.
+  detectability: form
+- ref: egp-214
+  id: 214
+  guideword: 'FORM: ''WHAT A …!'''
+  can_do: Can use 'What a' + noun phrase and 'What a' + noun phrase + clause.
+  detectability: form
+- ref: egp-215
+  id: 215
+  guideword: 'FORM: ''WHAT A PITY'' + (''THAT'') CLAUSE'
+  can_do: Can use 'What a pity' + ('that') clause.
+  detectability: form

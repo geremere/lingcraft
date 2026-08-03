@@ -1,0 +1,24 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-448
+  id: 448
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use 'can' with an increasing range of adverbs (including 'easily', 'hardly', 'now', 'probably',
+    'sometimes', 'still') in the normal mid position after the modal verb or after the subject in questions.  ►
+    adverbs
+  detectability: form
+- ref: egp-449
+  id: 449
+  guideword: 'USE: GENERAL TRUTHS AND TENDENCIES'
+  can_do: Can use 'can' to talk about general truths and tendencies.
+  detectability: use
+- ref: egp-450
+  id: 450
+  guideword: 'USE: GUESSES AND PREDICTIONS'
+  can_do: Can use the negative forms of 'can't' and 'cannot' to guess, predict and deduce.
+  detectability: use
+- ref: egp-451
+  id: 451
+  guideword: 'USE: REPROACHES AND APPEALS'
+  can_do: Can use negative forms of 'can' to make reproaches or appeals.
+  detectability: use

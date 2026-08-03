@@ -1,0 +1,56 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-150
+  id: 150
+  guideword: 'FORM: FINITE AFTER ''THAN'''
+  can_do: Can use 'than' + a finite clause forming the second part of a comparison after a comparative
+    adjective
+  detectability: form
+- ref: egp-151
+  id: 151
+  guideword: 'FORM/USE: NON-FINITE AFTER ''THAN'''
+  can_do: Can use 'than' + a limited range of non-finite clauses (with -ing), forming the second part
+    of a comparison after a comparative adjective
+  detectability: form
+- ref: egp-152
+  id: 152
+  guideword: 'FORM/USE: ''AS … AS'''
+  can_do: Can use '(not) as' + adjective/adverb + 'as' to introduce a clause (often with a substitute
+    auxiliary verb) to talk about two things being equal or unequal in some way.
+  detectability: form
+- ref: egp-153
+  id: 153
+  guideword: 'FORM/USE: ''RATHER THAN'' + PHRASE'
+  can_do: Can use 'rather than' + noun phrase or prepositional phrase to stress one element in a comparison.
+  detectability: form
+- ref: egp-154
+  id: 154
+  guideword: 'FORM/USE: ''THE BEST (THAT)'''
+  can_do: Can use 'the best (that)' followed by a clause with the present perfect to talk about something
+    unique.
+  detectability: form
+- ref: egp-155
+  id: 155
+  guideword: 'FORM: ''TOO'' + ''TO''-INFINITIVE'
+  can_do: Can use 'too' + adjective + 'to'-infinitive.
+  detectability: form
+- ref: egp-156
+  id: 156
+  guideword: 'FORM: ''THE SAME'' (+ NOUN) + ''AS'' + PRONOUN OR NOUN'
+  can_do: Can use 'the same' (+ noun) + 'as' + pronoun or noun.
+  detectability: form
+- ref: egp-157
+  id: 157
+  guideword: 'FORM: ''SO'' + ADJECTIVE + ''THAT'' CLAUSE'
+  can_do: Can use 'so' + adjective + 'that' clause.
+  detectability: form
+- ref: egp-158
+  id: 158
+  guideword: 'FORM: SENSE VERBS + ''AS IF'' OR ''AS THOUGH'' + FINITE CLAUSE'
+  can_do: Can use verbs of the senses + 'as if' or 'as though' + finite clause.
+  detectability: form
+- ref: egp-159
+  id: 159
+  guideword: 'FORM: LINKING VERB + ''LIKE'' OR ''SIMILAR TO'''
+  can_do: Can use linking verbs + 'like' or 'similar to'.
+  detectability: form

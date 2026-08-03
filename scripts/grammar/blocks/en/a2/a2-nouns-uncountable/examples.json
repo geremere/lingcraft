@@ -1,0 +1,84 @@
+{
+  "examples": [
+    {
+      "text": "I listen to music, I watch TV and I talk to my friends. (Italy; A2 WAYSTAGE; 2000; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-690"
+    },
+    {
+      "text": "The weather there was cold. (Taiwan; A2 WAYSTAGE; 2009; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-690"
+    },
+    {
+      "text": "Come to my house at 4.30 pm so we have time to get ready. (Uruguay; A2 WAYSTAGE; 2008; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-690"
+    },
+    {
+      "text": "I ate a lot of meat. (Mexico; A2 WAYSTAGE; 2004; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-690"
+    },
+    {
+      "text": "Do you have any furniture in this room? (A2 WAYSTAGE; 2009; Polish; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-690"
+    },
+    {
+      "text": "The music is going to be loud, since it's rap. (Malaysia; A2 WAYSTAGE; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-691"
+    },
+    {
+      "text": "The weather was absolutely fine. (Russia; A2 WAYSTAGE; 2009; Russian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-691"
+    },
+    {
+      "text": "If you can't find the information about the new art class after school, please call me. (Libya; A2 WAYSTAGE; 2006; Arabic - Meghreb; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-691"
+    },
+    {
+      "text": "It's really important for me, because I need to do some homework. (Czech Republic; A2 WAYSTAGE; 2005; Czech; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-692"
+    },
+    {
+      "text": "Now, I haven't got any money, but I am really happy! (Italy; A2 WAYSTAGE; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-692"
+    },
+    {
+      "text": "We have had a lot of fun. (Brazil; A2 WAYSTAGE; 2007; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-692"
+    },
+    {
+      "text": "I'm going to find more information about the new art class. (Spain; A2 WAYSTAGE; 2006; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-692"
+    },
+    {
+      "text": "We have to bring a bottle of water, trainers and a T-shirt or top. (Spain; A2 WAYSTAGE; 2006; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-693"
+    },
+    {
+      "text": "You must bring with you two pencils, one rubber and a piece of paper. (Cyprus; A2 WAYSTAGE; 2006; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-693"
+    },
+    {
+      "text": "I have a piece of news. (Italy; A2 WAYSTAGE; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-693"
+    },
+    {
+      "text": "I can drink a cup of tea in a café. (Peru; A2 WAYSTAGE; 2005; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-693"
+    }
+  ]
+}

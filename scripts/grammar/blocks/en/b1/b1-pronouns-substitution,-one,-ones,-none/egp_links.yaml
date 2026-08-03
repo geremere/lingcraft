@@ -1,0 +1,33 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-973
+  id: 973
+  guideword: 'FORM: ''WHICH ONE'''
+  can_do: Can use 'one' after 'which' in indirect questions to refer to one of two or more options.
+  detectability: form
+- ref: egp-974
+  id: 974
+  guideword: 'FORM: ''THIS ONE'', ''THAT ONE'''
+  can_do: 'Can use ''this one'', ''that one'' to refer to a singular countable noun.  ►  pronouns: demonstratives'
+  detectability: form
+- ref: egp-975
+  id: 975
+  guideword: 'FORM: ''ONES'''
+  can_do: Can use 'ones' as a pronoun to substitute for plural nouns which have already been mentioned
+    or are obvious from the context.
+  detectability: form
+- ref: egp-976
+  id: 976
+  guideword: 'FORM: PRE-MODIFYING'
+  can_do: Can use determiners + premodifers + 'ones'.
+  detectability: form
+- ref: egp-977
+  id: 977
+  guideword: 'FORM/USE: POSTMODIFYING, SPECIFYING'
+  can_do: Can use 'the ones' with a complement, to refer to something specific.
+  detectability: form
+- ref: egp-978
+  id: 978
+  guideword: 'FORM/USE: PREMODIFIER + ''ONES'', GENERAL REFERENCE'
+  can_do: Can use premodifiers with 'ones', to refer to something in general.
+  detectability: form

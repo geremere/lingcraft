@@ -1,0 +1,14 @@
+slug: b2-modality-may
+title: 'B2 MODALITY: may'
+level: B2
+super_category: MODALITY
+sub_category: may
+category: modals
+sort_order: 179
+merged_sub_categories:
+- may
+detectability:
+  form: 2
+  use: 4
+split: null
+construct_count: 6

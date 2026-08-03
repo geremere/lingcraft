@@ -1,0 +1,44 @@
+{
+  "examples": [
+    {
+      "text": "We shall start tomorrow at 2 o'clock. (Marathi, A2 WAYSTAGE, Pass, 2006)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-567"
+    },
+    {
+      "text": "I shall be free on Sunday at 6 o'clock in the evening. (Ukraine; A2 WAYSTAGE; 2005; Russian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-567"
+    },
+    {
+      "text": "Shall we meet at half past 4 in front of my house? (Japanese, A2 WAYSTAGE, Pass, 2008)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-568"
+    },
+    {
+      "text": "What time shall I come? And what shall I bring to the party? (Italian, A2 WAYSTAGE, Pass, 2009)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-568"
+    },
+    {
+      "text": "Shall I go and buy some cake and crackers? (Bulgarian, A2 WAYSTAGE, Pass, 2009)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-569"
+    },
+    {
+      "text": "The tickets cost €25. Shall I buy you one? (Spanish - European, A2 WAYSTAGE, Pass, 2010)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-569"
+    },
+    {
+      "text": "Tomorrow evening there is Laura Pausini's concert in Turin. Shall we go? (Italian, A2 WAYSTAGE, Pass, 2010)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-570"
+    },
+    {
+      "text": "Shall we go to a Korean restaurant after the film? (Korean, A2 WAYSTAGE, Pass, 2003)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-570"
+    }
+  ]
+}

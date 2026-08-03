@@ -1,0 +1,13 @@
+slug: b2-modality-adjectives
+title: 'B2 MODALITY: adjectives'
+level: B2
+super_category: MODALITY
+sub_category: adjectives
+category: modals
+sort_order: 180
+merged_sub_categories:
+- adjectives
+detectability:
+  form: 4
+split: null
+construct_count: 4

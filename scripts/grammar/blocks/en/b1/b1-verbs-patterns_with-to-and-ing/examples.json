@@ -1,0 +1,104 @@
+{
+  "examples": [
+    {
+      "text": "? it's one of the reasons I decided to change class. (France; B1 THRESHOLD; 2002; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1083"
+    },
+    {
+      "text": "I'm going to buy pictures to hang on the wall, because my room seems to be very cold and very unfriendly. (Germany; B1 THRESHOLD; 2001; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1083"
+    },
+    {
+      "text": "I would prefer to pay by cash. (B1 THRESHOLD; 2003; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1084"
+    },
+    {
+      "text": "I would prefer to meet you at six o'clock instead of four, at the café in my hometown. (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1084"
+    },
+    {
+      "text": "I'd prefer to go on holiday with my friends. (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1084"
+    },
+    {
+      "text": "I would like to stay there a few years to finish studying and to have my own money to start thinking of travelling. (Uruguay; B1 THRESHOLD; 2010; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1085"
+    },
+    {
+      "text": "So, would you mind telling Mr and Mrs Thomas. (China; B1 THRESHOLD; 2003; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1085"
+    },
+    {
+      "text": "I wanted to help him to make some friends. He's just like me. (Turkey; B1 THRESHOLD; 2009; Turkish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1086"
+    },
+    {
+      "text": "I hope that it will help you to keep fit. (Russia; B1 THRESHOLD; 2009; Russian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1086"
+    },
+    {
+      "text": "I hope my advice can help you choose where to go. (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1086"
+    },
+    {
+      "text": "This house is terrible and I hope you can help me find something better. (B1 THRESHOLD; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1086"
+    },
+    {
+      "text": "I would like you to come to a picnic on Saturday. (Argentina; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1087"
+    },
+    {
+      "text": "I would like you to come to my office on 16th of May to discuss the terms of the contract. (Poland; B1 THRESHOLD; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1087"
+    },
+    {
+      "text": "Your parents want you to go on holiday with them this summer. (Russia; B1 THRESHOLD; 2008; Russian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1087"
+    },
+    {
+      "text": "You asked me to tell you about one of my friends. (Greece; B1 THRESHOLD; 2009; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1087"
+    },
+    {
+      "text": "Let me know if it is suitable for you. (Brazil; B1 THRESHOLD; 2003; Portuguese; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1088"
+    },
+    {
+      "text": "She makes me smile when I'm sad. (Yugoslavia; B1 THRESHOLD; 2010; Serbian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1088"
+    },
+    {
+      "text": "She always makes me laugh! (Brazil; B1 THRESHOLD; 2009; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1088"
+    },
+    {
+      "text": "You are eighteen now, you can do what you want and they should let you do it. (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1088"
+    },
+    {
+      "text": "I think you should talk with your parents and try to make them understand how you feel and what you prefer. (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1088"
+    }
+  ]
+}

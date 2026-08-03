@@ -1,9 +1,0 @@
-egp_id: 512
-tag: egp-512
-slug: egp-512-may-concession-c2
-level: C2
-super_category: MODALITY
-sub_category: may
-detection: llm
-detectability: use
-polke_construct_id: 512

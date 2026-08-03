@@ -1,0 +1,13 @@
+slug: a2-clauses-relative
+title: 'A2 CLAUSES: relative'
+level: A2
+super_category: CLAUSES
+sub_category: relative
+category: clauses
+sort_order: 41
+merged_sub_categories:
+- relative
+detectability:
+  form: 8
+split: null
+construct_count: 8

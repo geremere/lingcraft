@@ -1,0 +1,55 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-302
+  id: 302
+  guideword: 'USE: ''THIS'' POINTING|'
+  can_do: 'Can use ''this'' in an increasing range of contexts to refer to places and things from the
+    speaker''s or writer''s point of view. ► noun phrases ► pronouns: demonstrative'
+  detectability: use
+- ref: egp-303
+  id: 303
+  guideword: 'USE: POINTING'
+  can_do: 'Can use ''this'' in an increasing range of contexts to refer to places and things from the
+    speaker''s or writer''s point of view. ► noun phrases ► pronouns: demonstrative'
+  detectability: use
+- ref: egp-304
+  id: 304
+  guideword: 'USE: ''THIS'', ALREADY MENTIONED'
+  can_do: 'Can use ''this'' to refer to something with immediate relevance which has already been mentioned.
+    ► noun phrases ►  pronouns: demonstrative'
+  detectability: use
+- ref: egp-306
+  id: 306
+  guideword: 'USE: ''THAT'', POINTING'
+  can_do: Can use 'that' to talk about or point to things which are further away in time and space from
+    the speaker or writer
+  detectability: use
+- ref: egp-307
+  id: 307
+  guideword: 'USE: ''THAT'', ALREADY MENTIONED'
+  can_do: 'Can use ''that'' to refer to something which has already been mentioned. ► noun phrases ►  pronouns:
+    demonstrative'
+  detectability: use
+- ref: egp-309
+  id: 309
+  guideword: 'USE: ''THESE'' POINTING||'
+  can_do: Can use 'these' to refer to places and things from the speaker's or writer's point of view.
+  detectability: use
+- ref: egp-310
+  id: 310
+  guideword: 'USE: ''THESE'', ALREADY MENTIONED'
+  can_do: 'Can use ''these'' to refer to things with immediate relevance or which have already been mentioned.
+    ► noun phrases ►  pronouns: demonstrative'
+  detectability: use
+- ref: egp-312
+  id: 312
+  guideword: 'USE: ''THOSE'', ALREADY MENTIONED'
+  can_do: 'Can use ''those'' to refer to things which have already been mentioned. ► noun phrases ►  pronouns:
+    demonstrative'
+  detectability: use
+- ref: egp-313
+  id: 313
+  guideword: 'USE: THOSE POINTING'
+  can_do: Can use 'those' to talk about or point to things which the speaker or writer perceives to be
+    further away in time and space.
+  detectability: use

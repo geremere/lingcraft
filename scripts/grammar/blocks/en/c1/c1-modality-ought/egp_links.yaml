@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-560
+  id: 560
+  guideword: 'FORM/USE: DESIRED STATES, WITH ''THERE OUGHT TO BE'''
+  can_do: Can use 'there ought to be' to talk about desired states of affairs.
+  detectability: form
+- ref: egp-561
+  id: 561
+  guideword: 'FORM/USE: EMPHASIS, WITH ''REALLY'''
+  can_do: Can use 'ought to' with 'really' to add emphasis.
+  detectability: form
+- ref: egp-562
+  id: 562
+  guideword: 'FORM/USE: PAST, AFFIRMATIVE'
+  can_do: Can use 'ought to have' + '-ed' to refer to desired states of affairs in the past.
+  detectability: form
+- ref: egp-563
+  id: 563
+  guideword: 'USE: LIKELIHOOD'
+  can_do: Can use 'ought to' to talk about something which is likely.
+  detectability: use

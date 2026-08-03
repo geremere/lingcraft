@@ -1,0 +1,65 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-769
+  id: 769
+  guideword: 'FORM/USE: AFTER ''BECAUSE'', EXPLANATIONS'
+  can_do: Can use the past perfect simple after 'because' to give explanatory information.
+  detectability: form
+- ref: egp-770
+  id: 770
+  guideword: 'FORM/USE: AFTER ''IF ONLY'' AND ''WISH'', IMAGINED PAST'
+  can_do: Can use the affirmative form after 'if only', and the affirmative and negative forms after 'wish'
+    to talk about regret.
+  detectability: form
+- ref: egp-771
+  id: 771
+  guideword: 'FORM/USE: INVERSION WITH ''NEVER (BEFORE)'''
+  can_do: Can invert the subject and auxiliary verb after 'never (before)' to talk about a unique event,
+    often in formal contexts.
+  detectability: form
+- ref: egp-772
+  id: 772
+  guideword: 'FORM/USE: INVERSION WITH ''NO SOONER ? THAN'''
+  can_do: Can invert the subject and auxiliary verb with 'no sooner ? than' to talk about something that
+    happened immediately before something else, often in formal contexts.
+  detectability: form
+- ref: egp-773
+  id: 773
+  guideword: 'FORM: ELLIPSIS'
+  can_do: Can leave out the subject before the past perfect simple where it is understood from the previous
+    clause.
+  detectability: form
+- ref: egp-774
+  id: 774
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use question forms.
+  detectability: form
+- ref: egp-775
+  id: 775
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use the past perfect simple with a wide range of adverbs (including 'finally', 'recently',
+    'simply') in the normal mid-position.  ► adverbs
+  detectability: form
+- ref: egp-776
+  id: 776
+  guideword: 'USE: BACKGROUND INFORMATION, RELATIVE CLAUSE'
+  can_do: Can use the past perfect simple in relative clauses to give background information.    ► relative
+    clauses
+  detectability: use
+- ref: egp-777
+  id: 777
+  guideword: 'USE: CHANGE OF SITUATION'
+  can_do: Can use the past perfect simple to talk about situations which changed.
+  detectability: use
+- ref: egp-778
+  id: 778
+  guideword: 'USE: REPORTS OF QUESTIONS'
+  can_do: Can use the past perfect simple to report questions, where the main verb in the reporting clause
+    is in the past simple.  ► reported speech
+  detectability: use
+- ref: egp-779
+  id: 779
+  guideword: 'USE: REPORTS OF STATEMENTS'
+  can_do: Can use the past perfect simple to report statements, where the main verb in the reporting clause
+    is in the past simple.  ► reported speech
+  detectability: use

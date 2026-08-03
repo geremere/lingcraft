@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-703
+  id: 703
+  guideword: 'FORM/USE: WITH ''BY'' TO ADD INFORMATION'
+  can_do: Can use the passive with 'by' to add information about something already known.
+  detectability: form
+- ref: egp-704
+  id: 704
+  guideword: 'FORM: PAST SIMPLE, AFFIRMATIVE'
+  can_do: Can use the past simple passive affirmative after a singular subject.
+  detectability: form
+- ref: egp-705
+  id: 705
+  guideword: 'FORM: PRESENT SIMPLE, AFFIRMATIVE'
+  can_do: Can use the present simple passive affirmative with a singular subject.
+  detectability: form

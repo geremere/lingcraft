@@ -1,0 +1,32 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1045
+  id: 1045
+  guideword: 'FORM: VERB + PARTICLE + PREPOSITION + OBJECT'
+  can_do: Can use an increasing range of verb + particle + preposition + noun or pronoun.
+  detectability: form
+- ref: egp-1050
+  id: 1050
+  guideword: 'FORM: PREPOSITIONAL VERB, STRANDED PREPOSITION'
+  can_do: Can use verb + preposition, where the preposition is separated from its complement.
+  detectability: form
+- ref: egp-1051
+  id: 1051
+  guideword: 'FORM: VERB + ADVERB + PREPOSITION'
+  can_do: Can use an adverb between the verb and the preposition.
+  detectability: form
+- ref: egp-1075
+  id: 1075
+  guideword: 'FORM: SEMI-MODAL AUXILIARY VERBS, ''DARE'', ''NEED'''
+  can_do: Can use semi-modal auxiliary verbs, 'dare' and 'need'.
+  detectability: form
+- ref: egp-1101
+  id: 1101
+  guideword: 'FORM: ''THERE'' + VERBS WITH MODAL MEANING'
+  can_do: Can use 'there' with other verbs with modal meaning + 'be' + complement.
+  detectability: form
+- ref: egp-1104
+  id: 1104
+  guideword: 'FORM: LINKING + COMPLEMENT'
+  can_do: Can use a wide range of linking verbs with complements.
+  detectability: form

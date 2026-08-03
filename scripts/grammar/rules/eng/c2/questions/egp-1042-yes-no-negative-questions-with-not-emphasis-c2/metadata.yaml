@@ -1,9 +1,0 @@
-egp_id: 1042
-tag: egp-1042
-slug: egp-1042-yes-no-negative-questions-with-not-emphasis-c2
-level: C2
-super_category: QUESTIONS
-sub_category: yes/no
-detection: polke
-detectability: form
-polke_construct_id: 1042

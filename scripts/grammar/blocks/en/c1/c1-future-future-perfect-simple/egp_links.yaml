@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-378
+  id: 378
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use the future perfect with adverbs (in the normal mid-position).
+  detectability: form
+- ref: egp-379
+  id: 379
+  guideword: 'USE: ASSUMPTIONS'
+  can_do: Can use the future perfect simple with 'will' to make assumptions about the present, particularly
+    with 'you'.
+  detectability: use
+- ref: egp-380
+  id: 380
+  guideword: 'USE: POLITENESS'
+  can_do: Can use the future perfect simple with 'will' as a politeness strategy, often in formal contexts.
+  detectability: use

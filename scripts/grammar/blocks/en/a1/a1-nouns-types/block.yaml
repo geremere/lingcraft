@@ -1,0 +1,13 @@
+slug: a1-nouns-types
+title: 'A1 NOUNS: types'
+level: A1
+super_category: NOUNS
+sub_category: types
+category: nouns-articles
+sort_order: 20
+merged_sub_categories:
+- types
+detectability:
+  form: 3
+split: null
+construct_count: 3

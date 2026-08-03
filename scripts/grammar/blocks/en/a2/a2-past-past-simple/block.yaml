@@ -1,0 +1,13 @@
+slug: a2-past-past-simple
+title: 'A2 PAST: past simple'
+level: A2
+super_category: PAST
+sub_category: past simple
+category: verbs-tenses
+sort_order: 73
+merged_sub_categories:
+- past simple
+detectability:
+  form: 4
+split: null
+construct_count: 4

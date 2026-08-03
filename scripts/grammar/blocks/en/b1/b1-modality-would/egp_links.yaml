@@ -1,0 +1,59 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-625
+  id: 625
+  guideword: 'FORM/USE: AFTER ''IF'' CLAUSES'
+  can_do: Can use 'would' in the main clause of a conditional sentence to talk about an imagined situation,
+    often in the context of advice or opinion-giving.
+  detectability: form
+- ref: egp-626
+  id: 626
+  guideword: 'FORM: PAST AFFIRMATIVE'
+  can_do: Can use 'would have' + '-ed'.
+  detectability: form
+- ref: egp-627
+  id: 627
+  guideword: 'FORM: PAST NEGATIVE'
+  can_do: Can use 'would not have' + '-ed' or 'wouldn’t have' + '-ed'
+  detectability: form
+- ref: egp-628
+  id: 628
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use question forms.
+  detectability: form
+- ref: egp-629
+  id: 629
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use an limited range of adverbs with 'would', including 'really', 'probably', 'certainly',
+    'definitely'.► adverbs
+  detectability: form
+- ref: egp-630
+  id: 630
+  guideword: 'USE: FUTURE IN THE PAST'
+  can_do: Can use 'would' to talk about the future in the past.
+  detectability: use
+- ref: egp-631
+  id: 631
+  guideword: 'USE: IMAGINED SITUATIONS IN THE PAST'
+  can_do: Can use 'would' to talk about imagined situations in the past. ► conditionals
+  detectability: use
+- ref: egp-632
+  id: 632
+  guideword: 'USE: INDIRECTNESS'
+  can_do: Can use 'would' with verbs such as 'advise', 'imagine', 'recommend', 'say' to be less direct.
+  detectability: use
+- ref: egp-633
+  id: 633
+  guideword: 'USE: POLITE REQUESTS'
+  can_do: Can use 'would' to make polite requests, often in the fixed expression 'would you mind'.
+  detectability: use
+- ref: egp-634
+  id: 634
+  guideword: 'USE: REPORTED SPEECH'
+  can_do: Can use 'would' as the past form of 'will' in reported clauses.
+  detectability: use
+- ref: egp-635
+  id: 635
+  guideword: 'USE: WILLINGNESS IN THE PAST'
+  can_do: Can use the negative forms of 'would' to talk about willingness in the past.
+  detectability: use

@@ -1,0 +1,14 @@
+slug: b1-pronouns-demonstratives
+title: 'B1 PRONOUNS: demonstratives'
+level: B1
+super_category: PRONOUNS
+sub_category: demonstratives
+category: pronouns
+sort_order: 144
+merged_sub_categories:
+- demonstratives
+detectability:
+  use: 3
+  form: 4
+split: null
+construct_count: 7

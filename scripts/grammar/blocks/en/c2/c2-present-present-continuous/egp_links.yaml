@@ -1,0 +1,14 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-863
+  id: 863
+  guideword: 'FORM/USE: WITH ADVERBS OF INDEFINITE FREQUENCY'
+  can_do: Can use the present continuous with a wide range of adverbs of indefinite frequency, often to
+    talk about surprising or undesirable situations or events.
+  detectability: form
+- ref: egp-864
+  id: 864
+  guideword: 'USE: POLITENESS'
+  can_do: Can use the present continuous with verbs that are not usually used in this form to make statements
+    and requests sound less direct.
+  detectability: use

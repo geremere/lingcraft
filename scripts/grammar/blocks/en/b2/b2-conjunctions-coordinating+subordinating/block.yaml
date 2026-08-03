@@ -1,0 +1,14 @@
+slug: b2-conjunctions-coordinating+subordinating
+title: 'B2 CONJUNCTIONS: coordinating, subordinating'
+level: B2
+super_category: CONJUNCTIONS
+sub_category: coordinating+subordinating
+category: prepositions-conjunctions
+sort_order: 167
+merged_sub_categories:
+- coordinating
+- subordinating
+detectability:
+  form: 4
+split: null
+construct_count: 4

@@ -1,0 +1,13 @@
+slug: a2-nouns-uncountable
+title: 'A2 NOUNS: uncountable'
+level: A2
+super_category: NOUNS
+sub_category: uncountable
+category: nouns-articles
+sort_order: 68
+merged_sub_categories:
+- uncountable
+detectability:
+  form: 4
+split: null
+construct_count: 4

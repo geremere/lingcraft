@@ -1,0 +1,37 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-436
+  id: 436
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-437
+  id: 437
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative forms.
+  detectability: form
+- ref: egp-438
+  id: 438
+  guideword: 'FORM: QUESTION'
+  can_do: Can use the affirmative question form.
+  detectability: form
+- ref: egp-439
+  id: 439
+  guideword: 'USE: ABILITY'
+  can_do: Can use 'can' to talk about ability to do something.
+  detectability: use
+- ref: egp-440
+  id: 440
+  guideword: 'USE: OFFERS'
+  can_do: Can use 'can' to make an offer.
+  detectability: use
+- ref: egp-441
+  id: 441
+  guideword: 'USE: POSSIBILITY'
+  can_do: Can use 'can' to talk about possibility.
+  detectability: use
+- ref: egp-442
+  id: 442
+  guideword: 'USE: REQUESTS'
+  can_do: Can use 'can' to make a request.
+  detectability: use

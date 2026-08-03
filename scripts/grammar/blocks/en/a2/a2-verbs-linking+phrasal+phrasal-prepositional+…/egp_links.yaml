@@ -1,0 +1,33 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1043
+  id: 1043
+  guideword: 'FORM/USE: ''LOOK FORWARD TO'''
+  can_do: Can use 'look forward to' as a fixed expression followed by an '-ing' form or noun phrase, usually
+    at the end of correspondence.
+  detectability: form
+- ref: egp-1057
+  id: 1057
+  guideword: 'FORM: NO OBJECT'
+  can_do: Can use a limited range of phrasal verbs without an object.
+  detectability: form
+- ref: egp-1058
+  id: 1058
+  guideword: 'FORM: VERB + PRONOUN + PARTICLE'
+  can_do: Can use a limited range of phrasal verbs + object pronoun + particle.
+  detectability: form
+- ref: egp-1097
+  id: 1097
+  guideword: 'FORM: ''THERE IS'' + UNCOUNTABLE'
+  can_do: Can use 'there is' + uncountable nouns as complement.
+  detectability: form
+- ref: egp-1098
+  id: 1098
+  guideword: 'FORM: ''THERE IS/ARE'' + A LOT OF'
+  can_do: Can use both 'there is' and 'there are' + 'a lot of' + plural noun.
+  detectability: form
+- ref: egp-1103
+  id: 1103
+  guideword: 'FORM: LINKING + COMPLEMENT'
+  can_do: Can use an increasing range of linking verbs with complements.
+  detectability: form

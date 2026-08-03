@@ -1,9 +1,0 @@
-egp_id: 1235
-tag: egp-1235
-slug: egp-1235-could-reported-speech-b2
-level: B2
-super_category: MODALITY
-sub_category: could
-detection: llm
-detectability: use
-polke_construct_id: 1235

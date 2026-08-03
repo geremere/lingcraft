@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-250
+  id: 250
+  guideword: 'FORM: NON-FINITE AFTER ''IF'''
+  can_do: 'Can use non-finite clauses after ''if''. .► ''clauses: conditionals'''
+  detectability: form
+- ref: egp-252
+  id: 252
+  guideword: 'FORM/USE: INVERSION'
+  can_do: Can introduce a subordinate clause with inverted 'should/had/were' + subject + verb, in formal
+    contexts.
+  detectability: form
+- ref: egp-253
+  id: 253
+  guideword: 'FORM/USE: NON-FINITE WITH ''-ED'' CLAUSES, FOCUS'
+  can_do: Can use a non-finite subordinate clause with an '-ed' form, before a main clause, to give focus.
+  detectability: form
+- ref: egp-254
+  id: 254
+  guideword: 'FORM/USE: ''NOT'' + ''-ING'' CLAUSE'
+  can_do: Can use a non-finite clause, introduced by 'not' + '-ing', to give more information.
+  detectability: form

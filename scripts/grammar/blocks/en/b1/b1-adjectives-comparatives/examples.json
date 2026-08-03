@@ -1,0 +1,59 @@
+{
+  "examples": [
+    {
+      "text": "I think the teacher in the new class is much better than the last one. (Germany; B1 THRESHOLD; 2002; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-22"
+    },
+    {
+      "text": "The house is beautiful, and so much bigger than the previous one. (Poland; B1 THRESHOLD; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-22"
+    },
+    {
+      "text": "He's 15, a bit smaller than me, dark hair, brown eyes. (France; B1 THRESHOLD; 2003; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-23"
+    },
+    {
+      "text": "Our first lesson was a bit shorter, but very unusual. (Slovakia; B1 THRESHOLD; 2002; Slovak; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-23"
+    },
+    {
+      "text": "She's a little bit older than me. (Hungary; B1 THRESHOLD; 2010; Hungarian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-23"
+    },
+    {
+      "text": "I saw everything become smaller and smaller. (China; B1 THRESHOLD; 2003; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-24"
+    },
+    {
+      "text": "I think that's a good question, because nowadays television is getting worse and worse, but there are still some good programmes. (Spain; B1 THRESHOLD; 2007; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-24"
+    },
+    {
+      "text": "Summer is coming. Days become longer and longer. (China; B1 THRESHOLD; 2007; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-24"
+    },
+    {
+      "text": "[talking about a series of films] I'm sure you've seen part one already, but part two was even better! (Thailand; B1 THRESHOLD; 2002; Thai; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-25"
+    },
+    {
+      "text": "As I finished, my smile got even bigger. (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-25"
+    },
+    {
+      "text": "I think that it is awful, because that means that in Spain it will be even hotter than it is now. (Spain; B1 THRESHOLD; 2007; Catalan; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-25"
+    }
+  ]
+}

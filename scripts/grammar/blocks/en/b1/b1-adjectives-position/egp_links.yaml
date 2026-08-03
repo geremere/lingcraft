@@ -1,0 +1,26 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-49
+  id: 49
+  guideword: 'FORM: ADJECTIVES WITH PREFIX ''A-'''
+  can_do: Can use adjectives with the prefix a- ('asleep', 'awake', 'alive', 'alone') predicatively only,
+    after linking verbs.
+  detectability: form
+- ref: egp-50
+  id: 50
+  guideword: 'FORM: ATTRIBUTIVE (WITH NOUNS)'
+  can_do: 'Can use an increasing range of adjectives attributively, before a noun.
+
+    ► noun phrases'
+  detectability: form
+- ref: egp-51
+  id: 51
+  guideword: 'FORM: WITH ''MAKE'' AS OBJECT COMPLEMENT'
+  can_do: Can use adjectives as object complement after 'make'.
+  detectability: form
+- ref: egp-52
+  id: 52
+  guideword: 'FORM: WITH PRONOUN'
+  can_do: Can use an adjective or adjective phrase after pronouns like 'something', 'nothing', 'somewhere',
+    'nowhere'.
+  detectability: form

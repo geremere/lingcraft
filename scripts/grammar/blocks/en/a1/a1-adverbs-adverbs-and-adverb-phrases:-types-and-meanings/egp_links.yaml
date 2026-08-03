@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-111
+  id: 111
+  guideword: 'FORM: ''VERY'' + ADJECTIVES'
+  can_do: Can use 'very' to modify common gradable adjectives.
+  detectability: form
+- ref: egp-112
+  id: 112
+  guideword: 'FORM: ''VERY'' + TIME ADVERBS'
+  can_do: Can use 'very' to modify time adverbs. ► adverb phrases
+  detectability: form
+- ref: egp-113
+  id: 113
+  guideword: 'FORM: DEGREE and TIME, MODIFYING VERBS'
+  can_do: Can use degree and time adverbs to modify verbs.
+  detectability: form
+- ref: egp-114
+  id: 114
+  guideword: 'FORM: PLACE, COMPLEMENT'
+  can_do: Can use place adverbs ('here', 'there') as complements of verbs.
+  detectability: form

@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-105
+  id: 105
+  guideword: 'USE: TIME'
+  can_do: Can use a wide range of adverbs and adverb phrases to refer to the timing of an event.
+  detectability: use
+- ref: egp-106
+  id: 106
+  guideword: 'USE: MANNER'
+  can_do: Can use a wide range of manner adverbs to modify how something happpens.
+  detectability: use
+- ref: egp-138
+  id: 138
+  guideword: 'FORM/USE: FRONT POSITION, INVERSION WITH ''NEVER'''
+  can_do: Can use 'never' in front position followed by an inverted subject (most commonly 'I') + main
+    verb verb, to give focus.
+  detectability: form
+- ref: egp-144
+  id: 144
+  guideword: 'FORM: COMPARATIVE'
+  can_do: Can modify an adverb with a comparative structure.
+  detectability: form

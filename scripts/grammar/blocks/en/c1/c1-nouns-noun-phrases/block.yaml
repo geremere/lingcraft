@@ -1,0 +1,14 @@
+slug: c1-nouns-noun-phrases
+title: 'C1 NOUNS: noun phrases'
+level: C1
+super_category: NOUNS
+sub_category: noun phrases
+category: nouns-articles
+sort_order: 231
+merged_sub_categories:
+- noun phrases
+detectability:
+  form: 2
+  use: 1
+split: null
+construct_count: 3

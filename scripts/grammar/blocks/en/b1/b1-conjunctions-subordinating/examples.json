@@ -1,0 +1,29 @@
+{
+  "examples": [
+    {
+      "text": "In fact, I have to buy a desk, as I don't have one. (French)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-278"
+    },
+    {
+      "text": "I usually read during the afternoon after I have finished my homework. (Italian)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-278"
+    },
+    {
+      "text": "Before going out in the centre, we went to a pub in order to eat something together, but I didn't see my boyfriend because he stayed at home. (Italian)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-278"
+    },
+    {
+      "text": "I haven't seen him since we were at school. (Portuguese)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-278"
+    },
+    {
+      "text": "I'm really sorry that I'm not available to attend this since I'll be in China for an important meeting with a customer. (Chinese)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-278"
+    }
+  ]
+}

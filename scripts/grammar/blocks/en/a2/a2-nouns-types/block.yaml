@@ -1,0 +1,13 @@
+slug: a2-nouns-types
+title: 'A2 NOUNS: types'
+level: A2
+super_category: NOUNS
+sub_category: types
+category: nouns-articles
+sort_order: 69
+merged_sub_categories:
+- types
+detectability:
+  form: 1
+split: null
+construct_count: 1

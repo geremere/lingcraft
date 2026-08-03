@@ -1,0 +1,49 @@
+{
+  "examples": [
+    {
+      "text": "Well, have you ever checked your blood pressure? I think you should. (Italy; B2 VANTAGE; 1993; Swedish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-590"
+    },
+    {
+      "text": "John spent the rest of the day thinking about what he should do. in fact, he wanted to answer and meet her again, but he knew that he shouldn't. (Spain; B2 VANTAGE; 2004; Spanish - European; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-590"
+    },
+    {
+      "text": "Well, you should be bouncing up and down with joy (just kidding)! (Spain; B2 VANTAGE; 2004; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-591"
+    },
+    {
+      "text": "These are the reasons that I believe we should be reading books instead of watching television in our free time and I believe many people believe the same thinks as I do. (Greece; B2 VANTAGE; 1993; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-591"
+    },
+    {
+      "text": "The computer systems should be working again once you restart them. (Germany; B2 VANTAGE; 2009; German; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-592"
+    },
+    {
+      "text": "However, I think that the situation should be improving in the next 6 months, especially during the third quarter of the year. (Switzerland; B2 VANTAGE; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-592"
+    },
+    {
+      "text": "[talking about wedding protocol] The groom should be waiting at the entrance for the bride. (Spain; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1998; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-592"
+    },
+    {
+      "text": "Wild animals should be running free but I think that zoos today have an important role in keeping them alive. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-593"
+    },
+    {
+      "text": "Moreover if a car driver has drunk too many alcoholic drinks or is tired he shouldn't be driving. (Greece; B2 VANTAGE; 1993; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-593"
+    }
+  ]
+}

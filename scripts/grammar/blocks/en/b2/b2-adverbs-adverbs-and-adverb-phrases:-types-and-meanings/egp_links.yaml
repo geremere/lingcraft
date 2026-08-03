@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-121
+  id: 121
+  guideword: 'FORM: DEGREE, MODIFYING NOUN PHRASES'
+  can_do: Can use degree adverbs to modify noun phrases. ► noun phrases
+  detectability: form
+- ref: egp-122
+  id: 122
+  guideword: 'FORM: DEGREE, MODIFYING PRONOUNS'
+  can_do: Can use degree adverbs to modify pronouns. ► pronouns
+  detectability: form
+- ref: egp-123
+  id: 123
+  guideword: 'FORM: DEGREE, MODIFYING DETERMINERS'
+  can_do: Can use degree adverbs ('almost', 'very') to modify determiners. ► determiners
+  detectability: form

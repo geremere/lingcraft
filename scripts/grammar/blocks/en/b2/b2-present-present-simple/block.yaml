@@ -1,0 +1,14 @@
+slug: b2-present-present-simple
+title: 'B2 PRESENT: present simple'
+level: B2
+super_category: PRESENT
+sub_category: present simple
+category: verbs-tenses
+sort_order: 196
+merged_sub_categories:
+- present simple
+detectability:
+  form: 1
+  use: 2
+split: null
+construct_count: 3

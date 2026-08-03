@@ -1,0 +1,13 @@
+slug: a2-passives-passives:-form
+title: 'A2 PASSIVES: passives: form'
+level: A2
+super_category: PASSIVES
+sub_category: 'passives: form'
+category: passives
+sort_order: 70
+merged_sub_categories:
+- 'passives: form'
+detectability:
+  form: 3
+split: null
+construct_count: 3

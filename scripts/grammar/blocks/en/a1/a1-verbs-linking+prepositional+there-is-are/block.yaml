@@ -1,0 +1,15 @@
+slug: a1-verbs-linking+prepositional+there-is-are
+title: 'A1 VERBS: linking, prepositional, there is/are'
+level: A1
+super_category: VERBS
+sub_category: linking+prepositional+there is/are
+category: verbs-tenses
+sort_order: 31
+merged_sub_categories:
+- linking
+- prepositional
+- there is/are
+detectability:
+  form: 4
+split: null
+construct_count: 4

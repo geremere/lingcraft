@@ -1,0 +1,29 @@
+{
+  "examples": [
+    {
+      "text": "I can't come to your wedding because, as you know, I live in England and on Thursday 18th July I'm going to take the FCE exam. (A2 WAYSTAGE; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1132"
+    },
+    {
+      "text": "As you know, my parents are leaving home tomorrow night to go to Spain. (France; A2 WAYSTAGE; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1132"
+    },
+    {
+      "text": "So, what do you think? (Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1133"
+    },
+    {
+      "text": "[talking about not being able to make it to a party] I have got an appointment with my dentist.  So, I'm really sorry about that and I'm getting so sad. (A2 WAYSTAGE; 2007; Farsi; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1133"
+    },
+    {
+      "text": "I'll be free at 15.00. So, I'll be at your house at 15.30. (Spain; A2 WAYSTAGE; 2001; Catalan; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1133"
+    }
+  ]
+}

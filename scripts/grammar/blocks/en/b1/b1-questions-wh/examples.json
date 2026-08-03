@@ -1,0 +1,14 @@
+{
+  "examples": [
+    {
+      "text": "Why can't you do both things? (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1029"
+    },
+    {
+      "text": "Why couldn't I control myself? (Spanish - Latin American, B1 THRESHOLD)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1029"
+    }
+  ]
+}

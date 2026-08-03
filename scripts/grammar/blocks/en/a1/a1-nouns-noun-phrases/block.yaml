@@ -1,0 +1,13 @@
+slug: a1-nouns-noun-phrases
+title: 'A1 NOUNS: noun phrases'
+level: A1
+super_category: NOUNS
+sub_category: noun phrases
+category: nouns-articles
+sort_order: 19
+merged_sub_categories:
+- noun phrases
+detectability:
+  form: 4
+split: null
+construct_count: 4

@@ -1,0 +1,34 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-291
+  id: 291
+  guideword: 'FORM: ''ANOTHER'' |'
+  can_do: Can use 'another' with singular nouns. ► pronouns ► determiners
+  detectability: form
+- ref: egp-292
+  id: 292
+  guideword: 'FORM: PREPOSITION + NO ARTICLE'
+  can_do: Can use no article before an increasing range of nouns in some fixed expressions with prepositions.
+  detectability: form
+- ref: egp-293
+  id: 293
+  guideword: 'FORM/USE: NO ARTICLE'
+  can_do: Can use no article before an increasing range of singular and plural nouns when referring to
+    things in general.
+  detectability: form
+- ref: egp-294
+  id: 294
+  guideword: 'USE: ONE MORE (WITH ''ANOTHER'')'
+  can_do: Can use 'another' to talk about something additional.
+  detectability: use
+- ref: egp-295
+  id: 295
+  guideword: 'USE: DIFFERENT (WITH ''ANOTHER'')'
+  can_do: Can use 'another' to talk about something different.
+  detectability: use
+- ref: egp-296
+  id: 296
+  guideword: 'FORM/USE: ''THE OTHER'''
+  can_do: Can use 'the other' with a singular noun to refer to the second or the opposite of two things,
+    and with a plural noun to refer to one of a set of things. ► pronouns ►  noun phrases
+  detectability: form

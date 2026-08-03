@@ -1,0 +1,32 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-126
+  id: 126
+  guideword: 'FORM: DEGREE, BEFORE ADJECTIVES'
+  can_do: Can use a limited range of degree adverbs before an adjective.
+  detectability: form
+- ref: egp-127
+  id: 127
+  guideword: 'FORM: FREQUENCY, MID POSITION'
+  can_do: Can use frequency adverbs in the usual mid position, between the subject and the main verb.
+  detectability: form
+- ref: egp-128
+  id: 128
+  guideword: 'FORM: FRONT POSITION'
+  can_do: Can use a limited range of adverbs in front position.
+  detectability: form
+- ref: egp-129
+  id: 129
+  guideword: 'FORM: ''REALLY,''  MID POSITION'
+  can_do: Can use 'really' in the usual mid-position, between the subject and the main verb.
+  detectability: form
+- ref: egp-130
+  id: 130
+  guideword: 'FORM: TIME, END POSITION'
+  can_do: Can use time adverbs in the usual end position.
+  detectability: form
+- ref: egp-131
+  id: 131
+  guideword: 'FORM: PLACE, END POSITION'
+  can_do: Can use place adverbs in the usual end position.
+  detectability: form

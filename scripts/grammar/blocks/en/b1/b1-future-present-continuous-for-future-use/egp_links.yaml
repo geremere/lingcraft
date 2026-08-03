@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-414
+  id: 414
+  guideword: 'USE: FUTURE ARRANGEMENTS'
+  can_do: Can use the present continuous with an increasing range of verbs to talk about future arrangements.
+  detectability: use
+- ref: egp-415
+  id: 415
+  guideword: 'USE: QUESTIONS ABOUT THE FUTURE'
+  can_do: Can use the present continuous with an increasing range of verbs to ask about future plans.
+  detectability: use
+- ref: egp-421
+  id: 421
+  guideword: 'FORM: WITH ''AS SOON AS'''
+  can_do: Can use the present simple with 'as soon as' to refer to the future.
+  detectability: form

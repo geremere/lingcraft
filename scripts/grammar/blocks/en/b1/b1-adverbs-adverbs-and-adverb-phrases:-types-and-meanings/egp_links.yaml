@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-118
+  id: 118
+  guideword: 'FORM: DEGREE, MODIFYING ADVERBS'
+  can_do: 'Can use a limited range of degree adverbs to modify adverbs. ► adverb phrases: form'
+  detectability: form
+- ref: egp-119
+  id: 119
+  guideword: 'FORM: MANNER, MODIFYING VERBS'
+  can_do: Can use an increasing range of manner adverbs to modify verbs.
+  detectability: form
+- ref: egp-120
+  id: 120
+  guideword: 'FORM/USE: MODIFYING CLAUSES, STANCE'
+  can_do: Can use adverbs to modify clauses and sentences to indicate stance or attitude.
+  detectability: form

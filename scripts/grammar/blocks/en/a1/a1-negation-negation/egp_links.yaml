@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1175
+  id: 1175
+  guideword: 'FORM: MAIN VERB ''BE'''
+  can_do: Can form negative statements of main verb 'be', with contracted and uncontracted forms.
+  detectability: form
+- ref: egp-1176
+  id: 1176
+  guideword: 'FORM: AUXILIARY VERB ''DO'', PRESENT'
+  can_do: Can form negative statements of main verbs in the present simple with 'don't' + main verb. ►
+    present simple ► can
+  detectability: form
+- ref: egp-1177
+  id: 1177
+  guideword: 'FORM: MODAL VERB ''CAN'''
+  can_do: Can use negative form 'can?t'.
+  detectability: form

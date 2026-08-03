@@ -1,0 +1,44 @@
+{
+  "examples": [
+    {
+      "text": "My college is not very big. (A1 BREAKTHROUGH; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1175"
+    },
+    {
+      "text": "I know you are not well. (A1 BREAKTHROUGH; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1175"
+    },
+    {
+      "text": "I'm not a good swimmer. (A1 BREAKTHROUGH; 2011; Romanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1175"
+    },
+    {
+      "text": "This place isn't big. (A1 BREAKTHROUGH; 2007; Lithuanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1175"
+    },
+    {
+      "text": "I don't have a dining room, so we eat in the living room. (A1 BREAKTHROUGH; 2009; Romanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1176"
+    },
+    {
+      "text": "We don't like other lessons, for example: French language. (A1 BREAKTHROUGH; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1176"
+    },
+    {
+      "text": "In winter, we can't go visiting because it is too cold. (A1 BREAKTHROUGH; 2011; Nepali; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1177"
+    },
+    {
+      "text": "I can't find my CD. (A1 BREAKTHROUGH; 2008; Romanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1177"
+    }
+  ]
+}

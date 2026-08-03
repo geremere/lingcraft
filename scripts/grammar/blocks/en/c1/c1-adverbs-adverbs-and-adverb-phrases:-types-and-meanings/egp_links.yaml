@@ -1,0 +1,13 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-124
+  id: 124
+  guideword: 'FORM: DEGREE, MODIFYING ADVERBS'
+  can_do: 'Can use an increasing range of degree adverbs to modify a range of adverb types. ► adjectives
+    ► adverb phrases: form'
+  detectability: form
+- ref: egp-125
+  id: 125
+  guideword: 'FORM: DEGREE, MODIFYING COMPARATIVES'
+  can_do: Can use degree adverbs ('slightly', 'a bit', 'much') to modify comparatives.
+  detectability: form

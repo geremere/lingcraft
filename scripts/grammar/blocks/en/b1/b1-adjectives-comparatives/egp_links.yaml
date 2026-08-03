@@ -1,0 +1,26 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-22
+  id: 22
+  guideword: 'FORM/USE: WITH ''(SO) MUCH'''
+  can_do: Can use '(so) much' to modify and intensify comparative adjectives used predicatively after
+    a verb, usually 'be'.
+  detectability: form
+- ref: egp-23
+  id: 23
+  guideword: 'FORM/USE: WITH ''A (LITTLE) BIT'''
+  can_do: Can use 'a (little) bit' to modify comparative adjectives used predicatively after a verb, usually
+    'be'.
+  detectability: form
+- ref: egp-24
+  id: 24
+  guideword: 'FORM/USE: WITH ''AND'''
+  can_do: 'Can use ''and'' to repeat a comparative adjective to indicate change over time, usually after
+    ''become'' or ''get''.  ► adjectives: comparatives'
+  detectability: form
+- ref: egp-25
+  id: 25
+  guideword: 'FORM/USE: WITH ''EVEN'''
+  can_do: Can use 'even' to modify and intensify comparative adjectives used predicatively after a verb,
+    usually 'be' and 'get'.
+  detectability: form

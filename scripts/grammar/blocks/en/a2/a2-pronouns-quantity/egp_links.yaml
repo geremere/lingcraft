@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-956
+  id: 956
+  guideword: 'FORM: ''SOME'' AND ''ANY'''
+  can_do: Can use pronouns 'some' and 'any', to refer to quantity.
+  detectability: form
+- ref: egp-957
+  id: 957
+  guideword: 'FORM: ''SOME'' AS SUBJECT AND OBJECT'
+  can_do: Can use 'some' as a subject and object to refer back to a plural or uncountable noun.
+  detectability: form
+- ref: egp-958
+  id: 958
+  guideword: 'FORM: ''ANY'' AS OBJECT'
+  can_do: Can use 'any' as an object in a negative clause to refer back to a plural or uncountable noun.
+  detectability: form
+- ref: egp-959
+  id: 959
+  guideword: 'FORM: WITH ''OF'' + OBJECT PRONOUN'
+  can_do: Can use a limited range of pronouns ('all', 'both') with 'of' followed by an object pronoun,
+    to refer to quantity.
+  detectability: form

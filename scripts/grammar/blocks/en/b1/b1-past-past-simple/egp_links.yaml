@@ -1,0 +1,38 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-790
+  id: 790
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form with a wide range of verbs.
+  detectability: form
+- ref: egp-791
+  id: 791
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form with an increasing range of verbs.
+  detectability: form
+- ref: egp-792
+  id: 792
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use 'yes/no', 'wh-', tag and negative question forms with a limited range of verbs.
+  detectability: form
+- ref: egp-793
+  id: 793
+  guideword: 'USE: HABITUAL STATES OR ACTIONS'
+  can_do: Can use the past simple to talk about habitual states or actions.
+  detectability: use
+- ref: egp-794
+  id: 794
+  guideword: 'USE: IMAGINED SITUATIONS AFTER ''IF'''
+  can_do: Can use the past simple after 'if' to talk about the possible result of an imagined situation
+    in the present or future.
+  detectability: use
+- ref: egp-795
+  id: 795
+  guideword: 'USE: ORDERING OF PAST EVENTS'
+  can_do: Can use the past simple to order sequences of events in the past, in the context of narratives.
+  detectability: use
+- ref: egp-796
+  id: 796
+  guideword: 'USE: REGRET'
+  can_do: Can use the past simple with 'wish (that)' to express regret that things are not different.
+  detectability: use

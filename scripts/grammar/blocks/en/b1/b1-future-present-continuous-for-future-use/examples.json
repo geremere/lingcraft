@@ -1,0 +1,39 @@
+{
+  "examples": [
+    {
+      "text": "I’m attending my grandmother’s funeral tomorrow. (B1 Malay)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-414"
+    },
+    {
+      "text": "We’re expecting a child very soon. (B1 Chinese)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-414"
+    },
+    {
+      "text": "The movie is starting at 8 o’clock. (B1 Czech)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-414"
+    },
+    {
+      "text": "Are you visiting my country on your next holiday? (B1 Korean)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-415"
+    },
+    {
+      "text": "Why are you moving to a different area? (B1 Arabic Levant)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-415"
+    },
+    {
+      "text": "I'm planning to move as soon as I finish college because job opportunities in my area aren't good. (B1 Portuguese)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-421"
+    },
+    {
+      "text": "I will let you know as soon as I get the exact date. (Colombia; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-421"
+    }
+  ]
+}

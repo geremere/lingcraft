@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-36
+  id: 36
+  guideword: 'FORM: ADJECTIVE PHRASE + NOUN'
+  can_do: Can use adjective phrases attributively, before a noun.
+  detectability: form
+- ref: egp-37
+  id: 37
+  guideword: 'FORM: WITH ''ENOUGH'''
+  can_do: Can use 'enough' to modify adjectives.
+  detectability: form
+- ref: egp-38
+  id: 38
+  guideword: 'FORM: WITH ''QUITE A'''
+  can_do: Can form adjective phrases with 'quite a' + adjective.
+  detectability: form
+- ref: egp-39
+  id: 39
+  guideword: 'FORM: WITH ''TOO'' + ''TO''-INFINITIVE'
+  can_do: Can use 'too' before adjectives followed by 'to'-infinitive.
+  detectability: form

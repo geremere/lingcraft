@@ -1,0 +1,27 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-747
+  id: 747
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form.
+  detectability: form
+- ref: egp-748
+  id: 748
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form
+- ref: egp-749
+  id: 749
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use the past continuous with an increasing range of adverbs in the normal mid position.
+  detectability: form
+- ref: egp-750
+  id: 750
+  guideword: 'USE: REASON'
+  can_do: Can use the past continuous to give a reason for something, often with 'because'.
+  detectability: use
+- ref: egp-751
+  id: 751
+  guideword: 'USE: REPEATED EVENTS'
+  can_do: Can use the past continuous to talk about ongoing repeated events in the past, often with 'always'.
+  detectability: use

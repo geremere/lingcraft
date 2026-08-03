@@ -1,0 +1,15 @@
+slug: b2-modality-expressions-with-be-form
+title: 'B2 MODALITY: expressions with be (form)'
+level: B2
+super_category: MODALITY
+sub_category: expressions with be
+category: modals
+sort_order: 176
+merged_sub_categories:
+- expressions with be
+detectability:
+  form: 4
+  use: 0
+  hybrid: 0
+split: form
+construct_count: 4

@@ -1,0 +1,29 @@
+{
+  "examples": [
+    {
+      "text": "[talking about a mirror] I bought it because mine got broken, so I need it to see myself in it. (Mexico; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-736"
+    },
+    {
+      "text": "You should be careful while you are crossing or you will get hurt. (India; B1 THRESHOLD; 2010; Tamil; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-736"
+    },
+    {
+      "text": "Last week my husband's car got stolen from our garage. (B1 THRESHOLD; 2007; Farsi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-736"
+    },
+    {
+      "text": "As we have newly recruited staff, we want our staff to get trained effectively so that they can give their best to the Company. (India; B1 THRESHOLD; 2006; Gujarati; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-736"
+    },
+    {
+      "text": "We got paid well and I managed to save the most money for my studies. (Germany; B2 VANTAGE; 2004; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-736"
+    }
+  ]
+}

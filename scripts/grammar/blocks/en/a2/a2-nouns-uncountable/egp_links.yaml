@@ -1,0 +1,24 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-690
+  id: 690
+  guideword: 'FORM: UNCOUNTABLE NOUNS'
+  can_do: Can use a limited range of uncountable nouns.
+  detectability: form
+- ref: egp-691
+  id: 691
+  guideword: 'FORM: WITH ''THE'''
+  can_do: Can use uncountable nouns with 'the' to talk about something specific.
+  detectability: form
+- ref: egp-692
+  id: 692
+  guideword: 'FORM: WITH DETERMINERS, QUANTITY'
+  can_do: 'Can use uncountable nouns with a limited range of quantity words and phrases including ''some'',
+    ''any'', ''a lot of'', ''more''. ► Determiners: quantity'
+  detectability: form
+- ref: egp-693
+  id: 693
+  guideword: 'FORM: CONTAINERS, QUANTITY EXPRESSIONS'
+  can_do: Can refer to an individual example or quantity of an uncountable noun using words for containers
+    and countable items.
+  detectability: form

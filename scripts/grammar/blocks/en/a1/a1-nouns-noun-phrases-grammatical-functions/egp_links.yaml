@@ -1,0 +1,27 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-698
+  id: 698
+  guideword: 'FORM: AS SUBJECTS'
+  can_do: Can use nouns and noun phrases as subjects of the clause.
+  detectability: form
+- ref: egp-699
+  id: 699
+  guideword: 'FORM: AS OBJECTS'
+  can_do: Can use nouns and noun phrases as objects of the clause.
+  detectability: form
+- ref: egp-700
+  id: 700
+  guideword: 'FORM: AS COMPLEMENT OF PREPOSITIONS'
+  can_do: Can use nouns and noun phrases as complements of prepositions in prepositional phrases.
+  detectability: form
+- ref: egp-701
+  id: 701
+  guideword: 'FORM: AS COMPLEMENT OF ''BE'''
+  can_do: Can use nouns and noun phrases as complements of the verb 'be'.
+  detectability: form
+- ref: egp-702
+  id: 702
+  guideword: 'FORM: AS ADJUNCTS'
+  can_do: Can use nouns and noun phrases as adjuncts in some time expressions.
+  detectability: form

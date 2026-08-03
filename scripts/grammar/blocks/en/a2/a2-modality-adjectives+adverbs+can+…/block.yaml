@@ -1,0 +1,19 @@
+slug: a2-modality-adjectives+adverbs+can+…
+title: 'A2 MODALITY: adjectives, adverbs, can, expressions with be, may, might'
+level: A2
+super_category: MODALITY
+sub_category: adjectives+adverbs+can+…
+category: modals
+sort_order: 64
+merged_sub_categories:
+- adjectives
+- adverbs
+- can
+- expressions with be
+- may
+- might
+detectability:
+  form: 6
+  use: 3
+split: null
+construct_count: 9

@@ -1,0 +1,14 @@
+slug: b2-nouns-types+uncountable
+title: 'B2 NOUNS: types, uncountable'
+level: B2
+super_category: NOUNS
+sub_category: types+uncountable
+category: nouns-articles
+sort_order: 187
+merged_sub_categories:
+- types
+- uncountable
+detectability:
+  form: 2
+split: null
+construct_count: 2

@@ -1,0 +1,13 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-353
+  id: 353
+  guideword: 'FORM: AFFIRMATIVE WITH ''WILL'''
+  can_do: Can use the affirmative form with 'will'.
+  detectability: form
+- ref: egp-354
+  id: 354
+  guideword: 'USE: FUTURE ARRANGEMENTS'
+  can_do: Can use the future continuous with 'will' to talk about an event or action in progress at a
+    specified time in the future.
+  detectability: use

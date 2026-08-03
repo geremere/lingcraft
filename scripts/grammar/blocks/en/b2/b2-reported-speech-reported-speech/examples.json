@@ -1,0 +1,104 @@
+{
+  "examples": [
+    {
+      "text": "\"No problem\", I thought, \"there is only one person\". (Botswana; B2 VANTAGE; 1993; Vietnamese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1153"
+    },
+    {
+      "text": "\"We have come together\", this man said, \"to celebrate our annual meeting and to call our master's ghost tonight!? (Germany; B2 VANTAGE; 1993; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1153"
+    },
+    {
+      "text": "\"Forgive me, sweetheart\", he said, \"I will never leave you alone again.? (Poland; B2 VANTAGE; 1993; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1153"
+    },
+    {
+      "text": "\"I was astonished when I saw them standing there\", said John. (Netherlands; B2 VANTAGE; 1999; Dutch; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1154"
+    },
+    {
+      "text": "\"Who are you?\" asked Peter. (Turkey; B2 VANTAGE; 1997; Turkish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1154"
+    },
+    {
+      "text": "\"Would you mind lending me a part of your newspaper?\" said a whispering voice. (Switzerland; B2 VANTAGE; 1993; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1154"
+    },
+    {
+      "text": "What do you think about this? said the Inspector to the policeman. (Spain; B2 VANTAGE; 1997; Spanish - European; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1154"
+    },
+    {
+      "text": "\"So this is a real cow, mom?\" she asked doubtfully. (Poland; B2 VANTAGE; 1993; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1155"
+    },
+    {
+      "text": "\"A hundred dollars for one day. Is that a deal?\" her husband said forcefully. (Malaysia; B2 VANTAGE; 1999; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1155"
+    },
+    {
+      "text": "\"Come on, what's wrong?\" Bella asked curiously. (Greece; B2 VANTAGE; 2009; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1155"
+    },
+    {
+      "text": "\"Put that light out!\" I shouted calmly. (St. Helena; B2 VANTAGE; 1993; Japanese; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1155"
+    },
+    {
+      "text": "Meanwhile, she told me not to be scared but the place was very... old. (Brazil; B2 VANTAGE; 1993; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1156"
+    },
+    {
+      "text": "I told him not to climb the wall but he was so interested in doing movements that he did not listen to me. (Spain; B2 VANTAGE; 1993; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1156"
+    },
+    {
+      "text": "Arriving there, my father told me not to go far and to stay near him. (Brazil; B2 VANTAGE; 1993; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1156"
+    },
+    {
+      "text": "I asked Pat not to tell anyone, and she promised me she wouldn't. (Brazil; B2 VANTAGE; 2000; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1156"
+    },
+    {
+      "text": "First of all, your advertisement says that you have got two great nights in a hotel for us. (Turkey; B2 VANTAGE; 1997; Turkish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1157"
+    },
+    {
+      "text": "It says you are asking for people to help in a summer camp for foreign school children. (B2 VANTAGE; 1993; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1157"
+    },
+    {
+      "text": "Firstly, your advertisement  tells  us that hotel has two great nights in a wonderful 3-star hotel (Turkey; B2 VANTAGE; 1997; Turkish; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1157"
+    },
+    {
+      "text": "The guidebook says that we can get there by train from London. (Korea, South; B2 VANTAGE; 1999; Korean; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1157"
+    },
+    {
+      "text": "I was wondering why I failed. (Greece; B2 VANTAGE; 1993; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1158"
+    }
+  ]
+}

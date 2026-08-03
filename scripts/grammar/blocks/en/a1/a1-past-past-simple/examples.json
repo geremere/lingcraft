@@ -1,0 +1,34 @@
+{
+  "examples": [
+    {
+      "text": "Every day at college I went to class at 9 am. (A1 BREAKTHROUGH; 2007; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-784"
+    },
+    {
+      "text": "I met her about ten years ago. (A1 BREAKTHROUGH; 2006; Others; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-784"
+    },
+    {
+      "text": "My grandmother lived in a village and I often went there. (A1 BREAKTHROUGH; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-784"
+    },
+    {
+      "text": "The people were very polite. (A1, French)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-785"
+    },
+    {
+      "text": "Every time I went to Hendon Park, I saw so many people there. (A1, Polish)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-785"
+    },
+    {
+      "text": "I liked this place very much. (A1, French)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-785"
+    }
+  ]
+}

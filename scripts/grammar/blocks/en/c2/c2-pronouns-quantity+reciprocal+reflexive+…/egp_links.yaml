@@ -1,0 +1,35 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-921
+  id: 921
+  guideword: 'USE: DISCOURSE MARKERS'
+  can_do: Can use 'as for myself' as a discourse marker to introduce or focus on a personal opinion.
+  detectability: use
+- ref: egp-937
+  id: 937
+  guideword: 'FORM: (SUBJECT) CLEFT CONSTRUCTIONS WITH ''IT'''
+  can_do: Can form a cleft construction beginning with 'it' to emphasise the subject of the main clause.
+    ► clauses
+  detectability: form
+- ref: egp-968
+  id: 968
+  guideword: 'FORM: ''A LOT'' AND ''MUCH'''
+  can_do: Can use 'a lot' and 'much' as a subject pronouns. ► focus
+  detectability: form
+- ref: egp-969
+  id: 969
+  guideword: 'FORM/USE: ''MANY ARE THE'' + NOUN, FOR FOCUS'
+  can_do: Can form complex noun phrases using an inverted form 'Many' + 'are' + noun phrase, followed
+    by a relative clause, as a focusing device.  ► focus
+  detectability: form
+- ref: egp-981
+  id: 981
+  guideword: 'FORM/USE: ''THE ONE(S) THAT'', FOR FOCUS'
+  can_do: Can use 'The one(s) that' + clause in subject position, for focus. ► focus
+  detectability: form
+- ref: egp-1007
+  id: 1007
+  guideword: 'FORM: ''EACH ... THE OTHER(S)'', AS OBJECT'
+  can_do: 'Can use ''each'' (+ noun or pronoun) as subject followed by ''the other(s)'' as object , to
+    refer to two related things. ► pronouns: quantity'
+  detectability: form

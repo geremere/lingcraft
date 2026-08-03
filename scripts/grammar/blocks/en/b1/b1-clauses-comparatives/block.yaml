@@ -1,0 +1,13 @@
+slug: b1-clauses-comparatives
+title: 'B1 CLAUSES: comparatives'
+level: B1
+super_category: CLAUSES
+sub_category: comparatives
+category: clauses
+sort_order: 99
+merged_sub_categories:
+- comparatives
+detectability:
+  form: 10
+split: null
+construct_count: 10

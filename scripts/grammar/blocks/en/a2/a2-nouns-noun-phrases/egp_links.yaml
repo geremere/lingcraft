@@ -1,0 +1,33 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-651
+  id: 651
+  guideword: 'FORM: DETERMINER + UNCOUNTABLE NOUN'
+  can_do: Can form simple noun phrases with a limited range of determiners + uncountable nouns.
+  detectability: form
+- ref: egp-652
+  id: 652
+  guideword: 'FORM: DETERMINER + NOUN'
+  can_do: Can form simple noun phrases by pre-modifying nouns with an increasing range of determiners.
+  detectability: form
+- ref: egp-653
+  id: 653
+  guideword: 'FORM: NOUN PHRASES WITH ADJECTIVES'
+  can_do: Can pre-modify noun phrases with a limited range of more than one adjective.
+  detectability: form
+- ref: egp-654
+  id: 654
+  guideword: 'FORM: WITH RELATIVE CLAUSE AS POSTMODIFIER'
+  can_do: 'Can post-modify noun phrases by using a non-defining relative clause. ► Clauses: relative'
+  detectability: form
+- ref: egp-655
+  id: 655
+  guideword: 'FORM: WITH RELATIVE CLAUSE AS COMPLEMENT'
+  can_do: 'Can form complex noun phrases by using a defining relative clause as a complement to a noun
+    phrase. ► Clauses: relative'
+  detectability: form
+- ref: egp-656
+  id: 656
+  guideword: 'FORM: POSSESSION WITH ''''S'' + NOUN'
+  can_do: Can use possessive determiner ''s' with a singular noun.
+  detectability: form

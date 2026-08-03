@@ -1,0 +1,16 @@
+slug: c1-questions-alternatives+tags+wh
+title: 'C1 QUESTIONS: alternatives, tags, wh-'
+level: C1
+super_category: QUESTIONS
+sub_category: alternatives+tags+wh-
+category: questions
+sort_order: 242
+merged_sub_categories:
+- alternatives
+- tags
+- wh-
+detectability:
+  form: 3
+  use: 1
+split: null
+construct_count: 4

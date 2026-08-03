@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-529
+  id: 529
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-530
+  id: 530
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative forms.
+  detectability: form
+- ref: egp-531
+  id: 531
+  guideword: 'USE: OBLIGATION AND NECESSITY'
+  can_do: Can use 'must' with a limited range of pronouns ('I' and 'you') to talk about obligation and
+    necessity.
+  detectability: use

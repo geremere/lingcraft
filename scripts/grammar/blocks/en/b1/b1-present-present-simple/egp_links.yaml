@@ -1,0 +1,29 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-878
+  id: 878
+  guideword: 'FORM/USE: NEGATIVE TAG QUESTIONS'
+  can_do: Can use 'don't you think' or 'don't you agree' to look for agreement or an opinion.
+  detectability: form
+- ref: egp-879
+  id: 879
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use 'yes/no' and 'wh-' question forms with a wide range of subjects.
+  detectability: form
+- ref: egp-880
+  id: 880
+  guideword: 'USE: MENTAL PROCESS VERBS'
+  can_do: Can use the present simple with an increasing a range of mental process verbs, including 'remember',
+    'understand', 'believe'.
+  detectability: use
+- ref: egp-881
+  id: 881
+  guideword: 'USE: REPORTING VERBS'
+  can_do: Can use the present simple with a limited range of reporting verbs, including 'say', 'show'.
+  detectability: use
+- ref: egp-882
+  id: 882
+  guideword: 'USE: SPEECH ACT VERBS'
+  can_do: Can use the present simple with a limited range of speech act verbs, including 'suggest', 'apologise',
+    'recommend'.
+  detectability: use

@@ -1,0 +1,7 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-862
+  id: 862
+  guideword: 'USE: RHETORICAL QUESTIONS'
+  can_do: Can use question forms to ask rhetorical questions.
+  detectability: use

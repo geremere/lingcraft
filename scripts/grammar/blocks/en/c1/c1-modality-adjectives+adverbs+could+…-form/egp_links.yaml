@@ -1,0 +1,69 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-434
+  id: 434
+  guideword: 'FORM/USE: MODIFYING ADJECTIVES, HEDGING'
+  can_do: Can modify adjectives with degree adverbs, often to make an assertion less direct.
+  detectability: form
+- ref: egp-435
+  id: 435
+  guideword: 'FORM/USE: MODIFYING ADJECTIVES, EMPHASIS'
+  can_do: Can modify adjectives with adverbs, often for emphasis.
+  detectability: form
+- ref: egp-484
+  id: 484
+  guideword: 'FORM/USE: HEDGING'
+  can_do: Can use 'be' + 'not' + adjective + 'that-' clause to make an assertion less direct.
+  detectability: form
+- ref: egp-509
+  id: 509
+  guideword: 'FORM/USE: ''MAY WELL'''
+  can_do: Can use 'may well' to give emphasis to something unexpected.
+  detectability: form
+- ref: egp-510
+  id: 510
+  guideword: 'FORM/USE: PAST NEGATIVE'
+  can_do: Can use 'may not have' + '-ed' to talk about possibility in the past.
+  detectability: form
+- ref: egp-553
+  id: 553
+  guideword: 'FORM: PAST, NEGATIVE'
+  can_do: Can use 'needn't have' + '-ed'.
+  detectability: form
+- ref: egp-573
+  id: 573
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form.
+  detectability: form
+- ref: egp-594
+  id: 594
+  guideword: 'FORM/USE: AFTER ''IF'' CLAUSES'
+  can_do: Can use 'should' after 'if' to talk about possible situations in the future.
+  detectability: form
+- ref: egp-595
+  id: 595
+  guideword: 'FORM/USE: INVERSION'
+  can_do: Can use 'should' with an inverted subject to refer to possible situations, in formal contexts.
+  detectability: form
+- ref: egp-600
+  id: 600
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form
+- ref: egp-637
+  id: 637
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use an increasing range of adverbs with 'would', including 'strongly', 'easily', 'especially',
+    'actually', 'absolutely', 'gladly'  ► adverbs
+  detectability: form
+- ref: egp-644
+  id: 644
+  guideword: 'FORM/USE: ''NOT NECESSARILY'''
+  can_do: Can use 'not necessarily' to express a possible exception to a general perception, i.e. not
+    in every case.
+  detectability: form
+- ref: egp-645
+  id: 645
+  guideword: 'FORM/USE: RESPONSE TOKENS'
+  can_do: Can use 'not necessarily' as a short response.
+  detectability: form

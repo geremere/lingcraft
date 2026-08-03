@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-392
+  id: 392
+  guideword: 'USE: FIXED PLANS WITH ''WILL'''
+  can_do: Can use 'will' to talk about fixed plans, often with timetabled times and dates.
+  detectability: use
+- ref: egp-393
+  id: 393
+  guideword: 'USE: PREDICTIONS WITH ''WILL'''
+  can_do: Can use 'will' and '‘ll' to make predictions.
+  detectability: use
+- ref: egp-394
+  id: 394
+  guideword: USE:IMMEDIATE PLANS WITH 'SHALL'
+  can_do: Can use 'shall' with 'I' and 'we' to talk about plans and intentions.
+  detectability: use

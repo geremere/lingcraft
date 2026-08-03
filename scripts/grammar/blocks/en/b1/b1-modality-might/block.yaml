@@ -1,0 +1,14 @@
+slug: b1-modality-might
+title: 'B1 MODALITY: might'
+level: B1
+super_category: MODALITY
+sub_category: might
+category: modals
+sort_order: 122
+merged_sub_categories:
+- might
+detectability:
+  form: 2
+  use: 4
+split: null
+construct_count: 6

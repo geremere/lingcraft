@@ -1,0 +1,13 @@
+slug: b1-clauses-interrogatives
+title: 'B1 CLAUSES: interrogatives'
+level: B1
+super_category: CLAUSES
+sub_category: interrogatives
+category: clauses
+sort_order: 105
+merged_sub_categories:
+- interrogatives
+detectability:
+  form: 3
+split: null
+construct_count: 3

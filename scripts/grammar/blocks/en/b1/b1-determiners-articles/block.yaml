@@ -1,0 +1,14 @@
+slug: b1-determiners-articles
+title: 'B1 DETERMINERS: articles'
+level: B1
+super_category: DETERMINERS
+sub_category: articles
+category: nouns-articles
+sort_order: 110
+merged_sub_categories:
+- articles
+detectability:
+  form: 4
+  use: 2
+split: null
+construct_count: 6

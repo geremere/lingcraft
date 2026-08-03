@@ -1,0 +1,19 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1046
+  id: 1046
+  guideword: 'FORM: PHRASAL-PREPOSITIONAL VERB, STRANDED PREPOSITION'
+  can_do: Can use verb + particle + preposition, where the preposition is separated from its complement.
+    ► Prepositions
+  detectability: form
+- ref: egp-1065
+  id: 1065
+  guideword: 'FORM: VERB + PRONOUN + PARTICLE'
+  can_do: Can use a wide range of phrasal verbs + object pronoun + particle.
+  detectability: form
+- ref: egp-1093
+  id: 1093
+  guideword: 'FORM/USE: VERBS OF SENSES + OBJECT + INFINITIVE'
+  can_do: Can use some verbs connected with the senses + direct object + infinitive without 'to' emphasising
+    a complete action.
+  detectability: form

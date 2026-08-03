@@ -1,0 +1,49 @@
+{
+  "examples": [
+    {
+      "text": "I enjoyed myself so much. (Vietnam; A2 WAYSTAGE; 2009; Vietnamese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-908"
+    },
+    {
+      "text": "I bought myself a yellow T-shirt with nothing on it. (Germany; A2 WAYSTAGE; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-908"
+    },
+    {
+      "text": "I hope you'll enjoy yourself . (Italy; A2 WAYSTAGE; 2001; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-908"
+    },
+    {
+      "text": "Hope to see you soon. (Key English Test ; A2; Turkish)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-929"
+    },
+    {
+      "text": "Hi! How are you? Hope you are fine. (India; A2 WAYSTAGE; 2006; Hindi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-929"
+    },
+    {
+      "text": "It's warm and windy. (Key English Test for Schools; A2; Vietnamese)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-930"
+    },
+    {
+      "text": "Now it 's 3 pm. (B1 THRESHOLD; 2004; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-930"
+    },
+    {
+      "text": "My new mobile phone can do lots of things! You can play games, you can take pictures. (Turkish, A2 WAYSTAGE, Pass, 2007)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-999"
+    },
+    {
+      "text": "Let's say if you want to travel to China, you need to learn a little Chinese. (Nepali, 2011)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-999"
+    }
+  ]
+}

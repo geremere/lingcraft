@@ -1,0 +1,13 @@
+slug: c1-passives-passives:-form
+title: 'C1 PASSIVES: passives: form'
+level: C1
+super_category: PASSIVES
+sub_category: 'passives: form'
+category: passives
+sort_order: 233
+merged_sub_categories:
+- 'passives: form'
+detectability:
+  form: 3
+split: null
+construct_count: 3

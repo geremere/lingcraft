@@ -1,0 +1,104 @@
+{
+  "examples": [
+    {
+      "text": "How was your dinner yesterday? (Mexico; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1023"
+    },
+    {
+      "text": "How are you, my friend? (India; A2 WAYSTAGE; 2010; Hindi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1023"
+    },
+    {
+      "text": "Where are you, men? (Brazil; A2 WAYSTAGE; 2010; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1023"
+    },
+    {
+      "text": "What do you think? (Brazil; A2 WAYSTAGE; 2001; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1024"
+    },
+    {
+      "text": "What did you do yesterday? (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1024"
+    },
+    {
+      "text": "Where did you go? (Taiwan; A2 WAYSTAGE; 2009; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1024"
+    },
+    {
+      "text": "How do you know? (Portugal; A2 WAYSTAGE; 2007; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1024"
+    },
+    {
+      "text": "Why don't you buy it? (Italy; A2 WAYSTAGE; 2002; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1024"
+    },
+    {
+      "text": "How have you been? (2666051_1; KET; Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1025"
+    },
+    {
+      "text": "What have you brought for me? (2644997_1; KET; France; A2 WAYSTAGE; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1025"
+    },
+    {
+      "text": "Who are you going with? (Philippines; A2 WAYSTAGE; 2009; Tagalog; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1026"
+    },
+    {
+      "text": "When are you coming here? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1026"
+    },
+    {
+      "text": "Where are you going? (Philippines; A2 WAYSTAGE; 2009; Tagalog; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1026"
+    },
+    {
+      "text": "What will you bring? (Turkey; A2 WAYSTAGE; 2009; Turkish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1027"
+    },
+    {
+      "text": "What can I do? (A2 WAYSTAGE; 2010; Arabic - Other; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1027"
+    },
+    {
+      "text": "How can I help you? (A2 WAYSTAGE; 2008; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1027"
+    },
+    {
+      "text": "How will you get here? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1027"
+    },
+    {
+      "text": "When can I visit you? (A2 WAYSTAGE; 2008; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1027"
+    },
+    {
+      "text": "Why don't we watch a film? (Tamil, A2 WAYSTAGE)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1028"
+    },
+    {
+      "text": "Why don't you come with me? (Italian, A2 WAYSTAGE)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1028"
+    }
+  ]
+}

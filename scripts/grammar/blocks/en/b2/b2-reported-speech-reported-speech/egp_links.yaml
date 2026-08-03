@@ -1,0 +1,42 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1153
+  id: 1153
+  guideword: 'FORM: DIRECT SPEECH, REPORTING CLAUSE, MID POSITION'
+  can_do: Can report speech and thought directly using the reporting verb in the mid position of the reported
+    clause.
+  detectability: form
+- ref: egp-1154
+  id: 1154
+  guideword: 'FORM: DIRECT SPEECH, REPORTING CLAUSE, INVERTED SUBJECT'
+  can_do: Can report speech directly inverting the subject and verb in the reporting clause where the
+    subject is a proper noun or noun phrase.
+  detectability: form
+- ref: egp-1155
+  id: 1155
+  guideword: 'FORM: MODIFICATION, REPORTING VERB + ADVERB'
+  can_do: Can modify the reporting verb with an adverb.
+  detectability: form
+- ref: egp-1156
+  id: 1156
+  guideword: 'FORM: REPORTED REQUESTS AND COMMANDS, NEGATIVE'
+  can_do: Can report requests and commands with 'ask' or 'tell' + direct object + 'not' + 'to-'infinitive.
+  detectability: form
+- ref: egp-1157
+  id: 1157
+  guideword: 'FORM/USE: CITATION, PRESENT SIMPLE'
+  can_do: Can use the present simple form of the reporting verb to report information from a written source
+    and a present tense verb in the reported clause.
+  detectability: form
+- ref: egp-1158
+  id: 1158
+  guideword: 'FORM/USE: REPORTING VERBS, PAST CONTINUOUS'
+  can_do: Can use the past continuous of the reporting verb to report mental processes, with a finite
+    or non-finite 'wh-'clause in the reported clause.
+  detectability: form
+- ref: egp-1159
+  id: 1159
+  guideword: 'FORM/USE: TEMPORAL SHIFTS, PAST'
+  can_do: Can report speech about events in the past with backshifts for tenses and words relating to
+    time.
+  detectability: form

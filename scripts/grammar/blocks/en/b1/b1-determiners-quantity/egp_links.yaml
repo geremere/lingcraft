@@ -1,0 +1,46 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-340
+  id: 340
+  guideword: 'FORM: WITH PLURAL NOUNS'
+  can_do: Can use a wide range of quantifying determiners with plural nouns ('several', 'millions of',
+    'a few of').
+  detectability: form
+- ref: egp-341
+  id: 341
+  guideword: 'FORM/USE: WITH UNCOUNTABLE NOUNS'
+  can_do: Can use quantifying determiners with uncountable nouns, often in informal and/or spoken contexts
+    ('a little', 'a bit of' and 'a little bit of').
+  detectability: form
+- ref: egp-342
+  id: 342
+  guideword: 'FORM: WITH PLURAL AND UNCOUNTABLE NOUNS'
+  can_do: Can use an increasing range of quantifying determiners with both plural nouns and uncountable
+    nouns ('most', 'enough', 'plenty of', 'loads of').
+  detectability: form
+- ref: egp-343
+  id: 343
+  guideword: 'FORM: ''MUCH'' WITH UNCOUNTABLE NOUNS, INTERROGATIVE'
+  can_do: Can use 'much' with uncountable nouns in interrogative contexts.
+  detectability: form
+- ref: egp-344
+  id: 344
+  guideword: 'FORM: ''SO MUCH'', ''TOO MUCH'' WITH UNCOUNTABLE NOUNS'
+  can_do: Can use 'so much' and 'too much' with uncountable nouns.
+  detectability: form
+- ref: egp-345
+  id: 345
+  guideword: 'FORM: ''MANY'' WITH PLURAL NOUNS, INTERROGATIVE'
+  can_do: Can use 'many' with plural nouns in interrogative contexts.
+  detectability: form
+- ref: egp-346
+  id: 346
+  guideword: 'FORM: DETERMINER + ''OF'' + DETERMINER'
+  can_do: Can use an increasing range of quantifying determiners + 'of' + determiner ('half of', 'enough
+    of', 'none of',).► pronouns
+  detectability: form
+- ref: egp-347
+  id: 347
+  guideword: 'FORM: MODIFYING'
+  can_do: Can modify determiners with adverbs. ► adverbs
+  detectability: form

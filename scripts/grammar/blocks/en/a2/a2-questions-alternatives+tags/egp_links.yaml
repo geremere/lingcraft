@@ -1,0 +1,12 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1008
+  id: 1008
+  guideword: 'FORM: WORD + WORD'
+  can_do: Can form alternative questions with two words from the same class combined with 'or'.
+  detectability: form
+- ref: egp-1016
+  id: 1016
+  guideword: 'FORM: QUESTION TAGS'
+  can_do: Can use a limited range of question tags.
+  detectability: form

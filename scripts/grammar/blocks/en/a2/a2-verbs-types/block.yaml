@@ -1,0 +1,13 @@
+slug: a2-verbs-types
+title: 'A2 VERBS: types'
+level: A2
+super_category: VERBS
+sub_category: types
+category: verbs-tenses
+sort_order: 88
+merged_sub_categories:
+- types
+detectability:
+  form: 4
+split: null
+construct_count: 4

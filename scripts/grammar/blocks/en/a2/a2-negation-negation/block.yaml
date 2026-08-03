@@ -1,0 +1,13 @@
+slug: a2-negation-negation
+title: 'A2 NEGATION: negation'
+level: A2
+super_category: NEGATION
+sub_category: negation
+category: negation
+sort_order: 65
+merged_sub_categories:
+- negation
+detectability:
+  form: 7
+split: null
+construct_count: 7

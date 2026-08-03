@@ -1,0 +1,19 @@
+{
+  "examples": [
+    {
+      "text": "I will see you soon. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n I'll come at 7 o'clock. (A1 BREAKTHROUGH; 2006; Others; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-382"
+    },
+    {
+      "text": "I will try to come to see you tomorrow. (A1 BREAKTHROUGH; 2009; Romanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-383"
+    },
+    {
+      "text": "I'll bring a football ball with me. (A1 BREAKTHROUGH; 2011; Bulgarian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-383"
+    }
+  ]
+}

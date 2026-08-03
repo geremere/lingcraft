@@ -1,9 +1,0 @@
-egp_id: 565
-tag: egp-565
-slug: egp-565-ought-negative-c2
-level: C2
-super_category: MODALITY
-sub_category: ought
-detection: polke
-detectability: form
-polke_construct_id: 565

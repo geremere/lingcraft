@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-487
+  id: 487
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative forms.
+  detectability: form
+- ref: egp-488
+  id: 488
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative forms.
+  detectability: form
+- ref: egp-489
+  id: 489
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question forms.
+  detectability: form
+- ref: egp-490
+  id: 490
+  guideword: 'USE: OBLIGATION'
+  can_do: Can use 'have (got) to' to talk about obligations.
+  detectability: use

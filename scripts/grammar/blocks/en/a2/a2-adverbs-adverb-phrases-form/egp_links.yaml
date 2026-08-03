@@ -1,0 +1,7 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-142
+  id: 142
+  guideword: 'FORM: ADVERB + ADVERB'
+  can_do: Can modify a limited range of adverbs of time, degree, and manner with other adverbs.
+  detectability: form

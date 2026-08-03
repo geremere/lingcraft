@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-430
+  id: 430
+  guideword: 'FORM: ''IT'' + LINKING VERB + ADJECTIVES + CLAUSE'
+  can_do: Can use 'it' + linking verb + adjective + ('that') clause.
+  detectability: form
+- ref: egp-431
+  id: 431
+  guideword: 'FORM/USE: ''IT'' + LINKING VERB + ADJECTIVES + CLAUSE, HEDGING'
+  can_do: Can use 'it' + linking verb + adjective + ('that') clause to make an assertion less direct.
+  detectability: form
+- ref: egp-432
+  id: 432
+  guideword: 'FORM: SUBJECT + ''BE'' + ADJECTIVE + ''TO'' + INFINITIVE'
+  can_do: Can use pronoun or noun + 'be' + adjective + 'to' + (past) infinitive.
+  detectability: form
+- ref: egp-433
+  id: 433
+  guideword: 'FORM/USE: ''IT'' + LINKING VERB + ADJECTIVES + (''THAT'') CLAUSE, FOCUS'
+  can_do: Can use 'it' + linking verb + adjective + ('that') clause as a focusing device.
+  detectability: form

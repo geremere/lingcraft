@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-752
+  id: 752
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use the past continuous with a wide range of adverbs in the normal mid position.
+  detectability: form
+- ref: egp-753
+  id: 753
+  guideword: 'USE: POLITENESS'
+  can_do: Can use the past continuous to make a request or suggestions more polite or less direct.
+  detectability: use
+- ref: egp-832
+  id: 832
+  guideword: 'FORM/USE: WITH ''STILL'''
+  can_do: Can use the negative form of the present perfect simple with 'still' to emphasise that something
+    that was expected to happen continues not to happen.  ► adverbs
+  detectability: form
+- ref: egp-833
+  id: 833
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form with an increasing range of verbs.
+  detectability: form

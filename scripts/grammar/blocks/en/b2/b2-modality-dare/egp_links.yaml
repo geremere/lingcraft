@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-457
+  id: 457
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use affirmative form dare + infinitive without to.
+  detectability: form
+- ref: egp-458
+  id: 458
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use negative form dare not and daren't +  infinitive without to.
+  detectability: form
+- ref: egp-459
+  id: 459
+  guideword: 'USE: BRAVADO'
+  can_do: Can use semi-modal 'dare' to talk about being brave enough to do something.
+  detectability: use

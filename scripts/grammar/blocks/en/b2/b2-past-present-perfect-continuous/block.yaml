@@ -1,0 +1,14 @@
+slug: b2-past-present-perfect-continuous
+title: 'B2 PAST: present perfect continuous'
+level: B2
+super_category: PAST
+sub_category: present perfect continuous
+category: verbs-tenses
+sort_order: 193
+merged_sub_categories:
+- present perfect continuous
+detectability:
+  form: 2
+  use: 1
+split: null
+construct_count: 3

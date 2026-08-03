@@ -1,9 +1,0 @@
-egp_id: 527
-tag: egp-527
-slug: egp-527-might-emphasis-c2
-level: C2
-super_category: MODALITY
-sub_category: might
-detection: llm
-detectability: use
-polke_construct_id: 527

@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1079
+  id: 1079
+  guideword: 'FORM: VERB + ''TO''- INFINITIVE'
+  can_do: Can use an increasing range of verbs followed by a 'to'-infinitive.
+  detectability: form
+- ref: egp-1080
+  id: 1080
+  guideword: 'FORM: VERBS + ''TO''-INFINITIVE OR + ''-ING'''
+  can_do: Can use verbs expressing preference followed either by a 'to'-infinitive or an '-ing' form,
+    with no change in meaning.
+  detectability: form
+- ref: egp-1081
+  id: 1081
+  guideword: 'FORM/USE: ''WOULD LOVE'' + ''TO'''
+  can_do: Can use 'would love to' followed by the 'to'-infinitive to give emphasis.
+  detectability: form
+- ref: egp-1082
+  id: 1082
+  guideword: 'FORM: ''ENJOY'' + ''-ING'''
+  can_do: Can use 'enjoy' followed by the '-ing' form.
+  detectability: form

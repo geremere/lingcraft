@@ -1,0 +1,13 @@
+slug: a2-pronouns-quantity
+title: 'A2 PRONOUNS: quantity'
+level: A2
+super_category: PRONOUNS
+sub_category: quantity
+category: pronouns
+sort_order: 79
+merged_sub_categories:
+- quantity
+detectability:
+  form: 4
+split: null
+construct_count: 4

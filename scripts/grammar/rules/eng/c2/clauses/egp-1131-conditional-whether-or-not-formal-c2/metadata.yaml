@@ -1,9 +1,0 @@
-egp_id: 1131
-tag: egp-1131
-slug: egp-1131-conditional-whether-or-not-formal-c2
-level: C2
-super_category: CLAUSES
-sub_category: conditional
-detection: polke
-detectability: form
-polke_construct_id: 1131

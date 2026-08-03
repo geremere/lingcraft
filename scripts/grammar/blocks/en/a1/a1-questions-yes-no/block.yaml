@@ -1,0 +1,13 @@
+slug: a1-questions-yes-no
+title: 'A1 QUESTIONS: yes/no'
+level: A1
+super_category: QUESTIONS
+sub_category: yes/no
+category: questions
+sort_order: 28
+merged_sub_categories:
+- yes/no
+detectability:
+  form: 1
+split: null
+construct_count: 1

@@ -1,0 +1,13 @@
+slug: c2-focus-focus
+title: 'C2 FOCUS: focus'
+level: C2
+super_category: FOCUS
+sub_category: focus
+category: focus
+sort_order: 252
+merged_sub_categories:
+- focus
+detectability:
+  form: 5
+split: null
+construct_count: 5

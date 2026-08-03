@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-314
+  id: 314
+  guideword: 'USE: ''THIS'', PAST'
+  can_do: Can use 'this' with time and date words to refer to the past.
+  detectability: use
+- ref: egp-321
+  id: 321
+  guideword: 'FORM: ''THEIR'''
+  can_do: Can use possessive determiner 'their'. ► noun phrases ► possessive pronouns
+  detectability: form
+- ref: egp-322
+  id: 322
+  guideword: 'FORM: IRREGULAR PLURAL NOUN + ''''S'''
+  can_do: Can use ''s' after irregular plural nouns to indicate possession.
+  detectability: form

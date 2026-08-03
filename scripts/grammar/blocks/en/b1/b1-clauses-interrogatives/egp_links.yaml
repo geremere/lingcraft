@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-210
+  id: 210
+  guideword: 'FORM: ''WH-'' INTERROGATIVE, SUBJECT'
+  can_do: Can form questions with a 'wh-' word as subject, without an auxiliary verb.
+  detectability: form
+- ref: egp-211
+  id: 211
+  guideword: 'FORM: INTERROGATIVE + ADVERB'
+  can_do: Can form interrogative clauses with an adverb in mid position, between the subject and the main
+    verb.
+  detectability: form
+- ref: egp-212
+  id: 212
+  guideword: 'FORM: ''WHICH'', ''WHOSE'''
+  can_do: ''
+  detectability: form

@@ -1,9 +1,0 @@
-egp_id: 43
-tag: egp-43
-slug: egp-43-modifying-comparison-c2
-level: C2
-super_category: ADJECTIVES
-sub_category: modifying
-detection: polke
-detectability: form
-polke_construct_id: 43

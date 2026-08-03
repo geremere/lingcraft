@@ -1,9 +1,0 @@
-egp_id: 548
-tag: egp-548
-slug: egp-548-must-inversion-c2
-level: C2
-super_category: MODALITY
-sub_category: must
-detection: polke
-detectability: form
-polke_construct_id: 548

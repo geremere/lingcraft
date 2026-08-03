@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-499
+  id: 499
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form.
+  detectability: form
+- ref: egp-500
+  id: 500
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use 'may' with a limited range of adverbs (most commonly 'also') in the normal mid-position
+    after the modal verb. ► adverbs
+  detectability: form
+- ref: egp-501
+  id: 501
+  guideword: 'USE: PERMISSION'
+  can_do: Can use 'may I' to ask for permission.
+  detectability: use
+- ref: egp-502
+  id: 502
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form with 'I'.
+  detectability: form

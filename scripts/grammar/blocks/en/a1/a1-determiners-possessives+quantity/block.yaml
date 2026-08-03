@@ -1,0 +1,14 @@
+slug: a1-determiners-possessives+quantity
+title: 'A1 DETERMINERS: possessives, quantity'
+level: A1
+super_category: DETERMINERS
+sub_category: possessives+quantity
+category: nouns-articles
+sort_order: 12
+merged_sub_categories:
+- possessives
+- quantity
+detectability:
+  form: 3
+split: null
+construct_count: 3

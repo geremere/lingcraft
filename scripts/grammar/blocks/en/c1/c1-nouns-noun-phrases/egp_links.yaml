@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-673
+  id: 673
+  guideword: 'FORM: NOUN PHRASE WITH POSSESSIVE ''S WITHOUT NOUN'
+  can_do: Can form complex noun phrases with noun phrase + 'of' + noun phrase + possessive determiner
+    ''s', omitting the noun where it is previously mentioned.
+  detectability: form
+- ref: egp-674
+  id: 674
+  guideword: 'USE: NOMINALISATION, FORMALITY'
+  can_do: Can use nominalised forms in academic or business contexts, to make something more formal.
+  detectability: use
+- ref: egp-675
+  id: 675
+  guideword: 'FORM/USE: ''WH-'' CLEFT, FOCUS'
+  can_do: Can form complex noun phrases with 'wh-' cleft clauses, followed by 'be', to give focus.
+  detectability: form

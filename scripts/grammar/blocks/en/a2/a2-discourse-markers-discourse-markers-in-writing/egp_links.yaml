@@ -1,0 +1,12 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1132
+  id: 1132
+  guideword: 'FORM/USE: ''AS YOU KNOW'', ORGANISING, MARKING SHARED KNOWLEDGE'
+  can_do: Can use 'as you know' as a discourse marker of shared knowledge.
+  detectability: form
+- ref: egp-1133
+  id: 1133
+  guideword: 'FORM/USE: ''SO'', SUMMARISING, INFORMAL'
+  can_do: Can use 'so' as a discourse marker to summarise, usually in informal contexts.
+  detectability: form

@@ -1,0 +1,24 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-323
+  id: 323
+  guideword: 'FORM: ''ITS'''
+  can_do: Can use possessive determiner 'its' before nouns to refer to a singular inanimate subject or
+    object.
+  detectability: form
+- ref: egp-324
+  id: 324
+  guideword: 'USE: GENERIC ''THEIR'''
+  can_do: Can use 'their' before nouns to refer to a generic body or group of people expressed as a singular
+    subject. ► generic pronouns
+  detectability: use
+- ref: egp-325
+  id: 325
+  guideword: 'FORM: PLURAL NOUN + ''S'''''
+  can_do: Can use 's'' after plural nouns to indicate possession.
+  detectability: form
+- ref: egp-326
+  id: 326
+  guideword: 'FORM: OF + NOUN PHRASE ''''S'''
+  can_do: Can use ''s' after a noun phrase with of to indicate possession.
+  detectability: form

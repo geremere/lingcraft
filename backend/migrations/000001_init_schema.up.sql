@@ -55,32 +55,25 @@ CREATE TABLE sentences (
 
 CREATE INDEX idx_sentences_language_id ON sentences(language_id);
 
-CREATE TABLE grammar_constructs (
+CREATE TABLE grammar_blocks (
     id BIGSERIAL PRIMARY KEY,
     language_id BIGINT NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
-    egp_id INTEGER NOT NULL,
-    tag TEXT NOT NULL,
     slug TEXT NOT NULL,
     level TEXT NOT NULL,
+    title TEXT NOT NULL,
+    category TEXT NOT NULL,
     super_category TEXT NOT NULL,
     sub_category TEXT NOT NULL,
-    guideword TEXT NOT NULL,
-    can_do TEXT NOT NULL,
-    detectability TEXT NOT NULL,
-    detection TEXT NOT NULL,
-    examples_json JSONB NOT NULL DEFAULT '[]'::jsonb,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    metadata_json JSONB NOT NULL DEFAULT '{}'::jsonb,
     created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    UNIQUE (language_id, egp_id),
-    UNIQUE (language_id, tag),
     UNIQUE (language_id, slug),
-    CHECK (level IN ('A1', 'A2', 'B1', 'B2', 'C1', 'C2')),
-    CHECK (detectability IN ('form', 'use', 'hybrid')),
-    CHECK (detection IN ('polke', 'llm', 'custom'))
+    CHECK (level IN ('A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'))
 );
 
-CREATE INDEX idx_grammar_constructs_language_id ON grammar_constructs(language_id);
-CREATE INDEX idx_grammar_constructs_tag ON grammar_constructs(tag);
-CREATE INDEX idx_grammar_constructs_level ON grammar_constructs(level);
+CREATE INDEX idx_grammar_blocks_language_id ON grammar_blocks(language_id);
+CREATE INDEX idx_grammar_blocks_level ON grammar_blocks(language_id, level);
+CREATE INDEX idx_grammar_blocks_category ON grammar_blocks(category);
 
 CREATE TABLE senses (
     id BIGSERIAL PRIMARY KEY,
@@ -175,17 +168,6 @@ CREATE TABLE sentence_tokens (
 
 CREATE INDEX idx_sentence_tokens_sentence_id ON sentence_tokens(sentence_id);
 CREATE INDEX idx_sentence_tokens_lemma_id ON sentence_tokens(lemma_id);
-
-CREATE TABLE sentence_tags (
-    id BIGSERIAL PRIMARY KEY,
-    sentence_id BIGINT NOT NULL REFERENCES sentences(id) ON DELETE CASCADE,
-    tag TEXT NOT NULL,
-    confidence NUMERIC(4,3),
-    CHECK (confidence IS NULL OR (confidence >= 0 AND confidence <= 1))
-);
-
-CREATE INDEX idx_sentence_tags_sentence_id ON sentence_tags(sentence_id);
-CREATE INDEX idx_sentence_tags_tag ON sentence_tags(tag);
 
 CREATE TABLE sense_sentence_links (
     id BIGSERIAL PRIMARY KEY,

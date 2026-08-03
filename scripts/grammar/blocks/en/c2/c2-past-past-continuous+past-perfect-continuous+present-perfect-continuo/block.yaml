@@ -1,0 +1,18 @@
+slug: c2-past-past-continuous+past-perfect-continuous+present-perfect-continuo
+title: 'C2 PAST: past continuous, past perfect continuous, present perfect continuous, present perfect
+  simple'
+level: C2
+super_category: PAST
+sub_category: past continuous+past perfect continuous+present perfect continuous+…
+category: verbs-tenses
+sort_order: 264
+merged_sub_categories:
+- past continuous
+- past perfect continuous
+- present perfect continuous
+- present perfect simple
+detectability:
+  use: 2
+  form: 2
+split: null
+construct_count: 4

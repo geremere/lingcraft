@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1089
+  id: 1089
+  guideword: 'FORM: VERB + ''-ING'' FORM'
+  can_do: Can use an increasing range of verbs followed by an '-ing' form.
+  detectability: form
+- ref: egp-1090
+  id: 1090
+  guideword: 'FORM: VERB + NEW SUBJECT + ''-ING'' FORM'
+  can_do: Can introduce a new subject before the '-ing' form (using noun or object pronoun).
+  detectability: form
+- ref: egp-1091
+  id: 1091
+  guideword: 'FORM: ''TO''-INFINITIVE OR ''-ING'' FORM, MEANING'
+  can_do: Can follow some verbs with a 'to'-infinitive or an '-ing' form, with a change in meaning.
+  detectability: form
+- ref: egp-1092
+  id: 1092
+  guideword: 'FORM/USE: VERBS OF SENSES  + OBJECT + ''-ING'''
+  can_do: Can use some verbs connected with the senses + direct object + an '-ing' form, to give emphasis
+    to an ongoing activity.
+  detectability: form

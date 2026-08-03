@@ -1,0 +1,40 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-902
+  id: 902
+  guideword: 'FORM: ''OURS'' AS SUBJECT'
+  can_do: Can use the possessive pronoun 'ours', in subject position.
+  detectability: form
+- ref: egp-936
+  id: 936
+  guideword: 'FORM/USE: (SUBJECT) ''IT'' + PASSIVE'
+  can_do: Can use 'it' with the passive voice where the subject is unknown or unimportant, often in formal
+    contexts. ► passives
+  detectability: form
+- ref: egp-955
+  id: 955
+  guideword: 'FORM: ''THAT OF'', ''THOSE OF'''
+  can_do: Can use 'that of' and 'those of' as a possessive form, in formal and professional contexts.
+  detectability: form
+- ref: egp-980
+  id: 980
+  guideword: 'FORM: ''NONE'''
+  can_do: 'Can use ''none'' as a pronoun. ►  determiners: quantity  ►  pronouns: quantity'
+  detectability: form
+- ref: egp-997
+  id: 997
+  guideword: 'FORM/USE: ''ANYTHING'', FOCUS'
+  can_do: Can use 'anything' with post-modifiers to form complex noun phrases as subjects with a singular
+    verb, to give focus.
+  detectability: form
+- ref: egp-998
+  id: 998
+  guideword: 'FORM/USE: ''ANYTHING'', ELLIPSIS'
+  can_do: Can use 'anything' in an ellipted clause, ('if there is anything ?').
+  detectability: form
+- ref: egp-1006
+  id: 1006
+  guideword: 'FORM: ''EACH ...'' + ''THE OTHER(S)'', AS COMPLEMENT'
+  can_do: 'Can use ''each'' (+ noun or pronoun) as subject followed by ''the other(s)'' a complement of
+    a preposition, to refer to two related things. ► pronouns: quantity'
+  detectability: form

@@ -1,9 +1,0 @@
-egp_id: 1015
-tag: egp-1015
-slug: egp-1015-alternatives-ellipsis-c2
-level: C2
-super_category: QUESTIONS
-sub_category: alternatives
-detection: polke
-detectability: form
-polke_construct_id: 1015

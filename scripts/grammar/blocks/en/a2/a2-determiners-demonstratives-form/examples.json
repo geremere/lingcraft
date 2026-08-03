@@ -1,0 +1,49 @@
+{
+  "examples": [
+    {
+      "text": "I found this information in: www.artschool.com, (Spain; A2 WAYSTAGE; 2006; Catalan; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-301"
+    },
+    {
+      "text": "My mother told me that this food is healthy food and good for me. (Thailand; A2 WAYSTAGE; 2009; Thai; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-301"
+    },
+    {
+      "text": "I also want to see that film. (Myanmar; A2 WAYSTAGE; 2003; Burmese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-305"
+    },
+    {
+      "text": "I know we have that course in our college. (A2 WAYSTAGE; 2007; Spanish - Other; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-305"
+    },
+    {
+      "text": "I bought these clothes because they weren't expensive. (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-308"
+    },
+    {
+      "text": "I bought these things because they were perfect. (Greece; A2 WAYSTAGE; 2008; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-308"
+    },
+    {
+      "text": "I bought them because I love these colours. (France; A2 WAYSTAGE; 2008; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-308"
+    },
+    {
+      "text": "The cost of those clothes was £300. (Malaysia; A2 WAYSTAGE; 2008; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-311"
+    },
+    {
+      "text": "I love to play those instruments. (Sri Lanka; A2 WAYSTAGE; 2010; Singhalese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-311"
+    }
+  ]
+}

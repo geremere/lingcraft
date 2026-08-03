@@ -1,0 +1,27 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-80
+  id: 80
+  guideword: 'USE: TIME'
+  can_do: Can use 'soon' in the phrases 'See you soon' and 'Get well soon', as a signing-off device.
+  detectability: use
+- ref: egp-81
+  id: 81
+  guideword: 'USE: PLACE'
+  can_do: Can use a limited range of adverbs ('here', 'there') to indicate place.
+  detectability: use
+- ref: egp-82
+  id: 82
+  guideword: 'USE: FREQUENCY'
+  can_do: Can use a limited range of adverbs ('always', 'sometimes') to talk about frequency.
+  detectability: use
+- ref: egp-83
+  id: 83
+  guideword: 'USE: ''VERY'' WITH ADJECTIVES'
+  can_do: Can use 'very' to make adjectives stronger.
+  detectability: use
+- ref: egp-84
+  id: 84
+  guideword: 'USE: DEGREE WITH VERBS'
+  can_do: Can use 'really' and 'very much' with verbs expressing preference ('like', 'love'), for emphasis.
+  detectability: use

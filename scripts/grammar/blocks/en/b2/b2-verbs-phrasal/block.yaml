@@ -1,0 +1,13 @@
+slug: b2-verbs-phrasal
+title: 'B2 VERBS: phrasal'
+level: B2
+super_category: VERBS
+sub_category: phrasal
+category: verbs-tenses
+sort_order: 207
+merged_sub_categories:
+- phrasal
+detectability:
+  form: 3
+split: null
+construct_count: 3

@@ -1,0 +1,19 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1052
+  id: 1052
+  guideword: 'FORM: REPORTING VERBS + DIRECT OBJECT ''THAT''-CLAUSE'
+  can_do: Can use a limited range of verbs, typically reporting, with a 'that'-clause as the direct object.
+  detectability: form
+- ref: egp-1053
+  id: 1053
+  guideword: 'FORM: VERBS + DIRECT OBJECT CLAUSE WITHOUT ''THAT'''
+  can_do: Can use reporting verbs, especially mental process verbs, with a clause as the direct object,
+    without 'that', especially in informal contexts.
+  detectability: form
+- ref: egp-1054
+  id: 1054
+  guideword: 'FORM: VERBS + INDIRECT OBJECT CLAUSE'
+  can_do: Can use verbs, typically reporting verbs, followed by a noun or pronoun as the indirect object
+    and a clause with or without 'that', as the direct object.
+  detectability: form

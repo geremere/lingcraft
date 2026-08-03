@@ -1,0 +1,13 @@
+slug: b2-pronouns-possessive
+title: 'B2 PRONOUNS: possessive'
+level: B2
+super_category: PRONOUNS
+sub_category: possessive
+category: pronouns
+sort_order: 199
+merged_sub_categories:
+- possessive
+detectability:
+  form: 6
+split: null
+construct_count: 6

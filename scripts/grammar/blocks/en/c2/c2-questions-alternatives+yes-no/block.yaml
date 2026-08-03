@@ -1,0 +1,14 @@
+slug: c2-questions-alternatives+yes-no
+title: 'C2 QUESTIONS: alternatives, yes/no'
+level: C2
+super_category: QUESTIONS
+sub_category: alternatives+yes/no
+category: questions
+sort_order: 268
+merged_sub_categories:
+- alternatives
+- yes/no
+detectability:
+  form: 2
+split: null
+construct_count: 2

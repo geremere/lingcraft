@@ -1,0 +1,12 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1021
+  id: 1021
+  guideword: 'FORM/USE: TAGS WITH IMPERATIVES AS SOFTENERS'
+  can_do: Can use an affirmative or negative tag after an imperative clause to soften the imperative.
+  detectability: form
+- ref: egp-1030
+  id: 1030
+  guideword: 'FORM: NEGATIVE QUESTIONS WITH MAIN VERBS'
+  can_do: Can use 'wh-'words + the negative form of auxiliary 'do' + subject + main verb to form 'wh-'questions.
+  detectability: form

@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-301
+  id: 301
+  guideword: 'FORM: ''THIS'' WITH UNCOUNTABLE NOUNS'
+  can_do: 'Can use ''this'' with uncountable nouns. ► noun phrases ►  pronouns: demonstrative'
+  detectability: form
+- ref: egp-305
+  id: 305
+  guideword: 'FORM: ''THAT'''
+  can_do: 'Can use ''that'' with singular nouns. ► noun phrases ►  pronouns: demonstrative'
+  detectability: form
+- ref: egp-308
+  id: 308
+  guideword: 'FORM: ''THESE'''
+  can_do: 'Can use ''these'' with plural nouns. ► noun phrases ►  pronouns: demonstrative'
+  detectability: form
+- ref: egp-311
+  id: 311
+  guideword: 'FORM: ''THOSE'''
+  can_do: 'Can use ''those'' with plural nouns. ► noun phrases ►  pronouns: demonstrative'
+  detectability: form

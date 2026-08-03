@@ -1,0 +1,25 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-244
+  id: 244
+  guideword: 'FORM/USE: REASON'
+  can_do: Can use a finite subordinate clause with conjunctions to introduce reasons, after a main clause.
+  detectability: form
+- ref: egp-245
+  id: 245
+  guideword: 'FORM/USE: PURPOSE, RESULT'
+  can_do: Can use a finite subordinate clause with conjunctions ('so (that), in order that') to introduce
+    purpose and result, after a main clause.
+  detectability: form
+- ref: egp-246
+  id: 246
+  guideword: 'FORM/USE: CONTRAST'
+  can_do: Can use a finite subordinate clause with conjunctions ('even though, (al)though, while if')
+    to introduce contrast, before or after a main clause.
+  detectability: form
+- ref: egp-247
+  id: 247
+  guideword: 'FORM/USE: NON-FINITE WITH ''-ING'''
+  can_do: Can use a non-finite subordinate clause with 'before' and 'after' + '-ing', before or after
+    a main clause, to refer to time.
+  detectability: form

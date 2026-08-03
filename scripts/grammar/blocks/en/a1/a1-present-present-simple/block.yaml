@@ -1,0 +1,14 @@
+slug: a1-present-present-simple
+title: 'A1 PRESENT: present simple'
+level: A1
+super_category: PRESENT
+sub_category: present simple
+category: verbs-tenses
+sort_order: 24
+merged_sub_categories:
+- present simple
+detectability:
+  form: 3
+  use: 1
+split: null
+construct_count: 4

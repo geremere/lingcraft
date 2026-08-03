@@ -1,0 +1,59 @@
+{
+  "examples": [
+    {
+      "text": "Is this area in the city or in the countryside? (Switzerland; B1 THRESHOLD; 2008; Swiss German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1009"
+    },
+    {
+      "text": "Do you feel more sympathy for your friends or your parents? (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1009"
+    },
+    {
+      "text": "Shall we buy him a book, a CD or something else? (Greece; B2 VANTAGE; 2000; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1010"
+    },
+    {
+      "text": "Poetry, history or something else? (Hungary; B2 VANTAGE; 2004; Hungarian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1010"
+    },
+    {
+      "text": "Are you still with him or did you two break up? (Peru; B1 THRESHOLD; 2005; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1011"
+    },
+    {
+      "text": "Should I go there and talk to her or should I stay here? (Cyprus; B1 THRESHOLD; 2009; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1011"
+    },
+    {
+      "text": "What do you think about going for walks or jogging in your breaks? (Germany; B1 THRESHOLD; 2009; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1011"
+    },
+    {
+      "text": "For a few seconds he was quiet. I couldn't wait, I asked nervously about his exam, did he pass or not? (Poland; B1 THRESHOLD; 2005; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1012"
+    },
+    {
+      "text": "Do you want to do that or not? (Japan; B1 THRESHOLD; 2007; Japanese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1012"
+    },
+    {
+      "text": "Do you agree with me or not? (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1012"
+    },
+    {
+      "text": "Will you be there till that time or not? (India; B1 THRESHOLD; 2007; Hindi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1012"
+    }
+  ]
+}

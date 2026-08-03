@@ -1,0 +1,28 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-69
+  id: 69
+  guideword: 'FORM/USE: COMPLEX NOUN PHRASES'
+  can_do: Can form an increasing range of complex noun phrases with a superlative adjective + prepositional
+    phrase, to talk about something unique. ► noun phrases
+  detectability: form
+- ref: egp-70
+  id: 70
+  guideword: 'FORM/USE: ''THE BEST'' WITH NOUN AND PRESENT PERFECT'
+  can_do: Can use 'the best' before a noun + present perfect to talk about a unique experience.
+  detectability: form
+- ref: egp-71
+  id: 71
+  guideword: 'FORM: ''ONE OF THE'''
+  can_do: Can use 'one of the' before a superlative adjective, followed by a plural noun. ► noun phrases
+  detectability: form
+- ref: egp-72
+  id: 72
+  guideword: 'FORM: ''THE BEST'' WITH NOUN AND  ''TO-'' INFINITIVE'
+  can_do: 'Can use ''the best'' before a noun + ''to''-infinitive.  ► clauses: comparative'
+  detectability: form
+- ref: egp-73
+  id: 73
+  guideword: 'FORM: WITH DETERMINERS'
+  can_do: Can form noun phrases with a range of determiners before a superlative adjective. ► noun phrases
+  detectability: form

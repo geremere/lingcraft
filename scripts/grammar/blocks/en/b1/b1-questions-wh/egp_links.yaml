@@ -1,0 +1,7 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1029
+  id: 1029
+  guideword: 'FORM: NEGATIVE QUESTIONS WITH MODALS'
+  can_do: Can use 'wh-'words + the negative form of modal verbs + subject + main verb to form 'wh-'questions.
+  detectability: form

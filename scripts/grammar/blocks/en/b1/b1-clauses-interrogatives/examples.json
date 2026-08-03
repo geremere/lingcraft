@@ -1,0 +1,34 @@
+{
+  "examples": [
+    {
+      "text": "What happened? (Spanish - Latin American, B1 THRESHOLD)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-210"
+    },
+    {
+      "text": "Who cares? (Spanish - Latin American, B1 THRESHOLD)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-210"
+    },
+    {
+      "text": "Who knows? (Portuguese, B1 THRESHOLD)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-210"
+    },
+    {
+      "text": "Have you ever been to Marseille? (France; B1 THRESHOLD; 2001; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-211"
+    },
+    {
+      "text": "What kind of books do you usually read? (Italy; B1 THRESHOLD; 2005; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-211"
+    },
+    {
+      "text": "Do you still remember my best friend? (Vietnam; B1 THRESHOLD; 2009; Vietnamese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-211"
+    }
+  ]
+}

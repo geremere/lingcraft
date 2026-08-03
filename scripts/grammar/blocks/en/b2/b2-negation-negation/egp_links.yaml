@@ -1,0 +1,25 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1192
+  id: 1192
+  guideword: 'FORM/USE: ''NOT'', EMPHASIS'
+  can_do: Can use uncontracted 'not' for emphasis or in formal contexts.
+  detectability: form
+- ref: egp-1193
+  id: 1193
+  guideword: 'FORM/USE: ''NEVER'', INVERTED FRONT POSITION, FOCUS'
+  can_do: Can use 'never' in front position followed by an inverted subject (most commonly 'I') + main
+    verb, to give focus.
+  detectability: form
+- ref: egp-1194
+  id: 1194
+  guideword: 'FORM/USE: ''NEITHER ? NOR'''
+  can_do: Can use 'neither ? nor' to connect two words, phrases or clauses, often to give emphasis or
+    focus.
+  detectability: form
+- ref: egp-1195
+  id: 1195
+  guideword: 'FORM: ''NEITHER OF'', ''NONE OF'' + PRONOUN'
+  can_do: Can use negative forms 'neither of' and 'none of' + pronoun or noun phrase with the affirmative
+    form of the verb.
+  detectability: form

@@ -1,0 +1,84 @@
+{
+  "examples": [
+    {
+      "text": "Please return it by tomorrow morning. (A2 Hindi)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-838"
+    },
+    {
+      "text": "My phone is blue like the sky. (A2 Greek)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-838"
+    },
+    {
+      "text": "The match was between Arsenal and Liverpool. (A2 Latin American Spanish)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-838"
+    },
+    {
+      "text": "We have to arrive home before 7.30pm. (A2 Thai)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-838"
+    },
+    {
+      "text": "My house is opposite the post office. (A2 Italian)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-838"
+    },
+    {
+      "text": "We can meet in the park near to my house at 7.00 p.m. (A2 Spanish Latin American)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-839"
+    },
+    {
+      "text": "I have a lot of hobbies, such as reading, singing, drawing and so on. (A2 Chinese)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-839"
+    },
+    {
+      "text": "I will be free at 4 p.m. and we can meet each other in front of our tennis club. (A2 Farsi)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-839"
+    },
+    {
+      "text": "It's just near the cinema. (India; A2 WAYSTAGE; 2009; Hindi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-840"
+    },
+    {
+      "text": "So you have to go along 3 blocks and turn on your left and just in front of you is the Cathedral and next to the Cathedral is the Zocalo. (Mexico; A2 WAYSTAGE; 2001; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-840"
+    },
+    {
+      "text": "My house is just after the library. (France; A2 WAYSTAGE; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-840"
+    },
+    {
+      "text": "I can help by bringing the sound box and bit box I am free at friday 7:30 pm. (Bangladesh; A2 WAYSTAGE; 2005; Bengali; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-841"
+    },
+    {
+      "text": "Thanks for replying. (Japan; A2 WAYSTAGE; 2008; Japanese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-841"
+    },
+    {
+      "text": "I was crazy about playing tennis. (Russia; A2 WAYSTAGE; 2009; Russian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-841"
+    },
+    {
+      "text": "Who are you going with? (Philippines; A2 WAYSTAGE; 2009; Tagalog; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-842"
+    },
+    {
+      "text": "So what are you waiting for? (Hong Kong; A2 WAYSTAGE; 1999; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-842"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+slug: c1-past-past-simple
+title: 'C1 PAST: past simple'
+level: C1
+super_category: PAST
+sub_category: past simple
+category: verbs-tenses
+sort_order: 235
+merged_sub_categories:
+- past simple
+detectability:
+  form: 2
+  use: 3
+split: null
+construct_count: 5

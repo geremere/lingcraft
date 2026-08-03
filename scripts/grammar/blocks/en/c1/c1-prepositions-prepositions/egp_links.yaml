@@ -1,0 +1,7 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-850
+  id: 850
+  guideword: 'FORM/USE: FORMAL'
+  can_do: Can use less frequent complex prepositions, often in a more formal, literary or business context.
+  detectability: form

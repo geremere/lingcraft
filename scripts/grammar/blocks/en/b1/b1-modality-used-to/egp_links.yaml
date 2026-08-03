@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-596
+  id: 596
+  guideword: 'FORM: AFFIRMATIVE|'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-597
+  id: 597
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative forms 'didn't use to' and 'didn't used to'.
+  detectability: form
+- ref: egp-598
+  id: 598
+  guideword: 'USE: NO LONGER TRUE'
+  can_do: Can use 'used to' to talk about repeated actions or states in the past that are no longer true.
+  detectability: use

@@ -1,0 +1,32 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1206
+  id: 1206
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-1207
+  id: 1207
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-1208
+  id: 1208
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form.
+  detectability: form
+- ref: egp-1209
+  id: 1209
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form.
+  detectability: form
+- ref: egp-1210
+  id: 1210
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form
+- ref: egp-1211
+  id: 1211
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form

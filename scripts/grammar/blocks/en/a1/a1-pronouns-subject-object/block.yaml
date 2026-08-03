@@ -1,0 +1,13 @@
+slug: a1-pronouns-subject-object
+title: 'A1 PRONOUNS: subject/ object'
+level: A1
+super_category: PRONOUNS
+sub_category: subject/ object
+category: pronouns
+sort_order: 26
+merged_sub_categories:
+- subject/ object
+detectability:
+  form: 7
+split: null
+construct_count: 7

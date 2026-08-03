@@ -1,0 +1,42 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-221
+  id: 221
+  guideword: 'FORM: NON-DEFINING, SUBJECT, WITH ''WHO'''
+  can_do: Can use a non-defining relative clause with 'who' as the subject.
+  detectability: form
+- ref: egp-222
+  id: 222
+  guideword: 'FORM: DEFINING, SUBJECT, WITH ''WHO'''
+  can_do: Can use a defining relative clause with 'who' as the subject.
+  detectability: form
+- ref: egp-223
+  id: 223
+  guideword: 'FORM: NON-DEFINING, SUBJECT, WITH ''WHICH'''
+  can_do: Can use a non-defining relative clause with 'which' as the subject,.
+  detectability: form
+- ref: egp-224
+  id: 224
+  guideword: 'FORM: DEFINING, SUBJECT, WITH ''WHICH'''
+  can_do: Can use a defining relative clause with 'which' as the subject.
+  detectability: form
+- ref: egp-225
+  id: 225
+  guideword: 'FORM: DEFINING, OBJECT, WITH ''THAT'''
+  can_do: Can use a defining relative clause with 'that' as the object.
+  detectability: form
+- ref: egp-226
+  id: 226
+  guideword: 'FORM: NON-DEFINING, OBJECT, WITH ''WHICH'''
+  can_do: Can use a non-defining relative clause with 'which' as the object.
+  detectability: form
+- ref: egp-227
+  id: 227
+  guideword: 'FORM: DEFINING, OBJECT, WITH ''WHICH'''
+  can_do: Can use a defining relative clause with 'which' as the object.
+  detectability: form
+- ref: egp-228
+  id: 228
+  guideword: 'FORM: DEFINING, WITHOUT PRONOUN'
+  can_do: Can use a defining relative clause, without a relative pronoun.
+  detectability: form

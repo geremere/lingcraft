@@ -1,0 +1,16 @@
+slug: c2-adverbs-adverb-phrases-form+adverbs-as-modifiers+position
+title: 'C2 ADVERBS: adverb phrases - form, adverbs as modifiers, position'
+level: C2
+super_category: ADVERBS
+sub_category: adverb phrases - form+adverbs as modifiers+position
+category: adjectives-adverbs
+sort_order: 245
+merged_sub_categories:
+- adverb phrases - form
+- adverbs as modifiers
+- position
+detectability:
+  use: 1
+  form: 3
+split: null
+construct_count: 4

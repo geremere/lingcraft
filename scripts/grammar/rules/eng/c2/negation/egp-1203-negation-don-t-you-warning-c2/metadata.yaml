@@ -1,9 +1,0 @@
-egp_id: 1203
-tag: egp-1203
-slug: egp-1203-negation-don-t-you-warning-c2
-level: C2
-super_category: NEGATION
-sub_category: negation
-detection: polke
-detectability: form
-polke_construct_id: 1203

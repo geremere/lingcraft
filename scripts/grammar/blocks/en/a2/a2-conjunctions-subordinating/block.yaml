@@ -1,0 +1,13 @@
+slug: a2-conjunctions-subordinating
+title: 'A2 CONJUNCTIONS: subordinating'
+level: A2
+super_category: CONJUNCTIONS
+sub_category: subordinating
+category: prepositions-conjunctions
+sort_order: 47
+merged_sub_categories:
+- subordinating
+detectability:
+  form: 1
+split: null
+construct_count: 1

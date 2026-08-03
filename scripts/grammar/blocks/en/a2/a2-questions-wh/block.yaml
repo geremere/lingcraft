@@ -1,0 +1,13 @@
+slug: a2-questions-wh
+title: 'A2 QUESTIONS: wh-'
+level: A2
+super_category: QUESTIONS
+sub_category: wh-
+category: questions
+sort_order: 83
+merged_sub_categories:
+- wh-
+detectability:
+  form: 6
+split: null
+construct_count: 6

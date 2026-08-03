@@ -1,0 +1,74 @@
+{
+  "examples": [
+    {
+      "text": "You should come at 6 o'clock. (Russian, A2 WAYSTAGE, Pass, 2009)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-577"
+    },
+    {
+      "text": "Someday we should go there together. (Portuguese, A2 WAYSTAGE, Pass, 2010)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-577"
+    },
+    {
+      "text": "We should buy 2 tickets. (Chinese, A2 WAYSTAGE, Pass, 2010)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-577"
+    },
+    {
+      "text": "You shouldn't miss it. (Thai, A2 WAYSTAGE, Pass, 2007)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-578"
+    },
+    {
+      "text": "It is a new flat, so there shouldn't be any problems. (A2 WAYSTAGE; 2009; Polish; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-578"
+    },
+    {
+      "text": "I think you should not wear your favourite clothes because they may get dirty. (Thai, A2 WAYSTAGE, Pass, 2006)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-578"
+    },
+    {
+      "text": "Should I wear special clothes? (Farsi, A2 WAYSTAGE, Pass, 2006)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-579"
+    },
+    {
+      "text": "It's going to be in São Paulo. Should we go by plane? (Portuguese, A2 WAYSTAGE, Pass, 2009)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-579"
+    },
+    {
+      "text": "It was only €70. It is pink. It looks very nice. My advice, you should buy this. (Turkish, A2 WAYSTAGE, Pass, 2007)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-580"
+    },
+    {
+      "text": "…on Monday, you will have to stay in this class for six hours so you should bring something to eat because you will be hungry. (French, A2 WAYSTAGE, Pass, 2006)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-580"
+    },
+    {
+      "text": "You should take some money, because the ticket costs £4.00. (Italian, A2 WAYSTAGE, Pass, 2010)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-580"
+    },
+    {
+      "text": "I think we should meet at 2 pm, and my mother will take us there so don't worry. (Spanish - Latin American, A2 WAYSTAGE, Pass, 2008)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-581"
+    },
+    {
+      "text": "I think you should meet me around 4 pm at my house. (Thai, A2 WAYSTAGE, Pass, 2008)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-581"
+    },
+    {
+      "text": "You should bring your guitar. (Italian, A2 WAYSTAGE, Pass, 2009)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-581"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-egp_id: 563
-tag: egp-563
-slug: egp-563-ought-likelihood-c1
-level: C1
-super_category: MODALITY
-sub_category: ought
-detection: llm
-detectability: use
-polke_construct_id: 563

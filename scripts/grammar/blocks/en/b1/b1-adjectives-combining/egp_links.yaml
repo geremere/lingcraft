@@ -1,0 +1,29 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-3
+  id: 3
+  guideword: 'FORM: BEFORE THE NOUN'
+  can_do: Can use a comma to combine two adjectives used before the noun, following the usual order of
+    adjective types.
+  detectability: form
+- ref: egp-4
+  id: 4
+  guideword: 'FORM: COMBINING COMPARATIVE ADJECTIVES WITH ''AND'''
+  can_do: 'Can use ''and'' to join a limited range of comparative adjectives.► adjectives: comparatives'
+  detectability: form
+- ref: egp-5
+  id: 5
+  guideword: 'FORM: COMBINING MORE THAN TWO ADJECTIVES'
+  can_do: Can use commas and 'and' to join more than two adjectives, after 'be'.
+  detectability: form
+- ref: egp-6
+  id: 6
+  guideword: 'FORM: COMBINING THE SAME COMPARATIVE ADJECTIVE WITH ''AND'''
+  can_do: 'Can use ''and'' to repeat a comparative adjective to indicate change over time, usually after
+    ''become'' or get. ► adjectives: comparatives'
+  detectability: form
+- ref: egp-7
+  id: 7
+  guideword: 'FORM: COMPOUND ADJECTIVES'
+  can_do: Can use a limited range of compound adjectives ('good-looking', 'well-known')
+  detectability: form

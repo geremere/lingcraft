@@ -1,0 +1,43 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-539
+  id: 539
+  guideword: 'FORM: PAST AFFIRMATIVE'
+  can_do: Can use 'must have' + '-ed'.
+  detectability: form
+- ref: egp-540
+  id: 540
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form
+- ref: egp-541
+  id: 541
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use 'must' with an increasing range of adverbs (including 'all', 'never', 'strongly', 'first')
+    in the normal mid position after the modal verb. ► adverbs
+  detectability: form
+- ref: egp-542
+  id: 542
+  guideword: 'USE: CONCESSIONS'
+  can_do: Can use the fixed expression 'I must admit' or 'you must admit' to express concession.
+  detectability: use
+- ref: egp-543
+  id: 543
+  guideword: 'USE: DEDUCTIONS AND CONCLUSIONS'
+  can_do: Can use the perfect form of 'must' to make deductions about the past.
+  detectability: use
+- ref: egp-544
+  id: 544
+  guideword: 'USE: EMPHASIS'
+  can_do: Can use the fixed expression 'I must say' to give emphasis, usually about something positive.
+  detectability: use
+- ref: egp-545
+  id: 545
+  guideword: 'USE: OBLIGATION AND NECESSITY'
+  can_do: Can use 'must' to ask about obligation and necessity.
+  detectability: use
+- ref: egp-546
+  id: 546
+  guideword: 'USE: RULES'
+  can_do: Can use the negative forms of 'must' to talk about what is not permitted.
+  detectability: use

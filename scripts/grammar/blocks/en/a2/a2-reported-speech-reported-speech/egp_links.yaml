@@ -1,0 +1,14 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1143
+  id: 1143
+  guideword: 'FORM: REPORTED STATEMENTS WITH ''SAY'', PRONOUN SHIFT'
+  can_do: Can report statements using a reporting clause with 'say' + 'that-'clause, with a pronoun shift
+    where relevant.
+  detectability: form
+- ref: egp-1144
+  id: 1144
+  guideword: 'FORM: REPORTED STATEMENTS WITH ''TELL'', PRONOUN SHIFT'
+  can_do: Can report statements using a reporting clause with 'tell' + direct object + 'that-'clause,
+    with a pronoun shift where relevant.
+  detectability: form

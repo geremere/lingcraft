@@ -1,9 +1,0 @@
-egp_id: 546
-tag: egp-546
-slug: egp-546-must-rules-b2
-level: B2
-super_category: MODALITY
-sub_category: must
-detection: llm
-detectability: use
-polke_construct_id: 546

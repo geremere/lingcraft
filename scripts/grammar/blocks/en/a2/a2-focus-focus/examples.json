@@ -1,0 +1,19 @@
+{
+  "examples": [
+    {
+      "text": "In the morning, I go to the beach. (Argentina; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1160"
+    },
+    {
+      "text": "In my country, the most popular food is Paella, which is a kind of rice with seafood, really tasty. (A2 WAYSTAGE; 2006; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1160"
+    },
+    {
+      "text": "From your house, take the first turning on your left after the roundabout. (France; A2 WAYSTAGE; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1160"
+    }
+  ]
+}

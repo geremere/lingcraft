@@ -1,9 +1,0 @@
-egp_id: 555
-tag: egp-555
-slug: egp-555-need-in-discussion-c2
-level: C2
-super_category: MODALITY
-sub_category: need
-detection: llm
-detectability: use
-polke_construct_id: 555

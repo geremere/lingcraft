@@ -1,0 +1,69 @@
+{
+  "examples": [
+    {
+      "text": "I study English at college. (A1 BREAKTHROUGH; 2007; Mandarin; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-179"
+    },
+    {
+      "text": "My friend is a nurse. (A1 BREAKTHROUGH; 2006; Panjabi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-179"
+    },
+    {
+      "text": "I'm living in Manchester. (A1 BREAKTHROUGH; 2009; Kurdish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-179"
+    },
+    {
+      "text": "It's very cheap and you can buy all you need. (A1 BREAKTHROUGH; 2008; Italian; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-179"
+    },
+    {
+      "text": "He is very nice but sometimes he is a little crazy. (A1 BREAKTHROUGH; 2006; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-179"
+    },
+    {
+      "text": "My college is not very big. (A1 BREAKTHROUGH; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-180"
+    },
+    {
+      "text": "This place isn't big. (A1 BREAKTHROUGH; 2007; Lithuanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-180"
+    },
+    {
+      "text": "I'm not bad. (A1 BREAKTHROUGH; 2006; Panjabi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-180"
+    },
+    {
+      "text": "I don't like maths. (A1 BREAKTHROUGH; 2007; Farsi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-181"
+    },
+    {
+      "text": "I don't have children. (A1 BREAKTHROUGH; 2008; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-181"
+    },
+    {
+      "text": "I don't know. (A1 BREAKTHROUGH; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-181"
+    },
+    {
+      "text": "I can go to see her tomorrow. (A1 BREAKTHROUGH; 2009; Panjabi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-182"
+    },
+    {
+      "text": "I will visit you soon. (A1 BREAKTHROUGH; 2009; Kurdish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-182"
+    }
+  ]
+}

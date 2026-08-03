@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-567
+  id: 567
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-568
+  id: 568
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form
+- ref: egp-569
+  id: 569
+  guideword: 'USE: OFFERS'
+  can_do: Can use 'shall I' to make offers.
+  detectability: use
+- ref: egp-570
+  id: 570
+  guideword: 'USE: SUGGESTIONS'
+  can_do: Can use 'shall' with 'we' to make suggestions.
+  detectability: use

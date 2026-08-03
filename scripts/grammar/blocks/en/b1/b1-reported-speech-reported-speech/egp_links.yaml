@@ -1,0 +1,46 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1145
+  id: 1145
+  guideword: 'FORM: REPORTED STATEMENTS, PRONOUN AND TENSE SHIFT'
+  can_do: Can report statements using a reporting clause with 'say' or 'tell' + 'that-'clause, with a
+    pronoun and tense shift where relevant.
+  detectability: form
+- ref: egp-1146
+  id: 1146
+  guideword: 'FORM: REPORTED ''YES-NO'' QUESTIONS'
+  can_do: Can report questions using 'ask' + 'if' or 'whether' + clause, with a pronoun and tense shift
+    where relevant.
+  detectability: form
+- ref: egp-1147
+  id: 1147
+  guideword: 'FORM: REPORTED ''WH-'' QUESTIONS'
+  can_do: Can report 'wh-'questions using a reporting verb + 'wh-'word + clause, with a change of pronoun
+    and tense shift where relevant.
+  detectability: form
+- ref: egp-1148
+  id: 1148
+  guideword: 'FORM/USE: ''WONDER'', REPORTED THOUGHT'
+  can_do: Can report thought using 'wonder' + 'wh-'word + clause, with a tense shift where relevant.
+  detectability: form
+- ref: egp-1149
+  id: 1149
+  guideword: 'FORM: DIRECT SPEECH, REPORTING CLAUSE, INITIAL POSITION'
+  can_do: Can report speech and thought directly, using the reporting verb before the reporting clause.
+  detectability: form
+- ref: egp-1150
+  id: 1150
+  guideword: 'FORM: DIRECT SPEECH, REPORTING CLAUSE, END POSITION'
+  can_do: Can report speech and thought directly using the reporting verb after the reporting clause.
+  detectability: form
+- ref: egp-1151
+  id: 1151
+  guideword: 'FORM: REPORTED REQUESTS AND COMMANDS'
+  can_do: Can report requests and commands with 'ask' or 'tell' + direct object and 'to-'infinitive.
+  detectability: form
+- ref: egp-1152
+  id: 1152
+  guideword: 'FORM/USE: TEMPORAL SHIFTS, FUTURE'
+  can_do: Can report speech about events in the future with and without backshifts for words relating
+    to time.
+  detectability: form

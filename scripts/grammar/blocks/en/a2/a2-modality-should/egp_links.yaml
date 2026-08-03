@@ -1,0 +1,27 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-577
+  id: 577
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-578
+  id: 578
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form.
+  detectability: form
+- ref: egp-579
+  id: 579
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form
+- ref: egp-580
+  id: 580
+  guideword: 'USE: ADVICE'
+  can_do: Can use 'should' to give advice.
+  detectability: use
+- ref: egp-581
+  id: 581
+  guideword: 'USE: SUGGESTIONS'
+  can_do: Can use 'should' to make suggestions.
+  detectability: use

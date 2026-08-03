@@ -1,9 +1,0 @@
-egp_id: 1215
-tag: egp-1215
-slug: egp-1215-could-requests-a2
-level: A2
-super_category: MODALITY
-sub_category: could
-detection: llm
-detectability: use
-polke_construct_id: 1215

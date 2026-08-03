@@ -1,9 +1,0 @@
-egp_id: 1238
-tag: egp-1238
-slug: egp-1238-could-speculation-c2
-level: C2
-super_category: MODALITY
-sub_category: could
-detection: llm
-detectability: use
-polke_construct_id: 1238

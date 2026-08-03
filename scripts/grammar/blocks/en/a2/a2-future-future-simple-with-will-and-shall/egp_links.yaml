@@ -1,0 +1,42 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-384
+  id: 384
+  guideword: 'FORM: AFFIRMATIVE ''SHALL'''
+  can_do: Can use the affirmative form 'shall' with 'I' and 'we'.
+  detectability: form
+- ref: egp-385
+  id: 385
+  guideword: 'FORM: NEGATIVE ''WILL'''
+  can_do: Can use the negative forms 'will not' and 'won't'.
+  detectability: form
+- ref: egp-386
+  id: 386
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question forms of 'will' and 'shall'.
+  detectability: form
+- ref: egp-387
+  id: 387
+  guideword: 'USE: OFFERS WITH ''SHALL'''
+  can_do: Can use 'shall I' to make offers.
+  detectability: use
+- ref: egp-388
+  id: 388
+  guideword: 'USE: PLANS AND  INTENTIONS WITH ''WILL'''
+  can_do: Can use 'will' to ask about plans and intentions.
+  detectability: use
+- ref: egp-389
+  id: 389
+  guideword: 'USE: REQUESTS WITH ''WILL'''
+  can_do: Can use 'will' to make requests.
+  detectability: use
+- ref: egp-390
+  id: 390
+  guideword: 'USE: SUGGESTIONS WITH ''SHALL'''
+  can_do: Can use 'shall we' to make suggestions.
+  detectability: use
+- ref: egp-391
+  id: 391
+  guideword: 'USE: WILLINGNESS WITH ''WILL'''
+  can_do: Can use 'will' to express willingness.
+  detectability: use

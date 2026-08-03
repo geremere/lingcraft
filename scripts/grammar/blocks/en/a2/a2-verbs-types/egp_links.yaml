@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1070
+  id: 1070
+  guideword: 'FORM: AUXILIARY VERBS ''HAVE'' AND ''DO'''
+  can_do: Can use auxiliary verbs 'have' and 'do'.
+  detectability: form
+- ref: egp-1071
+  id: 1071
+  guideword: 'FORM: LINKING VERBS + ADJECTIVE'
+  can_do: Can use linking verbs with adjective complements.
+  detectability: form
+- ref: egp-1072
+  id: 1072
+  guideword: 'FORM: MODAL AUXILIARY VERBS'
+  can_do: Can use an increasing range of modal auxiliary verbs.
+  detectability: form
+- ref: egp-1073
+  id: 1073
+  guideword: 'FORM: SEMI-MODAL AUXILIARY VERBS, ''HAVE (GOT) TO'''
+  can_do: Can use semi-modal auxiliary verb 'have (got) to'.
+  detectability: form

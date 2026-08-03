@@ -1,0 +1,24 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-236
+  id: 236
+  guideword: 'FORM: PRONOUN + PREPOSITION'
+  can_do: Can use defining relative clauses and non-defining relative clauses ending in a preposition,
+    with 'who/which/that' as the complement of the preposition.
+  detectability: form
+- ref: egp-237
+  id: 237
+  guideword: 'FORM: NON-DEFINING, WITH ''WHOSE'''
+  can_do: Can use non-defining relative clauses with 'whose', to give additional information.
+  detectability: form
+- ref: egp-238
+  id: 238
+  guideword: 'FORM/USE: DEFINING, WITH ''WHOSE'''
+  can_do: Can use defining relative clauses with 'whose', to give more information about relationship.
+  detectability: form
+- ref: egp-239
+  id: 239
+  guideword: 'FORM/USE: SENTENCE, EVALUATIVE'
+  can_do: Can use a relative clause to refer to a whole clause or sentence, often to express an opinion
+    or evaluation or give a reason.
+  detectability: form

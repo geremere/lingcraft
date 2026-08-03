@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-733
+  id: 733
+  guideword: 'FORM/USE: NON-FINITE PERFECT CLAUSES'
+  can_do: Can use passive non-finite '-ing' perfect forms in subordinate clauses to give explanatory background
+    information.
+  detectability: form
+- ref: egp-734
+  id: 734
+  guideword: 'FORM: NON-FINITE PERFECT COMPLEMENTS'
+  can_do: Can use non-finite '-ing' perfect forms of the passive as the complement of prepositions.
+  detectability: form
+- ref: egp-735
+  id: 735
+  guideword: PRESENT PERFECT CONTINUOUS COMMENT
+  can_do: ''
+  detectability: hybrid

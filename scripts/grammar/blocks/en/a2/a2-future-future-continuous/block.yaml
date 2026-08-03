@@ -1,0 +1,14 @@
+slug: a2-future-future-continuous
+title: 'A2 FUTURE: future continuous'
+level: A2
+super_category: FUTURE
+sub_category: future continuous
+category: verbs-tenses
+sort_order: 56
+merged_sub_categories:
+- future continuous
+detectability:
+  form: 1
+  use: 1
+split: null
+construct_count: 2

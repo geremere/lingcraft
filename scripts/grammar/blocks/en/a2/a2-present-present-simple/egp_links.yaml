@@ -1,0 +1,49 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-869
+  id: 869
+  guideword: 'FORM/USE: REAL AND IMAGINED SITUATIONS AFTER ''IF'''
+  can_do: Can use the present simple after 'if' to talk about real and imagined situations.
+  detectability: form
+- ref: egp-870
+  id: 870
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form with an increasing range of regular and irregular verbs.
+  detectability: form
+- ref: egp-871
+  id: 871
+  guideword: 'FORM: INDIRECT QUESTIONS'
+  can_do: Can form indirect questions with 'Do you know' + 'how', 'where', 'why', or 'what ??'
+  detectability: form
+- ref: egp-872
+  id: 872
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form with an increasing range of regular and irregular verbs.
+  detectability: form
+- ref: egp-873
+  id: 873
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use 'yes/no' and 'wh-' question forms with 'you'.
+  detectability: form
+- ref: egp-874
+  id: 874
+  guideword: 'FORM: WITH ADVERBS OF INDEFINITE FREQUENCY'
+  can_do: Can use the present simple with adverbs of indefinite frequency.    ► adverbs
+  detectability: form
+- ref: egp-875
+  id: 875
+  guideword: 'USE: INSTRUCTIONS AND DIRECTIONS'
+  can_do: Can use the present simple to give instructions and directions.
+  detectability: use
+- ref: egp-876
+  id: 876
+  guideword: 'USE: MENTAL PROCESS VERBS'
+  can_do: Can use the present simple with a limited range of mental process verbs including 'think', 'hope',
+    'know'.
+  detectability: use
+- ref: egp-877
+  id: 877
+  guideword: 'USE: SUGGESTIONS'
+  can_do: Can use the present simple with 'why don't you??', 'Why don?t we??' and 'if you want or if you
+    like' to make suggestions.
+  detectability: use

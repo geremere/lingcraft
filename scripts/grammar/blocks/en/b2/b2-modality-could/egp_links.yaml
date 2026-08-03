@@ -1,0 +1,52 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1226
+  id: 1226
+  guideword: 'FORM: PAST'
+  can_do: Can used 'could' have + '-ed'.
+  detectability: form
+- ref: egp-1227
+  id: 1227
+  guideword: 'FORM: PAST'
+  can_do: Can used 'could' have + '-ed'.
+  detectability: form
+- ref: egp-1228
+  id: 1228
+  guideword: 'USE: PAST POSSIBILITY'
+  can_do: Can used affirmative 'could' have + '-ed' to talk about past possibility.
+  detectability: use
+- ref: egp-1229
+  id: 1229
+  guideword: 'USE: PAST POSSIBILITY'
+  can_do: Can used affirmative 'could' have + '-ed' to talk about past possibility.
+  detectability: use
+- ref: egp-1230
+  id: 1230
+  guideword: 'USE: PAST SPECULATION'
+  can_do: Can use 'could have' + '-ed' to speculate about the past.
+  detectability: use
+- ref: egp-1231
+  id: 1231
+  guideword: 'USE: PAST SPECULATION'
+  can_do: Can use 'could have' + '-ed' to speculate about the past.
+  detectability: use
+- ref: egp-1232
+  id: 1232
+  guideword: 'USE: REGRET'
+  can_do: Can use 'could have' + '-ed' to talk about regrets.
+  detectability: use
+- ref: egp-1233
+  id: 1233
+  guideword: 'USE: REGRET'
+  can_do: Can use 'could have' + '-ed' to talk about regrets.
+  detectability: use
+- ref: egp-1234
+  id: 1234
+  guideword: 'USE: REPORTED SPEECH'
+  can_do: Can use 'could' as the past form of 'can' in reported speech.
+  detectability: use
+- ref: egp-1235
+  id: 1235
+  guideword: 'USE: REPORTED SPEECH'
+  can_do: Can use 'could' as the past form of 'can' in reported speech.
+  detectability: use

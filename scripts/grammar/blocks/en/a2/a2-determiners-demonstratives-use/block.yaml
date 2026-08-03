@@ -1,0 +1,15 @@
+slug: a2-determiners-demonstratives-use
+title: 'A2 DETERMINERS: demonstratives (use)'
+level: A2
+super_category: DETERMINERS
+sub_category: demonstratives
+category: nouns-articles
+sort_order: 48
+merged_sub_categories:
+- demonstratives
+detectability:
+  form: 0
+  use: 9
+  hybrid: 0
+split: use
+construct_count: 9

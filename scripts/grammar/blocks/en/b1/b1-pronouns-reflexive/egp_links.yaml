@@ -1,0 +1,25 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-909
+  id: 909
+  guideword: 'FORM/USE: ''BY'' + SINGULAR'
+  can_do: Can use the singular reflexive pronouns 'myself', 'yourself', 'himself' and 'herself' with 'by'
+    to mean alone, without any help.
+  detectability: form
+- ref: egp-910
+  id: 910
+  guideword: 'FORM: SAME SUBJECT AND OBJECT, SINGULAR'
+  can_do: Can use an increasing range of singular reflexive pronouns with an increasing range of verbs
+    to refer to actions where the subject and object of the verb are the same.
+  detectability: form
+- ref: egp-911
+  id: 911
+  guideword: 'FORM: SINGULAR, AFTER PREPOSITIONS'
+  can_do: Can use the singular reflexive pronouns 'myself', 'yourself', 'himself' and 'herself' after
+    prepositions where the object of the preposition is the same as the subject of the verb.
+  detectability: form
+- ref: egp-912
+  id: 912
+  guideword: 'USE: SINGULAR, FOR EMPHASIS'
+  can_do: Can use the singular reflexive pronouns 'myself', 'yourself', 'himself' and 'herself' for emphasis.
+  detectability: use

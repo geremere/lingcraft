@@ -1,0 +1,15 @@
+slug: b2-passives-passives:-form-form
+title: 'B2 PASSIVES: passives: form (form)'
+level: B2
+super_category: PASSIVES
+sub_category: 'passives: form'
+category: passives
+sort_order: 188
+merged_sub_categories:
+- 'passives: form'
+detectability:
+  form: 13
+  use: 0
+  hybrid: 0
+split: form
+construct_count: 13

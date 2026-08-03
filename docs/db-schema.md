@@ -10,7 +10,7 @@ Single migration while pre-production — edit `000001` instead of adding new mi
 erDiagram
     languages ||--o{ lemmas : has
     languages ||--o{ sentences : has
-    languages ||--o{ grammar_constructs : has
+    languages ||--o{ grammar_blocks : has
     languages ||--o{ sense_descriptions : has
 
     lemmas ||--o{ senses : has
@@ -24,7 +24,6 @@ erDiagram
     senses ||--o{ sense_sentence_links : has
 
     sentences ||--o{ sentence_tokens : has
-    sentences ||--o{ sentence_tags : has
     sentences ||--o{ sentence_audio : has
     sentences ||--o{ sentence_translations : source
     sentences ||--o{ sentence_translations : target
@@ -35,7 +34,7 @@ erDiagram
     audio_files ||--o{ sentence_audio : has
 ```
 
-**16 tables** + trigger `trg_senses_updated_at` on `senses`.
+**15 tables** + trigger `trg_senses_updated_at` on `senses`.
 
 ## Core
 
@@ -75,24 +74,25 @@ Main learnable unit for vocabulary (FSRS target per sense).
 | image_id | FK → image_files | SET NULL |
 | created_at, updated_at | TIMESTAMPTZ | auto-update on UPDATE |
 
-### `grammar_constructs`
+### `grammar_blocks`
 
-EGP grammar tag registry (loaded via `scripts/grammar/load_egp_tags.py`).
+Teachable grammar topics for FSRS (one block = one curriculum card). Loaded from on-disk packages via `scripts/grammar/load_blocks.py`.
 
 | Column | Type | Notes |
 |--------|------|-------|
 | id | BIGSERIAL PK | |
 | language_id | FK → languages | CASCADE |
-| egp_id | INTEGER | UNIQUE per language |
-| tag | TEXT | e.g. `egp-865` |
-| slug | TEXT | human-readable id |
-| level | TEXT | A1–C2 |
-| super_category, sub_category | TEXT | PRESENT, QUESTIONS, … |
-| guideword, can_do | TEXT | from EGP |
-| detectability | TEXT | `form` \| `use` \| `hybrid` |
-| detection | TEXT | `polke` \| `llm` \| `custom` |
-| examples_json | JSONB | learner examples |
+| slug | TEXT | UNIQUE per language, e.g. `a1-modality-can` |
+| level | TEXT | A0–C2 |
+| title | TEXT | display title |
+| category | TEXT | curriculum folder: `verbs-tenses`, `modals`, … |
+| super_category | TEXT | e.g. `MODALITY`, `PRESENT` |
+| sub_category | TEXT | e.g. `can`, `present simple` |
+| sort_order | INTEGER | order within level |
+| metadata_json | JSONB | merged subs, detectability counts, source path |
 | created_at | TIMESTAMPTZ | |
+
+External EGP construct references live only in block files (`egp_links.yaml`), not in the database.
 
 ## Descriptions and tags
 
@@ -152,16 +152,6 @@ NLP tokenization output (spaCy etc.).
 
 UNIQUE(sentence_id, position).
 
-### `sentence_tags`
-
-Grammar tags on sentences (POLKE → EGP).
-
-| Column | Type | Notes |
-|--------|------|-------|
-| sentence_id | FK → sentences | |
-| tag | TEXT | `egp-{id}`, matches `grammar_constructs.tag` |
-| confidence | NUMERIC(4,3) | 0–1; POLKE rule-based = 1.0 |
-
 ### `sentence_translations`
 
 Parallel sentences across languages. PK(source_sentence_id, target_sentence_id).
@@ -207,22 +197,21 @@ languages → lemmas → senses → sense_descriptions
 ### Grammar
 
 ```
-grammar_constructs (registry)     sentence_tags (runtime)
-         tag = egp-{id}    ←──────────────┘
-                              POLKE batch job
+blocks/{lang}/{level}/{slug}/   (source of truth on disk)
+  block.yaml, egp_links.yaml, examples.json
+              ↓ load_blocks.py
+         grammar_blocks          (FSRS curriculum in DB)
+              ↓
+         review_items            (planned)
 ```
 
-Sense does **not** link to grammar directly. Path:
-
-```
-sense → sense_sentence_links → sentence → sentence_tags
-```
+Example sentences from `examples.json` are imported into `sentences` separately for the example bank.
 
 ## Not in schema yet
 
 From [`docs/design`](design) — planned for quiz/FSRS layer:
 
-- `grammar_blocks` (teachable curriculum ~115 topics)
-- `review_items` (FSRS cards)
+- `review_items` (FSRS cards for senses and grammar_blocks)
+- `grammar_block_sentences` (link blocks to imported example sentences)
 - `exercises`, `exercise_distractors`
 - users, progress tables

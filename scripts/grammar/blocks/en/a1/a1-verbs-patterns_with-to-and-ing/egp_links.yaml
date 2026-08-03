@@ -1,0 +1,17 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1076
+  id: 1076
+  guideword: 'FORM: VERB + ''TO''-INFINITIVE'
+  can_do: Can use a limited range of verbs followed by a 'to'- infinitive.
+  detectability: form
+- ref: egp-1077
+  id: 1077
+  guideword: 'FORM: ''LIKE'' + ''TO''-INFINITIVE OR + ''-ING'''
+  can_do: Can use 'like' followed either by a 'to'-infinitive or an '-ing' form, with no change in meaning.
+  detectability: form
+- ref: egp-1078
+  id: 1078
+  guideword: 'FORM: ''WOULD LIKE TO'''
+  can_do: Can use 'would like to' + infinitive.
+  detectability: form

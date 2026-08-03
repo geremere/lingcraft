@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-169
+  id: 169
+  guideword: 'FORM: MAIN CLAUSE + MAIN CLAUSE'
+  can_do: Can combine two main declarative clauses using co-ordinating conjunctions ('and', 'but', 'or').
+  detectability: form
+- ref: egp-170
+  id: 170
+  guideword: 'FORM: CLAUSE + CLAUSE, ELLIPTED SUBJECT'
+  can_do: Can omit the subject in a second main declarative clause when the subject is obvious or the
+    same as the first clause.
+  detectability: form
+- ref: egp-203
+  id: 203
+  guideword: 'FORM: AFFIRMATIVE INTERROGATIVE, WITH ''BE'''
+  can_do: Can form interrogative clauses with 'be'.
+  detectability: form
+- ref: egp-240
+  id: 240
+  guideword: 'FORM/USE: ''BECAUSE'', REASONS'
+  can_do: Can use a finite subordinate clause with 'because', after a main clause, to introduce reasons.
+  detectability: form

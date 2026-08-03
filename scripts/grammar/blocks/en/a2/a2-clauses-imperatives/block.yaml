@@ -1,0 +1,14 @@
+slug: a2-clauses-imperatives
+title: 'A2 CLAUSES: imperatives'
+level: A2
+super_category: CLAUSES
+sub_category: imperatives
+category: clauses
+sort_order: 42
+merged_sub_categories:
+- imperatives
+detectability:
+  form: 3
+  use: 3
+split: null
+construct_count: 6

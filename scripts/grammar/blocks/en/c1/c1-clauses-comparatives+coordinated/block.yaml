@@ -1,0 +1,14 @@
+slug: c1-clauses-comparatives+coordinated
+title: 'C1 CLAUSES: comparatives, coordinated'
+level: C1
+super_category: CLAUSES
+sub_category: comparatives+coordinated
+category: clauses
+sort_order: 216
+merged_sub_categories:
+- comparatives
+- coordinated
+detectability:
+  form: 2
+split: null
+construct_count: 2

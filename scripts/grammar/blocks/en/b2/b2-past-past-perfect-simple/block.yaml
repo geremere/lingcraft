@@ -1,0 +1,14 @@
+slug: b2-past-past-perfect-simple
+title: 'B2 PAST: past perfect simple'
+level: B2
+super_category: PAST
+sub_category: past perfect simple
+category: verbs-tenses
+sort_order: 190
+merged_sub_categories:
+- past perfect simple
+detectability:
+  form: 7
+  use: 4
+split: null
+construct_count: 11

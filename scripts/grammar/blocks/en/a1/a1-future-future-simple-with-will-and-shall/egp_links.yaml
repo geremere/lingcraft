@@ -1,0 +1,12 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-382
+  id: 382
+  guideword: 'FORM: AFFIRMATIVE ''WILL'''
+  can_do: Can use the affirmative forms 'will' and ''ll'.
+  detectability: form
+- ref: egp-383
+  id: 383
+  guideword: 'USE: PLANS AND INTENTIONS WITH ''WILL'''
+  can_do: Can use 'will' and ''ll' to talk about plans and intentions.
+  detectability: use

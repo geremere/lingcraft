@@ -1,0 +1,12 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1047
+  id: 1047
+  guideword: 'FORM: VERB + DIRECT OBJECT + PARTICLE + PREPOSITION + OBJECT'
+  can_do: Can use a direct object with some prepositional verbs as well as an object of the preposition.
+  detectability: form
+- ref: egp-1094
+  id: 1094
+  guideword: 'FORM/USE: ''WOULD HATE'' + ''TO'''
+  can_do: Can use 'would hate' + 'to' infinitive, for emphasis.
+  detectability: form

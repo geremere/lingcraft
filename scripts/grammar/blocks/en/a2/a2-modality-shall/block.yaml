@@ -1,0 +1,14 @@
+slug: a2-modality-shall
+title: 'A2 MODALITY: shall'
+level: A2
+super_category: MODALITY
+sub_category: shall
+category: modals
+sort_order: 62
+merged_sub_categories:
+- shall
+detectability:
+  form: 2
+  use: 2
+split: null
+construct_count: 4

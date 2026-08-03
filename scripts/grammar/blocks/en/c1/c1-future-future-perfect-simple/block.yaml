@@ -1,0 +1,14 @@
+slug: c1-future-future-perfect-simple
+title: 'C1 FUTURE: future perfect simple'
+level: C1
+super_category: FUTURE
+sub_category: future perfect simple
+category: verbs-tenses
+sort_order: 223
+merged_sub_categories:
+- future perfect simple
+detectability:
+  form: 1
+  use: 2
+split: null
+construct_count: 3

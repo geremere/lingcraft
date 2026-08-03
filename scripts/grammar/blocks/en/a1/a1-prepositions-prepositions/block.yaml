@@ -1,0 +1,13 @@
+slug: a1-prepositions-prepositions
+title: 'A1 PREPOSITIONS: prepositions'
+level: A1
+super_category: PREPOSITIONS
+sub_category: prepositions
+category: prepositions-conjunctions
+sort_order: 23
+merged_sub_categories:
+- prepositions
+detectability:
+  form: 2
+split: null
+construct_count: 2

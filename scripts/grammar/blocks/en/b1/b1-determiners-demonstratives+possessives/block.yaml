@@ -1,0 +1,15 @@
+slug: b1-determiners-demonstratives+possessives
+title: 'B1 DETERMINERS: demonstratives, possessives'
+level: B1
+super_category: DETERMINERS
+sub_category: demonstratives+possessives
+category: nouns-articles
+sort_order: 111
+merged_sub_categories:
+- demonstratives
+- possessives
+detectability:
+  use: 1
+  form: 2
+split: null
+construct_count: 3

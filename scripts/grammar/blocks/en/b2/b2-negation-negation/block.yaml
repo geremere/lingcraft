@@ -1,0 +1,13 @@
+slug: b2-negation-negation
+title: 'B2 NEGATION: negation'
+level: B2
+super_category: NEGATION
+sub_category: negation
+category: negation
+sort_order: 185
+merged_sub_categories:
+- negation
+detectability:
+  form: 4
+split: null
+construct_count: 4

@@ -1,0 +1,104 @@
+{
+  "examples": [
+    {
+      "text": "Are you going to the new art class? (Cyprus; A2 WAYSTAGE; 2006; Turkish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-204"
+    },
+    {
+      "text": "Have you got a new dress for the party? (Italy; A2 WAYSTAGE; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-204"
+    },
+    {
+      "text": "Do you remember Julie? (Brazil; A2 WAYSTAGE; 2004; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-205"
+    },
+    {
+      "text": "Did you buy a new mobile phone? (Spain; A2 WAYSTAGE; 2007; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-205"
+    },
+    {
+      "text": "Would you like to come with me? (Argentina; A2 WAYSTAGE; 2005; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-206"
+    },
+    {
+      "text": "Will you go with me? (Russia; A2 WAYSTAGE; 2009; Russian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-206"
+    },
+    {
+      "text": "Can I come tomorrow to collect it? (Poland; A2 WAYSTAGE; 2005; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-206"
+    },
+    {
+      "text": "Shall we meet at 7.30 pm? (Switzerland; A2 WAYSTAGE; 2008; Swiss German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-206"
+    },
+    {
+      "text": "When are you coming here? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-207"
+    },
+    {
+      "text": "What have you bought? (Turkey; A2 WAYSTAGE; 2008; Turkish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-207"
+    },
+    {
+      "text": "And what must I bring? (France; A2 WAYSTAGE; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-207"
+    },
+    {
+      "text": "When can we meet? (Spain; A2 WAYSTAGE; 2005; Spanish - European; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-207"
+    },
+    {
+      "text": "Where did you go? (Vietnam; A2 WAYSTAGE; 2009; Vietnamese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-207"
+    },
+    {
+      "text": "Why don't we watch a film? (Sri Lanka; A2 WAYSTAGE; 2009; Tamil; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-208"
+    },
+    {
+      "text": "Why didn't you come with me? (Bulgaria; A2 WAYSTAGE; 2008; Bulgarian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-208"
+    },
+    {
+      "text": "Why don't you ask Jennifer to go with you? (Uruguay; A2 WAYSTAGE; 2003; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-208"
+    },
+    {
+      "text": "Why couldn't you come? It was fun. (Malaysia; A2 WAYSTAGE; 2004; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-208"
+    },
+    {
+      "text": "Isn't it great? (Switzerland; A2 WAYSTAGE; 2004; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-209"
+    },
+    {
+      "text": "Don't you like pizza? (Burmese, A2 WAYSTAGE)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-209"
+    },
+    {
+      "text": "[Talking about a car] I bought one. Didn't I tell you? (Portuguese, A2 WAYSTAGE)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-209"
+    }
+  ]
+}

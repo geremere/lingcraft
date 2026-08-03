@@ -1,0 +1,13 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-780
+  id: 780
+  guideword: 'FORM/USE: INVERSION, IMAGINED PAST'
+  can_do: Can invert the subject and affirmative auxiliary verb to talk about imagined situations in the
+    past, often with regret, in formal contexts.
+  detectability: form
+- ref: egp-834
+  id: 834
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the full negative forms with a wide range of verbs, often in formal contexts.
+  detectability: form

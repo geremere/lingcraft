@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-289
+  id: 289
+  guideword: 'FORM/USE: ''THE'' + ADJECTIVES, SPECIFYING'
+  can_do: Can use 'the' + adjectives in a noun phrase, to specify.
+  detectability: form
+- ref: egp-290
+  id: 290
+  guideword: 'FORM: ''THE'' + SUPERLATIVES'
+  can_do: Can form a noun phrase with 'the' + superlative adjectives + noun.
+  detectability: form
+- ref: egp-319
+  id: 319
+  guideword: 'FORM: SINGULAR NOUN +''''S'''
+  can_do: Can use ''s' after singular or proper nouns to indicate possession.
+  detectability: form
+- ref: egp-320
+  id: 320
+  guideword: 'FORM: WITH QUANTIFYING DETERMINERS + ''OF'''
+  can_do: Can use quantifying determiners + possessive determiners + 'of' + noun. ► noun phrases
+  detectability: form

@@ -1,9 +1,0 @@
-egp_id: 1234
-tag: egp-1234
-slug: egp-1234-could-reported-speech-b2
-level: B2
-super_category: MODALITY
-sub_category: could
-detection: llm
-detectability: use
-polke_construct_id: 1234

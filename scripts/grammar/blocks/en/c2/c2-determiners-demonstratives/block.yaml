@@ -1,0 +1,14 @@
+slug: c2-determiners-demonstratives
+title: 'C2 DETERMINERS: demonstratives'
+level: C2
+super_category: DETERMINERS
+sub_category: demonstratives
+category: nouns-articles
+sort_order: 249
+merged_sub_categories:
+- demonstratives
+detectability:
+  use: 2
+  form: 1
+split: null
+construct_count: 3

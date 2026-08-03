@@ -1,0 +1,14 @@
+slug: c2-modality-have-got-to
+title: 'C2 MODALITY: have (got) to'
+level: C2
+super_category: MODALITY
+sub_category: have (got) to
+category: modals
+sort_order: 255
+merged_sub_categories:
+- have (got) to
+detectability:
+  form: 1
+  use: 2
+split: null
+construct_count: 3

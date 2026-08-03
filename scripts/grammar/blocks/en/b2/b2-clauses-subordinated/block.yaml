@@ -1,0 +1,13 @@
+slug: b2-clauses-subordinated
+title: 'B2 CLAUSES: subordinated'
+level: B2
+super_category: CLAUSES
+sub_category: subordinated
+category: clauses
+sort_order: 165
+merged_sub_categories:
+- subordinated
+detectability:
+  form: 3
+split: null
+construct_count: 3

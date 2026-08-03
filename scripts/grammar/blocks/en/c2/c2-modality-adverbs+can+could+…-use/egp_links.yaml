@@ -1,0 +1,42 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-456
+  id: 456
+  guideword: 'USE: REFLECTIONS'
+  can_do: Can use 'how can' to reflect, through rhetorical questions.
+  detectability: use
+- ref: egp-527
+  id: 527
+  guideword: 'USE: EMPHASIS'
+  can_do: Can use 'try as I might' for emphasis at the beginning of a sentence.
+  detectability: use
+- ref: egp-555
+  id: 555
+  guideword: 'USE: IN DISCUSSION'
+  can_do: Can use the question form rhetorically in discussion, typically in formal contexts.
+  detectability: use
+- ref: egp-575
+  id: 575
+  guideword: 'USE: AFTER ''IF'' CLAUSES'
+  can_do: Can use 'shall' in the main clause after an 'if-' clause  ► conditionals
+  detectability: use
+- ref: egp-576
+  id: 576
+  guideword: 'USE: PREDICTIONS'
+  can_do: Can use 'shall' to make predictions.
+  detectability: use
+- ref: egp-615
+  id: 615
+  guideword: 'USE: WILLFULNESS OR DISAPPROVAL'
+  can_do: Can use 'will' to talk about general behaviour, often disapprovingly.
+  detectability: use
+- ref: egp-1238
+  id: 1238
+  guideword: 'USE: SPECULATION'
+  can_do: Can use 'couldn?t have' + '-ed' to speculate about the past.
+  detectability: use
+- ref: egp-1239
+  id: 1239
+  guideword: 'USE: SPECULATION'
+  can_do: Can use 'couldn?t have' + '-ed' to speculate about the past.
+  detectability: use

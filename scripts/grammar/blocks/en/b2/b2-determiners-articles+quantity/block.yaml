@@ -1,0 +1,14 @@
+slug: b2-determiners-articles+quantity
+title: 'B2 DETERMINERS: articles, quantity'
+level: B2
+super_category: DETERMINERS
+sub_category: articles+quantity
+category: nouns-articles
+sort_order: 169
+merged_sub_categories:
+- articles
+- quantity
+detectability:
+  form: 2
+split: null
+construct_count: 2

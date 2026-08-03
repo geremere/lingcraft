@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1066
+  id: 1066
+  guideword: 'FORM: MAIN VERBS'
+  can_do: Can use regular and irregular main verbs in simple verb phrases. ► present simple ► past simple
+  detectability: form
+- ref: egp-1067
+  id: 1067
+  guideword: 'FORM: LINKING VERB, ''BE'''
+  can_do: Can use linking verb 'be'.
+  detectability: form
+- ref: egp-1068
+  id: 1068
+  guideword: 'FORM: AUXILIARY VERB ''BE'''
+  can_do: Can use auxiliary verb 'be'. ►  present continuous
+  detectability: form
+- ref: egp-1069
+  id: 1069
+  guideword: 'FORM: MODAL AUXILIARY VERBS'
+  can_do: Can use a limited range of modal auxiliary verbs ('can', 'will', 'would').
+  detectability: form

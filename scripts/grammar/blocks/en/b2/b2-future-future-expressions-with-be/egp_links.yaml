@@ -1,0 +1,32 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-360
+  id: 360
+  guideword: 'FORM: ''BE ABOUT TO'''
+  can_do: Can use the present forms of 'be' + 'about to'.
+  detectability: form
+- ref: egp-361
+  id: 361
+  guideword: 'FORM: ''BE DUE TO'''
+  can_do: Can use the present form of 'be' + 'due to'.
+  detectability: form
+- ref: egp-362
+  id: 362
+  guideword: 'FORM: ''BE TO'''
+  can_do: Can use the present form of 'be' + 'to'.
+  detectability: form
+- ref: egp-363
+  id: 363
+  guideword: 'USE: IMMEDIATE FUTURE WITH ''BE ABOUT TO'''
+  can_do: Can use 'be about to' to talk about the immediate future, often with 'just'.
+  detectability: use
+- ref: egp-364
+  id: 364
+  guideword: 'USE: OBLIGATIONS AND  INSTRUCTIONS WITH ''BE TO'''
+  can_do: Can use 'be to' talk about future obligations and to give instructions.
+  detectability: use
+- ref: egp-365
+  id: 365
+  guideword: 'USE: SCHEDULES'
+  can_do: Can use 'be due to' and, more formally, 'be to' talk about things that are scheduled or expected.
+  detectability: use

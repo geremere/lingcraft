@@ -1,0 +1,19 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-107
+  id: 107
+  guideword: 'USE: DEGREE, WITH ADJECTIVES'
+  can_do: Can use a wide range of adverbs with adjectives to express degree or intensity.
+  detectability: use
+- ref: egp-108
+  id: 108
+  guideword: 'USE: CERTAINTY'
+  can_do: Can use a wide range of adverbs to indicate degrees of certainty.
+  detectability: use
+- ref: egp-109
+  id: 109
+  guideword: 'USE: STANCE'
+  can_do: Can use a wide range of stance adverbs (simply, truly, surely, apparently, naturally, surprisingly,
+    inevitably, literally, exceptionally, frankly, clearly, amazingly, wisely, admittedly) to indicate
+    an attitude or viewpoint, often in clause initial position.
+  detectability: use

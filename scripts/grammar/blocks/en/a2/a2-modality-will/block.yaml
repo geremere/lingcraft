@@ -1,0 +1,14 @@
+slug: a2-modality-will
+title: 'A2 MODALITY: will'
+level: A2
+super_category: MODALITY
+sub_category: will
+category: modals
+sort_order: 58
+merged_sub_categories:
+- will
+detectability:
+  form: 3
+  use: 3
+split: null
+construct_count: 6

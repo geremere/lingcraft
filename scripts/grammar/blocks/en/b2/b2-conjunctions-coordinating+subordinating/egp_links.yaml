@@ -1,0 +1,25 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-268
+  id: 268
+  guideword: 'FORM/USE: ''NEITHER … NOR'''
+  can_do: Can use 'neither … nor' to connect two words, phrases or clauses, often to give emphasis or
+    focus.
+  detectability: form
+- ref: egp-269
+  id: 269
+  guideword: 'FORM/USE: ''BOTH … AND'' WITH PHRASES AND CLAUSES'
+  can_do: Can use 'both … and' to combine phrases and clauses, often for emphasis.
+  detectability: form
+- ref: egp-279
+  id: 279
+  guideword: 'FORM: SIMPLE'
+  can_do: Can use a wide range of simple subordinating conjunctions ('once, whereas, unless, except (that)
+    provided (that)'), to introduce a subordinate clause.
+  detectability: form
+- ref: egp-280
+  id: 280
+  guideword: 'FORM: COMPLEX'
+  can_do: Can use more complex subordinating conjunctions ('as long as, as soon as, in order that, despite
+    the fact that, due to the fact that, as if, as though') to introduce a subordinate clause.
+  detectability: form

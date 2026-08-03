@@ -1,0 +1,13 @@
+slug: b2-prepositions-prepositions
+title: 'B2 PREPOSITIONS: prepositions'
+level: B2
+super_category: PREPOSITIONS
+sub_category: prepositions
+category: prepositions-conjunctions
+sort_order: 195
+merged_sub_categories:
+- prepositions
+detectability:
+  form: 3
+split: null
+construct_count: 3

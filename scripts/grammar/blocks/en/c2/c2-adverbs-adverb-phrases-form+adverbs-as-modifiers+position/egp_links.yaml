@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-110
+  id: 110
+  guideword: 'USE: DISTANCING'
+  can_do: Can use adverbs mid clause, to distance the writer from what they are saying.
+  detectability: use
+- ref: egp-139
+  id: 139
+  guideword: 'FORM/USE: FRONT POSITION, INVERSION, WITH ''HARDLY'''
+  can_do: Can use 'hardly' in front position followed by an inverted subject and verb, to give focus.
+  detectability: form
+- ref: egp-140
+  id: 140
+  guideword: 'FORM/USE: MID POSITION, DISTANCING'
+  can_do: Can use adverbs in mid position, to distance the writer from what they are saying.
+  detectability: form
+- ref: egp-148
+  id: 148
+  guideword: 'FORM: PRE- AND POST-MODIFIED ADVERBS'
+  can_do: Can form adverb phrases with modifiers before, and complements after, adverbs.
+  detectability: form

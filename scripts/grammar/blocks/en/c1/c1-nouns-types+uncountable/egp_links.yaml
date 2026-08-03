@@ -1,0 +1,12 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-683
+  id: 683
+  guideword: FORM'-ING' FORMS, ABSTRACT NOUNS
+  can_do: Can use the '-ing' form of verbs as abstract nouns.
+  detectability: form
+- ref: egp-697
+  id: 697
+  guideword: 'FORM: UNCOUNTABLE NOUNS'
+  can_do: Can use a wide range of uncountable nouns, particularly referring to abstract concepts.
+  detectability: form

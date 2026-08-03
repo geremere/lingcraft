@@ -1,0 +1,16 @@
+slug: a2-pronouns-generic-use+reflexive+subject-object
+title: 'A2 PRONOUNS: generic use, reflexive, subject/ object'
+level: A2
+super_category: PRONOUNS
+sub_category: generic use+reflexive+subject/ object
+category: pronouns
+sort_order: 82
+merged_sub_categories:
+- generic use
+- reflexive
+- subject/ object
+detectability:
+  form: 3
+  use: 1
+split: null
+construct_count: 4

@@ -1,0 +1,16 @@
+slug: b2-pronouns-demonstratives+quantity+reciprocal+…
+title: 'B2 PRONOUNS: demonstratives, quantity, reciprocal, substitution, one, ones, none'
+level: B2
+super_category: PRONOUNS
+sub_category: demonstratives+quantity+reciprocal+…
+category: pronouns
+sort_order: 203
+merged_sub_categories:
+- demonstratives
+- quantity
+- reciprocal
+- substitution, one, ones, none
+detectability:
+  form: 6
+split: null
+construct_count: 6

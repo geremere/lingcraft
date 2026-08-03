@@ -1,0 +1,14 @@
+slug: b1-past-present-perfect-simple
+title: 'B1 PAST: present perfect simple'
+level: B1
+super_category: PAST
+sub_category: present perfect simple
+category: verbs-tenses
+sort_order: 135
+merged_sub_categories:
+- present perfect simple
+detectability:
+  form: 6
+  use: 3
+split: null
+construct_count: 9

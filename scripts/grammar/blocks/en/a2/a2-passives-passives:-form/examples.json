@@ -1,0 +1,39 @@
+{
+  "examples": [
+    {
+      "text": "It was bought by my uncle. (China; A2 WAYSTAGE; 2004; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-703"
+    },
+    {
+      "text": "It's made by Sony-Ericsson, I love it ? (Italy; A2 WAYSTAGE; 2007; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-703"
+    },
+    {
+      "text": "? it was written by an excellent author, Lev Tolstoy. (Russia; A2 WAYSTAGE; 2004; Russian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-703"
+    },
+    {
+      "text": "It was built in 1880. (China; A2 WAYSTAGE; 2001; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-704"
+    },
+    {
+      "text": "On Saturday morning I was invited to a sports competition. (India; A2 WAYSTAGE; 2007; Tamil; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-704"
+    },
+    {
+      "text": "The group is called \"playmo\". (France; A2 WAYSTAGE; 2005; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-705"
+    },
+    {
+      "text": "I bought a T-shirt, it cost £42 because it is made of cotton. (Argentina; A2 WAYSTAGE; 2008; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-705"
+    }
+  ]
+}

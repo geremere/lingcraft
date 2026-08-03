@@ -1,0 +1,19 @@
+slug: c1-pronouns-demonstratives+indefinite-thing,-one,-body-etc+possessive+…
+title: 'C1 PRONOUNS: demonstratives, indefinite - thing, -one, -body etc, possessive, reciprocal, subject/
+  object, substitution, one, ones, none'
+level: C1
+super_category: PRONOUNS
+sub_category: demonstratives+indefinite - thing, -one, -body etc+possessive+…
+category: pronouns
+sort_order: 241
+merged_sub_categories:
+- demonstratives
+- indefinite - thing, -one, -body etc
+- possessive
+- reciprocal
+- subject/ object
+- substitution, one, ones, none
+detectability:
+  form: 7
+split: null
+construct_count: 7

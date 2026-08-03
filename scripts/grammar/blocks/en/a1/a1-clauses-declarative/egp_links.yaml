@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-179
+  id: 179
+  guideword: 'FORM: AFFIRMATIVE DECLARATIVE'
+  can_do: Can form simple affirmative declarative clauses.
+  detectability: form
+- ref: egp-180
+  id: 180
+  guideword: 'FORM: NEGATIVE DECLARATIVE WITH ''BE'''
+  can_do: Can form a simple negative declarative clause with lexical 'be' + 'not' or 'n't'.
+  detectability: form
+- ref: egp-181
+  id: 181
+  guideword: 'FORM: NEGATIVE DECLARATIVE, LEXICAL VERBS'
+  can_do: Can form simple negative declarative clauses.
+  detectability: form
+- ref: egp-182
+  id: 182
+  guideword: 'FORM: AFFIRMATIVE DECLARATIVE, MODAL AUXILIARY VERBS'
+  can_do: Can form an affirmative declarative clause with modal verbs.
+  detectability: form

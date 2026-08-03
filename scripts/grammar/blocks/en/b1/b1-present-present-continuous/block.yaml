@@ -1,0 +1,13 @@
+slug: b1-present-present-continuous
+title: 'B1 PRESENT: present continuous'
+level: B1
+super_category: PRESENT
+sub_category: present continuous
+category: verbs-tenses
+sort_order: 143
+merged_sub_categories:
+- present continuous
+detectability:
+  use: 3
+split: null
+construct_count: 3

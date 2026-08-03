@@ -1,0 +1,13 @@
+slug: c2-modality-ought
+title: 'C2 MODALITY: ought'
+level: C2
+super_category: MODALITY
+sub_category: ought
+category: modals
+sort_order: 257
+merged_sub_categories:
+- ought
+detectability:
+  form: 3
+split: null
+construct_count: 3

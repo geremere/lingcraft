@@ -1,0 +1,33 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-605
+  id: 605
+  guideword: 'FORM/USE: AFTER ''IF'', FUTURE SITUATIONS'
+  can_do: Can use 'will' in the main clause after an 'if-' clause to talk about possible future situations.
+    ► conditionals
+  detectability: form
+- ref: egp-606
+  id: 606
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative forms.
+  detectability: form
+- ref: egp-607
+  id: 607
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form
+- ref: egp-608
+  id: 608
+  guideword: 'USE: PLANS AND INTENTIONS'
+  can_do: Can use 'will' to ask about plans and intentions.
+  detectability: use
+- ref: egp-609
+  id: 609
+  guideword: 'USE: WILLINGNESS, OFFERS'
+  can_do: Can use 'will' to talk about willingness and offers
+  detectability: use
+- ref: egp-610
+  id: 610
+  guideword: 'USE: REQUESTS'
+  can_do: Can use 'will' to make requests in a limited range of contexts.
+  detectability: use

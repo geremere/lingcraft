@@ -1,0 +1,84 @@
+{
+  "examples": [
+    {
+      "text": "I mean, your parents don't like discos, do they? (Brazil; B1 THRESHOLD; 2008; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1017"
+    },
+    {
+      "text": "Doesn't sound interesting, does it? (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1017"
+    },
+    {
+      "text": "He is not important, is he? (Mexico; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1017"
+    },
+    {
+      "text": "That isn't normal, is it? (Switzerland; B1 THRESHOLD; 2010; Swiss German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1017"
+    },
+    {
+      "text": "You haven't been to my house before, have you? (Korea, North; B1 THRESHOLD; 2010; Korean; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1017"
+    },
+    {
+      "text": "And so you're moving to a different area, aren't you? (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1018"
+    },
+    {
+      "text": "You love books, don't you? (Italy; B1 THRESHOLD; 2005; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1018"
+    },
+    {
+      "text": "It sounds peaceful, doesn't it? (Vietnam; B1 THRESHOLD; 2009; Vietnamese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1018"
+    },
+    {
+      "text": "We've arranged to meet at 12, haven't we? (Japan; B1 THRESHOLD; 2008; Japanese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1018"
+    },
+    {
+      "text": "I think it would be fantastic, wouldn't it? (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1018"
+    },
+    {
+      "text": "Your boyfriend is also 16, is he? (Germany; B1 THRESHOLD; 2001; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1019"
+    },
+    {
+      "text": "You bought new black clothes, did you? (France; B1 THRESHOLD; 2006; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1019"
+    },
+    {
+      "text": "You are 14 years old, right? (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1020"
+    },
+    {
+      "text": "I think you asked if I liked shopping for clothes, right? (Peru; B1 THRESHOLD; 2006; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1020"
+    },
+    {
+      "text": "You asked me for some help, right? (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1020"
+    },
+    {
+      "text": "They're black, right? (Thailand; B1 THRESHOLD; 2006; Thai; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-1020"
+    }
+  ]
+}

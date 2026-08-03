@@ -1,0 +1,79 @@
+{
+  "examples": [
+    {
+      "text": "After finishing school, you might be able to hang out with your friends. (Mexico; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-465"
+    },
+    {
+      "text": "If we could meet in Switzerland, we should be able to finish the project on the 20th June. (Switzerland; B1 THRESHOLD; 2003; Swiss German; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-465"
+    },
+    {
+      "text": "I'd be able to take walks without even worrying about inhaling polluted air. (Malaysia; B1 THRESHOLD; 2010; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-465"
+    },
+    {
+      "text": "First of all, if you are allowed to go out of the building in your break, you should do it. (Cyprus; B1 THRESHOLD; 2009; Greek; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-466"
+    },
+    {
+      "text": "Perhaps you will be allowed to go on holiday with your friends next year. (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-466"
+    },
+    {
+      "text": "The film is supposed to start at 7.00 pm so we'd better meet at 6.30 pm. See you there! (Brazil; B1 THRESHOLD; 2004; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-466"
+    },
+    {
+      "text": "I was supposed to be meeting my friend Laura but she didn't come. (France; B1 THRESHOLD; 2009; French; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-466"
+    },
+    {
+      "text": "I am sorry but I  am not able to meet you next Tuesday. (Germany; B1 THRESHOLD; 2008; German; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-466"
+    },
+    {
+      "text": "My mother went with me on this trip because I wasn't allowed to go by myself. (Uruguay; B1 THRESHOLD; 2002; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-467"
+    },
+    {
+      "text": "You won't be allowed to do what you want and you won't enjoy yourself. (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-467"
+    },
+    {
+      "text": "I am really sorry, but I will have to make some changes to my trip. I was supposed to arrive on 11th June 2003, but I will arrive the next month. (Mexico; B1 THRESHOLD; 2003; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-468"
+    },
+    {
+      "text": "It was supposed to be on Tuesday at 1.00pm. (Brazil; B1 THRESHOLD; 2008; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-468"
+    },
+    {
+      "text": "We were supposed to meet at noon with some friends, but they called her to ask if we could meet at the restaurant. (Mexico; B1 THRESHOLD; 2005; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-468"
+    },
+    {
+      "text": "[about a bus journey] She was able to get a good seat and she unexpectedly got to school early. (Philippines; B1 THRESHOLD; 2009; Tagalog; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-469"
+    },
+    {
+      "text": "… sales had increased recently because of the good performance of our staff so we were able to improve the quality of our products ... (Ecuador; B1 THRESHOLD; 2010; Spanish - Latin American; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-469"
+    }
+  ]
+}

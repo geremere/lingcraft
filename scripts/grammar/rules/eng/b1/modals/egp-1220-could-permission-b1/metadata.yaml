@@ -1,9 +1,0 @@
-egp_id: 1220
-tag: egp-1220
-slug: egp-1220-could-permission-b1
-level: B1
-super_category: MODALITY
-sub_category: could
-detection: llm
-detectability: use
-polke_construct_id: 1220

@@ -1,0 +1,41 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1178
+  id: 1178
+  guideword: 'FORM: AUXILIARY VERBS ''BE'', ''HAVE'', PRESENT'
+  can_do: Can form negative statements of main verbs in the present continuous and present perfect with
+    'be' and 'have' + 'not/n't'.  ► present continuous ► present perfect
+  detectability: form
+- ref: egp-1179
+  id: 1179
+  guideword: 'FORM: AUXILIARY VERB ''DO'', PAST'
+  can_do: Can form negative statements of main verbs in the past simple with 'didn?t' + main verb. ► past
+    simple
+  detectability: form
+- ref: egp-1180
+  id: 1180
+  guideword: 'FORM: ''DO'', IMPERATIVES'
+  can_do: 'Can form negative imperatives of main verbs with ''don?t'' + main verb. ► Clauses: imperatives'
+  detectability: form
+- ref: egp-1181
+  id: 1181
+  guideword: 'FORM: MODAL VERBS'
+  can_do: Can use negative forms of modal verbs. ► modal verbs
+  detectability: form
+- ref: egp-1182
+  id: 1182
+  guideword: 'FORM: PRONOUNS'
+  can_do: 'Can use a limited range of determiners as pronouns and indefinite pronouns in negative contexts.  ►
+    Pronouns: quantity'
+  detectability: form
+- ref: egp-1183
+  id: 1183
+  guideword: 'FORM: DETERMINERS ''NO'''
+  can_do: 'Can use determiner ''no'' with nouns.  ► Determiners: quantity'
+  detectability: form
+- ref: egp-1184
+  id: 1184
+  guideword: 'FORM: DETERMINERS ''ANY'', ''MUCH'', ''MANY'''
+  can_do: 'Can use determiners ''any'', ''much'' and ''many'' with nouns in negative contexts. ► Determiners:
+    quantity'
+  detectability: form

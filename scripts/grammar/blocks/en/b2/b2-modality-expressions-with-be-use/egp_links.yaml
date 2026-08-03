@@ -1,0 +1,48 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-473
+  id: 473
+  guideword: 'USE: ''BE LIKELY TO'', PROBABILITY'
+  can_do: Can use 'be' (+modifier) 'likely to' to talk about probability.
+  detectability: use
+- ref: egp-474
+  id: 474
+  guideword: 'USE: ''BE DUE TO'', ''BE TO'', SCHEDULES'
+  can_do: Can use 'be due to' and, more formally, 'be to' to talk about things that are scheduled or expected.
+  detectability: use
+- ref: egp-475
+  id: 475
+  guideword: 'USE: ''BE MEANT TO'', IDEAL STATES'
+  can_do: Can use 'be meant to' to talk about ideal states.
+  detectability: use
+- ref: egp-476
+  id: 476
+  guideword: 'USE: ''BE SUPPOSED TO'', OBLIGATION, EXPECTATION'
+  can_do: Can use 'be supposed to' to talk about expectation or obligation.
+  detectability: use
+- ref: egp-477
+  id: 477
+  guideword: 'USE: ''BE SUPPOSED TO'', HEARSAY'
+  can_do: Can use 'be supposed to' to talk about hearsay or supposition.
+  detectability: use
+- ref: egp-478
+  id: 478
+  guideword: 'USE: ''BE BOUND TO'', CERTAINTY'
+  can_do: Can use 'be' (+ modifier) 'bound to' to talk about something certain or inevitable.
+  detectability: use
+- ref: egp-480
+  id: 480
+  guideword: 'USE: ''BE SURE/CERTAIN TO'''
+  can_do: Can use 'be sure to', 'be certain to' to talk about certainty.
+  detectability: use
+- ref: egp-481
+  id: 481
+  guideword: 'USE: ''BE OBLIGED TO'', OBLIGATION'
+  can_do: Can use 'be obliged to' to talk about an external obligation, especially in institutional contexts.
+  detectability: use
+- ref: egp-482
+  id: 482
+  guideword: 'USE: ''BE FORCED TO'', OBLIGATION'
+  can_do: Can use 'be forced to' to talk about an unnamed obligation, where the circumstances are beyond
+    the control of the speaker/writer.
+  detectability: use

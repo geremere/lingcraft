@@ -1,0 +1,14 @@
+slug: a2-pronouns-demonstratives
+title: 'A2 PRONOUNS: demonstratives'
+level: A2
+super_category: PRONOUNS
+sub_category: demonstratives
+category: pronouns
+sort_order: 77
+merged_sub_categories:
+- demonstratives
+detectability:
+  form: 3
+  use: 5
+split: null
+construct_count: 8

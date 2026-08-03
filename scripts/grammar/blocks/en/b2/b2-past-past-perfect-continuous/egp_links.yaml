@@ -1,0 +1,29 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-758
+  id: 758
+  guideword: 'FORM/USE: BACKGROUND INFORMATION WITH RELATIVE CLAUSE'
+  can_do: Can use the past perfect continuous in a relative clause to give background information.  ►
+    relative clauses
+  detectability: form
+- ref: egp-759
+  id: 759
+  guideword: 'FORM/USE: BACKGROUND INFORMATION WITH TIME CONJUNCTION'
+  can_do: Can use the past perfect continuous after a time conjunction to give background information.
+  detectability: form
+- ref: egp-760
+  id: 760
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form.
+  detectability: form
+- ref: egp-761
+  id: 761
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use the past perfect continuous with adverbs in the normal mid position.
+  detectability: form
+- ref: egp-762
+  id: 762
+  guideword: 'USE: RESULTS'
+  can_do: Can use the past perfect continuous to talk about events which started before a time in the
+    past and which finished, but where the effects or results were still important at a point in the past.
+  detectability: use

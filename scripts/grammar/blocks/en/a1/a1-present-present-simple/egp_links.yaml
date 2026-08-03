@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-865
+  id: 865
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form with a limited range of regular and irregular verbs.
+  detectability: form
+- ref: egp-866
+  id: 866
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form with a limited range of regular and irregular verbs.
+  detectability: form
+- ref: egp-867
+  id: 867
+  guideword: 'FORM: WITH ''REALLY'''
+  can_do: Can use the present simple with the adverb 'really' as an intensifier. ► adverbs
+  detectability: form
+- ref: egp-868
+  id: 868
+  guideword: 'USE: HABITS AND GENERAL FACTS'
+  can_do: Can use the present simple to talk about repeated events or habits, and general facts.
+  detectability: use

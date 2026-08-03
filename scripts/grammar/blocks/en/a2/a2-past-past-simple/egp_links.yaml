@@ -1,0 +1,22 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-786
+  id: 786
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form with an increasing range of verbs.
+  detectability: form
+- ref: egp-787
+  id: 787
+  guideword: 'FORM: NEGATIVE'
+  can_do: Can use the negative form with a limited range of regular and irregular verbs.
+  detectability: form
+- ref: egp-788
+  id: 788
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use 'yes/no' and 'wh-' question forms with 'you' with a limited range of verbs.
+  detectability: form
+- ref: egp-789
+  id: 789
+  guideword: 'FORM: WITH ''WHEN'''
+  can_do: Can use 'when' + past simple in subordinate clauses.
+  detectability: form

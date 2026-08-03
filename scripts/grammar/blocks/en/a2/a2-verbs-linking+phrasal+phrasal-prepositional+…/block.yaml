@@ -1,0 +1,16 @@
+slug: a2-verbs-linking+phrasal+phrasal-prepositional+…
+title: 'A2 VERBS: linking, phrasal, phrasal-prepositional, there is/are'
+level: A2
+super_category: VERBS
+sub_category: linking+phrasal+phrasal-prepositional+…
+category: verbs-tenses
+sort_order: 90
+merged_sub_categories:
+- linking
+- phrasal
+- phrasal-prepositional
+- there is/are
+detectability:
+  form: 6
+split: null
+construct_count: 6

@@ -1,9 +1,0 @@
-egp_id: 549
-tag: egp-549
-slug: egp-549-must-past-negative-c2
-level: C2
-super_category: MODALITY
-sub_category: must
-detection: polke
-detectability: form
-polke_construct_id: 549

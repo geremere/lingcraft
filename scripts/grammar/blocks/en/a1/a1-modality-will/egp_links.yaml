@@ -1,0 +1,12 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-603
+  id: 603
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative forms.
+  detectability: form
+- ref: egp-604
+  id: 604
+  guideword: 'USE: PLANS AND INTENTIONS'
+  can_do: Can use 'will' to talk about plans and intentions.
+  detectability: use

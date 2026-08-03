@@ -1,0 +1,27 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-522
+  id: 522
+  guideword: 'FORM: QUESTIONS'
+  can_do: Can use the question form.
+  detectability: form
+- ref: egp-523
+  id: 523
+  guideword: 'FORM: PAST, NEGATIVE'
+  can_do: Can use 'might not have' + '-ed'.
+  detectability: form
+- ref: egp-524
+  id: 524
+  guideword: 'USE: POSSIBILITY IN THE PAST'
+  can_do: Can use 'might not have' + '-ed' to talk about possibility with a past reference.
+  detectability: use
+- ref: egp-525
+  id: 525
+  guideword: 'USE: CONSOLING OR JUSTIFYING'
+  can_do: Can use 'might' followed by 'but' to console or justify.
+  detectability: use
+- ref: egp-526
+  id: 526
+  guideword: 'USE: POLITE CRITICISM'
+  can_do: Can use the question form to make polite criticisms and suggestions.
+  detectability: use

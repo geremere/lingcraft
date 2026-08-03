@@ -1,0 +1,12 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-982
+  id: 982
+  guideword: 'FORM: OBJECT'
+  can_do: Can use a limited range of indefinite pronouns as objects.
+  detectability: form
+- ref: egp-983
+  id: 983
+  guideword: 'FORM: ''EVERYTHING'', SUBJECT'
+  can_do: Can use 'everything' as subject, with a singular verb.
+  detectability: form

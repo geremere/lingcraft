@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-1013
+  id: 1013
+  guideword: 'FORM/USE: STRONG ALTERNATIVE'
+  can_do: Can form alternative questions using an extreme alternative to give greater pragmatic force.
+  detectability: form
+- ref: egp-1014
+  id: 1014
+  guideword: 'FORM/USE: ELLIPTED MODAL, HEDGING'
+  can_do: Can form alternative questions with two clauses and ellipsis in the second clause, often as
+    a hedging device.
+  detectability: form
+- ref: egp-1022
+  id: 1022
+  guideword: 'FORM: TAGS WITH ''THERE'' + ''BE'''
+  can_do: Can use affirmative and negative forms of question tags with 'there' + 'be'.
+  detectability: form
+- ref: egp-1031
+  id: 1031
+  guideword: 'USE: FOCUS'
+  can_do: Can use 'wh-'questions as a focusing device, often in a narrative or argument.
+  detectability: use

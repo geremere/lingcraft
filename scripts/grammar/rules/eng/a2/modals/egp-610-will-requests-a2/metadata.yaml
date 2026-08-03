@@ -1,9 +1,0 @@
-egp_id: 610
-tag: egp-610
-slug: egp-610-will-requests-a2
-level: A2
-super_category: MODALITY
-sub_category: will
-detection: llm
-detectability: use
-polke_construct_id: 610

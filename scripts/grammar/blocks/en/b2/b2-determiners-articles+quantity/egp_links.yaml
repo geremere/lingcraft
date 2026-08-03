@@ -1,0 +1,14 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-297
+  id: 297
+  guideword: 'FORM/USE: ''THE MORE … THE MORE …'''
+  can_do: Can use the in comparative phrases 'more', 'less', 'worse', 'better … the more', 'less', 'worse
+    …' to talk about one thing that is affected by another. ► comparative clauses
+  detectability: form
+- ref: egp-348
+  id: 348
+  guideword: 'FORM: ''LITTLE/FEW'''
+  can_do: Can use modifier + 'little' + uncountable nouns and modifier + 'few' + countable nouns, to indicate
+    a lack of something or not as much as expected of something.► adverbs
+  detectability: form

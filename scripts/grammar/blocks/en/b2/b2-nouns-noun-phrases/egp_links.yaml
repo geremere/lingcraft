@@ -1,0 +1,25 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-669
+  id: 669
+  guideword: 'FORM: NOUN + ''OF'' + POSSESSIVE DETERMINER + NOUN'
+  can_do: Can form noun phrases with noun + 'of' + possessive determiner + noun + '‘s', particularly with
+    'friend' or 'friends'.
+  detectability: form
+- ref: egp-670
+  id: 670
+  guideword: 'FORM: POSSESSION WITH PLURAL NOUNS  + '''
+  can_do: Can form noun phrases with plural nouns + ' + noun.
+  detectability: form
+- ref: egp-671
+  id: 671
+  guideword: 'FORM: POSTMODIFYING WITH ADJECTIVE PHRASE'
+  can_do: Can form complex noun phrases by using adjective phrases as postmodifiers to give more information
+    about the noun.
+  detectability: form
+- ref: egp-672
+  id: 672
+  guideword: 'FORM: COMPLEX NOUN PHRASES WITH ADJECTIVES COMBINED WITH ''BUT'''
+  can_do: Can form an increasing range of complex noun phrases with more than one adjective combined with
+    'but'.
+  detectability: form

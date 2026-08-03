@@ -1,0 +1,39 @@
+{
+  "examples": [
+    {
+      "text": "I used to share my room with my brother. (Albania; B1 THRESHOLD; 2007; Albanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-596"
+    },
+    {
+      "text": "When I was a little girl, we used to be together all the time. (Hungary; B1 THRESHOLD; 2004; Hungarian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-596"
+    },
+    {
+      "text": "We didn't use to talk to each other. (Brazil; B1 THRESHOLD; 2009; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-597"
+    },
+    {
+      "text": "But this year I've met lots of new people that I didn't used to talk to, like Monica and Nina. (Brazil; B1 THRESHOLD; 2009; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-597"
+    },
+    {
+      "text": "When I was I child, I used to go to a small school and I enjoyed it very much. (Italy; B1 THRESHOLD; 2008; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-598"
+    },
+    {
+      "text": "…and she used to come to my house and play computer games with me. (Hong Kong; B1 THRESHOLD; 2008; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-598"
+    },
+    {
+      "text": "I didn't use to laugh much but since the day we met, I'm always happy. (Turkey; B1 THRESHOLD; 2009; Turkish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-598"
+    }
+  ]
+}

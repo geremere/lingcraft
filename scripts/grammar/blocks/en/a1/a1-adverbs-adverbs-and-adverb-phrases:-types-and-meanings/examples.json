@@ -1,0 +1,54 @@
+{
+  "examples": [
+    {
+      "text": "My home is very nice. (A1 BREAKTHROUGH; 2009; Italian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-111"
+    },
+    {
+      "text": "My teacher is very good. (A1 BREAKTHROUGH; 2007; Gujarati; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-111"
+    },
+    {
+      "text": "I hope you get well very soon. (A1 BREAKTHROUGH; 2009; Bengali; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-112"
+    },
+    {
+      "text": "I don't like it at college when I have a lesson very early. (A1 BREAKTHROUGH; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-112"
+    },
+    {
+      "text": "I really like Japanese music. (A1 BREAKTHROUGH; 2008; Chinese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-113"
+    },
+    {
+      "text": "I like my college very much. (A1 BREAKTHROUGH; 2007; Polish; Fail)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-113"
+    },
+    {
+      "text": "I always go to the park with my children. We sometimes go to the shopping centre. (A1 BREAKTHROUGH; 2010; Arabic - Other; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-113"
+    },
+    {
+      "text": "I am happy here because people are very nice. (A1 BREAKTHROUGH; 2007; Hindi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-114"
+    },
+    {
+      "text": "I hope you will be there. (A1 BREAKTHROUGH; 2011; Portuguese; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-114"
+    },
+    {
+      "text": "You must go there. (A1 BREAKTHROUGH; 2008; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-114"
+    }
+  ]
+}

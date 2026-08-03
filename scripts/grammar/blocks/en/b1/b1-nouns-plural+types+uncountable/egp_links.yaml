@@ -1,0 +1,25 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-681
+  id: 681
+  guideword: 'FORM: COMMON NOUNS'
+  can_do: Can use an increasing range of common nouns.
+  detectability: form
+- ref: egp-689
+  id: 689
+  guideword: 'FORM: COLLECTIVE NOUNS'
+  can_do: Can use collective nouns, usually with a singular verb, but also with a plural verb depending
+    on whether the noun is perceived as a single group or collection of individuals.
+  detectability: form
+- ref: egp-694
+  id: 694
+  guideword: 'FORM: UNCOUNTABLE NOUNS'
+  can_do: Can use an increasing range of uncountable nouns.
+  detectability: form
+- ref: egp-695
+  id: 695
+  guideword: 'FORM: WITH DETERMINERS, QUANTITY'
+  can_do: 'Can use uncountable nouns with an increasing range of quantity words and phrases including
+    ''much'', ''a bit of'', ''a little bit of'', ''enough'', ''further'', ''plenty of'', ''loads of''.  ►  Determiners:
+    quantity'
+  detectability: form

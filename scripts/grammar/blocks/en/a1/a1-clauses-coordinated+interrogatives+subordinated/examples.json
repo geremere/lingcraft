@@ -1,0 +1,64 @@
+{
+  "examples": [
+    {
+      "text": "I like my college and I like my class. (A1 BREAKTHROUGH; 2007; Gujarati; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-169"
+    },
+    {
+      "text": "On Sunday I visit my friends, but I often stay at home and I read books. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-169"
+    },
+    {
+      "text": "I like English lessons but I don't like physics. (A1 BREAKTHROUGH; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-169"
+    },
+    {
+      "text": "I watch television, I read magazines or I sleep. (A1 BREAKTHROUGH; 2007; Slovak; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-169"
+    },
+    {
+      "text": "She likes to listen to music and watch TV. (A1 BREAKTHROUGH; 2006; Urdu; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-170"
+    },
+    {
+      "text": "After break we go to the class and play some games or study. (A1 BREAKTHROUGH; 2007; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-170"
+    },
+    {
+      "text": "Sometimes I go to the park with my friend and play tennis and football. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-170"
+    },
+    {
+      "text": "I can clean or cook for you. (A1 BREAKTHROUGH; 2009; Romanian; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-170"
+    },
+    {
+      "text": "How are you? (A1 BREAKTHROUGH; 2009; Farsi; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-203"
+    },
+    {
+      "text": "Are you ok? (A1 BREAKTHROUGH; 2011; Thai; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-203"
+    },
+    {
+      "text": "I love her because she is friendly. (A1 BREAKTHROUGH; 2006; Bengali; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-240"
+    },
+    {
+      "text": "I like my television because it is big and modern. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)",
+      "source": "cambridge_egp",
+      "source_ref": "egp-240"
+    }
+  ]
+}

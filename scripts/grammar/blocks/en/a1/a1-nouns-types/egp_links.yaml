@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-677
+  id: 677
+  guideword: 'FORM: COMMON NOUNS'
+  can_do: Can use a limited range of common nouns.
+  detectability: form
+- ref: egp-678
+  id: 678
+  guideword: 'FORM: PROPER NOUNS'
+  can_do: Can use proper nouns with a capital letter to refer to specific people, places, days and things.
+  detectability: form
+- ref: egp-679
+  id: 679
+  guideword: 'FORM: COMPOUND NOUNS'
+  can_do: Can use a range of compound nouns, as one-word, two-word and hyphenated compounds, formed from
+    verb + noun, noun + noun and adjective + noun combinations.
+  detectability: form

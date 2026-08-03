@@ -1,0 +1,20 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-755
+  id: 755
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form.
+  detectability: form
+- ref: egp-756
+  id: 756
+  guideword: 'USE: BACKGROUND EVENTS'
+  can_do: Can use the past perfect continuous talk about a background action or event which began before
+    a point in the past and was still continuing up to a point in the past when the main event happened.
+  detectability: use
+- ref: egp-757
+  id: 757
+  guideword: 'USE: CONTINUING EVENTS IN THE PAST'
+  can_do: Can use the past perfect continuous to talk about an action or event which began before a point
+    in the past and was still continuing up to that point, often with 'for' or 'since', to give background
+    information.
+  detectability: use

@@ -1,0 +1,27 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-452
+  id: 452
+  guideword: 'FORM/USE: PAST NEGATIVE, DEDUCTIONS'
+  can_do: Can use 'can't' or 'cannot have' + '-ed' to make deductions.
+  detectability: form
+- ref: egp-453
+  id: 453
+  guideword: 'FORM: PASSIVE'
+  can_do: Can use 'can' in passive reporting clauses in a more formal impersonal style (e.g. for reports
+    and academic contexts), such as 'It can be said that', 'It can be argued (that)', 'It can be concluded
+    that', 'It can be considered'.► passives
+  detectability: form
+- ref: egp-454
+  id: 454
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use a wide range of adverbs with 'can' in the normal mid position after the modal verb).
+    ► adverbs
+  detectability: form
+- ref: egp-455
+  id: 455
+  guideword: 'USE: EMPHASIS'
+  can_do: Can use expressions with 'can' or 'can’t' to give focus or add emphasis, such as 'as you can
+    see', 'I can't say', 'I can tell you that', 'as you can imagine', 'I can say that', 'I can assure
+    you that'.
+  detectability: use

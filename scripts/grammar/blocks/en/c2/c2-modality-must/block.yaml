@@ -1,0 +1,13 @@
+slug: c2-modality-must
+title: 'C2 MODALITY: must'
+level: C2
+super_category: MODALITY
+sub_category: must
+category: modals
+sort_order: 254
+merged_sub_categories:
+- must
+detectability:
+  form: 4
+split: null
+construct_count: 4

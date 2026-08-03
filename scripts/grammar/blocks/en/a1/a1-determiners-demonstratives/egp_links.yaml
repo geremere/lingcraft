@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-298
+  id: 298
+  guideword: 'FORM: ''THIS'' WITH SINGULAR NOUNS'
+  can_do: 'Can use ''this'' with singular nouns. ► noun phrases ►  pronouns: demonstrative'
+  detectability: form
+- ref: egp-299
+  id: 299
+  guideword: 'USE: ''THIS'', POINTING'
+  can_do: 'Can use ''this'' in a limited range of contexts to refer to places from the speaker''s or writer''s
+    point of view. ► noun phrases ►  pronouns: demonstrative'
+  detectability: use
+- ref: egp-300
+  id: 300
+  guideword: 'USE: ''THIS'', FUTURE'
+  can_do: Can use 'this' with time and date words to refer to 'the one that's coming'.
+  detectability: use

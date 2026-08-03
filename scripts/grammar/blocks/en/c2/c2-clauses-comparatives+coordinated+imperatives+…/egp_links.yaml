@@ -1,0 +1,49 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-167
+  id: 167
+  guideword: 'FORM/USE: ''SO ...  AS TO'', FORMAL'
+  can_do: Can use 'so' + adjective + 'as' + 'to'-infinitive clause, usually in formal contexts.
+  detectability: form
+- ref: egp-168
+  id: 168
+  guideword: 'FORM: ''AS IF'' + NON-FINITE CLAUSE'
+  can_do: Can use 'as if' + non-finite clause to introduce a second clause as a comparison.
+  detectability: form
+- ref: egp-178
+  id: 178
+  guideword: 'FORM/USE: NEGATIVE CLAUSE +  ''NOR'', FOCUS'
+  can_do: Can combine a negative clause with an inverted clause with 'nor', to give focus.
+  detectability: form
+- ref: egp-201
+  id: 201
+  guideword: 'FORM/USE: ''LET'' + THIRD PERSON PRONOUN, DEVOLVING RESPONSIBILITY'
+  can_do: Can use an imperative clause with 'let' + 'him/her/them' + base form of a main verb, to devolve
+    responsibility.
+  detectability: form
+- ref: egp-202
+  id: 202
+  guideword: 'FORM/USE: ''DON''T YOU …'''
+  can_do: Can use you with an imperative form to make an instruction stronger.
+  detectability: form
+- ref: egp-219
+  id: 219
+  guideword: 'FORM: ''HOW'' + CLAUSE'
+  can_do: Can use 'How' + clause.
+  detectability: form
+- ref: egp-220
+  id: 220
+  guideword: 'FORM: ''HOW'' + ADVERB + CLAUSE'
+  can_do: Can use 'How' + adverb + clause.
+  detectability: form
+- ref: egp-255
+  id: 255
+  guideword: 'FORM/USE: NON-FINITE AFTER ''ALTHOUGH'', ''THOUGH'''
+  can_do: Can use non-finite clauses after subordinating conjunctions '(although, though)', to express
+    contrast.
+  detectability: form
+- ref: egp-256
+  id: 256
+  guideword: 'FORM/USE: ''WERE'' + PRONOUN + ''TO'' INFINITIVE, FORMAL'
+  can_do: Can use 'Were' + pronoun + 'to' infinitive to introduce a condition, in formal contexts.
+  detectability: form

@@ -1,0 +1,34 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-160
+  id: 160
+  guideword: 'FORM: COMPARATIVE ADJECTIVE + ''THAN'' + NON-FINITE CLAUSE'
+  can_do: .||Can use than + an increasing range of non-finite clauses (to-infinitive, reduced clause)  forming
+    the second part of a comparison after a comparative adjective||
+  detectability: form
+- ref: egp-161
+  id: 161
+  guideword: 'FORM/USE: SUPERLATIVE ADJECTIVE (+ ''THAT'')'
+  can_do: Can use a superlative adjective (+ noun) (+ 'that') followed by a clause to talk about something
+    unique.
+  detectability: form
+- ref: egp-162
+  id: 162
+  guideword: 'FORM: ADJECTIVE + ''ENOUGH'' + ''TO''-INFINITIVE'
+  can_do: Can use 'enough' after adjectives followed by 'to'-infinitive.
+  detectability: form
+- ref: egp-163
+  id: 163
+  guideword: 'FORM: ''THE SAME'' (+ NOUN) + ''AS'' + CLAUSE'
+  can_do: Can use 'the same' (+ noun) + 'as' + clause.
+  detectability: form
+- ref: egp-164
+  id: 164
+  guideword: 'FORM: ''RATHER THAN'' + NON-FINITE CLAUSE'
+  can_do: Can use 'rather than' + a non-finite clause to stress one element in a comparison.
+  detectability: form
+- ref: egp-165
+  id: 165
+  guideword: 'FORM: ''AS IF'' OR ''AS THOUGH'' + FINITE CLAUSE'
+  can_do: Can use 'as if' or 'as though' + finite clause to introduce a second clause as a comparison.
+  detectability: form

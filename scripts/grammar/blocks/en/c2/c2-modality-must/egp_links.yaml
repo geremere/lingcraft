@@ -1,0 +1,24 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-547
+  id: 547
+  guideword: 'FORM: ELLIPSIS'
+  can_do: Can use ellipted 'must have' + '-ed' without a subject. ► ellipsis
+  detectability: form
+- ref: egp-548
+  id: 548
+  guideword: 'FORM: INVERSION'
+  can_do: Can invert 'must' and the subject after negative phrases, e.g. 'not only', 'never', 'nor', to
+    change the focus and give prominence/emphasis.
+  detectability: form
+- ref: egp-549
+  id: 549
+  guideword: 'FORM: PAST, NEGATIVE'
+  can_do: Can use 'must not have been' (especially with 'easy').
+  detectability: form
+- ref: egp-550
+  id: 550
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use 'must' with a wide range of adverbs in the normal mid position after the modal verb.
+    ► adverbs|
+  detectability: form

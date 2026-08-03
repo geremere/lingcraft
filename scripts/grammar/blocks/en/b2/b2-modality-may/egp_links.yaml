@@ -1,0 +1,34 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-503
+  id: 503
+  guideword: 'FORM/USE: PAST AFFIRMATIVE'
+  can_do: Can use 'may have' + '-ed' to talk about possibility in the past.
+  detectability: form
+- ref: egp-504
+  id: 504
+  guideword: 'FORM: WITH ADVERBS'
+  can_do: Can use 'may' with an increasing range of adverbs (most commonly 'even', 'only', 'already',
+    'never', 'just', 'sometimes') in the normal mid-position after the modal verb. ► adverbs
+  detectability: form
+- ref: egp-505
+  id: 505
+  guideword: 'USE: COMMAND'
+  can_do: Can use 'may I' to make a polite request, command or suggestion in formal contexts.
+  detectability: use
+- ref: egp-506
+  id: 506
+  guideword: 'USE: FOCUSING'
+  can_do: Can use 'may' in phrases such as as 'you may know', or 'as you may have' + '-ed' to focus the
+    reader on shared knowledge.
+  detectability: use
+- ref: egp-507
+  id: 507
+  guideword: 'USE: OPINION'
+  can_do: Can use 'may … but' to express an unexpected point of view.
+  detectability: use
+- ref: egp-508
+  id: 508
+  guideword: 'USE: POLITE REQUEST'
+  can_do: Can use 'may I' to make a polite request for permission.
+  detectability: use

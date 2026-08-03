@@ -1,0 +1,15 @@
+slug: a2-determiners-demonstratives-form
+title: 'A2 DETERMINERS: demonstratives (form)'
+level: A2
+super_category: DETERMINERS
+sub_category: demonstratives
+category: nouns-articles
+sort_order: 48
+merged_sub_categories:
+- demonstratives
+detectability:
+  form: 4
+  use: 0
+  hybrid: 0
+split: form
+construct_count: 4

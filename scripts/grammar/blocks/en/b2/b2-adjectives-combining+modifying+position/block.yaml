@@ -1,0 +1,15 @@
+slug: b2-adjectives-combining+modifying+position
+title: 'B2 ADJECTIVES: combining, modifying, position'
+level: B2
+super_category: ADJECTIVES
+sub_category: combining+modifying+position
+category: adjectives-adverbs
+sort_order: 160
+merged_sub_categories:
+- combining
+- modifying
+- position
+detectability:
+  form: 6
+split: null
+construct_count: 6

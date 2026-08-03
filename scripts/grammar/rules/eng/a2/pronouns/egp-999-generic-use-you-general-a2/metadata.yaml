@@ -1,9 +1,0 @@
-egp_id: 999
-tag: egp-999
-slug: egp-999-generic-use-you-general-a2
-level: A2
-super_category: PRONOUNS
-sub_category: generic use
-detection: llm
-detectability: use
-polke_construct_id: 999

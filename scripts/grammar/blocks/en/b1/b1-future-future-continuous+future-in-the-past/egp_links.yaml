@@ -1,0 +1,23 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-355
+  id: 355
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form with 'will' and 'shall'.
+  detectability: form
+- ref: egp-356
+  id: 356
+  guideword: 'FORM: NEGATIVE WITH ''WILL'''
+  can_do: Can use the negative form with 'will' ('won’t').
+  detectability: form
+- ref: egp-366
+  id: 366
+  guideword: 'USE: ''BE GOING TO'''
+  can_do: Can use the simple past form of 'be' + 'going to' to talk about the future from a point in the
+    past. ► 'be going to'
+  detectability: use
+- ref: egp-367
+  id: 367
+  guideword: 'USE: ''WOULD'''
+  can_do: Can use 'would' to talk about the future from a point in the past.► 'would'
+  detectability: use

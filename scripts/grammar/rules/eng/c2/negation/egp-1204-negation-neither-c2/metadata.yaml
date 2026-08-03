@@ -1,9 +1,0 @@
-egp_id: 1204
-tag: egp-1204
-slug: egp-1204-negation-neither-c2
-level: C2
-super_category: NEGATION
-sub_category: negation
-detection: polke
-detectability: form
-polke_construct_id: 1204

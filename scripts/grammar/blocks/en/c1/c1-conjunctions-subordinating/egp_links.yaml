@@ -1,0 +1,8 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-281
+  id: 281
+  guideword: 'FORM/USE: FOCUS'
+  can_do: Can use 'whatever', 'wherever', 'however', etc. as a subordinating conjunction, at the beginning
+    of a sentence, to give focus.
+  detectability: form

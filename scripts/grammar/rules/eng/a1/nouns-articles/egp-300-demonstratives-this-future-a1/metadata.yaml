@@ -1,9 +1,0 @@
-egp_id: 300
-tag: egp-300
-slug: egp-300-demonstratives-this-future-a1
-level: A1
-super_category: DETERMINERS
-sub_category: demonstratives
-detection: llm
-detectability: use
-polke_construct_id: 300

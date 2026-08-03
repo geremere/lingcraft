@@ -1,9 +1,0 @@
-egp_id: 1212
-tag: egp-1212
-slug: egp-1212-could-ability-a2
-level: A2
-super_category: MODALITY
-sub_category: could
-detection: llm
-detectability: use
-polke_construct_id: 1212

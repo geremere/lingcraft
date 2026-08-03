@@ -1,0 +1,18 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-371
+  id: 371
+  guideword: 'FORM: AFFIRMATIVE'
+  can_do: Can use the affirmative form with 'will'.
+  detectability: form
+- ref: egp-372
+  id: 372
+  guideword: 'FORM: NEGATIVE'
+  can_do: ''
+  detectability: form
+- ref: egp-373
+  id: 373
+  guideword: 'USE: LOOKING BACK FROM A POINT IN THE FUTURE'
+  can_do: Can use the future perfect continuous to look back to the past from a point in the future and
+    to emphasise the duration of an activity or event.
+  detectability: use

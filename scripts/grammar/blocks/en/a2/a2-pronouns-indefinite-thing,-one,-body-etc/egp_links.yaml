@@ -1,0 +1,38 @@
+note: External EGP references only — not stored in application DB
+links:
+- ref: egp-984
+  id: 984
+  guideword: 'FORM: OBJECT OR COMPLEMENT'
+  can_do: Can use an increasing range of indefinite pronouns as objects or complements of prepositions.
+  detectability: form
+- ref: egp-985
+  id: 985
+  guideword: 'FORM: SUBJECT'
+  can_do: Can use a limited range of indefinite pronouns ('someone', 'everyone') as subjects, with a singular
+    verb.
+  detectability: form
+- ref: egp-986
+  id: 986
+  guideword: 'FORM: NEGATIVE + ''ANYTHING'''
+  can_do: Can use 'anything' after a negative verb form.
+  detectability: form
+- ref: egp-987
+  id: 987
+  guideword: 'FORM/USE: WITH ADJECTIVE, SPECIFYING'
+  can_do: Can modify 'something' or 'anything' with an adjective, to make it more specific.
+  detectability: form
+- ref: egp-988
+  id: 988
+  guideword: 'FORM/USE: WITH ''TO'' INFINITIVE, SPECIFYING'
+  can_do: Can modify 'something' or 'anything' with 'to' infinitive, to make it more specific.
+  detectability: form
+- ref: egp-989
+  id: 989
+  guideword: 'FORM: WITH ''ELSE'''
+  can_do: Can use indefinite pronouns with 'else'.
+  detectability: form
+- ref: egp-990
+  id: 990
+  guideword: 'USE: ''SOMETHING'' IN VAGUE EXPRESSIONS'
+  can_do: Can use 'something' in vague expressions, to refer to things in a non-specific way.
+  detectability: use
